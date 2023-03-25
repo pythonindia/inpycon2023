@@ -1,0 +1,22 @@
+# Created by https://www.toptal.com/developers/gitignore/api/ember
+# Edit at https://www.toptal.com/developers/gitignore?templates=ember
+
+### Ember ###
+# see https://github.com/ember-cli/ember-cli/blob/master/blueprints/app/files/gitignore
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+# End of https://www.toptal.com/developers/gitignore/api/ember
