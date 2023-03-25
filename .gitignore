@@ -1,22 +1,32 @@
-# Created by https://www.toptal.com/developers/gitignore/api/ember
-# Edit at https://www.toptal.com/developers/gitignore?templates=ember
-
-### Ember ###
-# see https://github.com/ember-cli/ember-cli/blob/master/blueprints/app/files/gitignore
-# compiled output
-/dist
-/tmp
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
-/bower_components
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
+.DS_Store
+*.pem
 
-# End of https://www.toptal.com/developers/gitignore/api/ember
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
