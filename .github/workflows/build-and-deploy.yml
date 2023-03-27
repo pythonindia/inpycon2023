@@ -1,0 +1,30 @@
+name: PyCon India 2023 CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+          cache: npm
+
+      - name: Build
+        run: |
+          npm ci
+          npm run build
+          npm run export
+          touch out/.nojekyll
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.4.0
+        with:
+          branch: gh-pages
+          folder: out
