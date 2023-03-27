@@ -4,7 +4,9 @@
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
-  basePath: '/gh-pages',
+   experimental: {
+    appDir: true,
+  },
 }
 
 module.exports = nextConfig
