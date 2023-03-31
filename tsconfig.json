@@ -14,6 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["@fortawesome/fontawesome-svg-core", "@fortawesome/free-solid-svg-icons"],
     "plugins": [
       {
         "name": "next"

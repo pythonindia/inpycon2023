@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         jura: ["Jura"]
+      },
+      colors: {
+        'py-green': '#76cc77',
+        'py-yellow': '#f7d56a'
       }
     },
   },

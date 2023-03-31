@@ -106,6 +106,14 @@ a {
   text-decoration: none;
 }
 
+.cen-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1ch;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
