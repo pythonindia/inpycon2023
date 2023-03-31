@@ -33,11 +33,11 @@ export default function PyConIndia() {
                 </div>
             </div>
             <div className="basis-3/5 self-center">
+                <div className="relative py-1 px-3 text-md text-center leading-6 text-lg text-zinc-900">
+                    Announcing our premier Python Conference in India.
+                </div>
                 <div className="hidden sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
                     <Banner />
-                  {/* <div className="relative py-1 px-3 text-md leading-6 text-lg dark:text-sky-100">
-                    Announcing our premier Python Conference in India.
-                  </div> */}
                 </div>
                 <div className="text-center">
                   <p className="font-bold text-xl mt-6 text-zinc-700">Hyderabad, 29 Sept - 02 Oct</p>
