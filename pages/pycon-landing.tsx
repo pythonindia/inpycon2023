@@ -6,6 +6,7 @@ import yellowsquare from '../public/yellow-square.png'
 import { faIdCard } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
+import Banner from './banner';
 
 
 
@@ -32,26 +33,22 @@ export default function PyConIndia() {
                 </div>
             </div>
             <div className="basis-3/5 self-center">
-                <div className="hidden sm:mb-8 sm:flex sm:justify-center justify-center">
-                  <div className="relative py-1 px-3 text-md leading-6 text-lg dark:text-sky-100">
+                <div className="hidden sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
+                    <Banner />
+                  {/* <div className="relative py-1 px-3 text-md leading-6 text-lg dark:text-sky-100">
                     Announcing our premier Python Conference in India.
-                  </div>
+                  </div> */}
                 </div>
                 <div className="text-center">
-                  <h1 className="text-6xl font-bold tracking-tight text-white-900 sm:text-6xl">
-                    <span className="text-lime-400">Py</span>
-                    <span className="text-yellow-300">Con </span>
-                    India&nbsp;<span>2023</span>
-                  </h1>
-                  <p className="font-bold text-xl mt-6">Hyderabad, 29 Sept - 02 Oct</p>
-                  <p className="mt-6 text-xl leading-8 dark:text-py-green text-neutral-900">
+                  <p className="font-bold text-xl mt-6 text-zinc-700">Hyderabad, 29 Sept - 02 Oct</p>
+                  <p className="mt-6 text-xl leading-8 text-zinc-900">
                     PyCon India 2023 is the premier conference for Python enthusiasts
                     and professionals, offering an unparalleled opportunity to dive deep
                     into the world of Python and explore its limitless potential.
                   </p>
-                  <p className="mt-6 text-xl leading-8 dark:text-grey text-neutral-900">
+                  <p className="mt-6 text-xl leading-8 text-zinc-900">
                     From exciting keynotes and workshops to interactive sessions and
-                    networking events, this four-day event promises to be an
+                    networking events, this <span className='bg-py-yellow'>four-day event</span> promises to be an
                     unforgettable experience for anyone interested in the latest
                     developments in Python. Join us and be a part of the thriving Python
                     community, as we come together to learn, grow, and innovate!

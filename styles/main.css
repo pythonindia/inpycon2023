@@ -114,6 +114,16 @@ a {
   gap: 1ch;
 }
 
+.container {
+  display: grid; 
+  grid-template-columns: 2.5fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 2px 2px; 
+  grid-template-areas: 
+    ". ."
+    ". ."; 
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
