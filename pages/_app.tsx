@@ -3,12 +3,13 @@ import "../styles/main.css";
 
 import dynamic from "next/dynamic";
 
-import "@fortawesome/fontawesome-svg-core/styles.css"; 
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
-// Tell Font Awesome to skip adding the CSS automatically 
+import Head from "next/head";
+// Tell Font Awesome to skip adding the CSS automatically
 // since it's already imported above
-config.autoAddCss = false; 
+config.autoAddCss = false;
 
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { faTriangleCircleSquare } from '@fortawesome/free-solid-svg-icons';
@@ -16,9 +17,16 @@ config.autoAddCss = false;
 // library.add(faTriangleCircleSquare);
 
 function MyApp({ Component, pageProps }: AppProps) {
-  
   return (
-    <Component {...pageProps} />
+    <>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1"
+        />
+      </Head>
+      <Component {...pageProps} />
+    </>
   );
 }
 

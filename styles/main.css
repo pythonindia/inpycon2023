@@ -146,30 +146,12 @@ body {
 
 .Instagram { grid-area: Instagram; }
 
-
-.banner-area {  display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-}
-
 .Banner { grid-area: 1 / 2 / 2 / 3; }
 
-.banner-split {  display: grid;
-  grid-template-columns: 50% 30% 20%;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-}
-
-.banner-split {  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 0px 0px;
+.banner-split {  
+  display: grid;
+  grid-template-columns: 2fr auto;
+  gap: 0px 2px;
   grid-auto-flow: row;
 }
 

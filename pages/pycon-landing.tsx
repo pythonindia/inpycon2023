@@ -39,7 +39,7 @@ export default function PyConIndiaWeb() {
           <Banner />
         </div>
         <div className="text-center">
-          <p className="font-bold text-xl mt-6 text-zinc-700">
+          <p className="font-bold text-2xl mt-6 text-zinc-700">
             Hyderabad, 29 Sept - 02 Oct
           </p>
           <p className="mt-6 text-xl leading-8 text-zinc-900">
@@ -49,7 +49,8 @@ export default function PyConIndiaWeb() {
           </p>
           <p className="mt-6 text-xl leading-8 text-zinc-900">
             From exciting keynotes and workshops to interactive sessions and
-            networking events, this{" "}
+            networking events, this 
+            <br />
             <span className="bg-py-yellow">four-day event</span> promises to be
             an unforgettable experience for anyone interested in the latest
             developments in Python. Join us and be a part of the thriving Python
@@ -61,7 +62,7 @@ export default function PyConIndiaWeb() {
           <div className="mt-10 text-xl flex items-center justify-center gap-x-6">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
-              className="rounded-md bg-py-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-blue-700 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-blue-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Become a Volunteer
             </a>

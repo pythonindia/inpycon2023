@@ -14,22 +14,23 @@ export default function PyConIndiaMobile() {
           🎉 Announcing 🎉<br></br>
           Our Premier Python Conference in India.
         </div>
-        <div className="py-banner-area border-dashed border-py-blue border-b-4">
+        {/* banner starts */}
+        <div className="py-banner-area border-dashed border-py-blue border-b-4 pt-4">
           <div className="py-banner text-center">
             <div className="banner-area">
               <div className="Banner">
-                <div className="banner-split uppercase font-bold text-2xl">
-                  <div>
-                    <div className="Pycon-Text text-right">
+                <div className="banner-split uppercase font-bold text-3xl items-center pb-2">
+                  <div className="text-4xl">
+                    <div className="Pycon-Text text-left">
                       <span className="text-py-blue tracking-wide">py</span>
                       <span className="text-yellow-300 tracking-wide">con</span>
                     </div>
-                    <div className="India-Text text-py-orange text-right">
+                    <div className="India-Text text-py-orange text-left">
                       India
                     </div>
                   </div>
                   <div>
-                    <Image className="h-10 w-10" src={Wheel} alt="wheel" />
+                    <Image className="w-24" src={Wheel} alt="wheel" />
                     <div />
                     <div></div>
                   </div>
@@ -38,6 +39,7 @@ export default function PyConIndiaMobile() {
             </div>
           </div>
         </div>
+        {/* banner ends */}
         <div className="mt-2 py-hyd grid justify-center flex items-center">
           <div className="Lotus-Yellow-Hyd">
             <Image
@@ -47,7 +49,7 @@ export default function PyConIndiaMobile() {
             />
           </div>
           <div className="Hyd-Date text-center">
-            <p className="font-bold text-sm text-zinc-700">
+            <p className="font-bold text-lg text-zinc-700">
               Hyderabad, <br></br>29 Sept - 02 Oct
             </p>
           </div>
@@ -55,13 +57,13 @@ export default function PyConIndiaMobile() {
             <Image className="w-auto" src={greensquare} alt="greensquare" />
           </div>
         </div>
-        <div className="text-center mt-10">
-          <p className="mt-2 antialiased font-normal text-base lg:text-2xl eading-8 text-zinc-900">
+        <div className="text-center mt-8">
+          <p className="mt-2 antialiased font-normal text-2xl leading-8 text-zinc-900">
             PyCon India 2023 is the premier conference for Python enthusiasts
             and professionals, offering an unparalleled opportunity to dive deep
             into the world of Python and explore its limitless potential.
           </p>
-          <p className="mt-2 font-light antialiased text-base lg:text-2xl leading-8 text-zinc-900">
+          <p className="mt-2 font-light antialiased text-xl leading-8 text-zinc-900">
             From exciting keynotes and workshops to interactive sessions and
             networking events, this{" "}
             <span className="bg-py-yellow">four-day event</span> promises to be
