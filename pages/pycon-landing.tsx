@@ -1,29 +1,32 @@
 
 import Image from 'next/image'
-import mandala from '../public/mandala.jpg'
 import greensquare from '../public/green-squar.png'
 import yellowsquare from '../public/yellow-square.png'
-import { faIdCard } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import Banner from './banner';
 
 
 
-export default function PyConIndia() {
+
+export default function PyConIndiaWeb() {
     return (
         <div className="bg-white flex flex-row">
             <div className="basis-1/5">
-                <div className="flex flex-col divide-y-10">
+                <div className="flex flex-col divide-y-10 float-left">
                     <div className="h-32 w-32 p-2 m-2">
-                    <Image
+                        <Image
                           src={yellowsquare}
                           alt="yellowsquare"
                         />
                     </div>
-                    <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Volunteers</div>
-                    <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Proposals</div>
-                    <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Community Support</div>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Volunteers</div>
+                    </a>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Proposals</div>
+                    </a>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Community Support</div>
+                    </a>
                     <div className="h-32 w-32 p-2 m-2">
                         <Image
                           src={yellowsquare}
@@ -36,7 +39,7 @@ export default function PyConIndia() {
                 <div className="relative py-1 px-3 text-md text-center leading-6 text-lg text-zinc-900">
                     Announcing our premier Python Conference in India.
                 </div>
-                <div className="hidden sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
+                <div className="sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
                     <Banner />
                 </div>
                 <div className="text-center">
@@ -67,16 +70,22 @@ export default function PyConIndia() {
                 </div>
             </div>
             <div className="basis-1/5">
-                <div className="float-right flex flex-col divide-y-10">
+                <div className="flex flex-col float-right">
                     <div className="h-32 w-32 p-2 m-2">
                         <Image
                           src={greensquare}
                           alt="greensquare"
                         />
                     </div>
-                    <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Sponsorship</div>
-                    <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Tech Influencer</div>
-                    <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Diversity Repersentative</div>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Sponsorship</div>
+                    </a>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">Call For Tech Influencer</div>
+                    </a>
+                    <a href='https://www.google.com'>
+                      <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">Call For Diversity Repersentative</div>
+                    </a>
                     <div className="h-32 w-32 p-2 m-2">
                         <Image
                           src={greensquare}

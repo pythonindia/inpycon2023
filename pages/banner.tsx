@@ -6,7 +6,8 @@ import Wheel from '../public/wheel-grey.png'
 export default function Banner() {
     return (
         <div className="uppercase text-6xl font-bold text-zinc-900 sm:text-6xl">
-            <div className="container border-dashed border-py-blue border-b-8 p-3">
+            <div className="container p-3">
+            {/* border-dashed border-py-blue border-b-8  */}
                 <div className="PyCon text-right">
                     <span className="text-py-blue tracking-wide">py</span>
                     <span className="text-yellow-300 tracking-wide">con</span>

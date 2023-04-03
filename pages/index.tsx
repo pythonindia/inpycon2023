@@ -1,13 +1,14 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import PyConIndia from "./pycon-landing";
+import PyConIndiaWeb from "./pycon-landing";
+import PyConIndiaMobile from "./pycon-mobile";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
-      <PyConIndia />
+      <PyConIndiaMobile />
     </div>
   );
 }
