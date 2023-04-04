@@ -4,7 +4,7 @@ import yellowsquare from "../public/yellow-square.png";
 import ornagreen from "../public/orna-green.png";
 import ornayellow from "../public/orna-yellow.png";
 import Wheel from "../public/wheel-grey.png";
-import Banner from "./banner";
+import PyIcon from "./favicon.ico";
 
 export default function PyConIndiaMobile() {
   return (
@@ -17,22 +17,29 @@ export default function PyConIndiaMobile() {
         {/* banner starts */}
         <div className="py-banner-area border-dashed border-py-blue border-b-4 pt-4">
           <div className="py-banner text-center">
-            <div className="banner-area">
+            <div className="banner-area flex items-center justify-center">
               <div className="Banner">
-                <div className="banner-split uppercase font-bold text-3xl items-center pb-2">
+                <div className="banner-split uppercase font-bold text-3xl items-center justify-center pb-2">
                   <div className="text-4xl">
-                    <div className="Pycon-Text text-left">
+                    <div className="Pycon-Text text-right">
                       <span className="text-py-blue tracking-wide">py</span>
                       <span className="text-yellow-300 tracking-wide">con</span>
                     </div>
-                    <div className="India-Text text-py-orange text-left">
+                    <div className="India-Text text-py-orange flex flex-row text-right">
+                      <Image
+                        className='h-9 w-9 m-1 p-1'
+                              src={PyIcon}
+                              alt="PyIcon"
+                      />
                       India
                     </div>
                   </div>
-                  <div>
+                  <div className="flex flex-row text-4xl">
                     <Image className="w-24" src={Wheel} alt="wheel" />
-                    <div />
-                    <div></div>
+                    <div className="flex flex-col items-center justify-center text-right">
+                      <div>20</div>
+                      <div className="text-py-green">23</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -104,7 +111,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className=" text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow hover:bg-py-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="#"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Call For Proposal
@@ -112,7 +119,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="CFCS text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-green hover:bg-py-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-yellow">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="#"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm "
             >
               Call For Community Support
@@ -120,7 +127,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="CFS text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow hover:bg-py-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="#"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Call For Sponsorship
@@ -128,7 +135,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="CFTI text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-green hover:bg-py-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-yellow">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="#"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm "
             >
               Call For Tech Influencer
@@ -136,7 +143,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="CFDR text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow hover:bg-py-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="#"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Call For Diversity Representative
@@ -169,7 +176,7 @@ export default function PyConIndiaMobile() {
         <div className="follow-us text-center text-white text-sm mt-4 lg:text-lg">
           <div className="MailingList text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="https://mail.python.org/mailman/listinfo/inpycon"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Mailing List
@@ -177,7 +184,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="Twitter text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="https://twitter.com/pyconindia"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm "
             >
               Twitter
@@ -185,7 +192,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="LinkedIn text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="https://www.linkedin.com/company/pyconindia/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               LinkedIn
@@ -193,7 +200,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="Instagram text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              href="https://www.instagram.com/__pyconindia__/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Instagram

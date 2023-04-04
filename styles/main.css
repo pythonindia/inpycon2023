@@ -8,8 +8,13 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🐍</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+a {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
 
 .cen-flex {
   display: flex;
@@ -158,3 +163,40 @@ body {
 .Pycon-Text { grid-area: 1 / 1 / 2 / 2; }
 
 .India-Text { grid-area: 2 / 1 / 3 / 2; }
+
+/* animation a tag */
+
+.a-trans-gy {
+  color: #00030a;
+  text-decoration: none;
+  background-image: linear-gradient(#59c4f6, #59c4f6),
+    linear-gradient(#76cc77, #76cc77),
+    linear-gradient(#f7d56a, #f7d56a);
+  background-size: 20px 3px, 100% 3px, 0 3px;
+  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s linear, background-position 2s linear;
+}
+
+.a-trans-gy:hover {
+  background-size: 20px 3px, 0 3px, 100% 3px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
+.a-trans-yg {
+  color: #00030a;
+  text-decoration: none;
+  background-image: linear-gradient(#59c4f6, #59c4f6),
+    linear-gradient(#f7d56a, #f7d56a),
+    linear-gradient(#76cc77, #76cc77);
+  background-size: 20px 3px, 100% 3px, 0 3px;
+  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s linear, background-position 2s linear;
+}
+
+.a-trans-yg:hover {
+  background-size: 20px 3px, 0 3px, 100% 3px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
+
