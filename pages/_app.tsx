@@ -11,11 +11,6 @@ import Head from "next/head";
 // since it's already imported above
 config.autoAddCss = false;
 
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { faTriangleCircleSquare } from '@fortawesome/free-solid-svg-icons';
-
-// library.add(faTriangleCircleSquare);
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>

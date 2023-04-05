@@ -48,7 +48,7 @@ export default function PyConIndiaWeb() {
           <p className="font-bold text-2xl mt-6 text-zinc-700">
             Hyderabad, 29 Sept - 02 Oct
           </p>
-          <p className=" mt-6 text-xl leading-8 text-zinc-900">
+          <p className="mt-6 text-xl leading-8 text-zinc-900">
             PyCon India 2023 is the premier conference for Python enthusiasts
             and professionals, offering an unparalleled opportunity to dive deep
             into the world of Python and explore its limitless potential.
@@ -69,7 +69,7 @@ export default function PyConIndiaWeb() {
           <div className="mt-10 text-xl flex items-center justify-center">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
-              className="rounded-md bg-py-blue px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-white hover:text-zinc-900 hover:border-2 hover:border-py-green focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Become a Volunteer
             </a>
