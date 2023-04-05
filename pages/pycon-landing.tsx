@@ -16,7 +16,10 @@ export default function PyConIndiaWeb() {
           <div className="h-32 w-32 p-2 m-2">
             <Image src={yellowsquare} alt="yellowsquare" />
           </div>
-          <a className="drop-shadow-2xl a-trans-gy" href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform">
+          <a
+            className="drop-shadow-2xl a-trans-gy"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+          >
             <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">
               Call For Volunteers
             </div>
@@ -39,7 +42,7 @@ export default function PyConIndiaWeb() {
       <div className="basis-3/5 self-center">
         <div className="relative py-1 px-3 text-md text-center leading-6 text-lg text-zinc-900">
           🎉 Announcing 🎉 <br></br>
-          Our Premier Python Conference in India 
+          Our Premier Python Conference in India
         </div>
         <div className="sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
           <Banner />
@@ -55,7 +58,7 @@ export default function PyConIndiaWeb() {
           </p>
           <p className="mt-6 text-xl leading-8 text-zinc-900">
             From exciting keynotes and workshops to interactive sessions and
-            networking events, this 
+            networking events, this
             <br />
             <span className="bg-py-yellow">four-day event</span> promises to be
             an unforgettable experience for anyone interested in the latest
@@ -65,7 +68,7 @@ export default function PyConIndiaWeb() {
             <br />
             Stay tuned for more updates!
           </p>
-          
+
           <div className="mt-10 text-xl flex items-center justify-center">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
@@ -75,25 +78,39 @@ export default function PyConIndiaWeb() {
             </a>
           </div>
           <div className="flex items-center justify-center m-8">
-              <div className="Social-Link flex flex-row items-center justify-center gap-x-6">
-                    <div>
-                      <a href="https://mail.python.org/mailman/listinfo/inpycon"><Image className="h-12 w-12" src={Mail} alt="Mail" /></a>
-                    </div>
-                    <div >
-                      <a href="https://www.linkedin.com/company/pyconindia/"><Image className="h-12 w-12"  src={LinkedIn} alt="LinkedIn" /></a>
-                    </div>
-                    <div>
-                      <a href="https://twitter.com/pyconindia"><Image className="h-12 w-12"  src={Twitter} alt="Twitter" /></a>
-                    </div>
-                    <div>
-                      <a href="https://www.instagram.com/__pyconindia__/"><Image className="h-12 w-12" src={Instagram} alt="Instagram" /></a>
-                    </div>
-                    <div>
-                      <a href="https://www.facebook.com/PyConIndia/"><Image className="h-12 w-12" src={Facebook} alt="Facebook" /></a>
-                    </div>
+            <div className="Social-Link flex flex-row items-center justify-center gap-x-6">
+              <div>
+                <a href="https://mail.python.org/mailman/listinfo/inpycon">
+                  <Image className="h-12 w-12" src={Mail} alt="Mail" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/company/pyconindia/">
+                  <Image className="h-12 w-12" src={LinkedIn} alt="LinkedIn" />
+                </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/pyconindia">
+                  <Image className="h-12 w-12" src={Twitter} alt="Twitter" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/__pyconindia__/">
+                  <Image
+                    className="h-12 w-12"
+                    src={Instagram}
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/PyConIndia/">
+                  <Image className="h-12 w-12" src={Facebook} alt="Facebook" />
+                </a>
               </div>
             </div>
           </div>
+        </div>
       </div>
       <div className="basis-1/5 flex justify-end">
         <div className="flex flex-col divide-y-10 justify-between ">

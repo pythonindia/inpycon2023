@@ -27,9 +27,9 @@ export default function PyConIndiaMobile() {
                     </div>
                     <div className="India-Text text-py-orange flex flex-row text-right">
                       <Image
-                        className='h-9 w-9 m-1 p-1'
-                              src={PyIcon}
-                              alt="PyIcon"
+                        className="h-9 w-9 m-1 p-1"
+                        src={PyIcon}
+                        alt="PyIcon"
                       />
                       India
                     </div>
