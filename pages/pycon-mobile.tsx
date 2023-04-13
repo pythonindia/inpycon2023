@@ -73,7 +73,7 @@ export default function PyConIndiaMobile() {
           <p className="mt-2 font-light antialiased text-xl leading-8 text-zinc-900">
             From exciting keynotes and workshops to interactive sessions and
             networking events, this{" "}
-            <span className="bg-py-yellow">four-day event</span> promises to be
+            <span className="bg-py-yellow"><b>four-day event</b></span> promises to be
             an unforgettable experience for anyone interested in the latest
             developments in Python. Join us and be a part of the thriving Python
             community, as we come together to learn, grow, and innovate!
