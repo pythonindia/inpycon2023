@@ -105,6 +105,7 @@ export default function PyConIndiaMobile() {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
               className=" px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
             >
               Call For Volunteers
             </a>
@@ -178,6 +179,7 @@ export default function PyConIndiaMobile() {
             <a
               href="https://mail.python.org/mailman/listinfo/inpycon"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
             >
               Mailing List
             </a>
@@ -186,6 +188,7 @@ export default function PyConIndiaMobile() {
             <a
               href="https://twitter.com/pyconindia"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm "
+              target="_blank"
             >
               Twitter
             </a>
@@ -194,6 +197,7 @@ export default function PyConIndiaMobile() {
             <a
               href="https://www.linkedin.com/company/pyconindia/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
             >
               LinkedIn
             </a>
@@ -202,6 +206,7 @@ export default function PyConIndiaMobile() {
             <a
               href="https://www.instagram.com/__pyconindia__/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
             >
               Instagram
             </a>
