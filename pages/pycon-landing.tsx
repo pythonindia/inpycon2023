@@ -19,6 +19,7 @@ export default function PyConIndiaWeb() {
           <a
             className="drop-shadow-2xl a-trans-gy"
             href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+            target="_blank"
           >
             <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">
               Call For Volunteers
@@ -60,7 +61,7 @@ export default function PyConIndiaWeb() {
             From exciting keynotes and workshops to interactive sessions and
             networking events, this
             <br />
-            <span className="bg-py-yellow">four-day event</span> promises to be
+            <span className="bg-py-yellow"><b>four-day event</b></span> promises to be
             an unforgettable experience for anyone interested in the latest
             developments in Python. Join us and be a part of the thriving Python
             community, as we come together to learn, grow, and innovate!
@@ -73,6 +74,7 @@ export default function PyConIndiaWeb() {
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
               className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              target="_blank"
             >
               Become a Volunteer
             </a>
@@ -80,22 +82,22 @@ export default function PyConIndiaWeb() {
           <div className="flex items-center justify-center m-8">
             <div className="Social-Link flex flex-row items-center justify-center gap-x-6">
               <div>
-                <a href="https://mail.python.org/mailman/listinfo/inpycon">
+                <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">
                   <Image className="h-12 w-12" src={Mail} alt="Mail" />
                 </a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/company/pyconindia/">
+                <a href="https://www.linkedin.com/company/pyconindia/" target="_blank">
                   <Image className="h-12 w-12" src={LinkedIn} alt="LinkedIn" />
                 </a>
               </div>
               <div>
-                <a href="https://twitter.com/pyconindia">
+                <a href="https://twitter.com/pyconindia" target="_blank">
                   <Image className="h-12 w-12" src={Twitter} alt="Twitter" />
                 </a>
               </div>
               <div>
-                <a href="https://www.instagram.com/__pyconindia__/">
+                <a href="https://www.instagram.com/__pyconindia__/" target="_blank">
                   <Image
                     className="h-12 w-12"
                     src={Instagram}
@@ -104,7 +106,7 @@ export default function PyConIndiaWeb() {
                 </a>
               </div>
               <div>
-                <a href="https://www.facebook.com/PyConIndia/">
+                <a href="https://www.facebook.com/PyConIndia/" target="_blank">
                   <Image className="h-12 w-12" src={Facebook} alt="Facebook" />
                 </a>
               </div>
