@@ -5,6 +5,7 @@ import Mail from "../public/mail.png";
 import LinkedIn from "../public/linkedin.png";
 import Twitter from "../public/twitter.png";
 import Instagram from "../public/instagram.png";
+import zulip from "../public/zulip.png";
 import Facebook from "../public/facebook.png";
 import Banner from "./banner";
 
@@ -108,6 +109,15 @@ export default function PyConIndiaWeb() {
               <div>
                 <a href="https://www.facebook.com/PyConIndia/" target="_blank">
                   <Image className="h-12 w-12" src={Facebook} alt="Facebook" />
+                </a>
+              </div>
+              <div>
+                <a href="https://pyconindia.zulipchat.com/" target="_blank">
+                  <Image
+                    className="h-12 w-12 rounded-full"
+                    src={zulip}
+                    alt="Zulip"
+                  />
                 </a>
               </div>
             </div>
