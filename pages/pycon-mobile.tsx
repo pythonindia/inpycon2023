@@ -211,6 +211,24 @@ export default function PyConIndiaMobile() {
               Instagram
             </a>
           </div>
+          <div className="Facebook text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
+            <a
+              href="https://www.facebook.com/PyConIndia/"
+              className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
+            >
+              Facebook
+            </a>
+          </div>
+          <div className="Zulip text-xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow rounded-full bg-py-green">
+            <a
+              href="https://pyconindia.zulipchat.com/"
+              className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
+              target="_blank"
+            >
+              Zulip
+            </a>
+          </div>
         </div>
         {/* reusing hyd-py date div for stay updated footer */}
         <div className="mt-6 py-hyd grid justify-center flex items-center">
