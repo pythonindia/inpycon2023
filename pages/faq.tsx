@@ -1,11 +1,12 @@
-import faqData from './faq.yaml'
+import faqData from './faq.yaml';
+
 
 
 const faqPage = () => {
-    const faqs: Array<{
-        question: string;
-        answer: string;
-      }> = faqData;
+  const faqs: Array<{
+      question: string;
+      answer: string;
+    }> = faqData.faqs;
 
   return (
     <div className='text-center'>

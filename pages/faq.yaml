@@ -1,5 +1,6 @@
-- question: How do I do XYZ?
-  answer: You can do XYZ by following these steps...
+faqs:
+  - question: How do I do XYZ?
+    answer: You can do XYZ by following these steps
 
-- question: What is ABC?
-  answer: ABC refers to...
+  - question: What is ABC?
+    answer: ABC https://google.in to
