@@ -119,7 +119,7 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="mx-4">
               <a
-                href="https://in.pycon.org/2019"
+                href="https://in.pycon.org/2020"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline"
@@ -129,7 +129,7 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="mx-4">
               <a
-                href="https://in.pycon.org/2019"
+                href="https://in.pycon.org/2021"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline"
