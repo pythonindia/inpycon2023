@@ -7,7 +7,7 @@ import Twitter from "../public/twitter.png";
 import Instagram from "../public/instagram.png";
 import zulip from "../public/zulip.png";
 import Facebook from "../public/facebook.png";
-import Banner from "./banner";
+import Logo from '../public/logo.png';
 
 export default function PyConIndiaWeb() {
   return (
@@ -46,13 +46,13 @@ export default function PyConIndiaWeb() {
         <p className="text-xs text-gray-300">
           This is a placeholder website. Final version coming soon.
         </p>
-      </div>
+      </div>  
         <div className="relative py-1 px-3 text-md text-center leading-6 text-lg text-zinc-900">
           🎉 Announcing 🎉 <br></br>
           Our Premier Python Conference in India
         </div>
         <div className="sm:mb-8 sm:flex sm:justify-center justify-center text-zinc">
-          <Banner />
+          <Image src={Logo} alt="Logo"/>
         </div>
         <div className="text-center">
           <p className="font-bold text-2xl mt-6 text-zinc-700">
@@ -75,7 +75,7 @@ export default function PyConIndiaWeb() {
             <br />
             Stay tuned for more updates!
           </p>
-          <h4 className="mt-10 text-2xl font-bold">Previous Year Websites</h4>
+          <h4 className="mt-10 text-2xl font-bold">Previous Year Editions</h4>
           <div className="flex justify-center mt-4">
             <div className="mx-4">
               <a
