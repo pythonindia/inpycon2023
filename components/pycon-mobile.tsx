@@ -15,7 +15,7 @@ export default function PyConIndiaMobile() {
           Our Premier Python Conference in India.
         </div>
         {/* banner starts */}
-        <div className="py-banner-area border-dashed border-py-blue border-b-4 pt-4">
+        <div className="py-banner-area pt-4">
           <div className="py-banner text-center">
             <div className="banner-area flex items-center justify-center">
             <Image src={Logo} alt="PyIcon"/>
@@ -23,7 +23,7 @@ export default function PyConIndiaMobile() {
           </div>
         </div>
         {/* banner ends */}
-        <div className="mt-2 py-hyd grid justify-center flex items-center">
+        {/* <div className="mt-2 py-hyd grid justify-center flex items-center">
           <div className="Lotus-Yellow-Hyd">
             <Image
               className="w-auto float-right"
@@ -39,7 +39,7 @@ export default function PyConIndiaMobile() {
           <div className="Lotus-Green-Hyd">
             <Image className="w-auto" src={greensquare} alt="greensquare" />
           </div>
-        </div>
+        </div> */}
         <div className="text-center mt-8">
           <p className="mt-2 antialiased font-normal text-2xl leading-8 text-zinc-900">
             PyCon India 2023 is the premier conference for Python enthusiasts
