@@ -1,4 +1,4 @@
-.PHONY: install dev build start clean
+.PHONY: install dev build start export clean
 
 install:
 	npm install
@@ -11,6 +11,9 @@ build: install
 
 start: build
 	npm start
+
+export: install build
+	npm run export
 
 clean:
 	rm -r .next
