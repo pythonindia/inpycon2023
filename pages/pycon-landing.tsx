@@ -8,9 +8,11 @@ import Instagram from "../public/instagram.png";
 import zulip from "../public/zulip.png";
 import Facebook from "../public/facebook.png";
 import Logo from '../public/logo.png';
+import { Sponsors } from "./Sponserships/sponsers";
 
 export default function PyConIndiaWeb() {
   return (
+    <>
     <div className="bg-white flex flex-row ">
       <div className="basis-1/5 flex">
         <div className="flex flex-col divide-y-10 justify-between float-left">
@@ -40,6 +42,7 @@ export default function PyConIndiaWeb() {
             <Image src={yellowsquare} alt="yellowsquare" />
           </div>
         </div>
+        
       </div>
       <div className="basis-3/5 self-center">
       <div className="w-full text-center p-2">
@@ -74,7 +77,23 @@ export default function PyConIndiaWeb() {
             <br />
             <br />
             Stay tuned for more updates!
+          </p> 
+          <p className="font-bold text-4xl mt-8 text-zinc-900">
+            Sponsers
           </p>
+          <p className="mt-8 text-xl leading-8 text-zinc-900">
+          Sponsoring PyConIndia offers you exceptional visibility and a unique platform to showcase your company to a vast and diverse Python community in India and beyond. This ensures highly targeted exposure for your brand.
+          </p>
+          <div className="mt-12 text-xl flex items-center justify-center">
+              <a
+                href="#"
+                className="rounded-md bg-green-500 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-green-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          
+              >
+                Become a Sponser
+              </a>
+            </div>
+          <Sponsors/>
           <h4 className="mt-10 text-2xl font-bold">Previous Year Editions</h4>
           <div className="flex justify-center mt-4">
             <div className="mx-4">
@@ -190,13 +209,13 @@ export default function PyConIndiaWeb() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="basis-1/5 flex justify-end">
-          <div className="flex flex-col divide-y-10 justify-between ">
-            <div className="h-32 w-32 p-2 m-2">
-              <Image src={greensquare} alt="greensquare" />
-            </div>
-            <a className="drop-shadow-2xl a-trans-yg"
+         </div>
+         <div className="basis-1/5 flex justify-end">
+           <div className="flex flex-col divide-y-10 justify-between ">
+             <div className="h-32 w-32 p-2 m-2">
+               <Image src={greensquare} alt="greensquare" />
+             </div>
+             <a className="drop-shadow-2xl a-trans-yg"
               href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
               target="_blank"
             >
@@ -220,5 +239,6 @@ export default function PyConIndiaWeb() {
           </div>
         </div>
       </div>
+    </>
       );
 }

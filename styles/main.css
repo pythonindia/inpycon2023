@@ -200,3 +200,9 @@ a {
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
 
+.linebyline{
+  border-bottom: 2px #76cc77 solid;
+}
+.sponsor-heading{
+  margin-left: 40px;
+}
