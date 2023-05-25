@@ -4,7 +4,7 @@ import yellowsquare from "../public/yellow-square.png";
 import ornagreen from "../public/orna-green.png";
 import ornayellow from "../public/orna-yellow.png";
 import Wheel from "../public/wheel-grey.png";
-import PyIcon from "./favicon.ico";
+import Logo from '../public/logo.png';
 
 export default function PyConIndiaMobile() {
   return (
@@ -18,31 +18,7 @@ export default function PyConIndiaMobile() {
         <div className="py-banner-area border-dashed border-py-blue border-b-4 pt-4">
           <div className="py-banner text-center">
             <div className="banner-area flex items-center justify-center">
-              <div className="Banner">
-                <div className="banner-split uppercase font-bold text-3xl items-center justify-center pb-2">
-                  <div className="text-4xl">
-                    <div className="Pycon-Text text-right">
-                      <span className="text-py-blue tracking-wide">py</span>
-                      <span className="text-yellow-300 tracking-wide">con</span>
-                    </div>
-                    <div className="India-Text text-py-orange flex flex-row text-right">
-                      <Image
-                        className="h-9 w-9 m-1 p-1"
-                        src={PyIcon}
-                        alt="PyIcon"
-                      />
-                      India
-                    </div>
-                  </div>
-                  <div className="flex flex-row text-4xl">
-                    <Image className="w-24" src={Wheel} alt="wheel" />
-                    <div className="flex flex-col items-center justify-center text-right">
-                      <div>20</div>
-                      <div className="text-py-green">23</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <Image src={Logo} alt="PyIcon"/>
             </div>
           </div>
         </div>
