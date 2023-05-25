@@ -26,7 +26,7 @@ export default function PyConIndiaWeb() {
               Call For Volunteers
             </div>
           </a>
-          <a className="drop-shadow-2xl a-trans-yg" href="#">
+          <a className="drop-shadow-2xl a-trans-yg" href="https://in.pycon.org/cfp/pycon-india-2023/proposals/">
             <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">
               Call For Proposals
             </div>
