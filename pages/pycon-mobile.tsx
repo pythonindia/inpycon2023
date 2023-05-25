@@ -88,10 +88,10 @@ export default function PyConIndiaMobile() {
           </div>
           <div className=" text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow hover:bg-py-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-green">
             <a
-              href="#"
+              href="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
-              Call For Proposal
+              Call For Proposals
             </a>
           </div>
           <div className="CFCS text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-green hover:bg-py-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-yellow">
