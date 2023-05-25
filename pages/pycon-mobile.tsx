@@ -104,7 +104,7 @@ export default function PyConIndiaMobile() {
           </div>
           <div className="CFS text-xl underline flex items-center justify-center gap-x-6 border-solid border-4 border-py-yellow hover:bg-py-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-green">
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/13MVcj2XEF1DfTmV3fPjq9SN5qzY22k3R7cJVKlfbhZ4/"
               className="px-3.5 py-2.5 text-sm font-semibold shadow-sm"
             >
               Call For Sponsorship
