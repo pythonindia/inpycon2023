@@ -12,7 +12,7 @@ build: install
 start: build
 	npm start
 
-export: install build
+export: build
 	npm run export
 
 clean:
