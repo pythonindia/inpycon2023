@@ -84,7 +84,7 @@ export default function PyConIndiaWeb() {
                 rel="noopener noreferrer"
                 className="text-blue-600 underline"
               >
-                PyCon India 2016 - Bangalore
+                PyCon India 2016 - Delhi
               </a>
             </div>
             <div className="mx-4">
