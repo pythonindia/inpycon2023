@@ -154,6 +154,13 @@ export default function PyConIndiaWeb() {
             >
               Submit Proposal
             </a>
+            <div className="w-4"></div>
+            <a
+              href="/2023/code-of-conduct"
+              className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              Code of Conduct
+            </a>
           </div>
             <div className="flex items-center justify-center m-8">
               <div className="Social-Link flex flex-row items-center justify-center gap-x-6">
