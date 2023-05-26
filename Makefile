@@ -1,4 +1,4 @@
-.PHONY: install dev build start export clean
+.PHONY: install dev build start export deploy clean
 
 install:
 	npm install
@@ -14,6 +14,11 @@ start: build
 
 export: build
 	npm run export
+
+deploy:
+	git pull origin main
+	make export
+	sudo nginx -s reload
 
 clean:
 	rm -r .next
