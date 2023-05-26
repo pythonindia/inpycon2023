@@ -26,7 +26,7 @@ export default function PyConIndiaWeb() {
               Call For Volunteers
             </div>
           </a>
-          <a className="drop-shadow-2xl a-trans-yg" href="#">
+          <a className="drop-shadow-2xl a-trans-yg" href="https://in.pycon.org/cfp/pycon-india-2023/proposals/">
             <div className="cen-flex text-center bg-py-yellow h-32 w-32 p-2 m-2 text-black">
               Call For Proposals
             </div>
@@ -84,7 +84,7 @@ export default function PyConIndiaWeb() {
                 rel="noopener noreferrer"
                 className="text-blue-600 underline"
               >
-                PyCon India 2016 - Bangalore
+                PyCon India 2016 - Delhi
               </a>
             </div>
             <div className="mx-4">
@@ -138,15 +138,23 @@ export default function PyConIndiaWeb() {
               </a>
             </div>
           </div>
-            <div className="mt-10 text-xl flex items-center justify-center">
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
-                className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                target="_blank"
-              >
-                Become a Volunteer
-              </a>
-            </div>
+          <div className="mt-10 text-xl flex items-center justify-center">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+              className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              target="_blank"
+            >
+              Become a Volunteer
+            </a>
+            <div className="w-4"></div>
+            <a
+              href="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+              className="rounded-md bg-sky-900 px-3.5 py-2.5 text-lg font-semibold text-white shadow-lg hover:bg-sky-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              target="_blank"
+            >
+              Submit Proposal
+            </a>
+          </div>
             <div className="flex items-center justify-center m-8">
               <div className="Social-Link flex flex-row items-center justify-center gap-x-6">
                 <div>
@@ -204,7 +212,7 @@ export default function PyConIndiaWeb() {
                 Call For Volunteers
               </div>
             </a>
-            <a className="drop-shadow-2xl a-trans-gy" href="#">
+            <a className="drop-shadow-2xl a-trans-gy" href="https://docs.google.com/forms/d/13MVcj2XEF1DfTmV3fPjq9SN5qzY22k3R7cJVKlfbhZ4/">
               <div className="cen-flex text-center bg-py-green h-32 w-32 p-2 m-2 text-black">
                 Call For Sponsors
               </div>
