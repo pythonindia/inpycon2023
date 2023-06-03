@@ -12,6 +12,9 @@ const nextConfig = {
   //     '/': { page: '/' },
   //   }
   // }
+  images: {
+    unoptimized: true
+  }
 }
 
 
