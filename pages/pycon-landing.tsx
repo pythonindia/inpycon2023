@@ -60,8 +60,8 @@ export default function PyConIndiaWeb() {
                   </a>
                 </div>
                 <p className="pt-3 text-center text-md-start">
-                  The premier conference in India using and developing phython
-                  programming language. Stay tuned for further updatesby
+                  The premier conference in India using and developing python
+                  programming language. Stay tuned for further updates by
                   subscribing to our announcements.
                 </p>
                 {/* btn */}
