@@ -19,8 +19,8 @@ export default function PyConIndiaWeb() {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="keywords" itemProp="keywords" content />
-      <meta name="description" itemProp="description" content />
+      <meta name="keywords" itemProp="keywords" content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn" />
+      <meta name="keywords" itemProp="description" content="The premier conference in India on using and developing the python programming language" />
       <meta name="robots" content="index, follow" />
       <title>Pycon India Hyderabad, 2023</title>
       <link rel="icon" type="image/png" href="public/images/favicon.png" />
@@ -49,10 +49,10 @@ export default function PyConIndiaWeb() {
             <div className="row pt-5 pb-5">
               <div className="col-md-6">
                 <div className="d-none d-md-block">
-                  <a href>
+                  <a href="#">
                     <img
                       src="../public/images/logo.png"
-                      alt
+                      alt=""
                       className="img-fluid"
                     />
                   </a>
@@ -79,7 +79,7 @@ export default function PyConIndiaWeb() {
                   29 Sept - 02 Oct{" "}
                   <img
                     src="public/images/calendar.png"
-                    alt
+                    alt=""
                     className="img-fluid"
                   />
                 </h2>
@@ -131,7 +131,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/s1.png"
                             className="img-fluid w-100"
-                            alt
+                            alt=""
                           />
                         </div>
                       </div>
@@ -173,7 +173,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/s1.png"
                             className="img-fluid w-100"
-                            alt
+                            alt=""
                           />
                         </div>
                       </div>
@@ -215,7 +215,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/s1.png"
                             className="img-fluid w-100"
-                            alt
+                            alt=""
                           />
                         </div>
                       </div>
@@ -279,7 +279,7 @@ export default function PyConIndiaWeb() {
         </div>
         <div className="container-fluid p-0">
           <div className="pt-5">
-            <img src="public/images/journey.png" className="img-fluid" />
+            <img src="public/images/journey.png" className="img-fluid" alt="" />
           </div>
         </div>
       </section>
@@ -292,7 +292,7 @@ export default function PyConIndiaWeb() {
               <h2 className="com-head">Keynote Speakers</h2>
             </div>
             <div className="col-md-4 col-5 mikeimg">
-              <img src="public/images/mike.png" className="img-fluid" />
+              <img src="public/images/mike.png" className="img-fluid" alt="" />
             </div>
           </div>
         </div>
@@ -307,7 +307,7 @@ export default function PyConIndiaWeb() {
                   <div className="col-md-5 col-5">
                     <img
                       src="public/images/speaker1.png"
-                      alt
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
@@ -324,7 +324,7 @@ export default function PyConIndiaWeb() {
                   <div className="col-md-5 col-5">
                     <img
                       src="public/images/speaker3.png"
-                      alt
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
@@ -346,7 +346,7 @@ export default function PyConIndiaWeb() {
                   <div className="col-md-5 col-5">
                     <img
                       src="public/images/speaker2.png"
-                      alt
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
@@ -366,7 +366,7 @@ export default function PyConIndiaWeb() {
                   <div className="col-md-5 col-5">
                     <img
                       src="public/images/speaker4.png"
-                      alt
+                      alt=""
                       className="img-fluid"
                     />
                   </div>
@@ -392,7 +392,7 @@ export default function PyConIndiaWeb() {
                 Conference Schedule{" "}
                 <img
                   src="public/images/sandwatch.png"
-                  alt
+                  alt=""
                   className="img-fluid"
                 />
               </h2>
@@ -478,7 +478,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">08:00 Am - 09:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab1.png" className="img-fluid" />
+                      <img src="public/images/tab1.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -493,7 +493,7 @@ export default function PyConIndiaWeb() {
                       </p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab2.png" className="img-fluid" />
+                      <img src="public/images/tab2.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -510,7 +510,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">10:30 Am - 11:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab3.png" className="img-fluid" />
+                      <img src="public/images/tab3.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -525,7 +525,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">11:30 Am - 12:00 Pm</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab4.png" className="img-fluid" />
+                      <img src="public/images/tab4.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">Morning Tea Break</p>
@@ -536,7 +536,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">12:00 Pm - 01:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab5.png" className="img-fluid" />
+                      <img src="public/images/tab5.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -559,7 +559,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">08:00 Am - 09:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab1.png" className="img-fluid" />
+                      <img src="public/images/tab1.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -574,7 +574,7 @@ export default function PyConIndiaWeb() {
                       </p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab2.png" className="img-fluid" />
+                      <img src="public/images/tab2.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -591,7 +591,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">10:30 Am - 11:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab3.png" className="img-fluid" />
+                      <img src="public/images/tab3.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -606,7 +606,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">11:30 Am - 12:00 Pm</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab4.png" className="img-fluid" />
+                      <img src="public/images/tab4.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">Morning Tea Break</p>
@@ -617,7 +617,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">12:00 Pm - 01:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab5.png" className="img-fluid" />
+                      <img src="public/images/tab5.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -640,7 +640,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">08:00 Am - 09:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab1.png" className="img-fluid" />
+                      <img src="public/images/tab1.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -655,7 +655,7 @@ export default function PyConIndiaWeb() {
                       </p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab2.png" className="img-fluid" />
+                      <img src="public/images/tab2.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -672,7 +672,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">10:30 Am - 11:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab3.png" className="img-fluid" />
+                      <img src="public/images/tab3.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -687,7 +687,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">11:30 Am - 12:00 Pm</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab4.png" className="img-fluid" />
+                      <img src="public/images/tab4.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">Morning Tea Break</p>
@@ -698,7 +698,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">12:00 Pm - 01:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab5.png" className="img-fluid" />
+                      <img src="public/images/tab5.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -721,7 +721,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">08:00 Am - 09:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab1.png" className="img-fluid" />
+                      <img src="public/images/tab1.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -736,7 +736,7 @@ export default function PyConIndiaWeb() {
                       </p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab2.png" className="img-fluid" />
+                      <img src="public/images/tab2.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -753,7 +753,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">10:30 Am - 11:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab3.png" className="img-fluid" />
+                      <img src="public/images/tab3.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -768,7 +768,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">11:30 Am - 12:00 Pm</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab4.png" className="img-fluid" />
+                      <img src="public/images/tab4.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">Morning Tea Break</p>
@@ -779,7 +779,7 @@ export default function PyConIndiaWeb() {
                       <p className="mb-0 date-announced">12:00 Pm - 01:30 Am</p>
                     </div>
                     <div className="col-md-2 text-center">
-                      <img src="public/images/tab5.png" className="img-fluid" />
+                      <img src="public/images/tab5.png" className="img-fluid" alt=""/>
                     </div>
                     <div className="col-md-7">
                       <p className="mb-0 date-content">
@@ -826,6 +826,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab1.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -844,6 +845,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab2.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -866,6 +868,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab3.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -889,6 +892,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab4.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -905,6 +909,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab5.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -952,6 +957,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab1.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -970,6 +976,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab2.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -992,6 +999,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab3.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1015,6 +1023,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab4.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1031,6 +1040,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab5.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1078,6 +1088,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab1.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1096,6 +1107,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab2.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1118,6 +1130,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab3.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1141,6 +1154,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab4.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1157,6 +1171,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab5.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1204,6 +1219,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab1.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1222,6 +1238,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab2.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1244,6 +1261,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab3.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1267,6 +1285,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab4.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1283,6 +1302,7 @@ export default function PyConIndiaWeb() {
                           <img
                             src="public/images/tab5.png"
                             className="img-fluid"
+                            alt=""
                           />
                         </div>
                         <div className="col-md-7 col-5">
@@ -1334,16 +1354,16 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="col-md-6 d-none d-md-block">
               <div>
-                <img src="public/images/flip1.png" className="flip-img1" />
+                <img src="public/images/flip1.png" className="flip-img1" alt=""/>
               </div>
               <div>
-                <img src="public/images/flip2.png" className="flip-img2" />
+                <img src="public/images/flip2.png" className="flip-img2" alt=""/>
               </div>
               <div>
-                <img src="public/images/flip3.png" className="flip-img3" />
+                <img src="public/images/flip3.png" className="flip-img3" alt=""/>
               </div>
               <div>
-                <img src="public/images/flip4.png" className="flip-img4" />
+                <img src="public/images/flip4.png" className="flip-img4" alt=""/>
               </div>
             </div>
           </div>
@@ -1406,7 +1426,7 @@ export default function PyConIndiaWeb() {
                 Event Sponsors{" "}
                 <img
                   src="public/images/handshake.png"
-                  alt
+                  alt=""
                   className="img-fluid ps-3"
                 />
               </h2>
@@ -1432,16 +1452,16 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="row pt-5 pb-5">
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-1.png" className="img-fluid" />
+                <img src="public/images/sp-1.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-2.png" className="img-fluid" />
+                <img src="public/images/sp-2.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-3.png" className="img-fluid" />
+                <img src="public/images/sp-3.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-1.png" className="img-fluid" />
+                <img src="public/images/sp-1.png" className="img-fluid" alt=""/>
               </div>
             </div>
             <div className="col-md-12 m-auto sp-sor text-center pt-md-5">
@@ -1449,16 +1469,16 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="row pt-5 pb-5">
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-1.png" className="img-fluid" />
+                <img src="public/images/sp-1.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-2.png" className="img-fluid" />
+                <img src="public/images/sp-2.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-3.png" className="img-fluid" />
+                <img src="public/images/sp-3.png" className="img-fluid" alt=""/>
               </div>
               <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle">
-                <img src="public/images/sp-1.png" className="img-fluid" />
+                <img src="public/images/sp-1.png" className="img-fluid" alt=""/>
               </div>
             </div>
           </div>
@@ -1499,14 +1519,14 @@ export default function PyConIndiaWeb() {
                   id="email"
                 />
                 <div className="arr-img">
-                  <img src="public/images/arrow-down.png" />
+                  <img src="public/images/arrow-down.png" alt=""/>
                 </div>
               </form>
             </div>
           </div>
         </div>
         <div className="container-fluid p-0 text-center ">
-          <img src="public/images/sub.png" className="img-fluid" />
+          <img src="public/images/sub.png" className="img-fluid" alt=""/>
         </div>
       </section>
       {/* subscribe section ended */}
@@ -1540,34 +1560,34 @@ export default function PyConIndiaWeb() {
         <div className="container">
           <div className="row pt-5 pb-5">
             <div className="col-md-12 pb-5 text-center">
-              <img src="public/images/logo.png" className="img-fluid" />
+              <img src="public/images/logo.png" className="img-fluid" alt=""/>
             </div>
             <div className="col-md-2 text-center text-md-start">
               <h3 className="footer-title">Connect Us On</h3>
               <ul className="social list-group list-group-horizontal justify-content-center justify-content-md-start">
                 <li className="list-group-item ">
-                  <a href>
-                    <img src="public/images/social1.png" alt />
+                  <a href="">
+                    <img src="public/images/social1.png" alt="" />
                   </a>
                 </li>
                 <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social2.png" alt />
+                  <a href="">
+                    <img src="public/images/social2.png" alt="" />
                   </a>
                 </li>
                 <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social3.png" alt />
+                  <a href="">
+                    <img src="public/images/social3.png" alt="" />
                   </a>
                 </li>
                 <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social4.png" alt />
+                  <a href="">
+                    <img src="public/images/social4.png" alt="" />
                   </a>
                 </li>
                 <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social5.png" alt />
+                  <a href="">
+                    <img src="public/images/social5.png" alt="" />
                   </a>
                 </li>
               </ul>
@@ -1579,7 +1599,7 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="col-md-2 text-center text-md-start pt-md-0 pt-3">
               <h3 className="footer-title">Design By</h3>
-              <img src="public/images/webchirpy.png" className="img-fluid" />
+              <img src="public/images/webchirpy.png" className="img-fluid" alt=""/>
             </div>
           </div>
         </div>
