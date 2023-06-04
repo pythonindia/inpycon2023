@@ -1,5 +1,24 @@
 export default function Header() {
 
+  function handleClick() {
+
+    let navDrop = document.getElementById("navbarNavDropdown")
+    let hamburger = document.getElementsByClassName("navbar-toggler")[0]
+    hamburger.setAttribute("aria-expanded","true")
+
+    
+    
+    // TODO
+    if (navDrop.classList[0] == "collapse" || navDrop.classList[1] == "collapse" ){
+      navDrop.classList.remove("collapse")
+    }else{
+      navDrop.classList.add("collapse")
+    }
+    // TODO
+    
+    
+  }
+
     return (
     <header className="bg-header">
     <div className="container p-0">
@@ -19,14 +38,16 @@ export default function Header() {
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-label="Toggle navigation"
-              >
+                onClick={handleClick}
+                >
                 <span className="navbar-toggler-icon" />
               </button>
               <div
                 className="collapse navbar-collapse"
                 id="navbarNavDropdown"
+                
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
