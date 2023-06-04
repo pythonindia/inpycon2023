@@ -1,23 +1,27 @@
 import React from 'react';
 
-const ButtonComponent = (props) => {
-    let buttonClassName = props.buttonClassName;
-    let anchorClassName = props.anchorClassName;
-    let buttonLabel = props.buttonLabel;
-    let buttonHyperLink = props.buttonHyperLink;
-    let disabled = props.disabled;
-  
-    return (
+const Button = (props) => {
+  let buttonClassName = props.buttonClassName;
+  let anchorClassName = props.anchorClassName;
+  let buttonLabel = props.buttonLabel;
+  let buttonHyperLink = props.buttonHyperLink;
+  let disabled = props.disabled;
+
+  return (
     <>
-      <button className={buttonClassName} disabled={disabled}>
-      <a href={buttonHyperLink} className={anchorClassName}>{buttonLabel}</a>
-    </button>
+      <button
+        className={buttonClassName}
+        disabled={disabled}
+        style={{ pointerEvents: props.disabled ? 'none' : 'auto' }}
+      >
+        <a href={buttonHyperLink} target="_blank" className={anchorClassName}>{buttonLabel}</a>
+      </button>
     </>
   );
 };
 
-ButtonComponent.defaultProps = {
-    disabled: false
-  };
+Button.defaultProps = {
+  disabled: false
+};
 
-export default ButtonComponent;
+export default Button;

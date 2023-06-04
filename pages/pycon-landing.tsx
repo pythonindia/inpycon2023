@@ -12,7 +12,7 @@ import Logo from "../public/logo.png";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
-import HeroBannerComponent from '../components/hero_banner';
+import HeroBanner from '../components/HeroBanner';
 
 export default function PyConIndiaWeb() {
   return (
@@ -47,7 +47,7 @@ export default function PyConIndiaWeb() {
       <Header/>
       {/* header section ended */}
       {/* banner section started */}
-      <HeroBannerComponent/>
+      <HeroBanner/>
       {/* banner section ended */}
       {/* journery section started */}
       <section className="bg-journey" id="journey">

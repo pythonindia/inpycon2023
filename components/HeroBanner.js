@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 
-import ButtonComponent from './button';
-import logo from "../public/images/logo.png";
+import Button from './button';
 import calendar from "../public/images/calendar.png";
+import logo from "../public/images/logo.png";
 
 
-const HeroBannerComponent = () => {
+const HeroBanner = () => {
   return (
     <section className="bg-banner">
       <div className="bg-banner-overlay">
@@ -15,32 +15,34 @@ const HeroBannerComponent = () => {
             <div className="col-md-6">
               <div className="d-none d-md-block">
                 <a href="#">
-                <Image src={logo} width="100%" height="100%"  alt=""/>
+                  <Image src={logo} width="100%" height="100%" alt="" />
                 </a>
               </div>
               <p className="pt-3 text-center text-md-start">
                 The premier conference in India using and developing Python programming language.
                 Stay tuned for further updates by subscribing to our announcements.
               </p>
-              {/* btn */}
-              <div className="register-btn pt-3">
-                <ButtonComponent 
-                buttonClassName = "green-btn"
-                anchorClassName = "text-decoration-none text-light"
-                buttonLabel = "Buy Tickets"
-                buttonHyperLink = "#"
-                disabled={true}
-                />
-                <ButtonComponent 
-                buttonClassName = "submit-btn"
-                anchorClassName = "text-decoration-none"
-                buttonLabel = "Call For Proposal"
-                buttonHyperLink = "https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-                />
+              <div className='row register-btn'>
+                <div className='col-md-5 col-8 pt-3'>
+                  <Button
+                    buttonClassName="green-btn"
+                    anchorClassName="text-decoration-none text-light"
+                    buttonLabel="Become A Volunteer"
+                    buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+                  />
+                </div>
+                <div className='col-md-5 col-8 pt-3'>
+                  <Button
+                    buttonClassName="submit-btn"
+                    anchorClassName="text-decoration-none"
+                    buttonLabel="Call For Proposal"
+                    buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+                  />
+                </div>
               </div>
               <h2 className="pt-5 mb-4 date-text">
                 29 Sept - 02 Oct
-                <Image src={calendar} alt="" width="100%" height="100%" className="img-fluid"/>
+                <Image src={calendar} alt="" width="100%" height="100%" className="img-fluid" />
               </h2>
               <div className="row">
                 <div className="col-md-4">
@@ -72,4 +74,4 @@ const HeroBannerComponent = () => {
   );
 };
 
-export default HeroBannerComponent;
+export default HeroBanner;
