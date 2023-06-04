@@ -42,6 +42,7 @@ header .nav-link.active::before{
   background:url("../../public/images/bg-bannerimg.png")no-repeat!important;
   background-position: right bottom!important;
   background-size: 40% !important;
+  padding-top: 32px;
 }
 .register-btn .green-btn{
   width:35%!important;
