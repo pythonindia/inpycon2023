@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Header() {
 
   function handleClick() {
@@ -26,7 +28,12 @@ export default function Header() {
                 className="navbar-brand d-block d-md-none headerlogo"
                 href="#"
               >
-                <img src="public/images/logo.png" className="img-fluid" />
+                <Image 
+                  src="/images/logo.png" 
+                  className="img-fluid"
+                  alt="logo"
+                  width={500}
+                  height={1000} />
               </a>
               <button
                 className="navbar-toggler"
