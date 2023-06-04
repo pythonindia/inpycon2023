@@ -5,7 +5,7 @@ import ornagreen from "../public/orna-green.png";
 import ornayellow from "../public/orna-yellow.png";
 import Wheel from "../public/wheel-grey.png";
 import Logo from '../public/logo.png';
-
+import { Sponsorsmobile } from "./Sponserships/sponsers-mobile";
 export default function PyConIndiaMobile() {
   return (
     <div className="py-con-mobile">
@@ -55,6 +55,18 @@ export default function PyConIndiaMobile() {
             community, as we come together to learn, grow, and innovate!
           </p>
         </div>
+        <div className="Hyd-Date text-center">
+            <p className="font-bold text-3xl text-zinc-900 mt-6">
+            Sponsers
+            </p>
+        </div>
+        <div className="text-center mt-8">
+          <p className="mt-2 font-light antialiased text-xl leading-8 text-zinc-900">
+          Sponsoring PyConIndia offers you exceptional visibility and a unique platform to showcase your company to a vast and diverse Python community in India and beyond. This ensures highly targeted exposure for your brand.
+          
+          </p>
+        <Sponsorsmobile/>
+        </div>
         <div className="our-call mt-12">
           <div className="green-orna">
             <Image
@@ -75,6 +87,7 @@ export default function PyConIndiaMobile() {
               alt="ornayellow"
             />
           </div>
+  
         </div>
         <div className="our-call-grid text-center text-sm mt-8 lg:text-lg">
           <div className="CFV text-xl underline sm:drop-shadow-2xl flex items-center justify-center gap-x-6 border-solid border-4 border-py-green hover:bg-py-yellow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-py-yellow">

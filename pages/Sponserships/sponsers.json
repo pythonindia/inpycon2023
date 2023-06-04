@@ -1,0 +1,73 @@
+{
+    "tiers": [
+      {
+        "name": "Keystone",
+        "sponsors": []
+      },
+      {
+        "name": "Diamond",
+        "sponsors": []
+      },
+      {
+        "name": "Platinum",
+        "sponsors": [
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          },
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          }
+        ]
+      },
+      {
+        "name": "Gold",
+        "sponsors": [
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          },
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          }
+        ]
+      },
+      {
+        "name": "Silver",
+        "sponsors": [
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          },
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          }
+        ]
+      },
+      {
+        "name": "Bronze",
+        "sponsors": [
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          },
+          {
+            "name": "PythonIndia",
+            "url": "https://github.com/pythonindia",
+            "logo": "https://avatars.githubusercontent.com/u/1763047?s=200&v=4"
+          }
+        ]
+      }
+    ]
+  }
+  
