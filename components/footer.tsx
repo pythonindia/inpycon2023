@@ -12,7 +12,7 @@ import WebChirpyLogo from '../public/images/webchirpy.png';
 interface SocialItem {
   name: string;
   url: string;
-  logo: StaticImageData;
+  logo: any;
 }
 
 const social: SocialItem[] = [
