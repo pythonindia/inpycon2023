@@ -1,5 +1,5 @@
 import { AppProps } from "next/app";
-import "../styles/main.css";
+import "../styles/css/style.css";
 
 import dynamic from "next/dynamic";
 
