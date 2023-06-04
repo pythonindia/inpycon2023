@@ -4,6 +4,12 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Steps to contribute.
+
+1. Please refer to the following link for the identified issue: https://github.com/pythonindia/inpycon2023/issues
+2. Kindly provide a comment on the aforementioned issue, and we will proceed with assigning it on GitHub.
+3. Please don't hesitate to contact us on [Zulip](https://pyconindia.zulipchat.com/#narrow/stream/226092-wg.2Ftechnology) if you require further clarification or information regarding the issue.
+
 ## Getting Started
 
 First, run the development server:
