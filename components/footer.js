@@ -4,6 +4,7 @@ import facebook from "../public/images/social2.png";
 import twitter from "../public/images/social3.png";
 import instagram from "../public/images/social4.png";
 import zulip from "../public/images/social5.png";
+import mailing_list from "../public/images/social6.png";
 import webchirpy from "../public/images/webchirpy.png";
 import Link from "next/link";
 import Image from "next/image";
@@ -62,6 +63,11 @@ export default function Footer() {
               <li className="list-group-item">
                 <Link href="https://pyconindia.zulipchat.com/" target="_blank">
                   <Image src={zulip} alt="zulip" width={40} height={40} />
+                </Link>
+              </li>
+              <li className="list-group-item">
+                <Link href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">
+                  <Image src={mailing_list} alt="mailing_list" width={40} height={40} />
                 </Link>
               </li>
             </ul>
