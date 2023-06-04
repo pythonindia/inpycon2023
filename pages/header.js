@@ -4,15 +4,16 @@ export default function Header() {
 
     let navDrop = document.getElementById("navbarNavDropdown")
     let hamburger = document.getElementsByClassName("navbar-toggler")[0]
-    hamburger.setAttribute("aria-expanded","true")
-
+    
     
     
     // TODO
     if (navDrop.classList[0] == "collapse" || navDrop.classList[1] == "collapse" ){
       navDrop.classList.remove("collapse")
+      hamburger.setAttribute("aria-expanded","true")
     }else{
       navDrop.classList.add("collapse")
+      hamburger.setAttribute("aria-expanded","false")
     }
     // TODO
     
