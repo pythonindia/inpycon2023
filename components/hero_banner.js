@@ -46,19 +46,19 @@ const HeroBannerComponent = () => {
                 <div className="col-md-4">
                   <div className="conference">
                     <h3 className="fw-bolder">CONFERENCE</h3>
-                    <p className="pt-2">Aug 12, 13, Hyderabad</p>
+                    <p className="pt-2">Sep 30th - Oct 1st, Hyderabad</p>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="workshop">
                     <h3 className="fw-bolder">WORKSHOP</h3>
-                    <p className="pt-2">Aug 13, Hyderabad</p>
+                    <p className="pt-2">Sep 29th, Hyderabad</p>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="dev">
                     <h3 className="fw-bolder">DEV SPRINTS</h3>
-                    <p className="pt-2">Aug 15, Hyderabad</p>
+                    <p className="pt-2">Oct 2nd, Hyderabad</p>
                   </div>
                 </div>
               </div>
