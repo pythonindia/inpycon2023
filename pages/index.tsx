@@ -1,7 +1,6 @@
 import { useMediaQuery } from '@mui/material';
 import { Inter } from "next/font/google";
 import PyConIndiaWeb from "./pycon-landing";
-import PyConIndiaMobile from "./pycon-mobile";
 
 
 const inter = Inter({ subsets: ["latin"] });
