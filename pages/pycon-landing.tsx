@@ -8,6 +8,7 @@ import Instagram from "../public/instagram.png";
 import zulip from "../public/zulip.png";
 import Facebook from "../public/facebook.png";
 import Logo from "../public/logo.png";
+import Footer from "../components/footer";
 
 export default function PyConIndiaWeb() {
   return (
@@ -1631,56 +1632,7 @@ export default function PyConIndiaWeb() {
         </div>
       </section>
       {/* conferecne hall section ended */}
-      {/* footer section started */}
-      <footer className="bg-footer">
-        <div className="container">
-          <div className="row pt-5 pb-5">
-            <div className="col-md-12 pb-5 text-center">
-              <img src="public/images/logo.png" className="img-fluid" />
-            </div>
-            <div className="col-md-2 text-center text-md-start">
-              <h3 className="footer-title">Connect Us On</h3>
-              <ul className="social list-group list-group-horizontal justify-content-center justify-content-md-start">
-                <li className="list-group-item ">
-                  <a href>
-                    <img src="public/images/social1.png" alt />
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social2.png" alt />
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social3.png" alt />
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social4.png" alt />
-                  </a>
-                </li>
-                <li className="list-group-item">
-                  <a href>
-                    <img src="public/images/social5.png" alt />
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-md text-center pt-md-0 pt-4">
-              <h3 className="footer-title">
-                Copyright @ 2023 Python Software Society of India
-              </h3>
-            </div>
-            <div className="col-md-2 text-center text-md-start pt-md-0 pt-3">
-              <h3 className="footer-title">Design By</h3>
-              <img src="public/images/webchirpy.png" className="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </footer>
-      {/* footer section ended */}
+      <Footer />
       {/* bootstrap */}
       {/* animation */}
     </div>
