@@ -10,6 +10,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 2. Kindly provide a comment on the aforementioned issue, and we will proceed with assigning it on GitHub.
 3. Please don't hesitate to contact us on [Zulip](https://pyconindia.zulipchat.com/#narrow/stream/226092-wg.2Ftechnology) if you require further clarification or information regarding the issue.
 
+## Guidelines for the website sprint 
+
+1. Kindly utilize the provided link to access the complete HTML content: https://github.com/pythonindia/inpycon2023/blob/main/pages/pycon-landing.tsx
+2. To proceed, please create a forked repository within your GitHub account and establish a branch that corresponds to the issue's name.
+3. Please create components within the designated shared directory, namely the component folder. These components should be generated based on the relevant HTML code mentioned in step 1, ensuring that all necessary files specific to your assigned issue are included.
+4. Upon completing the necessary changes, create a Pull Request associated with your issue, ensuring to include an updated issue checklist within the PR comment section.
+
+
 ## Getting Started
 
 First, run the development server:
