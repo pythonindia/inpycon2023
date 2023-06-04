@@ -18,6 +18,12 @@ body{
 .bg-header{
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 8px !important;
 }
+header{
+  position: fixed;
+  z-index: 999999999;
+  background: white;
+  width: 100%;
+}
 header .nav-link{
   color:#222!important;
   position:relative;
