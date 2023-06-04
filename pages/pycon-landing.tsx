@@ -8,7 +8,7 @@ import Instagram from "../public/instagram.png";
 import zulip from "../public/zulip.png";
 import Facebook from "../public/facebook.png";
 import Logo from "../public/logo.png";
-import Header from "./header";
+import Header from "../components/header";
 
 export default function PyConIndiaWeb() {
   return (
