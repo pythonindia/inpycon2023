@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
 
   function handleClick() {
@@ -45,7 +46,7 @@ export default function Header() {
                 aria-label="Toggle navigation"
                 onClick={handleClick}
                 >
-                <span className="navbar-toggler-icon" />
+               <FontAwesomeIcon icon={faBars} />
               </button>
               <div
                 className="collapse navbar-collapse"
