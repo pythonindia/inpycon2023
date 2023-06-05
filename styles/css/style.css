@@ -10,7 +10,6 @@ html,body,h1,h2,h3,h4,h5,h6,p,div,a,span {
 	font-family: 'Instrument Sans', sans-serif !important;
   color: #000;
   font-weight: 400;
-  font-size: 16px;
 }
 body{
   overflow-x: hidden!important;
@@ -19,8 +18,8 @@ body{
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 8px !important;
 }
 header{
-  position: fixed;
-  z-index: 999999999;
+  position: sticky;
+  z-index: 99;
   background: white;
   width: 100%;
 }
@@ -41,20 +40,19 @@ header .nav-link.active::before{
   right: 0;
 }
 .bg-banner{
-  background:url("../../public/images/bg-header-dot.png")repeat;
+  background:url("/images/bg-header-dot.png")repeat;
   background-size: cover;
 }
 .bg-banner-overlay{
-  background:url("../../public/images/bg-bannerimg.png")no-repeat!important;
+  background:url("/images/bg-bannerimg.png")no-repeat!important;
   background-position: right bottom!important;
   background-size: 40% !important;
 }
-.register-btn .green-btn{
-  width:35%!important;
+.register-btn .green-btn {
+  width: 100%;
 }
-.register-btn .submit-btn{
-  width: 35%;
-margin-left: 20px;
+.register-btn .submit-btn {
+  width: 100%;
 }
 .green-btn {
 	color: white;
@@ -390,14 +388,6 @@ padding:0 10px 0 0 !important;
   }
   header .dropdown-item{
     text-align: center!important;
-  }
-  .register-btn .green-btn {
-    width: 47% !important;
-    padding-right: 10px!important;
-  }
-  .register-btn .submit-btn {
-    width: 52%;
-    margin-left: unset!important;
   }
   .date-text img {
     width: 16%!important;

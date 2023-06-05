@@ -12,6 +12,8 @@ import Logo from "../public/logo.png";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
+import HeroBanner from '../components/HeroBanner';
+
 export default function PyConIndiaWeb() {
   return (
     <div>
@@ -45,72 +47,7 @@ export default function PyConIndiaWeb() {
       <Header/>
       {/* header section ended */}
       {/* banner section started */}
-      <section className="bg-banner">
-        <div className="bg-banner-overlay">
-          <div className="container">
-            <div className="row pt-5 pb-5">
-              <div className="col-md-6">
-                <div className="d-none d-md-block">
-                  <a href="#">
-                    <img
-                      src="../public/images/logo.png"
-                      alt=""
-                      className="img-fluid"
-                    />
-                  </a>
-                </div>
-                <p className="pt-3 text-center text-md-start">
-                  The premier conference in India using and developing python
-                  programming language. Stay tuned for further updates by
-                  subscribing to our announcements.
-                </p>
-                {/* btn */}
-                <div className="register-btn pt-3">
-                  <button className="green-btn">
-                    <a href="#" className="text-decoration-none text-light">
-                      Register Now
-                    </a>
-                  </button>
-                  <button className="submit-btn">
-                    <a href="#" className="text-decoration-none">
-                      Submit your work
-                    </a>
-                  </button>
-                </div>
-                <h2 className="pt-5 mb-4 date-text">
-                  29 Sept - 02 Oct{" "}
-                  <img
-                    src="public/images/calendar.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </h2>
-                <div className="row">
-                  <div className="col-md-4">
-                    <div className="conference">
-                      <h3 className="fw-bolder">CONFERENCE</h3>
-                      <p className="pt-2">Aug 12, 13, Hyderabad</p>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="workshop">
-                      <h3 className="fw-bolder">WORKSHOP</h3>
-                      <p className="pt-2">Aug 13, Hyderabad</p>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="dev">
-                      <h3 className="fw-bolder">DEV SPRINTS</h3>
-                      <p className="pt-2">Aug 15, Hyderabad</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroBanner/>
       {/* banner section ended */}
       {/* journery section started */}
       <section className="bg-journey" id="journey">
