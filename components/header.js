@@ -75,7 +75,7 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#events">
+                    <a className="nav-link" href="#sponsors">
                       Events
                     </a>
                   </li>
@@ -85,7 +85,7 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#blog">
+                    <a className="nav-link" href="https://in.pycon.org/blog/" target="_blank">
                       Blog
                     </a>
                   </li>

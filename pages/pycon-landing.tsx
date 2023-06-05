@@ -323,7 +323,7 @@ export default function PyConIndiaWeb() {
       </section>
       {/* speakers section ended */}
       {/* conference section started */}
-      <section className="bg-conference">
+      <section className="bg-conference" id="schedule">
         <div className="container pb-3">
           <div className="row pt-5 pb-5">
             <div className="col-md-12">
@@ -1266,7 +1266,7 @@ export default function PyConIndiaWeb() {
       </section>
       {/* conference section ended*/}
       {/* registrations section started */}
-      <section className="bg-reg">
+      <section className="bg-reg" id="attend">
         <div className="container">
           <div className="row pt-5 pb-5">
             <div className="col-md-6 text-white">
@@ -1357,7 +1357,7 @@ export default function PyConIndiaWeb() {
       </section>
       {/* pricetabe section ended */}
       {/* event sponsor section started */}
-      <section className="bg-event">
+      <section className="bg-event" id="sponsors">
         <div className="container pt-4">
           <div className="row justify-content-center align-items-center pt-5 pb-md-5">
             <div className="col-md-12">
