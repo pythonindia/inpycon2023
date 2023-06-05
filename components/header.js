@@ -75,7 +75,7 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#events">
+                    <a className="nav-link" href="#sponsors">
                       Events
                     </a>
                   </li>
