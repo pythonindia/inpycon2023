@@ -39,20 +39,28 @@ header .nav-link.active::before{
   left: 0;
   right: 0;
 }
+.hero-container {
+  min-height: calc(100vh - 90px);
+}
 .bg-banner{
   background:url("/images/bg-header-dot.png")repeat;
   background-size: cover;
+  height: calc(100vh - 80px);
 }
 .bg-banner-overlay{
   background:url("/images/bg-bannerimg.png")no-repeat!important;
   background-position: right bottom!important;
-  background-size: 40% !important;
+  background-size: 48% !important;
+  height: calc(100vh - 90px);
 }
 .register-btn .green-btn {
   width: 100%;
 }
 .register-btn .submit-btn {
   width: 100%;
+}
+.register-btn-extra-padding {
+  padding: 10px;
 }
 .green-btn {
 	color: white;

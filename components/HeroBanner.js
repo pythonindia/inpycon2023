@@ -11,8 +11,8 @@ const HeroBanner = () => {
     <section className="bg-banner">
       <div className="bg-banner-overlay">
         <div className="container">
-          <div className="row pt-5 pb-5">
-            <div className="col-md-6">
+          <div className="row align-items-center">
+            <div className="col-md-6 hero-container pt-4 pb-4">
               <div className="d-none d-md-block">
                 <a href="#">
                   <Image src={logo} width="100%" height="100%" alt="" />
@@ -25,7 +25,7 @@ const HeroBanner = () => {
               <div className='row register-btn'>
                 <div className='col-md-5 col-8 pt-3'>
                   <Button
-                    buttonClassName="green-btn"
+                    buttonClassName="green-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none text-light"
                     buttonLabel="Become A Volunteer"
                     buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
@@ -33,7 +33,7 @@ const HeroBanner = () => {
                 </div>
                 <div className='col-md-5 col-8 pt-3'>
                   <Button
-                    buttonClassName="submit-btn"
+                    buttonClassName="submit-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none"
                     buttonLabel="Call For Proposal"
                     buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
@@ -64,8 +64,6 @@ const HeroBanner = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-6">
             </div>
           </div>
         </div>

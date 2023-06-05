@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="col-md text-center pt-md-0 pt-4">
             <h3 className="footer-title">
-              Copyright @ 2023 Python Software Society of India
+              Copyright @ 2023 PyCon India
             </h3>
           </div>
           <div className="col-md-2 text-center text-md-start pt-md-0 pt-3">
