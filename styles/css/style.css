@@ -296,7 +296,7 @@ margin-right: 15%;
 
 }
 .ticket-card{
-  background:url("../../public/images/tickets.png")no-repeat;
+  background:url("/images/tickets.png")no-repeat;
   height:475px!important;
   background-position: center!important;
 }
@@ -342,7 +342,7 @@ width: 90%;
   font-size: 42px !important;
 }
 .bg-hall{
-  background: url("../../public/images/bg-hall.png")no-repeat;
+  background: url("/images/bg-hall.png")no-repeat;
   height:726px!important;
   
 }
