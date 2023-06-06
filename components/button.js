@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Button = (props) => {
   let buttonClassName = props.buttonClassName;
@@ -12,16 +12,18 @@ const Button = (props) => {
       <button
         className={buttonClassName}
         disabled={disabled}
-        style={{ pointerEvents: props.disabled ? 'none' : 'auto' }}
+        style={{ pointerEvents: props.disabled ? "none" : "auto" }}
       >
-        <a href={buttonHyperLink} target="_blank" className={anchorClassName}>{buttonLabel}</a>
+        <a href={buttonHyperLink} target="_blank" className={anchorClassName}>
+          {buttonLabel}
+        </a>
       </button>
     </>
   );
 };
 
 Button.defaultProps = {
-  disabled: false
+  disabled: false,
 };
 
 export default Button;
