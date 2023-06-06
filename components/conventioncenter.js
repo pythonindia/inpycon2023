@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ConventionCenterSection = () => {
   return (
@@ -9,9 +9,7 @@ const ConventionCenterSection = () => {
             <h3 className="text-white hallhead">
               TBA <br /> TBA
             </h3>
-            <p className="text-white">
-              Hyderabad, Telangana 500081
-            </p>
+            <p className="text-white">Hyderabad, Telangana 500081</p>
           </div>
           <div className="col-md-4 text-center text-md-start">
             <iframe

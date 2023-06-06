@@ -4,11 +4,11 @@ import HeroBanner from "../components/HeroBanner";
 import JourneyComponent from "../components/journey";
 import KeynoteComponent from "../components/keynote";
 import SponsorComponent from "../components/sponsor";
-import ConventionCenterSection from '../components/conventioncenter';
-import SubscribeSection from '../components/subscribe';
-import PriceTableSection from '../components/pricetable';
-import RegistrationSection from '../components/registration';
-import ConferenceSchedule from '../components/schedule';
+import ConventionCenterSection from "../components/conventioncenter";
+import SubscribeSection from "../components/subscribe";
+import PriceTableSection from "../components/pricetable";
+import RegistrationSection from "../components/registration";
+import ConferenceSchedule from "../components/schedule";
 
 export default function PyConIndiaWeb() {
   return (
@@ -19,19 +19,23 @@ export default function PyConIndiaWeb() {
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="keywords" itemProp="keywords" content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn" />
-      <meta name="keywords" itemProp="description" content="The premier conference in India on using and developing the python programming language" />
+      <meta
+        name="keywords"
+        itemProp="keywords"
+        content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn"
+      />
+      <meta
+        name="keywords"
+        itemProp="description"
+        content="The premier conference in India on using and developing the python programming language"
+      />
       <meta name="robots" content="index, follow" />
       <title>Pycon India Hyderabad, 2023</title>
       <link rel="icon" type="image/png" href="images/favicon.png" />
       <link rel="stylesheet" href="css/style.css" />
       <link href="css/aos.css" rel="stylesheet" />
       <link href="css/font-awesome.min.css" rel="stylesheet" />
-      <link
-        href="css/owl.carousel.css"
-        rel="stylesheet"
-        type="text/css"
-      />
+      <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
       <link
         href="css/owl.theme.default.min.css"
         rel="stylesheet"
@@ -54,7 +58,7 @@ export default function PyConIndiaWeb() {
       {/* <ConferenceSchedule /> */}
       {/* conference section ended*/}
       {/* registrations section started */}
-      < RegistrationSection />
+      <RegistrationSection />
       {/* registrations section ended */}
       {/* pricetabe section started */}
       {/* <PriceTableSection /> */}

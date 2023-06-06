@@ -1,14 +1,14 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import PyConLogo from '../public/images/logo.png';
-import LinkedInLogo from '../public/images/social1.png';
-import FacebookLogo from '../public/images/social2.png';
-import TwitterLogo from '../public/images/social3.png';
-import InstagramLogo from '../public/images/social4.png';
-import ZulipLogo from '../public/images/social5.png';
-import MailingList from '../public/images/social6.png';
-import WebChirpyLogo from '../public/images/webchirpy.png';
+import PyConLogo from "../public/images/logo.png";
+import LinkedInLogo from "../public/images/social1.png";
+import FacebookLogo from "../public/images/social2.png";
+import TwitterLogo from "../public/images/social3.png";
+import InstagramLogo from "../public/images/social4.png";
+import ZulipLogo from "../public/images/social5.png";
+import MailingList from "../public/images/social6.png";
+import WebChirpyLogo from "../public/images/webchirpy.png";
 
 interface SocialItem {
   name: string;
@@ -18,40 +18,43 @@ interface SocialItem {
 
 const social: SocialItem[] = [
   {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/company/pyconindia/',
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/company/pyconindia/",
     logo: LinkedInLogo,
   },
   {
-    name: 'Facebook',
-    url: 'https://www.facebook.com/PyConIndia/',
+    name: "Facebook",
+    url: "https://www.facebook.com/PyConIndia/",
     logo: FacebookLogo,
   },
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/pyconindia',
+    name: "Twitter",
+    url: "https://twitter.com/pyconindia",
     logo: TwitterLogo,
   },
   {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/__pyconindia__/',
+    name: "Instagram",
+    url: "https://www.instagram.com/__pyconindia__/",
     logo: InstagramLogo,
   },
   {
-    name: 'Zulip',
-    url: 'https://pyconindia.zulipchat.com/',
+    name: "Zulip",
+    url: "https://pyconindia.zulipchat.com/",
     logo: ZulipLogo,
   },
   {
-    name: 'Mailing List',
-    url: 'https://mail.python.org/mailman/listinfo/inpycon',
+    name: "Mailing List",
+    url: "https://mail.python.org/mailman/listinfo/inpycon",
     logo: MailingList,
   },
 ];
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-footer" style={{ backgroundImage: `url(images/bg-header-dot.png)` }}>
+    <footer
+      className="bg-footer"
+      style={{ backgroundImage: `url(images/bg-header-dot.png)` }}
+    >
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 pb-5 text-center">
@@ -81,9 +84,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div className="col-md text-center pt-md-0 pt-4">
-            <h3 className="footer-title">
-              Copyright @ 2023 PyCon India
-            </h3>
+            <h3 className="footer-title">Copyright @ 2023 PyCon India</h3>
           </div>
           <div className="col-md-2 text-center text-md-start pt-md-0 pt-3">
             <h3 className="footer-title">Design By</h3>

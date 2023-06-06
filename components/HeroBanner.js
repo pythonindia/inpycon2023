@@ -1,10 +1,9 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
-import Button from './button';
+import Button from "./button";
 import calendar from "../public/images/calendar.png";
 import logo from "../public/images/logo.png";
-
 
 const HeroBanner = () => {
   return (
@@ -19,11 +18,12 @@ const HeroBanner = () => {
                 </a>
               </div>
               <p className="pt-3 text-center text-md-start">
-                The premier conference in India using and developing Python programming language.
-                Stay tuned for further updates by subscribing to our announcements.
+                The premier conference in India using and developing Python
+                programming language. Stay tuned for further updates by
+                subscribing to our announcements.
               </p>
-              <div className='row register-btn'>
-                <div className='col-md-5 col-8 pt-3'>
+              <div className="row register-btn">
+                <div className="col-md-5 col-8 pt-3">
                   <Button
                     buttonClassName="green-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none text-light"
@@ -31,7 +31,7 @@ const HeroBanner = () => {
                     buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
                   />
                 </div>
-                <div className='col-md-5 col-8 pt-3'>
+                <div className="col-md-5 col-8 pt-3">
                   <Button
                     buttonClassName="submit-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none"
@@ -42,7 +42,13 @@ const HeroBanner = () => {
               </div>
               <h2 className="pt-5 mb-4 date-text">
                 29 Sept - 02 Oct
-                <Image src={calendar} alt="" width="100%" height="100%" className="img-fluid" />
+                <Image
+                  src={calendar}
+                  alt=""
+                  width="100%"
+                  height="100%"
+                  className="img-fluid"
+                />
               </h2>
               <div className="row">
                 <div className="col-md-4">
