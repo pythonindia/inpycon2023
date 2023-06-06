@@ -1,10 +1,5 @@
 import { AppProps } from "next/app";
-import "../styles/css/bootstrap.min.css";
-import "../styles/css/font-awesome-min.css";
-import "../styles/css/owl.carousel.css";
-import "../styles/css/owl.theme.default.min.css";
 import "../styles/css/style.css";
-import "../styles/css/aos.css";
 
 import Head from "next/head";
 
