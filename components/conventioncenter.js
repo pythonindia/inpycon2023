@@ -7,10 +7,10 @@ const ConventionCenterSection = () => {
         <div className="row pt-5 pb-5 align-items-center">
           <div className="col-md-8 text-white text-center text-md-start">
             <h3 className="text-white hallhead">
-              Hyderabad International <br /> Convention Center
+              TBA <br /> TBA
             </h3>
             <p className="text-white">
-              Novotel and HICC Complex, Kondapur, Hyderabad, Telangana 500081
+              Hyderabad, Telangana 500081
             </p>
           </div>
           <div className="col-md-4 text-center text-md-start">

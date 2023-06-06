@@ -1,12 +1,12 @@
-- date: "Oct 12 | Friday"
-  title: Workshops
+- date: "Sep 30th | Friday"
+  title: Conference Day - 1
   schedule:
     - time: "08:00 AM - 09:30 AM"
       image: "images/tab1.png"
       description: Conference Registration day 1
     - time: "09:30 AM - 10:30 AM"
       image: "images/tab2.png"
-      description: Opening Address By Sanchit - Pycon India 2023
+      description: Opening Address By Sanchit - PyCon India 2023
     - time: "10:30 AM - 11:30 AM"
       image: "images/tab3.png"
       description: keynote 1 By Alan Turing hall 1
@@ -17,15 +17,15 @@
       image: "images/tab5.png"
       description: the fundamental principles of quantum computing, including superposition and entanglement, and explores the potential applications and impact of this emerging technology. She also discusses the challenges and advancements in the field, making it an insightful and informative presentation for both beginners and those familiar with quantum computing. hall 1
 
-- date: "Oct 13 | Saturday"
-  title: Sponsor Workshops
+- date: "Oct 1st | Saturday"
+  title: Conference Day - 2
   schedule:
     - time: "08:00 AM - 09:30 AM"
       image: "images/tab1.png"
       description: Conference Registration day 2
     - time: "09:30 AM - 10:30 AM"
       image: "images/tab2.png"
-      description: Opening Address By Kalyan - Pycon India 2023
+      description: Opening Address By Kalyan - PyCon India 2023
     - time: "10:30 AM - 11:30 AM"
       image: "images/tab3.png"
       description: keynote 1 By Ken Thompson hall 1

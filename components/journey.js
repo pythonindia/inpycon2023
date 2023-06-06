@@ -52,7 +52,7 @@ const JourneyComponent = () => {
                     <div className="col-md-7">
                       <div className="s1-text p-2">
                         <h2 className="mb-3">
-                          {journey.title} {journey.year}
+                          {journey.title} - {journey.year}
                         </h2>
                         <div className="venue d-flex mt-4 justify-content-between">
                           <div className="date">

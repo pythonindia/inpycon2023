@@ -17,7 +17,7 @@ const SponsorComponent = () => {
             </div>
             <div className="col-md-8">
               <p className="pt-md-5 pb-5">
-                Pycon India is completely driven by volunteers. Sponsering the
+                PyCon India is completely driven by volunteers. Sponsering the
                 event helps to sustain and grow the conference as well as the
                 Community. Sponsor help in making the conference affordable, and
                 maintaing the inventory for the conference.
@@ -31,7 +31,7 @@ const SponsorComponent = () => {
               </button>
             </div>
             </div>
-          <div className="col-md-12 m-auto sp-sor text-center pt-5">
+          {/* <div className="col-md-12 m-auto sp-sor text-center pt-5">
             <div className="sponsortitle">Platinum</div>
           </div>
           <div className="row pt-5 pb-5">
@@ -50,7 +50,7 @@ const SponsorComponent = () => {
                 <img src={image} className="img-fluid" alt="" />
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
     );
