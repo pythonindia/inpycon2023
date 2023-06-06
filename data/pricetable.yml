@@ -1,0 +1,9 @@
+- title: Early Bird Ticket
+  price: INR 2000
+  description: Conference ticket for 29 sept - 02 Oct
+- title: Student Ticket
+  price: INR 3000
+  description: Conference ticket for 29 sept - 02 Oct
+- title: Regular Ticket
+  price: INR 5000
+  description: Conference ticket for 29 sept - 02 Oct
