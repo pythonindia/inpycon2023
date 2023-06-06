@@ -1,0 +1,12 @@
+- name: Ines Montani
+  role: Founder Explosion/Spacy Core Developer
+  image: images/speaker1.png
+- name: Jake Vanderplas
+  role: Astronomer By Training; Author Of Python Data Science Handbook; Developer At Google
+  image: images/speaker3.png
+- name: David Beazley
+  role: Author Of The Python Essential Reference And Python Cookbook
+  image: images/speaker2.png
+- name: Devi A S l
+  role: Staff Engineer, Razorpay
+  image: images/speaker4.png
