@@ -1,0 +1,16 @@
+keynoters:
+ - name: Laura Nolan
+   description: Laura Nolan is a software engineer who focuses on software operations and reliability. She holds degrees in Computer Science and in Ethics, and is currently completing another MA in Strategic Studies. Since 2018, Laura has been part of the Campaign to Stop Killer Robots, an umbrella organisation of NGOs that works towards a legally-binding instrument to regulate autonomous weapons.
+   img: Laura-Nolan.png
+
+ - name: Sam Gross
+   description: Sam Gross is a software engineer at Meta AI. He is a co-author of PyTorch, an open-source Python machine learning framework. He holds M.Eng. and B.S. degrees in computer science from the Massachusetts Institute of Technology.
+   img: Sam-Gross.jpeg
+
+ - name: Dr. Nakeema Stefflbauer
+   description: Dr. Nakeema Stefflbauer is a digital product executive with expertise in early-stage ideation, test, and development. Her digital transformation iexperience s paired with a focus on algorithmic explainability, equity, and fairness.
+   img: Nakeema_headshot_2022.jpg
+
+ - name: Dr. Patrick Kavanagh
+   description: Dr. Patrick Kavanagh is an astrophysicist and software developer based at the Dublin Institute for Advanced Studies (DIAS). He is an expert in high-energy studies of supernova remnants, superbubbles and the hot interstellar medium.
+   img: patrick-kavanagh.jpeg

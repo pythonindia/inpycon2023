@@ -373,6 +373,10 @@ border: unset !important;
 padding:0 10px 0 0 !important;
 }
 
+.speaker-boxcontent{
+  word-wrap: break-word;
+}
+
 @media(max-width:768px){
   .headerlogo{
     width: 70%!important;

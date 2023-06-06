@@ -1,12 +1,19 @@
-module.exports = {
-  webpack: (config, { defaultLoaders }) => {
+// @ts-check
+
+/**
+ * @type {import('next').NextConfig}
+ **/
+const nextConfig = {
+  images: {
+    unoptimized: true
+  },
+  webpack: function (config) {
     config.module.rules.push({
       test: /\.ya?ml$/,
-      use: 'js-yaml-loader',
+      use: "js-yaml-loader",
     });
     return config;
   },
-  images: {
-    unoptimized: true
-  }
 };
+
+module.exports = nextConfig;
