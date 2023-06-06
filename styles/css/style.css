@@ -254,7 +254,7 @@ text-align: start;
 .bg-conference .nav-pills .nav-link.active{
   background-color: #eac124!important;
 }
-.bt-bottom{  
+.bt-bottom{
   border-bottom:2px solid #f2eee2!important;
 }
 .date-announced{
@@ -343,8 +343,9 @@ width: 90%;
 }
 .bg-hall{
   background: url("/images/bg-hall.png")no-repeat;
+  background-size: cover;
   height:726px!important;
-  
+
 }
 .hallhead{
   font-size:35px!important;
