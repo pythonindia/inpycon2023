@@ -14,7 +14,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "typeRoots": ["./types", "./node_modules/@types"],
     "types": ["@fortawesome/fontawesome-svg-core", "@fortawesome/free-solid-svg-icons"],
     "plugins": [
       {
