@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
@@ -55,34 +56,34 @@ export default function Header() {
               >
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active" href="#">
+                    <Link className="nav-link active" href="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#journey">
+                    <Link className="nav-link" href="/#journey">
                       Journey
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#keynote">
+                    <Link className="nav-link" href="/#keynote">
                       Keynotes
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#schedule">
+                    <Link className="nav-link" href="/#schedule">
                       Schedule
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#sponsors">
+                    <Link className="nav-link" href="/#sponsors">
                       Events
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#sponsors">
+                    <Link className="nav-link" href="/#sponsors">
                       Sponsors
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="https://in.pycon.org/blog/" target="_blank">
@@ -90,14 +91,14 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#attend">
+                    <Link className="nav-link" href="/#attend">
                       Attend
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#faq">
+                    <Link className="nav-link" href="/faq">
                       FAQ
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item dropdown">
                     <a
