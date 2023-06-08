@@ -75,7 +75,8 @@ const JourneyComponent = () => {
               </Carousel.Item>
             ))}
           </Carousel>
-        </div>  
+        </div>{" "}
+         
       </div>
       <div className="container-fluid p-0">
         <div className="pt-5">
