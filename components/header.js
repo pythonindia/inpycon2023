@@ -101,9 +101,9 @@ export default function Header() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#faq">
+                      <Link className="nav-link" href="/faq">
                         FAQ
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item dropdown">
                       <a
