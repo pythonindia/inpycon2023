@@ -25,9 +25,11 @@
     "js-yaml-loader": "^1.2.2",
     "next": "13.2.4",
     "next-yaml": "^1.0.1",
+    "raw-loader": "^4.0.2",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.4",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
