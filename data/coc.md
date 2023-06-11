@@ -29,7 +29,7 @@ At the PyCon India venue and related online forums, you agree to:
     sexual attention.
 
 Violations can be reported online by sending a mail to
-[report@in.pycon.org](mailto:report@in.pycon.org), or to PyCon India
+[coc@in.pycon.org](mailto:coc@in.pycon.org), or to PyCon India
 volunteers at the venue.
 
 Violations of the Code of Conduct can result in expulsion from the
@@ -124,8 +124,8 @@ badges.
 
 In case you are not able to locate a conference volunteer or you would
 prefer to report directly to the Vandana P, she can be reached
-at the mobile no. [TBA] and the email address
-[report@in.pycon.org](mailto:report@in.pycon.org).
+at the mobile no -[To be added] and the email address
+[coc@in.pycon.org](mailto:coc@in.pycon.org).
 
 ## License
 
