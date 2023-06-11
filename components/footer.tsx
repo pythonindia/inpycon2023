@@ -7,7 +7,7 @@ import FacebookLogo from "../public/images/social2.png";
 import TwitterLogo from "../public/images/social3.png";
 import InstagramLogo from "../public/images/social4.png";
 import ZulipLogo from "../public/images/social5.png";
-import MailingList from "../public/images/social6.png";
+import Email from "../public/images/social6.png";
 import WebChirpyLogo from "../public/images/webchirpy.png";
 
 interface SocialItem {
@@ -43,9 +43,9 @@ const social: SocialItem[] = [
     logo: ZulipLogo,
   },
   {
-    name: "Mailing List",
-    url: "https://mail.python.org/mailman/listinfo/inpycon",
-    logo: MailingList,
+    name: "Email",
+    url: "mailto:contact@in.pycon.org",
+    logo: Email,
   },
 ];
 
