@@ -1,3 +1,4 @@
+import Button from "./button";
 import SponsorData from "../data/sponsor.yml";
 
 const SponsorComponent = () => {
@@ -17,18 +18,20 @@ const SponsorComponent = () => {
           </div>
           <div className="col-md-8">
             <p className="pt-md-5 pb-5">
-              PyCon India is completely driven by volunteers. Sponsering the
+              PyCon India is completely driven by volunteers. Sponsoring the
               event helps to sustain and grow the conference as well as the
               Community. Sponsor help in making the conference affordable, and
-              maintaing the inventory for the conference.
+              maintaining the inventory for the conference.
             </p>
           </div>
-          <div className="col-md-4 pb-md-0 pb-5 text-center ">
-            <button className="green-btn p-2 px-5">
-              <a href="#" className="text-decoration-none text-light">
-                Download Prospectus
-              </a>
-            </button>
+          <div className="col-md-4 pb-md-0 pb-5 text-center">
+            <Button
+              buttonClassName="green-btn"
+              anchorClassName="text-decoration-none text-light"
+              buttonLabel="Download Prospectus"
+              buttonHyperLink="#"
+              disabled={true}
+            />
           </div>
         </div>
         {/* <div className="col-md-12 m-auto sp-sor text-center pt-5">

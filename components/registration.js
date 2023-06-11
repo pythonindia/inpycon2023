@@ -1,3 +1,5 @@
+import Button from "./button";
+
 const RegistrationSection = () => {
   return (
     <section className="bg-reg" id="attend">
@@ -12,20 +14,24 @@ const RegistrationSection = () => {
               deep into the world of python and explore its limitless
               potentials.
             </p>
-            <div className="register-btn mt-5">
-              <button className="green-btn">
-                <a href="#" className="text-decoration-none text-light">
-                  Buy Ticket
-                </a>
-              </button>
-              <button className="submit-btn">
-                <a
-                  href="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-                  className="text-decoration-none"
-                >
-                  Call for Proposal
-                </a>
-              </button>
+            <div className="row register-btn mt-5">
+              <div className="col-md-5 col-8">
+                <Button
+                  buttonClassName="green-btn"
+                  anchorClassName="text-decoration-none text-light"
+                  buttonLabel="Buy Ticket"
+                  buttonHyperLink="#"
+                  disabled={true}
+                />
+              </div>
+              <div className="col-md-5 col-8">
+                <Button
+                  buttonClassName="submit-btn"
+                  anchorClassName="text-decoration-none"
+                  buttonLabel="Call For Proposal"
+                  buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+                />
+              </div>
             </div>
           </div>
           <div className="col-md-6 d-none d-md-block">

@@ -9,15 +9,19 @@ const Button = (props) => {
 
   return (
     <>
-      <button
-        className={buttonClassName}
-        disabled={disabled}
+      <a
+        href={buttonHyperLink}
+        target="_blank" className={anchorClassName}
         style={{ pointerEvents: props.disabled ? "none" : "auto" }}
       >
-        <a href={buttonHyperLink} target="_blank" className={anchorClassName}>
+        <button
+          className={buttonClassName}
+          disabled={disabled}
+
+        >
           {buttonLabel}
-        </a>
-      </button>
+        </button>
+      </a>
     </>
   );
 };
