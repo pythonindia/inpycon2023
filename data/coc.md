@@ -83,7 +83,7 @@ organizers.
 ### Please Refrain From
 
 - Offensive verbal comments related to gender, sexual orientation,
-    disability, physical appearance, body size, race, religion
+    disability, physical appearance, body size, race, religion.
 
 - Violent threats or language directed against another person.
 
