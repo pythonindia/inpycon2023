@@ -83,6 +83,7 @@ organizers.
     audience, including people from many different backgrounds.
 
 - Do not insult or put down attendees or engage in any action that violates the open, welcoming and sharing spirit of the conference.
+
 ### Please Refrain From
 
 - Offensive verbal comments related to gender, sexual orientation,
