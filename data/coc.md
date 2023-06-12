@@ -32,9 +32,11 @@ Violations can be reported online by sending a mail to
 [coc@in.pycon.org](mailto:coc@in.pycon.org), or to PyCon India
 volunteers at the venue.
 
-Violations of the Code of Conduct can result in expulsion from the
-conference with no refund. Please read on for a more detailed version
-of the Code of Conduct below.
+If a participant engages in behavior that violates this code of conduct,
+the Code of Conduct team may take any action they deem appropriate,
+including warning the offender or expulsion from the community and community
+events with no refund of event tickets. Please read on for a more detailed
+version of the Code of Conduct below.
 
 ## The Long Form
 
