@@ -121,15 +121,26 @@ comply immediately.
 
 ## Reporting
 
-If you are being harassed, notice that someone else is being harassed,
-or have any other concerns, please contact a conference
-volunteer. Volunteers will be wearing "PyCon India Volunteer"
-badges.
+If you are being harassed or notice that someone else is being harassed,
+or have any other concerns, please reach out to us at
+[coc@in.pycon.org](mailto:coc@in.pycon.org) before, during or after the
+conference.
 
-In case you are not able to locate a conference volunteer or you would
-prefer to report directly to the Vandana P, she can be reached
-at the mobile no -[To be added] and the email address
-[coc@in.pycon.org](mailto:coc@in.pycon.org).
+Feel free to contact a conference volunteer to report any such incidents.
+Volunteers will be wearing "PyCon India Volunteer" badges.
+
+If you are unable to locate a conference volunteer or would prefer to report
+directly to the Code of Conduct Committee, please feel free to contact any of
+the following committee members. The Helpdesk can assist you in finding them
+at the venue:
+
+- Nivesh Krishna (CoC Chair)
+- Vandana Pv (Diversity & Inclusion Chair)
+- Amritha Madam
+- Bhanu K
+- Kalyan Prasad
+- Snehith Allamraju
+- Sanchit Balchandani
 
 ## License
 
