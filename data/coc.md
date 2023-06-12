@@ -91,7 +91,7 @@ organizers.
     or language.
 
 - Deliberate intimidation, stalking, following, harassing
-    photography or recording
+    photography or recording.
   
 - Sustained disruption of talks or other events.
   
