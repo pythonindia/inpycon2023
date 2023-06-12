@@ -17,7 +17,7 @@ At the PyCon India venue and related online forums, you agree to:
 - Be kind and sensitive to the people around you and respect the
     boundaries of other attendees.
 
-- Attempt to resolve difference of opinions peacefully
+- Attempt to resolve differences of opinion peacefully.
 
 - Avoid harassment, exclusionary or offensive behaviour of any
     kind. This includes but is not limited to offensive verbal
