@@ -93,7 +93,7 @@ organizers.
 - Deliberate intimidation, stalking, following, harassing
     photography or recording
   
-- Sustained disruption of talks or other events
+- Sustained disruption of talks or other events.
   
 - Using sexually explicit or violent material in
     presentations. Sexual language or imagery is inappropriate for all
