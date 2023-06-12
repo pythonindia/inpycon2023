@@ -32,6 +32,9 @@ header .nav-link{
 .navbar-nav .nav-link {
   text-decoration: none !important;
 }
+.navbar-nav a{
+  text-decoration: none;
+  }
 
 header .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px 30px 20px 30px!important;

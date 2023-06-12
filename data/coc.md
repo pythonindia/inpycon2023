@@ -74,8 +74,8 @@ organizers.
 
 - Listen with empathy when someone has a different perspective.
   
-- Talk to the volunteers if you notice that something could be
-    better.
+- Talk to the volunteers if you see something inappropriate or feel
+  something is wrong.
   
 - All communication should be appropriate for a professional
     audience, including people from many different backgrounds.
