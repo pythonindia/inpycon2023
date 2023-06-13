@@ -87,7 +87,7 @@ export default function Header() {
                       <Link href="/#faq"><span className="nav-link">FAQ</span></Link>
                     </li>
                     <li className="nav-item">
-                      <Link href="/coc"><span className="nav-link">COC</span></Link>
+                      <Link href="/code-of-conduct"><span className="nav-link">COC</span></Link>
                     </li>
                     {/* <li className="nav-item dropdown">
                       <span
