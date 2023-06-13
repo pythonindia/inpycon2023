@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import Link from 'next/link';
 import logo from "../public/images/logo.png";
 export default function Header() {
   function handleClick() {
