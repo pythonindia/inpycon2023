@@ -4,6 +4,7 @@ import React from "react";
 import Button from "./button";
 import calendar from "../public/images/calendar.png";
 import logo from "../public/images/logo.png";
+import calendarData from "../data/calendar.yml";
 
 const HeroBanner = () => {
   return (
@@ -51,24 +52,14 @@ const HeroBanner = () => {
                 />
               </h2>
               <div className="row">
-                <div className="col-md-4">
-                  <div className="conference">
-                    <h3 className="fw-bolder">CONFERENCE</h3>
-                    <p className="pt-2">Sep 30th - Oct 1st, Hyderabad</p>
+                {calendarData.map((calendar, index) => (
+                  <div key={index} className="col-md-4">
+                    <div className="conference">
+                      <h3 className="fw-bolder">{calendar.title}</h3>
+                      <p className="pt-2">{calendar.date}, {calendar.location}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="workshop">
-                    <h3 className="fw-bolder">WORKSHOP</h3>
-                    <p className="pt-2">Sep 29th, Hyderabad</p>
-                  </div>
-                </div>
-                <div className="col-md-4">
-                  <div className="dev">
-                    <h3 className="fw-bolder">DEV SPRINTS</h3>
-                    <p className="pt-2">Oct 2nd, Hyderabad</p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

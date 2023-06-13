@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import Link from 'next/link';
+import logo from "../public/images/logo.png";
 export default function Header() {
   function handleClick() {
     let navDrop = document.getElementById("navbarNavDropdown");
@@ -21,7 +23,7 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-header">
+    <header className="bg-header sticky-top">
       <div className="container p-0">
         <div className="row">
           <div className="col-md-12">
@@ -32,7 +34,7 @@ export default function Header() {
                   href="#"
                 >
                   <Image
-                    src="/images/logo.png"
+                    src={logo}
                     className="img-fluid"
                     alt="logo"
                     width={500}
@@ -57,64 +59,46 @@ export default function Header() {
                 >
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link active" href="#">
-                        Home
-                      </a>
+                      <Link href="/"><span className="nav-link active">Home</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#journey">
-                        Journey
-                      </a>
+                      <Link href="/#journey"><span className="nav-link">Journey</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#keynote">
-                        Keynotes
-                      </a>
+                      <Link href="/#attend"><span className="nav-link">Attend</span></Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#schedule">
-                        Schedule
-                      </a>
+                      <Link href="/#sponsors"><span className="nav-link">Sponsors</span></Link>
                     </li>
+                    {/* <li className="nav-item">
+                      <Link href="/#keynote"><span className="nav-link">Keynotes</span></Link>
+                    </li> */}
+                    {/* <li className="nav-item">
+                      <Link href="/#schedule"><span className="nav-link">Schedule</span></Link>
+                    </li> */}
+                    {/* <li className="nav-item">
+                      <Link href="/#events"><span className="nav-link">Events</span></Link>
+                    </li> */}
                     <li className="nav-item">
-                      <a className="nav-link" href="#sponsors">
-                        Events
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#sponsors">
-                        Sponsors
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="https://in.pycon.org/blog/"
-                        target="_blank"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#attend">
-                        Attend
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <Link className="nav-link" href="/faq">
-                        FAQ
+                      <Link href="https://in.pycon.org/blog/" passHref>
+                        <span className="nav-link" target="_blank">Blog</span>
                       </Link>
                     </li>
-                    <li className="nav-item dropdown">
-                      <a
+                    <li className="nav-item">
+                      <Link href="/faq"><span className="nav-link">FAQ</span></Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link href="/code-of-conduct"><span className="nav-link">COC</span></Link>
+                    </li>
+                    {/* <li className="nav-item dropdown">
+                      <span
                         className="nav-link dropdown-toggle"
-                        href="#"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         More
-                      </a>
+                      </span>
                       <ul className="dropdown-menu">
                         <li>
                           <a className="dropdown-item" href="#">
@@ -122,7 +106,7 @@ export default function Header() {
                           </a>
                         </li>
                       </ul>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

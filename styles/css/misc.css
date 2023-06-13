@@ -1,0 +1,27 @@
+.misc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Instrument Sans", sans-serif;
+  color: #333;
+  line-height: 1.3;
+  padding: 0 1rem;
+}
+.misc-container h1 {
+  padding-top: 30px;
+}
+.misc-container .content {
+  max-width: 800px;
+  width: 100%;
+  line-height: 1.7;
+}
+.misc-container .content h2{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.misc-container .content h3 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}

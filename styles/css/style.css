@@ -6,6 +6,8 @@
 /* @import "./owl.carousel.css"; */
 /* @import "./owl.theme.default.min.css"; */
 
+@import "./misc.css";
+
 html,body,h1,h2,h3,h4,h5,h6,p,div,a,span {
 	font-family: 'Instrument Sans', sans-serif !important;
   color: #000;
@@ -16,6 +18,7 @@ body{
 }
 .bg-header{
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 8px !important;
+  position: sticky;
 }
 header{
   position: sticky;
@@ -28,6 +31,13 @@ header .nav-link{
   position:relative;
   font-weight: 500!important;
 }
+.navbar-nav .nav-link {
+  text-decoration: none !important;
+}
+.navbar-nav a{
+  text-decoration: none;
+  }
+
 header .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px 30px 20px 30px!important;
 }
@@ -39,6 +49,12 @@ header .nav-link.active::before{
   left: 0;
   right: 0;
 }
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
 /* let anchor cover the button area */
 button a{
   display: block;
