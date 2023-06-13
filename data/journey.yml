@@ -4,7 +4,7 @@
   date: 26th and 27th September, 2009
   location: Indian Institute of Science, Bangalore
   speaker: Prabhu Ramachandran
-  description: PyCon India 2009 is a community conference by the Python developer community. A pure volunteer effort, it is being hosted for the **first** time in India and will attract some of the best Python developers in India and abroad.
+  description: PyCon India 2009 is a community conference by the Python developer community. A pure volunteer effort, it is being hosted for the first time in India and will attract some of the best Python developers in India and abroad.
   link: https://in.pycon.org/2009/
 - year: 2010
   image: /images/PyCon2010.jpg
@@ -71,15 +71,15 @@
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2017/
 - year: 2018
-  image:
+  image: /images/PyCon2018.jpg
   title: 10th Year of PyCon India
   date: 5th - 9th October 2018
   location: Hyderabad International Convention Centre, Hyderabad
   speaker: Armin Ronacher
-  description: A major milestone. We marked **ten** years of hosting PyCon India. The premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
+  description: A major milestone. We marked ten years of hosting PyCon India. The premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2018/
 - year: 2019
-  image:
+  image: /images/PyCon2019.jpg
   title: 11th Year of PyCon India
   date: 12th - 15th October 2019
   location: Chennai Trade Center, Chennai
@@ -87,15 +87,15 @@
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2019/
 - year: 2020
-  image:
+  image: /images/PyCon2020.jpg
   title: 12th Year of PyCon India
   date: 2nd - 5th October 2020
   location: Online
   speaker: James Powell
-  description: The **first** year of the pandemic marked the twelfth year of hosting PyCon India. It was also the year PyCon India went **online** for the first time. While our speakers filled their workstations with mics and camera equipment, we saw our audience rendering virtual keychains from the virtual goodie bag.  
+  description: The first year of the pandemic marked the twelfth year of hosting PyCon India. It was also the year PyCon India went online for the first time. While our speakers filled their workstations with mics and camera equipment, we saw our audience rendering virtual keychains from the virtual goodie bag.  
   link: https://in.pycon.org/2020/
 - year: 2021
-  image:
+  image: /images/PyCon2021.jpg
   title: 13th Year of PyCon India
   date: 17th - 19th September 2021
   location: Online
@@ -107,5 +107,5 @@
   title: 14th Year of PyCon India
   date: 29th Sep - 2nd Oct, 2023
   location: Hyderabad
-  description: The **fourteenth** year of the conference marks its return to Hyderabad for the second time. We are excited to host the conference and meet the community in person. 
+  description: The fourteenth year of the conference marks its return to Hyderabad for the second time. We are excited to host the conference and meet the community in person. 
   link: https://in.pycon.org/2023/
