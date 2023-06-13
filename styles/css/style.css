@@ -6,6 +6,8 @@
 /* @import "./owl.carousel.css"; */
 /* @import "./owl.theme.default.min.css"; */
 
+@import "./misc.css";
+
 html,body,h1,h2,h3,h4,h5,h6,p,div,a,span {
 	font-family: 'Instrument Sans', sans-serif !important;
   color: #000;
@@ -51,38 +53,6 @@ header .nav-link.active::before{
 .navbar-brand {
   display: flex;
   align-items: center;
-}
-
-.coc-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-family: 'Instrument Sans', sans-serif;
-  color: #333;
-  line-height: 1.3;
-  padding: 0 1rem;
-}
-
-.coc-container h1 {
-  padding-top: 30px;
-}
-
-.coc-content h2 {
-  padding-top: 20px;
-  padding-bottom: 15px;
-}
-
-.coc-content h3 {
-  padding-top: 20px;
-  padding-bottom: 15px;
-}
-
-.coc-content {
-  max-width: 800px;
-  width: 100%;
-  line-height: 1.7
 }
 
 /* let anchor cover the button area */
