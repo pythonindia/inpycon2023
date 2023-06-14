@@ -31,17 +31,6 @@ export default function PyConIndiaWeb() {
       />
       <meta name="robots" content="index, follow" />
       <title>PyCon India Hyderabad, 2023</title>
-      <link rel="icon" type="image/png" href="images/favicon.png" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link href="css/aos.css" rel="stylesheet" />
-      <link href="css/font-awesome.min.css" rel="stylesheet" />
-      <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
-      <link
-        href="css/owl.theme.default.min.css"
-        rel="stylesheet"
-        type="text/css"
-      />
-      <link href="css/bootstrap.min.css" rel="stylesheet" />
       {/* header section started */}
       <Header />
       {/* header section ended */}
