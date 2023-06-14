@@ -19,9 +19,8 @@ const HeroBanner = () => {
                 </a>
               </div>
               <p className="pt-3 text-center text-md-start">
-                The premier conference in India using and developing Python
-                programming language. Stay tuned for further updates by
-                subscribing to our announcements.
+              PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential.
+              Stay tuned for updates!
               </p>
               <div className="row register-btn">
                 <div className="col-md-5 col-8 pt-3">

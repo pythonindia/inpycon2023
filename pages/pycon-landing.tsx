@@ -84,7 +84,7 @@ export default function PyConIndiaWeb() {
     </section> */}
       {/* latest event section ended */}
       {/* subscribe section started */}
-      <SubscribeSection />
+      {/* <SubscribeSection /> */}
       {/* subscribe section ended */}
       {/* conferecne hall section started */}
       <ConventionCenterSection />
