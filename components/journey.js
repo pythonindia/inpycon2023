@@ -80,7 +80,7 @@ const JourneyComponent = () => {
       </div>
       <div className="container-fluid p-0">
         <div className="pt-5">
-          <img src="images/journey.png" className="img-fluid" />
+          <img src="/2023/images/journey.png" className="img-fluid" />
         </div>
       </div>
     </section>

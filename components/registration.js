@@ -36,16 +36,16 @@ const RegistrationSection = () => {
           </div>
           <div className="col-md-6 d-none d-md-block">
             <div>
-              <img src="images/flip1.png" className="flip-img1" alt="" />
+              <img src="/2023/images/flip1.png" className="flip-img1" alt="" />
             </div>
             <div>
-              <img src="images/flip2.png" className="flip-img2" alt="" />
+              <img src="/2023/images/flip2.png" className="flip-img2" alt="" />
             </div>
             <div>
-              <img src="images/flip3.png" className="flip-img3" alt="" />
+              <img src="/2023/images/flip3.png" className="flip-img3" alt="" />
             </div>
             <div>
-              <img src="images/flip4.png" className="flip-img4" alt="" />
+              <img src="/2023/images/flip4.png" className="flip-img4" alt="" />
             </div>
           </div>
         </div>

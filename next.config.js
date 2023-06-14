@@ -9,4 +9,6 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '',
+  basePath: '/2023',
 };

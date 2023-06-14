@@ -10,7 +10,7 @@ const SponsorComponent = () => {
             <h2 className="com-head">
               Event Sponsors{" "}
               <img
-                src="images/handshake.png"
+                src="/2023/images/handshake.png"
                 alt=""
                 className="img-fluid ps-3"
               />

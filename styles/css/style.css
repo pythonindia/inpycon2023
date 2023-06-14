@@ -63,12 +63,12 @@ button a{
   min-height: calc(100vh - 90px);
 }
 .bg-banner{
-  background:url("/images/bg-header-dot.png")repeat;
+  background:url("/2023/images/bg-header-dot.png")repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 }
 .bg-banner-overlay{
-  background:url("/images/bg-bannerimg.png")no-repeat!important;
+  background:url("/2023/images/bg-bannerimg.png")no-repeat!important;
   background-position: right bottom!important;
   background-size: 48% !important;
   height: calc(100vh - 90px);
@@ -194,18 +194,18 @@ margin: auto;
 border-radius: 50px!important;
 }
 .bg-journey .carousel-control-prev-icon{
-  background-image:url("/images/arrow-left.png")!important;
+  background-image:url("/2023/images/arrow-left.png")!important;
   width:8px!important;
   height:13px!important;
 }
 .bg-journey .carousel-control-next-icon{
-  background-image:url("/images/arrow-right.png")!important;
+  background-image:url("/2023/images/arrow-right.png")!important;
   width:8px!important;
   height:13px!important;
 }
 
 .bg-journey .carousel {
-	background:#fff url("/images/bg-header-dot.png")repeat!important;
+	background:#fff url("/2023/images/bg-header-dot.png")repeat!important;
   border-radius:20px!important;
 }
 .bg-journey .com-head{
@@ -218,7 +218,7 @@ border-radius: 50px!important;
   font-size:14px!important;
 }
 .bg-speakers {
-	background: #eac124 url("/images/shadow-yel.png");
+	background: #eac124 url("/2023/images/shadow-yel.png");
 	height: 421px;
   position:relative;
 }
@@ -254,7 +254,7 @@ border-radius: 50px!important;
   color:#068580!important;
 }
 .bg-conference{
-  background:#fbfaf3 url("/images/bg-con.png")no-repeat;
+  background:#fbfaf3 url("/2023/images/bg-con.png")no-repeat;
   background-position:right top!important;
 }
 .date-acc{
@@ -316,7 +316,7 @@ margin-right: 15%;
 
 }
 .ticket-card{
-  background:url("/images/tickets.png")no-repeat;
+  background:url("/2023/images/tickets.png")no-repeat;
   height:475px!important;
   background-position: center!important;
 }
@@ -362,7 +362,7 @@ width: 90%;
   font-size: 42px !important;
 }
 .bg-hall{
-  background: url("/images/bg-hall.png")no-repeat;
+  background: url("/2023/images/bg-hall.png")no-repeat;
   background-size: cover;
   height:726px!important;
 
@@ -380,7 +380,7 @@ border-bottom: 1px solid #f1d87a !important;
 width: 90%;
 }
 .bg-footer {
-  background:url("/images/bg-header-dot.png")repeat;
+  background:url("/2023/images/bg-header-dot.png")repeat;
 }
 .footer-title{
   font-size:15px!important;
