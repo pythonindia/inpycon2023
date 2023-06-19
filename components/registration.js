@@ -14,8 +14,8 @@ const RegistrationSection = () => {
               deep into the world of python and explore its limitless
               potentials.
             </p>
-            <div className="row register-btn mt-5">
-              <div className="col-md-5 col-8">
+            <div className="row register-btn">
+              <div className="col-md-5 col-8 pt-3">
                 <Button
                   buttonClassName="green-btn"
                   anchorClassName="text-decoration-none text-light"
@@ -24,7 +24,7 @@ const RegistrationSection = () => {
                   disabled={true}
                 />
               </div>
-              <div className="col-md-5 col-8">
+              <div className="col-md-5 col-8 pt-3">
                 <Button
                   buttonClassName="submit-btn"
                   anchorClassName="text-decoration-none"

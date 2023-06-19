@@ -53,7 +53,6 @@ const Footer: React.FC = () => {
   return (
     <footer
       className="bg-footer"
-      style={{ backgroundImage: `url(images/bg-header-dot.png)` }}
     >
       <div className="container">
         <div className="row pt-5 pb-5">
