@@ -9,7 +9,7 @@ const ConventionCenterSection = () => {
             {/* <h3 className="text-white hallhead">
               TBA <br /> TBA
             </h3> */}
-            <p className="text-white">Jawaharlal Nehru Auditorium, Hyderabad</p>
+            <p className="text-white">Jawaharlal Nehru Technological University Hyderabad</p>
           </div>
           <div className="col-md-4 text-center text-md-start">
             <iframe
