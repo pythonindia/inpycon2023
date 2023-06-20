@@ -29,8 +29,8 @@ const SponsorComponent = () => {
               buttonClassName="green-btn"
               anchorClassName="text-decoration-none text-light"
               buttonLabel="Download Prospectus"
-              buttonHyperLink="#"
-              disabled={true}
+              buttonHyperLink="https://drive.google.com/file/d/1rIb3PLx9gUi-oWPdOdmldbHLy8Vaz-E2/view?usp=sharing"
+              disabled={false}
             />
           </div>
         </div>
