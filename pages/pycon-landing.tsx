@@ -30,6 +30,7 @@ export default function PyConIndiaWeb() {
         content="The premier conference in India on using and developing the python programming language"
       />
       <meta name="robots" content="index, follow" />
+      <link rel="icon" type="image/png" href="2023/images/favicon.png" />
       <title>PyCon India Hyderabad, 2023</title>
       {/* header section started */}
       <Header />
