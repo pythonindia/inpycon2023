@@ -34,7 +34,7 @@ const social: SocialItem[] = [
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/__pyconindia__/",
+    url: "https://www.instagram.com/inpycon/",
     logo: InstagramLogo,
   },
   {
