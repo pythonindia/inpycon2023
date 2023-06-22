@@ -362,7 +362,12 @@ width: 90%;
   font-size: 42px !important;
 }
 .bg-hall{
-  background: url("/2023/images/bg-hall.png")no-repeat;
+  background: /* top, transparent black, faked with gradient */
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/2023/images/bg-hall.jpg") no-repeat;
   background-size: cover;
   height:726px!important;
 
