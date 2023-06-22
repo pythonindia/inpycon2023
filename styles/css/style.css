@@ -107,6 +107,14 @@ button a{
 	left: 7px;
 	transition: 0.2s;
 }
+.green-btn.buy-ticket{
+  font-weight: 400;
+}
+.green-btn.buy-ticket::after{
+  opacity: 1;
+  top: 0;
+  left: 0;
+}
 .green-btn:hover:after {
 	top: 0px;
 	left: 0px;
