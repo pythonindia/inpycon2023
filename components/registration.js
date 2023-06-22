@@ -17,11 +17,10 @@ const RegistrationSection = () => {
             <div className="row register-btn">
               <div className="col-md-5 col-8 pt-3">
                 <Button
-                  buttonClassName="green-btn"
+                  buttonClassName="green-btn buy-ticket"
                   anchorClassName="text-decoration-none text-light"
                   buttonLabel="Buy Ticket"
-                  buttonHyperLink="#"
-                  disabled={true}
+                  buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
                 />
               </div>
               <div className="col-md-5 col-8 pt-3">

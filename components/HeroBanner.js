@@ -25,10 +25,10 @@ const HeroBanner = () => {
               <div className="row register-btn">
                 <div className="col-md-5 col-8 pt-3">
                   <Button
-                    buttonClassName="green-btn register-btn-extra-padding"
+                    buttonClassName="green-btn buy-ticket register-btn-extra-padding"
                     anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Become A Volunteer"
-                    buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSdmlVnxDBENiXs17hQeUtgqOZdcsWI7lmQpXq5m9K-e0eS52Q/viewform"
+                    buttonLabel="Buy Tickets"
+                    buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
                   />
                 </div>
                 <div className="col-md-5 col-8 pt-3">
