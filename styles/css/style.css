@@ -115,6 +115,9 @@ button a{
   top: 0;
   left: 0;
 }
+.green-btn.buy-ticket:hover:after{
+  opacity: 0.8;
+}
 .green-btn:hover:after {
 	top: 0px;
 	left: 0px;
