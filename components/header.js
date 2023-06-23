@@ -49,7 +49,7 @@ export default function Header() {
   ]
 
 
-  const handleNavToggle = (indexValue) => {
+  const handleNavBarToggle = (indexValue) => {
     setNavBarToggle(false)
     setActiveNavBarItem(indexValue)
   }
@@ -95,7 +95,7 @@ export default function Header() {
                         <Link
                           href={item.href}
                           target={item.openInNewTab ? "_blank" : "_self"}
-                          onClick={() => handleNavToggle(index)}
+                          onClick={() => handleNavBarToggle(index)}
                         >
                           <span className={"nav-link" + (index === activeNavBarItem ? " active" : "")}>
                             {item.name}
