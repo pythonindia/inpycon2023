@@ -48,6 +48,12 @@ export default function Header() {
     }
   ]
 
+
+  const handleNavToggle = (indexValue) => {
+    setNavBarToggle(false)
+    setActiveNavBarItem(indexValue)
+  }
+
   return (
     <header className="bg-header sticky-top">
       <div className="container p-0">
@@ -89,10 +95,11 @@ export default function Header() {
                         <Link
                           href={item.href}
                           target={item.openInNewTab ? "_blank" : "_self"}
-                          onClick={() => setNavBarToggle(false)}
+                          onClick={() => handleNavToggle(index)}
                         >
-                          <span className={"nav-link" + (index == activeNavBarItem ? " active" : "")}>
-                            {item.name}</span>
+                          <span className={"nav-link" + (index === activeNavBarItem ? " active" : "")}>
+                            {item.name}
+                          </span>
                         </Link>
                       </li>
                     ))}
