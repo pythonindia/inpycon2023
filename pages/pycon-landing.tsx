@@ -41,39 +41,42 @@ export default function PyConIndiaWeb() {
       <JourneyComponent />
       {/* journery section ended */}
       {/* speakers section started */}
-      {/* <KeynoteComponent /> */}
+      <KeynoteComponent />
       {/* speakers section ended */}
       {/* conference section started */}
-      {/* <ConferenceSchedule /> */}
+      <ConferenceSchedule />
       {/* conference section ended*/}
       {/* registrations section started */}
       <RegistrationSection />
       {/* registrations section ended */}
       {/* pricetabe section started */}
-      {/* <PriceTableSection /> */}
+      <PriceTableSection />
       {/* pricetabe section ended */}
       {/* event sponsor section started */}
       <SponsorComponent />
       {/* event sponsor section ended */}
       {/* latest event section started */}
-      {/* <section class="bg-latest">
-      <div class="container">
-        <div class="row pt-5 pb-5">
-          <div class="col-md-12">
-            <h2 class="com-head">Latest Updates</h2>
-          </div> */}
-      {/* <div class="col-md-6">
-            <iframe style="border:none;" data-tweet-url="https://twitter.com/pyconindia" src="data:text/html;charset=utf-8,%3Ca%20class%3D%22twitter-timeline%22%20href%3D%22https%3A//twitter.com/pyconindia%3Fref_src%3Dtwsrc%255Etfw%22%3ETweets%20by%20pyconindia%3C/a%3E%0A%3Cscript%20async%20src%3D%22https%3A//platform.twitter.com/widgets.js%22%20charset%3D%22utf-8%22%3E%3C/script%3E%0A"></iframe>
+      <section className="bg-latest">
+      <div className="container">
+        <div className="row pt-5 pb-5">
+          <div className="col-md-12">
+            <h2 className="com-head">Latest Updates</h2>
           </div>
-          <div class="col-md-6">
-            <iframe src="https://www.instagram.com/__pyconindia__/?hl=enembed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
-          </div> */}
-      {/* </div>
+      <div className="col-md-6">
+      <iframe
+      style={{ border: 'none' }}
+      data-tweet-url="https://twitter.com/pyconindia"
+      src="data:text/html;charset=utf-8,%3Ca%20class%3D%22twitter-timeline%22%20href%3D%22https%3A//twitter.com/pyconindia%3Fref_src%3Dtwsrc%255Etfw%22%3ETweets%20by%20pyconindia%3C/a%3E%0A%3Cscript%20async%20src%3D%22https%3A//platform.twitter.com/widgets.js%22%20charset%3D%22utf-8%22%3E%3C/script%3E%0A"
+    ></iframe>          </div>
+          <div className="col-md-6">
+            <iframe src="https://www.instagram.com/__pyconindia__/?hl=enembed" width="400" height="480" frameBorder="0" scrolling="no" allowtransparency="true"></iframe>
+          </div>
       </div>
-    </section> */}
+      </div>
+    </section>
       {/* latest event section ended */}
       {/* subscribe section started */}
-      {/* <SubscribeSection /> */}
+      <SubscribeSection />
       {/* subscribe section ended */}
       {/* conferecne hall section started */}
       <ConventionCenterSection />

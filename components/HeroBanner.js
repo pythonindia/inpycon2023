@@ -11,34 +11,24 @@ const HeroBanner = () => {
     <section className="bg-banner">
       <div className="bg-banner-overlay">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-6 hero-container pt-4 pb-4">
-              <div className="d-none d-md-block">
+          <div className="row pt-5">
+            <div className="col-lg-6 pb-5">
+              <div className="d-none d-md-block text-center text-lg-start">
                 <a href="#">
                   <Image src={logo} width="100%" height="100%" alt="" />
                 </a>
               </div>
-              <p className="pt-3 text-center text-md-start">
+              <p className="pt-3 text-center text-lg-start">
               PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential.
               Stay tuned for updates!
               </p>
-              <div className="row register-btn">
-                <div className="col-md-5 col-8 pt-3">
-                  <Button
-                    buttonClassName="green-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Buy Tickets"
-                    buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
-                  />
-                </div>
-                <div className="col-md-5 col-8 pt-3">
-                  <Button
-                    buttonClassName="submit-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none"
-                    buttonLabel="Call For Proposal"
-                    buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-                  />
-                </div>
+              <div className="register-btn pt-4 pb-4">
+                  <button class="green-btn">
+                    <a href="https://konfhub.com/pyconindia2023#tickets" class="text-decoration-none text-light">Buy Tickets</a>
+                  </button>
+                  <button class="submit-btn">
+                    <a href="https://in.pycon.org/cfp/pycon-india-2023/proposals/" class="text-decoration-none">Call For Proposal</a>
+                  </button>
               </div>
               <h2 className="pt-5 mb-4 date-text">
                 29 Sept - 02 Oct
@@ -60,6 +50,16 @@ const HeroBanner = () => {
                   </div>
                 ))}
               </div>
+            </div>
+            <div class="col-lg-6 position-relative anim-sec">
+              <div class="layer-1 animate glow delay-1"></div>
+              <div class="layer-2 animate__animated animate__bounceInDown animate__delay-1s"></div>
+              <div class="layer-3 animate glow delay-2"></div>
+              <div class="layer-4 animate glow delay-3"></div>
+              <div class="layer-5 animate glow delay-4"></div>
+              <div class="layer-6 animate glow delay-5"></div>
+              <div class="layer-7 "></div>
+              <div class="layer-8 animate glow delay-6"></div>
             </div>
           </div>
         </div>
