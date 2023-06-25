@@ -15,7 +15,11 @@ const ConferenceSchedule = () => {
       <div className="container pb-3">
         <div className="row pt-5 pb-5">
           <div className="col-md-12">
-            <h2 className="com-head">
+            <h2
+              className="com-head"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               Conference Schedule{" "}
               <img src="/2023/images/icons/sandwatch.png" alt="" className="img-fluid" />
             </h2>
@@ -28,10 +32,15 @@ const ConferenceSchedule = () => {
                 <li className="nav-item" role="presentation" key={index}>
                   <button
                     className={`nav-link ${
-                      index === selectedTab ? "active" : ""
+                      index === selectedTab ? "active" : "nav-link-inactive"
                     }`}
                     id={`pills-tab-${index}`}
+                    data-bs-toggle="pill"
+                    data-bs-target={`#pills-${index}`}
                     type="button"
+                    role="tab"
+                    aria-controls={`pills-${index}`}
+                    aria-selected={index === 0}
                     onClick={() => handleTabClick(index)}
                   >
                     <span className="date-acc">{item.date}</span>
@@ -46,6 +55,7 @@ const ConferenceSchedule = () => {
                 className="tab-pane fade show active"
                 id="pills-home"
                 role="tabpanel"
+                aria-labelledby="pills-home-tab"
               >
                 {currentSchedule.schedule.map((scheduleItem, idx) => (
                   <div

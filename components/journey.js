@@ -33,7 +33,7 @@ const JourneyComponent = () => {
       <div className="container">
         <div className="row pt-5">
           <div className="col-md-12 pt-3 pb-5">
-            <h2 className="com-head">Journey</h2>
+            <h2 className="com-head" data-aos="fade-down" data-aos-duration="1000">Journey</h2>
           </div>
           <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
             {JourneyData.map((journey, index) => (
@@ -76,7 +76,7 @@ const JourneyComponent = () => {
             ))}
           </Carousel>
         </div>{" "}
-         
+
       </div>
       <div className="container-fluid p-0">
         <div className="pt-5">

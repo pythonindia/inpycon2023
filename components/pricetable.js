@@ -31,13 +31,13 @@ const TicketsPriceTable = () => {
 
   return (
     <section className="bg-pricetable home-section">
-      <div className="container-fluid">
-        <div className="row pt-5 pb-5">
-          <h2 className="com-head text-white text-center pb-5">Tickets</h2>
+      <div className="">
+        <div className="row pt-5 pb-5" style={{justifyContent: 'center'}}>
+          <h2 className="com-head text-white text-center pb-5" data-aos="fade-down" data-aos-duration="1000">Tickets</h2>
           {tickets.map((ticket) => (
             <div key={ticket.id} className="ticket-wrap row">
               <div className="col-md-5 col-sm-8 col-xs-12 px-5">
-                <h4 className="ticket-tag">{ticket.name}</h4>
+                <h3 className="ticket-tag">{ticket.name}</h3>
                 <Paragraph
                   text={ticket.description}
                   isHtml={true}
@@ -46,7 +46,7 @@ const TicketsPriceTable = () => {
               <div className="ticket-price col-md-3 col-sm-4 col-xs-12 px-5">
                 <h4 className="ticket-tag">{ticket.price} INR</h4>
               </div>
-              <div className="ticket-buy col-md-4 col-sm-12 col-xs-12 px-5 pt-1">
+              <div className="ticket-buy col-md-4 col-sm-12 col-xs-12 px-5">
                 {ticket.soldOut ?
                   <Button
                     buttonClassName="custom-button grey-btn register-btn-extra-padding w-100"
@@ -56,7 +56,7 @@ const TicketsPriceTable = () => {
                     disabled={true}
                   /> :
                   <Button
-                    buttonClassName="custom-button green-btn register-btn-extra-padding w-100"
+                    buttonClassName="custom-button submit-btn register-btn-extra-padding w-100"
                     anchorClassName="text-decoration-none text-light"
                     buttonLabel="Buy Tickets"
                     buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
