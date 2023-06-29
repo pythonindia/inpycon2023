@@ -22,6 +22,11 @@ export default function Header() {
       openInNewTab: false,
     },
     {
+      name: "Keynotes",
+      href: "/#keynote",
+      openInNewTab: false,
+    },
+    {
       name: "Attend",
       href: "/#attend",
       openInNewTab: false,
@@ -96,9 +101,6 @@ export default function Header() {
                         </Link>
                       </li>
                     ))}
-                    {/* <li className="nav-item">
-                      <Link href="/#keynote"><span className="nav-link">Keynotes</span></Link>
-                    </li> */}
                     {/* <li className="nav-item">
                       <Link href="/#schedule"><span className="nav-link">Schedule</span></Link>
                     </li> */}
