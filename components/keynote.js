@@ -19,17 +19,15 @@ const KeynoteComponent = () => {
         <div className="container">
           <div className="row top-up">
             {KeynoteData.map((speaker, index) => (
-              <div key={index} className="col-md-6">
+              <div key={index} className="col-md-12 col-lg-6">
                 <div className="bg-speakerbox bg-white p-3 p-md-5 mb-3 mb-md-5">
                   <div className="row align-items-center">
                     <div className="col-md-5 col-5">
-                      <img src={speaker.image} alt="" className="img-fluid" />
+                      <img src={speaker.profilePicture} alt={speaker.fullName} className="speaker-image" />
                     </div>
                     <div className="col-md-7 col-7">
-                      <div className="speaker-boxcontent">
-                        <h4>{speaker.name}</h4>
-                        <p>{speaker.role}</p>
-                      </div>
+                      <h4>{speaker.fullName}</h4>
+                      <p>{speaker.title}</p>
                     </div>
                   </div>
                 </div>
