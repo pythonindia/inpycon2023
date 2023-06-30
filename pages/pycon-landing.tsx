@@ -13,23 +13,6 @@ import ConferenceSchedule from "../components/schedule";
 export default function PyConIndiaWeb() {
   return (
     <div>
-      <meta charSet="utf-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta
-        name="keywords"
-        itemProp="keywords"
-        content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn"
-      />
-      <meta
-        name="keywords"
-        itemProp="description"
-        content="The premier conference in India on using and developing the python programming language"
-      />
-      <meta name="robots" content="index, follow" />
       <title>PyCon India Hyderabad, 2023</title>
       <Header />
       <HeroBanner />

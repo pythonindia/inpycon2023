@@ -10,7 +10,7 @@ const KeynoteComponent = () => {
               <h2 className="com-head">Keynote Speakers</h2>
             </div>
             <div className="col-md-4 col-5 mikeimg">
-              <img src="images/mike.png" className="img-fluid" alt="" />
+              <img src="/2023/images/mike.png" className="img-fluid" alt="" />
             </div>
           </div>
         </div>
