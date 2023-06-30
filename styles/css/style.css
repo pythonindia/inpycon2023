@@ -191,6 +191,11 @@ border-radius: 50px!important;
 .bg-journey p{
   font-size:14px!important;
 }
+.speaker-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
 .bg-speakers {
 	background: #eac124 url("/2023/images/shadow-yel.png");
 	height: 421px;

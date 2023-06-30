@@ -41,7 +41,7 @@ export default function PyConIndiaWeb() {
       <JourneyComponent />
       {/* journery section ended */}
       {/* speakers section started */}
-      {/* <KeynoteComponent /> */}
+      <KeynoteComponent />
       {/* speakers section ended */}
       {/* conference section started */}
       {/* <ConferenceSchedule /> */}

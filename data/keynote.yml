@@ -1,12 +1,8 @@
-- name: Ines Montani
-  role: Founder Explosion/Spacy Core Developer
-  image: images/speaker1.png
-- name: Jake Vanderplas
-  role: Astronomer By Training; Author Of Python Data Science Handbook; Developer At Google
-  image: images/speaker3.png
-- name: David Beazley
-  role: Author Of The Python Essential Reference And Python Cookbook
-  image: images/speaker2.png
-- name: Devi A S l
-  role: Staff Engineer, Razorpay
-  image: images/speaker4.png
+- fullName: Jessica Greene
+  title: Software Engineer at Ecosia
+  profilePicture: images/keynote-speakers/jessica-greene.jpg
+  about: Jessica Greene is a self-taught slash community-taught Software Engineer, with a diverse background that includes film, television, and specialty coffee roasting. In 2017, she made the pivotal decision to retrain and add programming to her skill set, leading her to join the team at Ecosia in 2018. In her role, she leverages her Python and Golang skills to build and operate APIs, perform data analysis, and develop features that inspire users to make more climate-focused choices, thereby contributing to Ecosia's mission of global tree planting and a better planet. Passionate about fostering diversity and inclusivity in tech, Jessica has been co-organizing PyLadies Berlin since 2018. She orchestrates events, workshops, and talks, and provides mentorship to other programmers. Recently, she joined the Python Software Foundation's Code of Conduct Work Group to further support the global community. When she's not coding or at community events, Jessica enjoys reading, building Lego kits, knitting, dog-sitting, and exploring new aspects of software engineering.
+- fullName: Marcelo Trylesinski
+  title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
+  profilePicture: images/keynote-speakers/marcelo-trylesinski.jpg
+  about: Marcelo is an open-source developer who has made significant contributions to the FastAPI community. He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server that powers FastAPI applications. His invaluable contributions led to his hiring as a senior software engineer by Pydantic, a widely used library for data validation and serialization. Apart from software development, Marcelo enjoys fitness, soccer, dancing, and photography. He's a well-rounded individual who's always eager to learn and grow.
