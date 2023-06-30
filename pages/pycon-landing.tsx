@@ -31,30 +31,14 @@ export default function PyConIndiaWeb() {
       />
       <meta name="robots" content="index, follow" />
       <title>PyCon India Hyderabad, 2023</title>
-      {/* header section started */}
       <Header />
-      {/* header section ended */}
-      {/* banner section started */}
       <HeroBanner />
-      {/* banner section ended */}
-      {/* journery section started */}
       <JourneyComponent />
-      {/* journery section ended */}
-      {/* speakers section started */}
       <KeynoteComponent />
-      {/* speakers section ended */}
-      {/* conference section started */}
       {/* <ConferenceSchedule /> */}
-      {/* conference section ended*/}
-      {/* registrations section started */}
       <RegistrationSection />
-      {/* registrations section ended */}
-      {/* pricetabe section started */}
       {/* <PriceTableSection /> */}
-      {/* pricetabe section ended */}
-      {/* event sponsor section started */}
       <SponsorComponent />
-      {/* event sponsor section ended */}
       {/* latest event section started */}
       {/* <section class="bg-latest">
       <div class="container">
@@ -75,9 +59,7 @@ export default function PyConIndiaWeb() {
       {/* subscribe section started */}
       {/* <SubscribeSection /> */}
       {/* subscribe section ended */}
-      {/* conferecne hall section started */}
       <ConventionCenterSection />
-      {/* conferecne hall section ended */}
       <Footer />
       {/* bootstrap */}
       {/* animation */}

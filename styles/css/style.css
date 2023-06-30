@@ -8,6 +8,10 @@
 
 @import "./misc.css";
 
+:root {
+  --header-height: 80px;
+}
+
 html,body,h1,h2,h3,h4,h5,h6,p,div,a,span {
 	font-family: 'Instrument Sans', sans-serif !important;
   color: #000;
@@ -31,6 +35,11 @@ header .nav-link{
   position:relative;
   font-weight: 500!important;
 }
+
+.home-section {
+  scroll-margin-top: var(--header-height);
+}
+
 .navbar-nav .nav-link {
   text-decoration: none !important;
 }
@@ -65,7 +74,7 @@ button a{
 .bg-banner{
   background:url("/2023/images/bg-header-dot.png")repeat;
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--header-height));
 }
 .bg-banner-overlay{
   background:url("/2023/images/bg-bannerimg.png")no-repeat!important;
