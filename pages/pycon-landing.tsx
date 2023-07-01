@@ -13,7 +13,6 @@ import ConferenceSchedule from "../components/schedule";
 export default function PyConIndiaWeb() {
   return (
     <div>
-      <title>PyCon India Hyderabad, 2023</title>
       <Header />
       <HeroBanner />
       <JourneyComponent />

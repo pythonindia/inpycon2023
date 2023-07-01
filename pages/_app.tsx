@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/favicon.ico" />
-        <title>PyCon India 2023</title>
+        <title>PyCon India 2023, Hyderabad</title>
       </Head> 
       <Component {...pageProps} />
     </>
