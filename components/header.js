@@ -2,9 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 import logo from "../public/images/logo.png";
 
 export default function Header() {
@@ -19,6 +16,11 @@ export default function Header() {
     {
       name: "Journey",
       href: "/#journey",
+      openInNewTab: false,
+    },
+    {
+      name: "Keynotes",
+      href: "/#keynote",
       openInNewTab: false,
     },
     {
@@ -77,7 +79,7 @@ export default function Header() {
                   aria-label="Toggle navigation"
                   onClick={() => setNavBarToggle((prv) => (!prv))}
                 >
-                  <FontAwesomeIcon icon={faBars} />
+                  <Image height={32} width={32} src='/2023/images/menu.svg' alt="Menu" />
                 </button>
                 <div
                   className={"navbar-collapse" + (navBarToggle ? "" : " collapse")}
@@ -96,9 +98,6 @@ export default function Header() {
                         </Link>
                       </li>
                     ))}
-                    {/* <li className="nav-item">
-                      <Link href="/#keynote"><span className="nav-link">Keynotes</span></Link>
-                    </li> */}
                     {/* <li className="nav-item">
                       <Link href="/#schedule"><span className="nav-link">Schedule</span></Link>
                     </li> */}

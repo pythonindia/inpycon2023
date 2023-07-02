@@ -12,7 +12,7 @@ const RegistrationSection = () => {
   };
 
   return (
-    <section className="bg-reg">
+    <section className="bg-reg home-section" id="attend">
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-6 text-white">

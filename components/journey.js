@@ -29,7 +29,7 @@ const JourneyComponent = () => {
   }, []);
 
   return (
-    <section className="bg-journey" id="journey">
+    <section className="bg-journey home-section" id="journey">
       <div className="container">
         <div className="row pt-5">
           <div className="col-md-12 pt-3 pb-5">

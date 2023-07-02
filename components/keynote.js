@@ -3,7 +3,7 @@ import KeynoteData from "../data/keynote.yml";
 const KeynoteComponent = () => {
   return (
     <>
-      <section className="bg-speakers" id="keynote">
+      <section className="bg-speakers home-section" id="keynote">
         <div className="container">
           <div className="row pt-md-5 pb-5 align-items-center align-items-md-start">
             <div className="col-md-8 col-7 pt-5">

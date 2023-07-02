@@ -9,6 +9,10 @@
 
 @import "./misc.css";
 
+:root {
+  --header-height: 80px;
+}
+
 html,
 body,
 h1,
@@ -43,6 +47,11 @@ header .nav-link {
   position: relative;
   font-weight: 500 !important;
 }
+
+.home-section {
+  scroll-margin-top: var(--header-height);
+}
+
 .navbar-nav .nav-link {
   text-decoration: none !important;
 }
@@ -77,7 +86,7 @@ button a {
 .bg-banner {
   background: url("/2023/images/bg-header-dot.png") repeat;
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--header-height));
 }
 
 .layer-1 {
@@ -343,8 +352,13 @@ button a {
 .bg-journey h2 {
   font-size: 30px !important;
 }
-.bg-journey p {
+.bg-journey p{
   font-size: 14px !important;
+}
+.speaker-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 .bg-speakers {
   background: #eac124 url("/2023/images/shadow-yel.png");

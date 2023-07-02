@@ -11,7 +11,7 @@ const ConferenceSchedule = () => {
   const currentSchedule = ScheduleData[selectedTab];
 
   return (
-    <section className="bg-conference" id="schedule">
+    <section className="bg-conference home-section" id="schedule">
       <div className="container pb-3">
         <div className="row pt-5 pb-5">
           <div className="col-md-12">

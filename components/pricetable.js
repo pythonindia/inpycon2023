@@ -2,7 +2,7 @@ import PriceTableData from "../data/pricetable.yml";
 
 const PriceTableSection = () => {
   return (
-    <section className="bg-pricetable">
+    <section className="bg-pricetable home-section">
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 pb-5 text-center">
