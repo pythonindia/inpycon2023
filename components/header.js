@@ -1,9 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
+import ActiveLink from './ActiveLink'
 import logo from "../public/images/logo.png";
-
 export default function Header() {
   const [activeNavBarItem, setActiveNavBarItem] = useState(0);
   const [navBarToggle, setNavBarToggle] = useState(false);
@@ -88,16 +87,15 @@ export default function Header() {
                   <ul className="navbar-nav">
                     {navBarItems.map((item, index) => (
                       <li key={index} className="nav-item">
-                        <Link
-                          href={item.href}
+                        
+                          <ActiveLink activeClassName="active" href={item.href}
                           target={item.openInNewTab ? "_blank" : "_self"}
-                          onClick={() => setNavBarToggle(false)}
-                        >
-                          <span className={"nav-link" + (index == activeNavBarItem ? " active" : "")}>
-                            {item.name}</span>
-                        </Link>
+                          onClick={() => setNavBarToggle(false)}>
+                             <span className="nav-link">{item.name}</span>
+                          </ActiveLink>
                       </li>
                     ))}
+                    
                     {/* <li className="nav-item">
                       <Link href="/#schedule"><span className="nav-link">Schedule</span></Link>
                     </li> */}
