@@ -4,8 +4,8 @@
 @import "./aos.css";
 @import "./font-awesome-min.css";
 @import "./animate.css";
-/* @import "./owl.carousel.css"; */
-/* @import "./owl.theme.default.min.css"; */
+@import "./owl.carousel.css";
+@import "./owl.theme.default.min.css";
 
 @import "./misc.css";
 
@@ -462,35 +462,46 @@ margin-left:10px!important;
 }
 
 .image-container {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   max-width: 80%;
   max-height: 80%;
 }
+.ticket-card-top{
+  background:url("/2023/images/ticket-top.png")no-repeat;
+  height:298px!important;
+  background-position: center!important;
+}
+.ticket-card-btm:hover{
+  background:url("/2023/images/ticket-endhover.png")no-repeat;
+}
+.ticket-card-top h5{
+  font-size:25px!important;
+}
+.ticketrate{
+  font-weight:700;
+  font-size:32px!important;
+}
+.ticketsub{
+  font-weight:400;
+  font-size: 16px!important;
+}
+.ticket-card-btm{
+  background:url("/2023/images/ticket-end.png")no-repeat;
+  height:177px!important;
+  background-position: center!important;
+  cursor: pointer;
+}
+.ticket-end{
+  margin-top: -1px;
+color: #1b726f;
+font-weight: 700;
+font-size: 30px;
+cursor: pointer !important;
+padding-top: 20%;
+text-align: center;
+}
 
-.ticket-card {
-  background: url("/2023/images/tickets.png") no-repeat;
-  height: 475px !important;
-  background-position: center !important;
-}
-.ticket-card h5 {
-  font-size: 25px !important;
-}
-.ticketrate {
-  font-weight: 700;
-  font-size: 32px !important;
-}
-.ticketsub {
-  font-weight: 400;
-  font-size: 16px !important;
-}
-.ticket-end {
-  margin-top: 40%;
-  color: #edc939;
-  font-weight: 700;
-  font-size: 30px;
-  text-decoration: underline;
-}
 .sponsortitle {
   background: #eabe0b !important;
   padding: 20px 30px !important;

@@ -6,16 +6,27 @@ const PriceTableSection = () => {
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 pb-5 text-center">
-            <h2 className="com-head text-white pb-5">Tickets Price-table</h2>
+            <h2
+              class="com-head text-white pb-md-5"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Tickets Price-table
+            </h2>
           </div>
           {PriceTableData.map((item, index) => (
-            <div className="col-md-4 mb-3" key={index}>
-              <div className="ticket-card mb-md-0 mb-3 text-center pt-5">
-                <h5 className="tickethead pt-2">{item.title}</h5>
-                <p className="ticketrate pt-3 mb-0">{item.price}</p>
-                <p className="ticketsub">(Gst Applicable)</p>
-                <p className="pt-3 ticketsub">{item.description}</p>
-                <div className="ticket-end">BUY NOW</div>
+            <div class="col-md-4 mb-md-0 mb-3" key={index}>
+              <div class="ticket-card-top  text-center pt-5">
+                <h5 class="tickethead pt-2">{item.title}</h5>
+                <p class="ticketrate pt-3 mb-0">{item.price}</p>
+                <p class="ticketsub"> (Gst Applicable)</p>
+                <p class="pt-3 ticketsub">{item.description}</p>
+              </div>
+              <div class="ticket-card-btm">
+                <a href="" class="text-decoration-none">
+                  <div></div>
+                  <div class="ticket-end">BUY NOW</div>
+                </a>
               </div>
             </div>
           ))}

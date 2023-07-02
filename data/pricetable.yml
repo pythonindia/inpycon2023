@@ -1,9 +1,20 @@
 - title: Early Bird Ticket
-  price: INR 2000
-  description: Conference ticket for 29 sept - 02 Oct
+  price: ₹ 1200
+  description: Early bird ticket, which gives you access to PyCon India 2023 Conference days which includes food and goodies. The ticket is applicable for 30th Sep & 1st Oct.
+  available_till: 23rd Jun, 2023 | 06:00 PM IST
+  is_active: false 
 - title: Regular Ticket
-  price: INR 3000
-  description: Conference ticket for 29 sept - 02 Oct
-- title: Late Bird Ticket
-  price: INR 5000
-  description: Conference ticket for 29 sept - 02 Oct
+  price: ₹ 1500
+  description: Regular ticket, which gives you access to PyCon India 2023 Conference days which includes food and goodies. The ticket is applicable for 30th Sep & 1st Oct.
+  available_till: 25th Sep, 2023 | 06:00 PM IST
+  is_active: true
+- title: Combo Ticket
+  price: ₹ 2300
+  description: Combo ticket, which gives you access to PyCon India 2023 Workshops + Conference days which includes food and goodies. The ticket is applicable for 29th, 30th Sep & 1st Oct. Please note, there will be no goodies distributred on Workshop Day (29th Sep). Also, you'll be requested to choose a workshop you'd like to attend from both morning and afternoon track before the workshop day via a Google form (mandatory) for capacity planning
+  available_till: 25th Sep, 2023 | 06:00 PM IST
+  is_active: true
+- title: Workshop Ticket
+  price: ₹ 2300
+  description: Workshop ticket, which gives you access to PyCon India 2023 Workshops. The ticket is applicable for 29th Sep. Please note, there will be no goodies distributred on Workshop Day (29th Sep). Also, you'll be requested to choose a workshop you'd like to attend from both morning and afternoon track before the workshop day via a Google form (mandatory) for capacity planning.
+  available_till: 25th Sep, 2023 | 06:00 PM IST
+  is_active: true

@@ -27,10 +27,12 @@
     "js-yaml-loader": "^1.2.2",
     "next": "13.2.4",
     "next-yaml": "^1.0.1",
+    "owl.carousel": "^2.3.4",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.7",
+    "react-owl-carousel": "^2.3.3",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
   },
