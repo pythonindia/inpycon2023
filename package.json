@@ -5,11 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "mv out/index.html out/2023/ && mv _redirects out/",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "postexport": "mv out/index.html out/2023/",
-    "postbuild": "npm run export && npm run postexport"
+    "export": "next export"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
