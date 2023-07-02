@@ -3,7 +3,7 @@ import SponsorData from "../data/sponsor.yml";
 
 const SponsorComponent = () => {
   return (
-    <section className="bg-event" id="sponsors">
+    <section className="bg-event home-section" id="sponsors">
       <div className="container pt-4">
         <div className="row justify-content-center align-items-center pt-5 pb-md-5">
           <div className="col-md-12">

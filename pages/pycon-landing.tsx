@@ -13,48 +13,14 @@ import ConferenceSchedule from "../components/schedule";
 export default function PyConIndiaWeb() {
   return (
     <div>
-      <meta charSet="utf-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-      />
-      <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-      <meta
-        name="keywords"
-        itemProp="keywords"
-        content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn"
-      />
-      <meta
-        name="keywords"
-        itemProp="description"
-        content="The premier conference in India on using and developing the python programming language"
-      />
-      <meta name="robots" content="index, follow" />
-      <title>PyCon India Hyderabad, 2023</title>
-      {/* header section started */}
       <Header />
-      {/* header section ended */}
-      {/* banner section started */}
       <HeroBanner />
-      {/* banner section ended */}
-      {/* journery section started */}
       <JourneyComponent />
-      {/* journery section ended */}
-      {/* speakers section started */}
       <KeynoteComponent />
-      {/* speakers section ended */}
-      {/* conference section started */}
       {/* <ConferenceSchedule /> */}
-      {/* conference section ended*/}
-      {/* registrations section started */}
       <RegistrationSection />
-      {/* registrations section ended */}
-      {/* pricetabe section started */}
       {/* <PriceTableSection /> */}
-      {/* pricetabe section ended */}
-      {/* event sponsor section started */}
       <SponsorComponent />
-      {/* event sponsor section ended */}
       {/* latest event section started */}
       {/* <section class="bg-latest">
       <div class="container">
@@ -75,9 +41,7 @@ export default function PyConIndiaWeb() {
       {/* subscribe section started */}
       {/* <SubscribeSection /> */}
       {/* subscribe section ended */}
-      {/* conferecne hall section started */}
       <ConventionCenterSection />
-      {/* conferecne hall section ended */}
       <Footer />
       {/* bootstrap */}
       {/* animation */}

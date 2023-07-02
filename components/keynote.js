@@ -3,14 +3,14 @@ import KeynoteData from "../data/keynote.yml";
 const KeynoteComponent = () => {
   return (
     <>
-      <section className="bg-speakers" id="keynote">
+      <section className="bg-speakers home-section" id="keynote">
         <div className="container">
           <div className="row pt-md-5 pb-5 align-items-center align-items-md-start">
             <div className="col-md-8 col-7 pt-5">
               <h2 className="com-head">Keynote Speakers</h2>
             </div>
             <div className="col-md-4 col-5 mikeimg">
-              <img src="images/mike.png" className="img-fluid" alt="" />
+              <img src="/2023/images/mike.png" className="img-fluid" alt="" />
             </div>
           </div>
         </div>

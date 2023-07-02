@@ -1,6 +1,6 @@
 const SubscribeSection = () => {
   return (
-    <section className="bg-subscribe">
+    <section className="bg-subscribe home-section">
       <div className="container">
         <div className="row pt-md-5 pb-5 align-items-end d-flex">
           <div className="col-md-6">
