@@ -8,7 +8,7 @@ import calendarData from "../data/calendar.yml";
 
 const HeroBanner = () => {
   return (
-    <section id="hero" className="bg-banner home-section">
+    <section className="bg-banner home-section" id="hero" >
       <div className="bg-banner-overlay">
         <div className="container">
           <div className="row align-items-center">

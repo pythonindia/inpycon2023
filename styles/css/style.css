@@ -51,6 +51,7 @@ header .navbar-expand-lg .navbar-nav .nav-link {
   padding: 20px 30px 20px 30px!important;
 }
 header .nav-link.active::before{
+  
   position: absolute;
   content: '';
   bottom: -10px;
@@ -58,7 +59,14 @@ header .nav-link.active::before{
   left: 0;
   right: 0;
 }
-
+/* .active{
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    border-bottom: 3px solid #e8bf24;
+    left: 0;
+    right: 0;
+} */
 .navbar-brand {
   display: flex;
   align-items: center;

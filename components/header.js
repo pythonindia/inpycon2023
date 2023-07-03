@@ -1,16 +1,17 @@
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+//import { useState } from "react";
+import { useState, useEffect } from 'react';
 import ActiveLink from "./ActiveLink.js"
 import logo from "../public/images/logo.png";
-
 export default function Header() {
+  
+
   const [activeNavBarItem, setActiveNavBarItem] = useState(0);
   const [navBarToggle, setNavBarToggle] = useState(false);
   const navBarItems = [
     {
       name: "Home",
-      href: "/",
+      href: "/#hero",
       openInNewTab: false,
     },
     {
@@ -23,6 +24,7 @@ export default function Header() {
       href: "/#keynote",
       openInNewTab: false,
     },
+    
     {
       name: "Attend",
       href: "/#attend",
@@ -81,22 +83,23 @@ export default function Header() {
                 >
                   <Image height={32} width={32} src='/2023/images/menu.svg' alt="Menu" />
                 </button>
-                <div
+                <nav
                   className={"navbar-collapse" + (navBarToggle ? "" : " collapse")}
                   id="navbarNavDropdown"
                 >
                   <ul className="navbar-nav">
-                    {navBarItems.map((item, index) => (
+                  {navBarItems.map((item, index) => (
                       <li key={index} className="nav-item">
-                        <ActiveLink activeClassName="active" href={item.href}
+                        <ActiveLink  href={item.href}
                           target={item.openInNewTab ? "_blank" : "_self"}
                           onClick={() => setNavBarToggle(false)}>
-                             <span className="nav-link">{item.name}</span>
+                             {item.name}
                           </ActiveLink>
                       </li>
                     ))}
+                  
                   </ul>
-                </div>
+                </nav>
               </div>
             </div>
           </div>
