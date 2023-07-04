@@ -35,8 +35,8 @@ const NotFoundPage = () => {
       <Head>
         <title>404 - Page Not Found</title>
       </Head>
-      <div className="container mt-5">
-        <h2 className="com-head text-center">Oops!</h2>
+      <div className="bg-404">
+        <h2 className="com-head text-center pt-5">Oops!</h2>
         <h3 className="date-text text-center">
           We couldn&rsquo;t find the page you were looking for.
         </h3>

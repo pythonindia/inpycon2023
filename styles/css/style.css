@@ -391,6 +391,11 @@ padding:0 10px 0 0 !important;
   width: 400px;
   margin: 0 auto;
 }
+.bg-404 {
+  background-color: #f2eee2;
+  width: 100vw;
+  height: 100vh;
+}
 @media(max-width:768px){
   .headerlogo{
     width: 70%!important;
