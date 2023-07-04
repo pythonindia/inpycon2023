@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect, useRef } from "react";
 
@@ -30,28 +31,33 @@ const NotFoundPage = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <h2 className="com-head text-center">Oops!</h2>
-      <h3 className="date-text text-center">
-        We couldn&rsquo;t find the page you were looking for.
-      </h3>
-      <div className="animation-container" ref={animationContainer} />
-      <div className="d-flex justify-content-center">
-        <Button
-          buttonClassName="green-btn register-btn-extra-padding m-2"
-          anchorClassName="text-decoration-none text-light"
-          buttonLabel="Go Back"
-          onClickEvent={goBack}
-        />
-        <Button
-          buttonClassName="submit-btn register-btn-extra-padding m-2"
-          anchorClassName="text-decoration-none"
-          buttonLabel="Go to Home"
-          openInNewTab={false}
-          buttonHyperLink="/2023/"
-        />
+    <>
+      <Head>
+        <title>404 - Page Not Found</title>
+      </Head>
+      <div className="container mt-5">
+        <h2 className="com-head text-center">Oops!</h2>
+        <h3 className="date-text text-center">
+          We couldn&rsquo;t find the page you were looking for.
+        </h3>
+        <div className="animation-container" ref={animationContainer} />
+        <div className="d-flex justify-content-center">
+          <Button
+            buttonClassName="green-btn register-btn-extra-padding m-2"
+            anchorClassName="text-decoration-none text-light"
+            buttonLabel="Go Back"
+            onClickEvent={goBack}
+          />
+          <Button
+            buttonClassName="submit-btn register-btn-extra-padding m-2"
+            anchorClassName="text-decoration-none"
+            buttonLabel="Go to Home"
+            openInNewTab={false}
+            buttonHyperLink="/2023/"
+          />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
