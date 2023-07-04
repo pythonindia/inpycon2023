@@ -1,33 +1,27 @@
 import React from "react";
 
 const Button = (props) => {
-  let buttonClassName = props.buttonClassName;
-  let anchorClassName = props.anchorClassName;
-  let buttonLabel = props.buttonLabel;
-  let buttonHyperLink = props.buttonHyperLink;
-  let disabled = props.disabled;
-
   return (
-    <>
-      <a
-        href={buttonHyperLink}
-        target="_blank" className={anchorClassName}
-        style={{ pointerEvents: props.disabled ? "none" : "auto" }}
+    <a
+      href={props.buttonHyperLink}
+      target={props.openInNewTab ? "_blank" : "_self"}
+      className={props.anchorClassName}
+      style={{ pointerEvents: props.disabled ? "none" : "auto" }}
+      onClick={props.onClickEvent}
+    >
+      <button
+        className={props.buttonClassName}
+        disabled={props.disabled}
       >
-        <button
-          className={buttonClassName}
-          disabled={disabled}
-
-        >
-          {buttonLabel}
-        </button>
-      </a>
-    </>
+        {props.buttonLabel}
+      </button>
+    </a>
   );
 };
 
 Button.defaultProps = {
   disabled: false,
+  openInNewTab: true
 };
 
 export default Button;

@@ -386,7 +386,11 @@ width: 90%;
 border: unset !important;
 padding:0 10px 0 0 !important;
 }
-
+.animation-container {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
 @media(max-width:768px){
   .headerlogo{
     width: 70%!important;
