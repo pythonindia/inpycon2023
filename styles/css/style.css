@@ -393,6 +393,7 @@ padding:0 10px 0 0 !important;
 }
 .bg-404 {
   background-color: #f2eee2;
+  background-image: url("/2023/images/bg-header-dot.png");
   width: 100vw;
   height: 100vh;
 }
