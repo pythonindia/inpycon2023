@@ -38,11 +38,8 @@ const SpeakerPage = () => {
       <section id="speaker">
         <div className="container">
           <div className="row pt-5">
-            <div className="col-md-12 pt-3 pb-5">
-              <h2 className="com-head">{speaker.fullName}</h2>
-            </div>
             <div className="col-md-5">
-              <div className="s1-image">
+              <div className="s1-image pt-5">
                 <img
                   src={speaker.profilePicture}
                   className="img-fluid w-75 "
@@ -51,10 +48,13 @@ const SpeakerPage = () => {
               </div>
             </div>
             <div className="col-md-7">
+              <div className="col-md-12 pt-3 pb-5">
+              <h2 className="com-head">{speaker.fullName}</h2>
+            </div>
               <div className="s1-text p-2">
                 <h2 className="mb-3">About the Speaker</h2>
                 <p>{speaker.title}</p>
-                <p className="lead">{speaker.about}</p>
+                <p className="lead w-75">{speaker.about}</p>
               </div>
             </div>
           </div>
