@@ -1,4 +1,5 @@
 import KeynoteData from "../data/keynote.yml";
+import Link from "next/link";
 
 const KeynoteComponent = () => {
   return (
@@ -20,17 +21,25 @@ const KeynoteComponent = () => {
           <div className="row top-up">
             {KeynoteData.map((speaker, index) => (
               <div key={index} className="col-md-12 col-lg-6">
-                <div className="bg-speakerbox bg-white p-3 p-md-5 mb-3 mb-md-5">
-                  <div className="row align-items-center">
-                    <div className="col-md-5 col-5">
-                      <img src={speaker.profilePicture} alt={speaker.fullName} className="speaker-image" />
-                    </div>
-                    <div className="col-md-7 col-7">
-                      <h4>{speaker.fullName}</h4>
-                      <p>{speaker.title}</p>
+                <Link href="/keynote/[speakerFullName]" as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
+                style={{ textDecoration: "none" }}
+                >
+                  <div className="bg-speakerbox bg-white p-3 p-md-5 mb-3 mb-md-5">
+                    <div className="row align-items-center">
+                      <div className="col-md-5 col-5">
+                        <img
+                          src={speaker.profilePicture}
+                          alt={speaker.fullName}
+                          className="speaker-image"
+                        />
+                      </div>
+                      <div className="col-md-7 col-7">
+                        <h4>{speaker.fullName}</h4>
+                        <p>{speaker.title}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>
