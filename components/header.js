@@ -1,54 +1,94 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import logo from "../public/images/logo.png";
 
+const navBarItems = [
+  {
+    name: "Home",
+    href: "/#hero",
+    id: "hero",
+    openInNewTab: false,
+  },
+  {
+    name: "Journey",
+    href: "/#journey",
+    id: "journey",
+    openInNewTab: false,
+  },
+  {
+    name: "Keynotes",
+    href: "/#keynote",
+    id: "keynote",
+    openInNewTab: false,
+  },
+  {
+    name: "Attend",
+    href: "/#attend",
+    id: "attend",
+    openInNewTab: false,
+  },
+  {
+    name: "Sponsors",
+    href: "/#sponsors",
+    id: "sponsors",
+    openInNewTab: false,
+  },
+  {
+    name: "Blog",
+    href: "https://in.pycon.org/blog/",
+    openInNewTab: true,
+  },
+  {
+    name: "FAQ",
+    href: "/faq/",
+    id: "faq",
+    openInNewTab: false,
+  },
+  {
+    name: "COC",
+    href: "/code-of-conduct/",
+    id: "coc",
+    openInNewTab: false,
+  }
+]
+
 export default function Header() {
-  const [activeNavBarItem, setActiveNavBarItem] = useState(0);
+  const [activeNavBarItem, setActiveNavBarItem] = useState();
   const [navBarToggle, setNavBarToggle] = useState(false);
-  const navBarItems = [
-    {
-      name: "Home",
-      href: "/",
-      openInNewTab: false,
-    },
-    {
-      name: "Journey",
-      href: "/#journey",
-      openInNewTab: false,
-    },
-    {
-      name: "Keynotes",
-      href: "/#keynote",
-      openInNewTab: false,
-    },
-    {
-      name: "Attend",
-      href: "/#attend",
-      openInNewTab: false,
-    },
-    {
-      name: "Sponsors",
-      href: "/#sponsors",
-      openInNewTab: false,
-    },
-    {
-      name: "Blog",
-      href: "https://in.pycon.org/blog/",
-      openInNewTab: true,
-    },
-    {
-      name: "FAQ",
-      href: "/faq",
-      openInNewTab: false,
-    },
-    {
-      name: "COC",
-      href: "/code-of-conduct",
-      openInNewTab: false,
+  const [navBarScrollTrigger, setNavBarScrollTrigger] = useState(true);
+  const elementOffsetTop = 81;
+
+  const handleScroll = () => {
+    for (let i = 0; i < navBarItems.length; i++) {
+      let item = navBarItems[i];
+      const sectionElement = document.getElementById(item.id);
+      if (sectionElement) {
+        const rect = sectionElement.getBoundingClientRect();
+        const isVisible = (rect.top - elementOffsetTop <= 0) && (rect.bottom - elementOffsetTop > 0);
+        if (isVisible) {
+          setActiveNavBarItem(i);
+          // Stop checking once we find the visible element
+          break;
+        }
+      }
     }
-  ]
+  };
+
+  useEffect(() => {
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [navBarScrollTrigger]);
+
+
+  const navBarClickHandler = () => {
+    setNavBarToggle((prv) => (!prv));
+    setNavBarScrollTrigger((prv) => (!prv));
+  }
 
   return (
     <header className="bg-header sticky-top">
@@ -77,7 +117,7 @@ export default function Header() {
                   aria-controls="navbarNavDropdown"
                   aria-expanded={navBarToggle ? "true" : "false"}
                   aria-label="Toggle navigation"
-                  onClick={() => setNavBarToggle((prv) => (!prv))}
+                  onClick={navBarClickHandler}
                 >
                   <Image height={32} width={32} src='/2023/images/menu.svg' alt="Menu" />
                 </button>
@@ -91,36 +131,13 @@ export default function Header() {
                         <Link
                           href={item.href}
                           target={item.openInNewTab ? "_blank" : "_self"}
-                          onClick={() => setNavBarToggle(false)}
+                          onClick={navBarClickHandler}
                         >
                           <span className={"nav-link" + (index == activeNavBarItem ? " active" : "")}>
                             {item.name}</span>
                         </Link>
                       </li>
                     ))}
-                    {/* <li className="nav-item">
-                      <Link href="/#schedule"><span className="nav-link">Schedule</span></Link>
-                    </li> */}
-                    {/* <li className="nav-item">
-                      <Link href="/#events"><span className="nav-link">Events</span></Link>
-                    </li> */}
-                    {/* <li className="nav-item dropdown">
-                      <span
-                        className="nav-link dropdown-toggle"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        More
-                      </span>
-                      <ul className="dropdown-menu">
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Contact us
-                          </a>
-                        </li>
-                      </ul>
-                    </li> */}
                   </ul>
                 </div>
               </div>
