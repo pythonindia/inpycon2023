@@ -465,6 +465,10 @@ padding:0 10px 0 0 !important;
   .bg-speakers{
     height:unset!important;
   }
+  .speaker-image {
+    height: 120px;
+    width: 120px;
+  }
   .com-head{
     font-size: 30px!important;
   }
