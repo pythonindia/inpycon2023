@@ -231,6 +231,9 @@ border-radius: 50px!important;
 .bg-speakerbox{
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px!important;
   border-radius:20px!important;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
 }
 .bg-speakerbox{
   transition: transform ease 300ms;
@@ -465,10 +468,6 @@ padding:0 10px 0 0 !important;
   .bg-speakers{
     height:unset!important;
   }
-  .speaker-image {
-    height: 120px;
-    width: 120px;
-  }
   .com-head{
     font-size: 30px!important;
   }
@@ -517,5 +516,12 @@ padding:0 10px 0 0 !important;
   }
   .footer-title {
     font-size: 14px !important;
+  }
+}
+
+@media(max-width:480px){
+  .speaker-image {
+    height: 120px;
+    width: 120px;
   }
 }
