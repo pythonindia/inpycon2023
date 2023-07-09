@@ -115,8 +115,7 @@ button a {
   padding: 10px;
 }
 
-.green-btn {
-  color: white;
+.custom-button {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -125,9 +124,20 @@ button a {
   border: 2px solid black;
   cursor: pointer;
   position: relative;
+  z-index: 2;
+  transition: 0.2s;
+}
+
+.green-btn {
+  color: white;
   background-color: #1f928d;
   z-index: 2;
   transition: 0.2s;
+}
+
+.grey-btn {
+  color: white;
+  background-color: grey;
 }
 
 .green-btn:hover {
@@ -140,12 +150,6 @@ button a {
 
 .submit-btn {
   color: black;
-  font-size: 16px;
-  font-weight: 200;
-  padding: 13px 20px 13px;
-  border: 2px solid black;
-  cursor: pointer;
-  position: relative;
   background-color: #eac141;
   z-index: 2;
   transition: 0.2s;
@@ -382,32 +386,43 @@ button a {
 
 }
 
-.ticket-card {
-  background: url("/2023/images/generic-illustrations/tickets.png")no-repeat;
-  height: 475px !important;
-  background-position: center !important;
+.ticket-wrap {
+  background: #f2eee2;
+  position: relative;
+  margin: 0 0 2rem 0;
+  align-items: center;
+  min-height: 180px;
+  padding: 1.5rem 0;
 }
 
-.ticket-card h5 {
-  font-size: 25px !important;
+.ticket-wrap::before {
+  content: "";
+  border-radius: 50%;
+  top: calc(50% - 20px);
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #1b726f;
 }
 
-.ticketrate {
-  font-weight: 700;
-  font-size: 32px !important;
+.ticket-wrap::after {
+  content: "";
+  border-radius: 50%;
+  top: calc(50% - 20px);
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #1b726f;
 }
 
-.ticketsub {
-  font-weight: 400;
-  font-size: 16px !important;
+.ticket-price {
+  border-left: 1px dashed #000000;
 }
 
-.ticket-end {
-  margin-top: 40%;
-  color: #edc939;
-  font-weight: 700;
-  font-size: 30px;
-  text-decoration: underline;
+.ticket-buy {
+  border-left: 1px dashed #000000;
 }
 
 .sponsortitle {
@@ -503,6 +518,18 @@ button a {
   background-image: url("/2023/images/backgrounds/bg-header-dot.png");
   width: 100vw;
   height: 100vh;
+}
+
+.paragraph-limit-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.paragraph-read-more {
+  color: blue;
+  cursor: pointer;
 }
 
 @media(max-width:768px) {
@@ -658,8 +685,14 @@ button a {
     height: 120px;
     width: 120px;
   }
+}
 
-  .community-partners-avatar {
-    margin-top: 8px;
+@media(max-width:576px) {
+  .ticket-buy {
+    border-left: none;
+  }
+
+  .ticket-price {
+    border-left: none;
   }
 }

@@ -1,4 +1,5 @@
 import Button from "./button";
+import TicketsPriceTable from "../components/pricetable";
 
 const RegistrationSection = () => {
   return (
@@ -17,7 +18,7 @@ const RegistrationSection = () => {
             <div className="row register-btn">
               <div className="col-md-5 col-8 pt-3">
                 <Button
-                  buttonClassName="green-btn"
+                  buttonClassName="custom-button green-btn"
                   anchorClassName="text-decoration-none text-light"
                   buttonLabel="Buy Ticket"
                   buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
@@ -25,7 +26,7 @@ const RegistrationSection = () => {
               </div>
               <div className="col-md-5 col-8 pt-3">
                 <Button
-                  buttonClassName="submit-btn"
+                  buttonClassName="custom-button submit-btn"
                   anchorClassName="text-decoration-none"
                   buttonLabel="Call For Proposal"
                   buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
@@ -48,6 +49,7 @@ const RegistrationSection = () => {
             </div>
           </div>
         </div>
+        <TicketsPriceTable />
       </div>
     </section>
   );

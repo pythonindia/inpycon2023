@@ -24,7 +24,7 @@ const CommunityPartners = () => {
           <div className="row register-btn">
             <div className="col-md-5 col-8 pt-3">
               <Button
-                buttonClassName="green-btn"
+                buttonClassName="custom-button green-btn"
                 anchorClassName="text-decoration-none text-light"
                 buttonLabel="Register"
                 buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSeKJ0I9zM-Kq66NoRGgWgQjIFyVIMWALRpsS6AS2PIi2Z6NJw/viewform"
@@ -32,7 +32,7 @@ const CommunityPartners = () => {
             </div>
             <div className="col-md-5 col-8 pt-3">
               <Button
-                buttonClassName="submit-btn"
+                buttonClassName="custom-button submit-btn"
                 anchorClassName="text-decoration-none"
                 buttonLabel="Download Prospectus"
                 buttonHyperLink="https://drive.google.com/file/d/17P7CaYvOghF8WGm1QtVT6jK162SyTBph/view?usp=drive_link"

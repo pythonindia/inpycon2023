@@ -26,7 +26,7 @@ const SponsorComponent = () => {
           </div>
           <div className="col-md-4 pb-md-0 pb-5 text-center">
             <Button
-              buttonClassName="green-btn"
+              buttonClassName="custom-button green-btn"
               anchorClassName="text-decoration-none text-light"
               buttonLabel="Download Prospectus"
               buttonHyperLink="https://drive.google.com/file/d/1rIb3PLx9gUi-oWPdOdmldbHLy8Vaz-E2/view?usp=sharing"
