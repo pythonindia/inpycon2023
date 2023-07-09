@@ -387,6 +387,9 @@ button a {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;
   border-radius: 20px !important;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
 }
 .bg-speakerbox {
   transition: transform ease 300ms;
@@ -574,7 +577,17 @@ button a {
   border: unset !important;
   padding: 0 10px 0 0 !important;
 }
-
+.animation-container {
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
+.bg-404 {
+  background-color: #f2eee2;
+  background-image: url("/2023/images/bg-header-dot.png");
+  width: 100vw;
+  height: 100vh;
+}
 .flip-ab-1,
 .flip-ab-2,
 .flip-ab-3,
@@ -614,6 +627,11 @@ button a {
     display: block;
     text-align: center;
     bottom: -26px;
+  }
+}
+@media (max-width: 768px) {
+  .headerlogo {
+    width: 70% !important;
   }
   .navbar-light .navbar-nav .nav-link,
   .date-text,
@@ -782,6 +800,13 @@ button a {
   }
   .footer-title {
     font-size: 14px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .speaker-image {
+    height: 120px;
+    width: 120px;
   }
 }
 

@@ -25,6 +25,7 @@
     "jquery": "^3.7.0",
     "js-yaml": "^4.1.0",
     "js-yaml-loader": "^1.2.2",
+    "lottie-web": "^5.12.2",
     "next": "13.2.4",
     "next-yaml": "^1.0.1",
     "owl.carousel": "^2.3.4",
