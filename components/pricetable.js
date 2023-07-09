@@ -31,8 +31,8 @@ const TicketsPriceTable = () => {
 
   return (
     <section className="bg-pricetable home-section">
-      <div className="container-fluid">
-        <div className="row pt-5 pb-5">
+      <div className="">
+        <div className="row pt-5 pb-5 px-2">
           <h2 className="com-head text-white text-center pb-5">Tickets</h2>
           {tickets.map((ticket) => (
             <div key={ticket.id} className="ticket-wrap row">
@@ -46,7 +46,7 @@ const TicketsPriceTable = () => {
               <div className="ticket-price col-md-3 col-sm-4 col-xs-12 px-5">
                 <h4 className="ticket-tag">{ticket.price} INR</h4>
               </div>
-              <div className="ticket-buy col-md-4 col-sm-12 col-xs-12 px-5 pt-1">
+              <div className="ticket-buy col-md-4 col-sm-12 col-xs-12 px-5">
                 {ticket.soldOut ?
                   <Button
                     buttonClassName="custom-button grey-btn register-btn-extra-padding w-100"
