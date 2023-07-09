@@ -1,21 +1,66 @@
-import PriceTableData from "../data/pricetable.yml";
+import { useState, useEffect } from "react";
 
-const PriceTableSection = () => {
+import Button from "./button";
+import Paragraph from "./paragraph";
+
+const TicketsPriceTable = () => {
+  const [tickets, setTickets] = useState([]);
+
+  useEffect(() => {
+    const fetchTickets = async () => {
+      try {
+        const response = await fetch(
+          'https://api.konfhub.com/event/url/pyconindia2023/tickets'
+        );
+        const data = await response.json();
+        // Extract the relevant ticket information from the response
+        const extractedTickets = data.ticket_details.map((ticket) => ({
+          id: ticket.ticket_id,
+          name: ticket.ticket_name,
+          price: ticket.ticket_price,
+          soldOut: ticket.sold_out,
+          description: ticket.description,
+        }));
+        setTickets(extractedTickets);
+      } catch (error) {
+        console.error('Error fetching tickets:', error);
+      }
+    };
+    fetchTickets();
+  }, []);
+
   return (
     <section className="bg-pricetable home-section">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row pt-5 pb-5">
-          <div className="col-md-12 pb-5 text-center">
-            <h2 className="com-head text-white pb-5">Tickets Price-table</h2>
-          </div>
-          {PriceTableData.map((item, index) => (
-            <div className="col-md-4 mb-3" key={index}>
-              <div className="ticket-card mb-md-0 mb-3 text-center pt-5">
-                <h5 className="tickethead pt-2">{item.title}</h5>
-                <p className="ticketrate pt-3 mb-0">{item.price}</p>
-                <p className="ticketsub">(Gst Applicable)</p>
-                <p className="pt-3 ticketsub">{item.description}</p>
-                <div className="ticket-end">BUY NOW</div>
+          <h2 className="com-head text-white text-center pb-5">Tickets</h2>
+          {tickets.map((ticket) => (
+            <div key={ticket.id} className="ticket-wrap row">
+              <div className="col-md-5 col-sm-8 col-xs-12 px-5">
+                <h4 className="ticket-tag">{ticket.name}</h4>
+                <Paragraph
+                  text={ticket.description}
+                  isHtml={true}
+                />
+              </div>
+              <div className="ticket-price col-md-3 col-sm-4 col-xs-12 px-5">
+                <h4 className="ticket-tag">{ticket.price} INR</h4>
+              </div>
+              <div className="ticket-buy col-md-4 col-sm-12 col-xs-12 px-5 pt-1">
+                {ticket.soldOut ?
+                  <Button
+                    buttonClassName="custom-button grey-btn register-btn-extra-padding w-100"
+                    anchorClassName="text-decoration-none text-dark"
+                    buttonLabel="Sold Out"
+                    buttonHyperLink="#"
+                    disabled={true}
+                  /> :
+                  <Button
+                    buttonClassName="custom-button green-btn register-btn-extra-padding w-100"
+                    anchorClassName="text-decoration-none text-light"
+                    buttonLabel="Buy Tickets"
+                    buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
+                  />}
               </div>
             </div>
           ))}
@@ -28,4 +73,4 @@ const PriceTableSection = () => {
   );
 };
 
-export default PriceTableSection;
+export default TicketsPriceTable;

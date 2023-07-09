@@ -36,6 +36,12 @@ const navBarItems = [
     openInNewTab: false,
   },
   {
+    name: "Community Partners",
+    href: "/#community-partners",
+    id: "community-partners",
+    openInNewTab: false,
+  },
+  {
     name: "Blog",
     href: "https://in.pycon.org/blog/",
     openInNewTab: true,

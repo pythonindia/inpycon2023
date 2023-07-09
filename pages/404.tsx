@@ -43,13 +43,13 @@ const NotFoundPage = () => {
         <div className="animation-container" ref={animationContainer} />
         <div className="d-flex justify-content-center">
           <Button
-            buttonClassName="submit-btn register-btn-extra-padding m-2"
+            buttonClassName="custom-button submit-btn register-btn-extra-padding m-2"
             anchorClassName="text-decoration-none text-light"
             buttonLabel="Go Back"
             onClickEvent={goBack}
           />
           <Button
-            buttonClassName="green-btn register-btn-extra-padding m-2"
+            buttonClassName="custom-button green-btn register-btn-extra-padding m-2"
             anchorClassName="text-decoration-none"
             buttonLabel="Go to Home"
             openInNewTab={false}
