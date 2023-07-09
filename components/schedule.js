@@ -17,7 +17,7 @@ const ConferenceSchedule = () => {
           <div className="col-md-12">
             <h2 className="com-head">
               Conference Schedule{" "}
-              <img src="images/sandwatch.png" alt="" className="img-fluid" />
+              <img src="/2023/images/icons/sandwatch.png" alt="" className="img-fluid" />
             </h2>
             <ul
               className="nav nav-pills mb-3 pt-5"

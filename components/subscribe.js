@@ -12,14 +12,14 @@ const SubscribeSection = () => {
             <form className="d-flex">
               <input type="email" placeholder="Enter Your email" id="email" />
               <div className="arr-img">
-                <img src="images/arrow-down.png" alt="" />
+                <img src="/2023/images/icons/arrow-down.png" alt="" />
               </div>
             </form>
           </div>
         </div>
       </div>
       <div className="container-fluid p-0 text-center">
-        <img src="images/sub.png" className="img-fluid" alt="" />
+        <img src="/2023/images/backgrounds/sub.png" className="img-fluid" alt="" />
       </div>
     </section>
   );
