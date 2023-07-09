@@ -4,6 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import JourneyComponent from "../components/journey";
 import KeynoteComponent from "../components/keynote";
 import SponsorComponent from "../components/sponsor";
+import CommunityPartners from "../components/communityPartners";
 import ConventionCenterSection from "../components/conventioncenter";
 import SubscribeSection from "../components/subscribe";
 import PriceTableSection from "../components/pricetable";
@@ -21,6 +22,7 @@ export default function PyConIndiaWeb() {
       <RegistrationSection />
       {/* <PriceTableSection /> */}
       <SponsorComponent />
+      <CommunityPartners />
       {/* latest event section started */}
       {/* <section class="bg-latest">
       <div class="container">
