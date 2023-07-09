@@ -119,7 +119,7 @@ export default function Header() {
                   aria-label="Toggle navigation"
                   onClick={navBarClickHandler}
                 >
-                  <Image height={32} width={32} src='/2023/images/menu.svg' alt="Menu" />
+                  <Image height={32} width={32} src='/2023/images/icons/menu.svg' alt="Menu" />
                 </button>
                 <div
                   className={"navbar-collapse" + (navBarToggle ? "" : " collapse")}
