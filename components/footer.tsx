@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 
-import PyConLogo from "../public/images/logo.png";
-import LinkedInLogo from "../public/images/social1.png";
-import FacebookLogo from "../public/images/social2.png";
-import TwitterLogo from "../public/images/social3.png";
-import InstagramLogo from "../public/images/social4.png";
-import ZulipLogo from "../public/images/social5.png";
-import Email from "../public/images/social6.png";
-import WebChirpyLogo from "../public/images/webchirpy.png";
+import PyConLogo from "../public/images/logos/logo.png";
+import LinkedInLogo from "../public/images/icons/social1.png";
+import FacebookLogo from "../public/images/icons/social2.png";
+import TwitterLogo from "../public/images/icons/social3.png";
+import InstagramLogo from "../public/images/icons/social4.png";
+import ZulipLogo from "../public/images/icons/social5.png";
+import Email from "../public/images/icons/social6.png";
+import WebChirpyLogo from "../public/images/logos/webchirpy.png";
 
 interface SocialItem {
   name: string;

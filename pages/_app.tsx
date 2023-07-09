@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="The premier conference in India on using and developing the python programming language"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="icon" href="/2023/images/favicon.ico" />
+        <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <title>PyCon India 2023, Hyderabad</title>
       </Head> 
       <Component {...pageProps} />

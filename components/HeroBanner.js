@@ -2,8 +2,8 @@ import Image from "next/image";
 import React from "react";
 
 import Button from "./button";
-import calendar from "../public/images/calendar.png";
-import logo from "../public/images/logo.png";
+import calendar from "../public/images/icons/calendar.png";
+import logo from "../public/images/logos/logo.png";
 import calendarData from "../data/calendar.yml";
 
 const HeroBanner = () => {

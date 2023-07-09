@@ -22,7 +22,7 @@ const PriceTableSection = () => {
         </div>
       </div>
       <div className="container-fluid p-0 text-center">
-        <img src="images/taj.png" className="img-fluid" alt="" />
+        <img src="/2023/images/backgrounds/taj.png" className="img-fluid" alt="" />
       </div>
     </section>
   );
