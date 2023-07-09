@@ -7,10 +7,10 @@ const KeynoteComponent = () => {
         <div className="container">
           <div className="row pt-md-5 pb-5 align-items-center align-items-md-start">
             <div className="col-md-8 col-7 pt-5">
-              <h2 class="com-head" data-aos="fade-down" data-aos-duration="1000">Keynote Speakers</h2>
+              <h2 className="com-head" data-aos="fade-down" data-aos-duration="1000">Keynote Speakers</h2>
             </div>
             <div className="col-md-4 col-5 mikeimg">
-            <img src="/2023/images/mike.png" class="img-fluid vert-move"/>
+            <img src="/2023/images/mike.png" className="img-fluid vert-move"/>
             </div>
           </div>
         </div>
@@ -30,12 +30,12 @@ const KeynoteComponent = () => {
                   key={index}
                 >
                   <div className="row align-items-center">
-                    <div className="col-md-5 col-5">
-                      <img src={speaker.image} alt={speaker.name} className="img-fluid" />
+                    <div className="col-md-5 col-5 ">
+                      <img src={speaker.profilePicture} alt={speaker.fullName} className="img-fluid speaker-image" />
                     </div>
                     <div className="col-md-7 col-7">
                       <div className="speaker-boxcontent">
-                        <h4>{speaker.name}</h4>
+                        <h4>{speaker.fullName}</h4>
                         <p>{speaker.title}</p>
                       </div>
                     </div>
@@ -56,7 +56,7 @@ const KeynoteComponent = () => {
                 >
                   <div className="row align-items-center">
                     <div className="col-md-5 col-5">
-                      <img src={speaker.image} alt={speaker.name} className="img-fluid" />
+                      <img src={speaker.profilePicture} alt={speaker.name} className="img-fluid speaker-image" />
                     </div>
                     <div className="col-md-7 col-7">
                       <div className="speaker-boxcontent">

@@ -23,11 +23,11 @@ const HeroBanner = () => {
               Stay tuned for updates!
               </p>
               <div className="register-btn pt-4 pb-4">
-                  <button class="green-btn">
-                    <a href="https://konfhub.com/pyconindia2023#tickets" class="text-decoration-none text-light">Buy Tickets</a>
+                  <button className="green-btn">
+                    <a href="https://konfhub.com/pyconindia2023#tickets" className="text-decoration-none text-light">Buy Tickets</a>
                   </button>
-                  <button class="submit-btn">
-                    <a href="https://in.pycon.org/cfp/pycon-india-2023/proposals/" class="text-decoration-none">Call For Proposal</a>
+                  <button className="submit-btn">
+                    <a href="https://in.pycon.org/cfp/pycon-india-2023/proposals/" className="text-decoration-none">Call For Proposal</a>
                   </button>
               </div>
               <h2 className="pt-5 mb-4 date-text">
@@ -51,15 +51,15 @@ const HeroBanner = () => {
                 ))}
               </div>
             </div>
-            <div class="col-lg-6 position-relative anim-sec">
-              <div class="layer-1 animate glow delay-1"></div>
-              <div class="layer-2 animate__animated animate__bounceInDown animate__delay-1s"></div>
-              <div class="layer-3 animate glow delay-2"></div>
-              <div class="layer-4 animate glow delay-3"></div>
-              <div class="layer-5 animate glow delay-4"></div>
-              <div class="layer-6 animate glow delay-5"></div>
-              <div class="layer-7 "></div>
-              <div class="layer-8 animate glow delay-6"></div>
+            <div className="col-lg-6 position-relative anim-sec">
+              <div className="layer-1 animate glow delay-1"></div>
+              <div className="layer-2 animate__animated animate__bounceInDown animate__delay-1s"></div>
+              <div className="layer-3 animate glow delay-2"></div>
+              <div className="layer-4 animate glow delay-3"></div>
+              <div className="layer-5 animate glow delay-4"></div>
+              <div className="layer-6 animate glow delay-5"></div>
+              <div className="layer-7 "></div>
+              <div className="layer-8 animate glow delay-6"></div>
             </div>
           </div>
         </div>

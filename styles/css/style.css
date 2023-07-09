@@ -4,8 +4,8 @@
 @import "./aos.css";
 @import "./font-awesome-min.css";
 @import "./animate.css";
-@import "./owl.carousel.css";
-@import "./owl.theme.default.min.css";
+/* @import "./owl.carousel.css";
+@import "./owl.theme.default.min.css"; */
 
 @import "./misc.css";
 
@@ -192,7 +192,7 @@ button a {
   background: unset !important;
   box-sizing: unset !important;
   border: unset !important;
-  width: 176px !important;
+  min-width: 225px !important;
   text-align: left !important;
 }
 .green-btn a {
@@ -202,7 +202,7 @@ button a {
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  width: 176px !important;
+  min-width: 225px !important;
   cursor: pointer;
   display: block !important;
   position: relative;
@@ -244,7 +244,7 @@ button a {
   font-weight: 200;
   padding: 13px 20px 13px;
   cursor: pointer;
-  width: 176px !important;
+  min-width: 225px !important;
   display: block !important;
   position: relative;
   text-align: center !important;
@@ -352,7 +352,7 @@ button a {
 .bg-journey h2 {
   font-size: 30px !important;
 }
-.bg-journey p{
+.bg-journey p {
   font-size: 14px !important;
 }
 .speaker-image {
@@ -397,68 +397,69 @@ button a {
 .bg-speakerbox:hover h4 {
   color: #068580 !important;
 }
-.bg-conference{
-  background:#fbfaf3 url("/2023/images/bg-con.png")no-repeat;
-  background-position:right top!important;
+.bg-conference {
+  background: #fbfaf3 url("/2023/images/bg-con.png") no-repeat;
+  background-position: right top !important;
 }
-.date-acc{
-  font-weight: 600!important;
-  font-size:25px!important;
+.date-acc {
+  font-weight: 600 !important;
+  font-size: 25px !important;
 }
-.bg-conference .nav-item{
-  padding:0 20px 0 0!important;
+.bg-conference .nav-item {
+  padding: 0 20px 0 0 !important;
 }
 
-.bg-conference .nav-pills .nav-link{
-  color: #000!important;
-background-color: #f2eee2!important;
-border-radius: 0;
-padding: 20px 30px!important;
-text-align: start;
-border:1px solid transparent!important;
+.bg-conference .nav-pills .nav-link {
+  color: #000 !important;
+  background-color: #f2eee2 !important;
+  border-radius: 0;
+  padding: 20px 30px !important;
+  text-align: start;
+  border: 1px solid transparent !important;
 }
-.bg-conference .nav-pills .nav-link:hover{
-  border:1px solid #eac124!important;
-  background:#fdfbf5!important;
+.bg-conference .nav-pills .nav-link:hover {
+  border: 1px solid #eac124 !important;
+  background: #fdfbf5 !important;
 }
-.bg-conference .nav-pills .nav-link.active{
-  background-color: #eac124!important;
+.bg-conference .nav-pills .nav-link.active {
+  background-color: #eac124 !important;
 }
-.bt-top{
-  border-top:2px solid #f2eee2!important;
+.bt-top {
+  border-top: 2px solid #f2eee2 !important;
 }
-.bt-bottom{  
-  border-bottom:2px solid #f2eee2!important;
+.bt-bottom {
+  border-bottom: 2px solid #f2eee2 !important;
 }
-.bt-bottom:hover{
-  background:#f2eee2!important;
+.bt-bottom:hover {
+  background: #f2eee2 !important;
 }
-.date-announced{
-  font-weight:600;
-  font-size:24px!important;
+.date-announced {
+  font-weight: 600;
+  font-size: 24px !important;
 }
-.date-content{
-  font-size:18px!important;
-  font-weight: 600!important;
-  line-height: 2!important;
+.date-content {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 2 !important;
 }
-.ft-weight{
-  font-weight: 500!important;
-  font-weight: 18px!important;
+.ft-weight {
+  font-weight: 500 !important;
+  font-weight: 18px !important;
 }
-.rt-green{
+.rt-green {
   background: #1b726f !important;
-border-radius: 20px !important;
-padding: 5px 20px !important;
-text-transform: capitalize;
-margin-left:10px!important;
+  border-radius: 20px !important;
+  padding: 5px 20px !important;
+  text-transform: capitalize;
+  margin-left: 10px !important;
 }
-.bg-reg,.bg-pricetable{
-  background:#1b726f!important;
+.bg-reg,
+.bg-pricetable {
+  background: #1b726f !important;
 }
 .nav-link-inactive:hover {
-  border: 1px solid #eac124!important;
-  background-color: #ffffff!important;
+  border: 1px solid #eac124 !important;
+  background-color: #ffffff !important;
 }
 .flip-img1 {
   padding-left: 35%;
@@ -474,46 +475,45 @@ margin-left:10px!important;
 .flip-img4 {
   float: right;
 }
-
 .image-container {
   width: 70%;
   height: 70%;
   max-width: 80%;
   max-height: 80%;
 }
-.ticket-card-top{
-  background:url("/2023/images/ticket-top.png")no-repeat;
-  height:298px!important;
-  background-position: center!important;
+.ticket-card-top {
+  background: url("/2023/images/ticket-top.png") no-repeat;
+  height: 298px !important;
+  background-position: center !important;
 }
-.ticket-card-btm:hover{
-  background:url("/2023/images/ticket-endhover.png")no-repeat;
+.ticket-card-btm:hover {
+  background: url("/2023/images/ticket-endhover.png") no-repeat;
 }
-.ticket-card-top h5{
-  font-size:25px!important;
+.ticket-card-top h5 {
+  font-size: 25px !important;
 }
-.ticketrate{
-  font-weight:700;
-  font-size:32px!important;
+.ticketrate {
+  font-weight: 700;
+  font-size: 32px !important;
 }
-.ticketsub{
-  font-weight:400;
-  font-size: 16px!important;
+.ticketsub {
+  font-weight: 400;
+  font-size: 16px !important;
 }
-.ticket-card-btm{
-  background:url("/2023/images/ticket-end.png")no-repeat;
-  height:177px!important;
-  background-position: center!important;
+.ticket-card-btm {
+  background: url("/2023/images/ticket-end.png") no-repeat;
+  height: 177px !important;
+  background-position: center !important;
   cursor: pointer;
 }
-.ticket-end{
+.ticket-end {
   margin-top: -1px;
-color: #1b726f;
-font-weight: 700;
-font-size: 30px;
-cursor: pointer !important;
-padding-top: 20%;
-text-align: center;
+  color: #1b726f;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer !important;
+  padding-top: 20%;
+  text-align: center;
 }
 
 .sponsortitle {
@@ -604,7 +604,6 @@ text-align: center;
   right: 10% !important;
   margin-top: 47% !important;
 }
-
 /* media-queries */
 @media (max-width: 767px) {
   .conference h3:before,
@@ -1050,3 +1049,30 @@ text-align: center;
   animation-delay: 0.4s;
 }
 
+/* flip css */
+.flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+/* .flip-card-front {
+
+} */
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}

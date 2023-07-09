@@ -7,7 +7,7 @@ const SponsorComponent = () => {
       <div className="container pt-4">
         <div className="row justify-content-center align-items-center pt-5 pb-md-5">
           <div className="col-md-12">
-            <h2 className="com-head">
+            <h2 className="com-head" data-aos="fade-down" data-aos-duration="1000">
               Event Sponsors{" "}
               <img
                 src="/2023/images/handshake.png"
@@ -24,7 +24,11 @@ const SponsorComponent = () => {
               maintaining the inventory for the conference.
             </p>
           </div>
-          <div className="col-md-4 pb-md-0 pb-5 text-center">
+          <div className="col-lg-4 col-md-6 pb-md-0 pb-5 text-center ">
+            <button className="green-btn p-2 px-5">
+              <a href="https://drive.google.com/file/d/1rIb3PLx9gUi-oWPdOdmldbHLy8Vaz-E2/view?usp=sharing" className="text-decoration-none text-light">Download Prospectus</a></button>
+          </div>
+          {/* <div className="col-md-4 pb-md-0 pb-5 text-center">
             <Button
               buttonClassName="green-btn"
               anchorClassName="text-decoration-none text-light"
@@ -32,7 +36,7 @@ const SponsorComponent = () => {
               buttonHyperLink="https://drive.google.com/file/d/1rIb3PLx9gUi-oWPdOdmldbHLy8Vaz-E2/view?usp=sharing"
               disabled={false}
             />
-          </div>
+          </div> */}
         </div>
         {/* <div className="col-md-12 m-auto sp-sor text-center pt-5">
             <div className="sponsortitle">Platinum</div>

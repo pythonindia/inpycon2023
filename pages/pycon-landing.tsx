@@ -7,8 +7,14 @@ import SponsorComponent from "../components/sponsor";
 import ConventionCenterSection from "../components/conventioncenter";
 import SubscribeSection from "../components/subscribe";
 import PriceTableSection from "../components/pricetable";
-import RegistrationSection from "../components/registration";
 import ConferenceSchedule from "../components/schedule";
+import dynamic from "next/dynamic";
+//pycon-landing.tsx
+const RegistrationSection = dynamic(
+  () => import("../components/registration"),
+  { ssr: false }
+);
+
 
 export default function PyConIndiaWeb() {
   return (
@@ -32,7 +38,7 @@ export default function PyConIndiaWeb() {
       {/* event sponsor section started */}
       <SponsorComponent />
       {/* latest event section started */}
-      <section className="bg-latest">
+      {/* <section className="bg-latest">
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12">
@@ -49,7 +55,7 @@ export default function PyConIndiaWeb() {
           </div>
       </div>
       </div>
-    </section>
+    </section> */}
       {/* latest event section ended */}
       {/* subscribe section started */}
       <SubscribeSection />
