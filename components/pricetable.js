@@ -31,7 +31,7 @@ const TicketsPriceTable = () => {
 
   return (
     <section className="bg-pricetable home-section">
-      <div className="">
+      <div className="container-fluid">
         <div className="row pt-5 pb-5" style={{justifyContent: 'center'}}>
           <h2 className="com-head text-white text-center pb-5" data-aos="fade-down" data-aos-duration="1000">Tickets</h2>
           {tickets.map((ticket) => (
