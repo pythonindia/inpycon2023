@@ -32,7 +32,7 @@ const TicketsPriceTable = () => {
   return (
     <section className="bg-pricetable home-section">
       <div className="container-fluid">
-        <div className="row pt-5 pb-5">
+        <div className="row pt-5 pb-5" style={{justifyContent: 'center'}}>
           <h2 className="com-head text-white text-center pb-5">Tickets</h2>
           {tickets.map((ticket) => (
             <div key={ticket.id} className="ticket-wrap row">

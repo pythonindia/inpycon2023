@@ -389,8 +389,7 @@ button a {
 .ticket-wrap {
   background: #f2eee2;
   position: relative;
-  width: 80%;
-  margin: 0 auto;
+  width: 80% !important;
   margin-bottom: 2rem;
   align-items: center;
   min-height: 180px;
