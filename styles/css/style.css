@@ -389,7 +389,9 @@ button a {
 .ticket-wrap {
   background: #f2eee2;
   position: relative;
-  margin: 0 0 2rem 0;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
   align-items: center;
   min-height: 180px;
   padding: 1.5rem 0;
@@ -677,6 +679,10 @@ button a {
 
   .footer-title {
     font-size: 14px !important;
+  }
+
+  .ticket-wrap{
+    width: 100%;
   }
 }
 

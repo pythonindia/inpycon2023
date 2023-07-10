@@ -37,7 +37,7 @@ const TicketsPriceTable = () => {
           {tickets.map((ticket) => (
             <div key={ticket.id} className="ticket-wrap row">
               <div className="col-md-5 col-sm-8 col-xs-12 px-5">
-                <h4 className="ticket-tag">{ticket.name}</h4>
+                <h3 className="ticket-tag">{ticket.name}</h3>
                 <Paragraph
                   text={ticket.description}
                   isHtml={true}
@@ -56,7 +56,7 @@ const TicketsPriceTable = () => {
                     disabled={true}
                   /> :
                   <Button
-                    buttonClassName="custom-button green-btn register-btn-extra-padding w-100"
+                    buttonClassName="custom-button submit-btn register-btn-extra-padding w-100"
                     anchorClassName="text-decoration-none text-light"
                     buttonLabel="Buy Tickets"
                     buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
