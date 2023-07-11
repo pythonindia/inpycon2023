@@ -8,3 +8,8 @@ gold:
   - images/sp-2.png
   - images/sp-3.png
   - images/sp-1.png
+  
+- name: [Name of the sponsor]
+  logo: [Logo file path or URL]
+  tier: [Sponsor Tier]
+  website: [Website link]
