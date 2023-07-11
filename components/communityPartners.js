@@ -17,7 +17,7 @@ const CommunityPartners = () => {
             </div>
           </div>
         </div>
-        <p className="pt-4">
+        <p className="p-3 pt-md-5 pb-md-5">
           Join PyCon India&rsquo;s Community Partner Program and support the vibrant Python community in India. Become a partner and contribute to the growth of Python enthusiasts.
         </p>
         <div className="row register-btn justify-content-center w-100">
