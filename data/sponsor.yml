@@ -3,13 +3,15 @@ platinum:
   - images/sp-2.png
   - images/sp-3.png
   - images/sp-1.png
+
 gold:
   - images/sp-1.png
   - images/sp-2.png
   - images/sp-3.png
   - images/sp-1.png
 
-- name: Example Sponsor
-  logo: images/sp-1.png
-  tier: platinum
-  website: https://example.com
+sponsors:
+  - name: Example Sponsor
+    logo: images/sp-1.png
+    tier: platinum
+    website: https://example.com
