@@ -13,7 +13,7 @@
   --header-height: 80px;
 }
 
-html{
+html {
   scroll-behavior: smooth !important;
 }
 
@@ -567,8 +567,7 @@ button a {
 }
 
 .bg-community-partners {
-  background: #fdfbf5 url("/2023/images/backgrounds/bg-header-dot.png")repeat;
-  position: relative;
+  background: #1b726f;
 }
 
 .community-partners-avatar {
@@ -887,6 +886,12 @@ button a {
   }
 
   .ticket-price {
+    border-left: none;
+  }
+}
+
+@media(max-width:768px) {
+  .ticket-buy {
     border-left: none;
   }
 }

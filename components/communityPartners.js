@@ -2,10 +2,10 @@ import Button from "./button";
 
 const CommunityPartners = () => {
   return (
-    <section className="bg-community-partners home-section" id="community-partners">
+    <section className="bg-community-partners home-section pb-5" id="community-partners">
       <div className="container pt-5 pb-5">
         <div className="row align-items-center">
-          <h2 className="col-auto com-head" data-aos="fade-down" data-aos-duration="1000">Community Partners</h2>
+          <h2 className="col-auto com-head text-white" data-aos="fade-down" data-aos-duration="1000">Community Partners</h2>
           <div className="col-auto">
             <div>
               <img className="community-partners-avatar" src="/2023/images/generic-illustrations/flip4.png" alt=""></img>
@@ -17,7 +17,7 @@ const CommunityPartners = () => {
             </div>
           </div>
         </div>
-        <p className="p-3 pt-md-5 pb-md-5">
+        <p className="p-3 pt-md-5 pb-md-5 text-white">
           Join PyCon India&rsquo;s Community Partner Program and support the vibrant Python community in India. Become a partner and contribute to the growth of Python enthusiasts.
         </p>
         <div className="row register-btn justify-content-center w-100">
