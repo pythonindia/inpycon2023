@@ -886,6 +886,18 @@ button a {
   }
 }
 
+@media (min-width: 991px) {
+  .registration-flip-box {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .registration-flip-box {
+    margin-bottom: 80px;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   .anim-sec {
     margin-top: 67% !important;

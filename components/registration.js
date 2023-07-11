@@ -17,7 +17,7 @@ const RegistrationSection = () => {
   return (
     <section className="bg-reg home-section" id="attend">
       <div className="container">
-        <div className="row pt-5 pb-5">
+        <div className="row pt-5 pb-5 registration-flip-box">
           <div className="col-md-6 text-white">
             <h2 className="com-head text-white" data-aos="fade-down" data-aos-duration="1000">
               Registrations
@@ -28,24 +28,6 @@ const RegistrationSection = () => {
               offering an unparalleled opportunity to dive deep into the world of python and explore
               its limitless potentials.
             </p>
-            <div className="row register-btn justify-content-center">
-              <div className="col-md-6 col-8 pt-3">
-                <Button
-                  buttonClassName="custom-button green-btn"
-                  anchorClassName="text-decoration-none text-light"
-                  buttonLabel="Buy Ticket"
-                  buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
-                />
-              </div>
-              <div className="col-md-6 col-8 pt-3">
-                <Button
-                  buttonClassName="custom-button submit-btn"
-                  anchorClassName="text-decoration-none"
-                  buttonLabel="Call For Proposal"
-                  buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-                />
-              </div>
-            </div>
           </div>
           <div className="col-md-6 d-none d-md-block">
             <div className="row flip-ab-1">
@@ -102,6 +84,24 @@ const RegistrationSection = () => {
                 </Slider>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row register-btn justify-content-center w-100">
+          <div className="col-lg-4 col-md-6 col-8 pt-3">
+            <Button
+              buttonClassName="custom-button green-btn"
+              anchorClassName="text-decoration-none text-light"
+              buttonLabel="Buy Ticket"
+              buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6 col-8 pt-3">
+            <Button
+              buttonClassName="custom-button submit-btn"
+              anchorClassName="text-decoration-none"
+              buttonLabel="Call For Proposal"
+              buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+            />
           </div>
         </div>
         <TicketsPriceTable />

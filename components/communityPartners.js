@@ -20,24 +20,22 @@ const CommunityPartners = () => {
         <p className="pt-4">
           Join PyCon India&rsquo;s Community Partner Program and support the vibrant Python community in India. Become a partner and contribute to the growth of Python enthusiasts.
         </p>
-        <div className="col-md-6">
-          <div className="row register-btn justify-content-center">
-            <div className="col-md-6 col-8 pt-3">
-              <Button
-                buttonClassName="custom-button green-btn"
-                anchorClassName="text-decoration-none text-light"
-                buttonLabel="Register"
-                buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSeKJ0I9zM-Kq66NoRGgWgQjIFyVIMWALRpsS6AS2PIi2Z6NJw/viewform"
-              />
-            </div>
-            <div className="col-md-6 col-8 pt-3">
-              <Button
-                buttonClassName="custom-button submit-btn"
-                anchorClassName="text-decoration-none"
-                buttonLabel="Download Prospectus"
-                buttonHyperLink="https://drive.google.com/file/d/17P7CaYvOghF8WGm1QtVT6jK162SyTBph/view?usp=drive_link"
-              />
-            </div>
+        <div className="row register-btn justify-content-center w-100">
+          <div className="col-lg-4 col-md-6 col-8 pt-3">
+            <Button
+              buttonClassName="custom-button green-btn"
+              anchorClassName="text-decoration-none text-light"
+              buttonLabel="Register"
+              buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSeKJ0I9zM-Kq66NoRGgWgQjIFyVIMWALRpsS6AS2PIi2Z6NJw/viewform"
+            />
+          </div>
+          <div className="col-lg-4 col-md-6 col-8 pt-3">
+            <Button
+              buttonClassName="custom-button submit-btn"
+              anchorClassName="text-decoration-none"
+              buttonLabel="Download Prospectus"
+              buttonHyperLink="https://drive.google.com/file/d/17P7CaYvOghF8WGm1QtVT6jK162SyTBph/view?usp=drive_link"
+            />
           </div>
         </div>
       </div>
