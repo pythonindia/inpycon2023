@@ -98,7 +98,7 @@ button a {
 }
 
 .bg-banner-overlay {
-  background: url("/2023/images/banners/bg-bannerimg.png")no-repeat !important;
+  /* background: url("/2023/images/banners/bg-bannerimg.png")no-repeat !important; */
   background-position: right bottom !important;
   background-size: 48% !important;
   height: calc(100vh - 90px);
@@ -720,6 +720,8 @@ button a {
   .bg-banner {
     background: url("/2023/images/animation/rep-car.png") repeat !important;
     background-size: auto !important;
+    overflow: hidden;
+    height: 67rem;
   }
 
   .anim-sec {
@@ -954,6 +956,8 @@ button a {
   .bg-banner {
     background: url("/2023/images/animation/rep-car.png") repeat !important;
     background-size: auto !important;
+    height: 70rem;
+    overflow: hidden;
   }
 
   header .navbar-expand-md .navbar-nav .nav-link {

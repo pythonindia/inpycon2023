@@ -61,7 +61,7 @@ const HeroBanner = () => {
                 ))}
                 </div>
             </div>
-            {/* <div className="col-lg-6 position-relative anim-sec">
+            <div className="col-lg-6 position-relative anim-sec">
               <div className="layer-1 animate glow delay-1"></div>
               <div className="layer-2 animate__animated animate__bounceInDown animate__delay-1s"></div>
               <div className="layer-3 animate glow delay-2"></div>
@@ -70,7 +70,7 @@ const HeroBanner = () => {
               <div className="layer-6 animate glow delay-5"></div>
               <div className="layer-7 "></div>
               <div className="layer-8 animate glow delay-6"></div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
