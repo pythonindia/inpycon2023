@@ -691,7 +691,7 @@ button a {
 
 @media(max-width:768px) {
   .headerlogo {
-    width: 70% !important;
+    width: 60% !important;
   }
 
   .navbar-toggler {
@@ -725,6 +725,11 @@ button a {
     background-size: auto !important;
     overflow: hidden;
     height: 66.5rem;
+  }
+
+  .bg-banner .pycon-logo img{
+    width: 320px;
+    height: 90px;
   }
 
   .anim-sec {

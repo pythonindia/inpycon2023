@@ -103,18 +103,18 @@ export default function Header() {
           <div className="col-md-12">
             <div className="navbar navbar-expand-lg text-center">
               <div className="container">
-                <a
+                <Link
                   className="navbar-brand d-block d-md-none headerlogo"
-                  href="#"
+                  href="/"
                 >
                   <Image
                     src={logo}
                     className="img-fluid"
                     alt="logo"
                     width={500}
-                    height={1000}
+                    height={500}
                   />
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
