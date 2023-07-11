@@ -13,6 +13,10 @@
   --header-height: 80px;
 }
 
+html{
+  scroll-behavior: smooth !important;
+}
+
 html,
 body,
 h1,
@@ -184,7 +188,7 @@ button a {
   background-size: contain !important;
   height: 265px !important;
   position: absolute;
-  bottom: -80px !important;
+  bottom: -74px !important;
   content: "";
   left: 0;
   right: 0px !important;
@@ -392,11 +396,11 @@ button a {
 }
 
 .bg-speakerbox {
-  transition: transform ease 300ms;
+  transition: transform ease 300ms !important;
 }
 
 .bg-speakerbox:hover {
-  transform: translate(0, -10px);
+  transform: translate(0, -10px) !important;
 }
 
 .bg-speakerbox:hover h4 {
@@ -721,7 +725,7 @@ button a {
     background: url("/2023/images/animation/rep-car.png") repeat !important;
     background-size: auto !important;
     overflow: hidden;
-    height: 67rem;
+    height: 66.5rem;
   }
 
   .anim-sec {
@@ -735,6 +739,7 @@ button a {
 
   .layer-6 {
     background-size: 33% !important;
+    bottom: -52px !important;
   }
 
   .layer-3 {
@@ -996,7 +1001,7 @@ button a {
   }
 
   .layer-6 {
-    bottom: -135px !important;
+    bottom: -126px !important;
   }
 
   .layer-7 {

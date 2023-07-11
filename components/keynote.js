@@ -10,7 +10,7 @@ const KeynoteComponent = () => {
               <h2 className="com-head" data-aos="fade-down" data-aos-duration="1000">Keynote Speakers</h2>
             </div>
             <div className="col-md-4 col-5 mikeimg">
-              <img src="/2023/images/generic-illustrations/mike.png" className="img-fluid" alt="" />
+              <img src="/2023/images/generic-illustrations/mike.png" className="img-fluid vert-move" alt="" />
             </div>
           </div>
         </div>
