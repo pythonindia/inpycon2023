@@ -86,24 +86,6 @@ const RegistrationSection = () => {
             </div>
           </div>
         </div>
-        <div className="row register-btn justify-content-center w-100">
-          <div className="col-lg-4 col-md-6 col-8 pt-3">
-            <Button
-              buttonClassName="custom-button green-btn"
-              anchorClassName="text-decoration-none text-light"
-              buttonLabel="Buy Ticket"
-              buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
-            />
-          </div>
-          <div className="col-lg-4 col-md-6 col-8 pt-3">
-            <Button
-              buttonClassName="custom-button submit-btn"
-              anchorClassName="text-decoration-none"
-              buttonLabel="Call For Proposal"
-              buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-            />
-          </div>
-        </div>
         <TicketsPriceTable />
       </div>
     </section>
