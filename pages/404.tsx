@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from "react";
 import lottie from "lottie-web";
 
 import Button from "../components/button";
-import animationData from "../public/images/lottie/snake-animation.json";
+import animationData from "../public/images/lottie-animation/snake-animation.json";
 
 const NotFoundPage = () => {
   const router = useRouter();

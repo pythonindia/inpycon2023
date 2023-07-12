@@ -7,8 +7,8 @@ const SponsorComponent = () => {
       <div className="container pt-4">
         <div className="row justify-content-center align-items-center pt-5 pb-md-5">
           <div className="col-md-12">
-            <h2 className="com-head">
-              Event Sponsors{" "}
+            <h2 className="com-head" data-aos="fade-down" data-aos-duration="1000">
+              Event Sponsors
               <img
                 src="/2023/images/icons/handshake.png"
                 alt=""
@@ -30,7 +30,6 @@ const SponsorComponent = () => {
               anchorClassName="text-decoration-none text-light"
               buttonLabel="Download Prospectus"
               buttonHyperLink="https://drive.google.com/file/d/1rIb3PLx9gUi-oWPdOdmldbHLy8Vaz-E2/view?usp=sharing"
-              disabled={false}
             />
           </div>
         </div>

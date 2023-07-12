@@ -1,9 +1,16 @@
 import { AppProps } from "next/app";
 import "../styles/css/style.css";
-
+import {useEffect} from "react";
+import AOS from "aos";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    AOS.init({
+      duration: 800, // Animation duration
+      once: true, // Only animate elements once
+    });
+  }, []);
   return (
     <>
       <Head>
@@ -26,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <title>PyCon India 2023, Hyderabad</title>
-      </Head> 
+      </Head>
       <Component {...pageProps} />
     </>
   );

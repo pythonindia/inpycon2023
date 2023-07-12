@@ -1,29 +1,29 @@
 import Image from "next/image";
 import React from "react";
 
-import Button from "./button";
 import calendar from "../public/images/icons/calendar.png";
 import logo from "../public/images/logos/logo.png";
 import calendarData from "../data/calendar.yml";
+import Button from "./button";
 
 const HeroBanner = () => {
   return (
     <section id="hero" className="bg-banner home-section">
       <div className="bg-banner-overlay">
         <div className="container">
-          <div className="row align-items-center">
-            <div className="col-md-6 hero-container pt-4 pb-4">
-              <div className="d-none d-md-block">
+          <div className="row pt-5">
+            <div className="col-lg-6 pb-5">
+              <div className="d-md-block pycon-logo text-center text-lg-start">
                 <a href="#">
                   <Image src={logo} width="100%" height="100%" alt="" />
                 </a>
               </div>
-              <p className="pt-3 text-center text-md-start">
-              PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential.
-              Stay tuned for updates!
+              <p className="pt-3 text-center text-lg-start">
+                PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential.
+                Stay tuned for updates!
               </p>
-              <div className="row register-btn">
-                <div className="col-md-5 col-8 pt-3">
+              <div className="row register-btn justify-content-center">
+                <div className="col-md-6 col-8 pt-3">
                   <Button
                     buttonClassName="custom-button green-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none text-light"
@@ -31,7 +31,7 @@ const HeroBanner = () => {
                     buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
                   />
                 </div>
-                <div className="col-md-5 col-8 pt-3">
+                <div className="col-md-6 col-8 pt-3">
                   <Button
                     buttonClassName="custom-button submit-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none"
@@ -40,7 +40,7 @@ const HeroBanner = () => {
                   />
                 </div>
               </div>
-              <h2 className="pt-5 mb-4 date-text">
+              <h2 className="pt-5 mb-4 date-text text-center">
                 29 Sept - 02 Oct
                 <Image
                   src={calendar}
@@ -59,7 +59,17 @@ const HeroBanner = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+                </div>
+            </div>
+            <div className="col-lg-6 position-relative anim-sec">
+              <div className="layer-1 animate glow delay-1"></div>
+              <div className="layer-2 animate__animated animate__bounceInDown animate__delay-1s"></div>
+              <div className="layer-3 animate glow delay-2"></div>
+              <div className="layer-4 animate glow delay-3"></div>
+              <div className="layer-5 animate glow delay-4"></div>
+              <div className="layer-6 animate glow delay-5"></div>
+              <div className="layer-7 "></div>
+              <div className="layer-8 animate glow delay-6"></div>
             </div>
           </div>
         </div>
