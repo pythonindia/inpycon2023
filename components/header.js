@@ -57,6 +57,11 @@ const navBarItems = [
     href: "/code-of-conduct/",
     id: "coc",
     openInNewTab: false,
+  },
+  {
+    name: "Python Express",
+    href: "https://pythonexpress.org/",
+    openInNewTab: true,
   }
 ]
 
