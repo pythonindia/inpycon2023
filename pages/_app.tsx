@@ -33,6 +33,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <title>PyCon India 2023, Hyderabad</title>
+        {/* userway import */}
+        <script src="https://cdn.userway.org/widget.js" data-account="T8lCiGpEJy"></script>
       </Head>
       <Component {...pageProps} />
     </>
