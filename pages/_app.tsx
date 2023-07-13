@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <title>PyCon India 2023, Hyderabad</title>
         {/* userway import */}
-        <script src="https://cdn.userway.org/widget.js" data-account="T8lCiGpEJy"></script>
+        <script src="https://cdn.userway.org/widget.js" data-account="T8lCiGpEJy" async defer></script>
       </Head>
       <Component {...pageProps} />
     </>
