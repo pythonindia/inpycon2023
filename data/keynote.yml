@@ -6,3 +6,22 @@
   title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
   profilePicture: /2023/images/keynote-speakers/marcelo-trylesinski.jpg
   about: Marcelo is an open-source developer who has made significant contributions to the FastAPI community. He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server that powers FastAPI applications. His invaluable contributions led to his hiring as a senior software engineer by Pydantic, a widely used library for data validation and serialization. Apart from software development, Marcelo enjoys fitness, soccer, dancing, and photography. He's a well-rounded individual who's always eager to learn and grow.
+- fullName: Rushabh Mehta
+  title: Founder and CEO, Frappe & Director, FOSS United
+  profilePicture: /2023/images/keynote-speakers/rushabh-mehta.png
+  about:
+    Rushabh Mehta works with a passionate team at Frappe and the ERPNext community, revolutionizing business software with high-quality, free, and open-source tools like ERPNext. Frappe is a democratic company with over 60 world-class engineers and consultants, producing various open-source software and platforms.
+
+    He actively contributes to FOSS United, promoting Free and Open Source Software in India. FOSS United brings together diverse participants through events and platforms.
+
+    In his 20-year career, he primarily worked as an engineer, creating Frappe Framework.
+
+    Check out his projects and contributions at erpnext.com, frappe.io, fossunited.org, frappeframework.com, github.com/rmehta
+  topic: Building Frappe Framework - an ontology based system to build complex web applications
+  social:
+    - platform: twitter
+      link: https://twitter.com/rushabh_mehta
+    - platform: linkedin
+      link: https://www.linkedin.com/in/rushabhmehta1/
+    - platform: website
+      link: https://frappe.io
