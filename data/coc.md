@@ -147,10 +147,10 @@ at the venue:
   - R&D initiatives Workgroup
   - talk2kish at gmail dot com
 - Kalyan Prasad
-  - Communications Workgroup
+  - Co-Conference Chair
   - kalyan.prsd at gmail dot com
 - Snehith Allamraju
-  - Sponsorship Workgroup
+  - Co-Conference Chair
   - snehith_allamraju_2019 at cba dot isb dot edu
 - Sanchit Balchandani
   - Conference Chair
