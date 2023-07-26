@@ -135,12 +135,26 @@ the following committee members. The Helpdesk can assist you in finding them
 at the venue:
 
 - Nivesh Krishna (CoC Chair)
-- Vandana Pv (Diversity & Inclusion Chair)
+  - Code of Conduct Workgroup
+  - vniveshkrishna.98 at gmail dot com
+- Vandana PV (Diversity & Inclusion Chair)
+  - Diversity Workgroup
+  - pv.vandana29 at gmail dot com
 - Amritha Madam
+  - Communications Workgroup
+  - madamamritha at gmail dot com
 - Bhanu K
+  - R&D initiatives Workgroup
+  - talk2kish at gmail dot com
 - Kalyan Prasad
+  - Co-Conference Chair
+  - kalyan.prsd at gmail dot com
 - Snehith Allamraju
+  - Co-Conference Chair
+  - snehith_allamraju_2019 at cba dot isb dot edu
 - Sanchit Balchandani
+  - Conference Chair
+  - balchandani.sanchit at gmail dot com
 
 ## License
 
