@@ -17,6 +17,11 @@ html {
   scroll-behavior: smooth !important;
 }
 
+
+
+
+
+
 html,
 body,
 h1,
@@ -34,8 +39,10 @@ span {
   font-weight: 400;
 }
 
-body {
-  overflow-x: hidden !important;
+body,html{
+  overflow-x: hidden;
+  width: 100vw;
+  
 }
 
 .bg-header {
@@ -97,7 +104,7 @@ button a {
 
 .bg-banner {
   background: url("/2023/images/backgrounds/bg-header-dot.png")repeat;
-  background-size: cover;
+  background-size: contain;
   height: calc(100vh - var(--header-height));
 }
 
@@ -1200,3 +1207,4 @@ button a {
     transform: scale(1, 1);
   }
 }
+
