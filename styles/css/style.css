@@ -17,11 +17,6 @@ html {
   scroll-behavior: smooth !important;
 }
 
-
-
-
-
-
 html,
 body,
 h1,
@@ -34,20 +29,21 @@ p,
 div,
 a,
 span {
-  font-family: 'Instrument Sans', sans-serif !important;
+  font-family: "Instrument Sans", sans-serif !important;
   color: #000;
   font-weight: 400;
 }
 
-body,html{
-  overflow-x: hidden;
+body,
+html {
+  /* The value of overflow from "hidden" to "clip" */
+  overflow-x: clip;
   width: 100vw;
-  
 }
 
 .bg-header {
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 8px !important;
-  position: sticky;
+  position: -webkit-sticky;
 }
 
 header {
@@ -55,6 +51,10 @@ header {
   z-index: 99;
   background: white;
   width: 100%;
+  top: 0;
+}
+.header-container {
+  /* overflow-x: hidden; */
 }
 
 header .nav-link {
@@ -103,9 +103,10 @@ button a {
 }
 
 .bg-banner {
-  background: url("/2023/images/backgrounds/bg-header-dot.png")repeat;
+  background: url("/2023/images/backgrounds/bg-header-dot.png") repeat;
   background-size: contain;
   height: calc(100vh - var(--header-height));
+  overflow-x: hidden;
 }
 
 .bg-banner-overlay {
@@ -316,7 +317,6 @@ button a {
   bottom: 0;
   margin: auto;
   border-radius: 50px !important;
-
 }
 
 .bg-journey .carousel-control-next {
@@ -343,7 +343,7 @@ button a {
 }
 
 .bg-journey .carousel {
-  background: #fff url("/2023/images/backgrounds/bg-header-dot.png")repeat !important;
+  background: #fff url("/2023/images/backgrounds/bg-header-dot.png") repeat !important;
   border-radius: 20px !important;
 }
 
@@ -395,7 +395,8 @@ button a {
 }
 
 .bg-speakerbox {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;
   border-radius: 20px !important;
   min-height: 150px;
   display: flex;
@@ -415,7 +416,7 @@ button a {
 }
 
 .bg-conference {
-  background: #fbfaf3 url("/2023/images/backgrounds/bg-con.png")no-repeat;
+  background: #fbfaf3 url("/2023/images/backgrounds/bg-con.png") no-repeat;
   background-position: right top !important;
 }
 
@@ -491,7 +492,6 @@ button a {
   border: 1px solid #eac124 !important;
   background-color: #ffffff !important;
 }
-
 
 .flip-img1 {
   padding-left: 35%;
@@ -596,9 +596,7 @@ button a {
 }
 
 .bg-hall {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("/2023/images/backgrounds/bg-hall.jpg") no-repeat;
   background-size: cover;
   height: 726px !important;
@@ -620,7 +618,7 @@ button a {
 }
 
 .bg-footer {
-  background: url("/2023/images/backgrounds/bg-header-dot.png")repeat;
+  background: url("/2023/images/backgrounds/bg-header-dot.png") repeat;
 }
 
 .footer-title {
@@ -696,7 +694,7 @@ button a {
   cursor: pointer;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .headerlogo {
     width: 60% !important;
   }
@@ -734,7 +732,7 @@ button a {
     height: 66.5rem;
   }
 
-  .bg-banner .pycon-logo img{
+  .bg-banner .pycon-logo img {
     width: 320px;
     height: 90px;
   }
@@ -885,14 +883,14 @@ button a {
   }
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
   .speaker-image {
     height: 120px;
     width: 120px;
   }
 }
 
-@media(max-width:576px) {
+@media (max-width: 576px) {
   .ticket-buy {
     border-left: none;
   }
@@ -902,7 +900,7 @@ button a {
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .ticket-buy {
     border-left: none;
   }
@@ -1207,4 +1205,3 @@ button a {
     transform: scale(1, 1);
   }
 }
-
