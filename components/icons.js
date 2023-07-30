@@ -1,10 +1,12 @@
-import { FaInstagram, FaLinkedin, FaTwitter, FaMastodon } from "react-icons/fa6";
+import { FaInstagram, FaLinkedin, FaTwitter, FaMastodon, FaGlobe, FaGithub } from "react-icons/fa6";
 
 export const icons = {
+  github: FaGithub,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
   mastodon: FaMastodon,
   twitter: FaTwitter,
+  website: FaGlobe
 };
 
 export const IconComponent = ({ ...props }) => {
