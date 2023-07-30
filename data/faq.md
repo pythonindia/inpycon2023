@@ -20,7 +20,9 @@ Workshops will be 3 hrs long interactive sessions where attendees can learn by d
 5. Sponsor stalls are where you can meet companies supporting the conference. These companies use Python and are looking for Python developers. You can visit their stalls to get to know more about them, and the openings in their organization.
 
 #### October 2, 2023: Devsprints
-During the Devsprints, people contribute to open-source projects, guided by mentors. This is a nice way to get started with contributing to Python and other open-source projects. A separate ticket is required to attend the Devsprints.
+During the Devsprints, people contribute to open-source projects, guided by mentors. This is a nice way to get started with contributing to Python and other open-source projects.
+
+Devsprints are free to attend.
 
 ### General FAQ
 
@@ -60,7 +62,7 @@ Yes. A separate ticket has to be purchased for each workshop. The following is i
 - Access to Kid's engagement (by Volunteers) at the Venue
 
 #### Is there a different ticket for the Devsprints?
-No, you do not need a ticket for Devsprints. Devsprints are open to all participants.
+No, you do not need a ticket for Devsprints. Devsprints are open to all participants and is free to attend.
     
 #### Is accommodation included in the ticket?
 No, it doesn’t include accommodation.
