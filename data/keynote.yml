@@ -7,7 +7,7 @@
       link: https://twitter.com/sleepypioneer
     - platform: linkedin
       link: https://www.linkedin.com/in/jessica0greene/
-    - name: mastodon
+    - platform: mastodon
       link: https://mastodon.social/@sleepypioneer
 - fullName: Marcelo Trylesinski
   title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
@@ -16,7 +16,7 @@
   social:
     - platform: twitter
       link: https://twitter.com/marcelotryle
-    - name: linkedin
+    - platform: linkedin
       link: https://www.linkedin.com/in/marcelotryle/
     - platform: instagram
       link: https://www.instagram.com/marcelotryle/

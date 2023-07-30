@@ -7,15 +7,7 @@ import { useEffect, useState } from "react";
 import KeynoteData from "../../data/keynote.yml";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import LinkedInLogo from "public/images/icons/social1.png";
-import TwitterLogo from "public/images/icons/social3.png";
-import InstagramLogo from "public/images/icons/social4.png";
-
-const socialIcons = {
-  linkedin: LinkedInLogo,
-  twitter: TwitterLogo,
-  instagram: InstagramLogo,
-};
+import IconComponent from "../../components/icons";
 
 const SpeakerPage = () => {
   const router = useRouter();
@@ -69,16 +61,9 @@ const SpeakerPage = () => {
             <div className="bg-speaker-bio-social py-2 px-4">
               {speaker.social.map((item, index) =>
               (
-                item.platform in socialIcons &&
-                <span key={index}>
+                <span className="me-2" key={index}>
                   <Link href={item.link} target="_blank">
-                    <Image
-                      className="me-2"
-                      src={socialIcons[item.platform]}
-                      alt={item.platform}
-                      width={40}
-                      height={40}
-                    />
+                    <IconComponent name={item.platform} />
                   </Link>
                 </span>
               )
