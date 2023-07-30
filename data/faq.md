@@ -69,7 +69,7 @@ No, there won’t be any spot registrations available at the conference venue.
 #### Can I switch between workshops during the session?
 No. Each track is planned at its full capacity.
 
-# Contact Us
+### Contact Us
 - For general queries: [contact@in.pycon.org](mailto:contact@in.pycon.org)
 - For ticket queries: [tickets@in.pycon.org](mailto:tickets@in.pycon.org)
 - Zulip Chat: [https://pyconindia.zulipchat.com/](https://pyconindia.zulipchat.com/)
