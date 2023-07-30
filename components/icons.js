@@ -1,12 +1,18 @@
-import { FaInstagram, FaLinkedin, FaTwitter, FaMastodon, FaGlobe, FaGithub } from "react-icons/fa6";
+import { FaBars, FaEnvelope, FaFacebook, FaGithub, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter } from "react-icons/fa6";
+import { SiZulip } from "react-icons/si";
+
 
 export const icons = {
+  bars: FaBars,
+  envelope: FaEnvelope,
+  facebook: FaFacebook,
   github: FaGithub,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
   mastodon: FaMastodon,
   twitter: FaTwitter,
-  website: FaGlobe
+  website: FaGlobe,
+  zulip: SiZulip
 };
 
 export const IconComponent = ({ ...props }) => {

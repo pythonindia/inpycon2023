@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
+import IconComponent from "./icons";
 import logo from "../public/images/logos/logo.png";
 
 const navBarItems = [
@@ -129,7 +130,7 @@ export default function Header() {
                 aria-label="Toggle navigation"
                 onClick={navBarClickHandler}
               >
-                <Image height={32} width={32} src='/2023/images/icons/menu.svg' alt="Menu" />
+                <IconComponent name="bars" color="#000" backgroundColor='#FFF' />
               </button>
               <div
                 className={"navbar-collapse" + (navBarToggle ? "" : " collapse")}
