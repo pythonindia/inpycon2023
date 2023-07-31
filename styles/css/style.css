@@ -43,7 +43,7 @@ html {
 
 .bg-header {
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 8px !important;
-  position: -webkit-sticky;
+  position: sticky;
 }
 
 header {
@@ -52,9 +52,6 @@ header {
   background: white;
   width: 100%;
   top: 0;
-}
-.header-container {
-  /* overflow-x: hidden; */
 }
 
 header .nav-link {
@@ -99,21 +96,20 @@ button a {
 }
 
 .hero-container {
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh - 90px)
 }
 
 .bg-banner {
   background: url("/2023/images/backgrounds/bg-header-dot.png") repeat;
   background-size: contain;
-  height: calc(100vh - var(--header-height));
-  overflow-x: hidden;
+  /* height: calc(100vh - var(--header-height)); */
 }
 
 .bg-banner-overlay {
   /* background: url("/2023/images/banners/bg-bannerimg.png")no-repeat !important; */
   background-position: right bottom !important;
   background-size: 48% !important;
-  height: calc(100vh - 90px);
+  /* height: calc(100vh - 90px); */
 }
 
 .register-btn .green-btn {
