@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import KeynoteData from "../data/keynote.yml";
 
 const KeynoteComponent = () => {
@@ -18,33 +20,37 @@ const KeynoteComponent = () => {
       <section className="bg-members">
         <div className="container">
           <div className="row top-up">
-            {/* <Link href="/keynote/[speakerFullName]" as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
-                style={{ textDecoration: "none" }}
-                > */}
             <div className="col-md-6">
               {KeynoteData
                 .filter((_, index) => index % 2 === 0) // Filter even indices for the first column
                 .map((speaker, index) => (
-                  <div
-                    className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
+                  <Link href="/keynote/[speakerFullName]"
+                    as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
                     key={index}
                   >
-                    <div className="row align-items-center w-100">
-                      <div className="col-auto">
-                        <img
-                          src={speaker.profilePicture}
-                          alt={speaker.fullName}
-                          className="speaker-image"
-                        />
-                      </div>
-                      <div className="col">
-                        <h4>{speaker.fullName}</h4>
-                        <p>{speaker.title}</p>
+                    <div
+                      className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
+                      data-aos="fade-right"
+                      data-aos-duration="1000"
+                      key={index}
+                    >
+                      <div className="row align-items-center w-100">
+                        <div className="col-auto">
+                          <img
+                            src={speaker.profilePicture}
+                            alt={speaker.fullName}
+                            className="speaker-image"
+                          />
+                        </div>
+                        <div className="col">
+                          <h4>{speaker.fullName}</h4>
+                          <p>{speaker.title}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
             </div>
             <div className="col-md-6">
@@ -52,26 +58,32 @@ const KeynoteComponent = () => {
               {KeynoteData
                 .filter((_, index) => index % 2 !== 0) // Filter odd indices for the second column
                 .map((speaker, index) => (
-                  <div
-                    className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
-                    data-aos="fade-left"
-                    data-aos-duration="1000"
+                  <Link href="/keynote/[speakerFullName]"
+                    as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
+                    style={{ textDecoration: "none" }}
+                    target="_blank"
                     key={index}
                   >
-                    <div className="row align-items-center w-100">
-                      <div className="col-auto">
-                        <img
-                          src={speaker.profilePicture}
-                          alt={speaker.fullName}
-                          className="speaker-image"
-                        />
-                      </div>
-                      <div className="col">
-                        <h4>{speaker.fullName}</h4>
-                        <p>{speaker.title}</p>
+                    <div
+                      className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
+                      data-aos="fade-left"
+                      data-aos-duration="1000"
+                    >
+                      <div className="row align-items-center w-100">
+                        <div className="col-auto">
+                          <img
+                            src={speaker.profilePicture}
+                            alt={speaker.fullName}
+                            className="speaker-image"
+                          />
+                        </div>
+                        <div className="col">
+                          <h4>{speaker.fullName}</h4>
+                          <p>{speaker.title}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 ))}
             </div>
           </div>

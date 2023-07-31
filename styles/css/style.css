@@ -36,7 +36,6 @@ span {
 
 body,
 html {
-  /* The value of overflow from "hidden" to "clip" */
   overflow-x: clip;
   width: 100vw;
 }
@@ -361,6 +360,12 @@ button a {
   width: 150px;
 }
 
+.speaker-bio-image {
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+}
+
 .bg-speakers {
   background: #eac124 url("/2023/images/backgrounds/shadow-yel.png");
   height: 421px;
@@ -409,6 +414,25 @@ button a {
 
 .bg-speakerbox:hover h4 {
   color: #068580 !important;
+}
+
+.bg-speaker-bio-box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border-radius: 20px;
+  background-color: #FAFAF3;
+  max-width: 90%;
+}
+
+.bg-speaker-bio-header:hover h1 {
+  color: #068580;
+}
+
+.bg-speaker-bio-about {
+  border-top: 2px solid #f2eee2;
+}
+
+.bg-speaker-bio-social {
+  border-top: 2px solid #f2eee2;
 }
 
 .bg-conference {
@@ -884,6 +908,11 @@ button a {
     height: 120px;
     width: 120px;
   }
+
+  .speaker-bio-image {
+    height: 150px;
+    width: 150px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1201,3 +1230,4 @@ button a {
     transform: scale(1, 1);
   }
 }
+
