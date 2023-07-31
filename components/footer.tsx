@@ -1,59 +1,53 @@
-import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
+import IconComponent from "../components/icons";
 import PyConLogo from "../public/images/logos/logo.png";
-import LinkedInLogo from "../public/images/icons/social1.png";
-import FacebookLogo from "../public/images/icons/social2.png";
-import TwitterLogo from "../public/images/icons/social3.png";
-import InstagramLogo from "../public/images/icons/social4.png";
-import ZulipLogo from "../public/images/icons/social5.png";
-import Email from "../public/images/icons/social6.png";
 import WebChirpyLogo from "../public/images/logos/webchirpy.png";
 
 interface SocialItem {
   name: string;
   url: string;
-  logo: any;
+  icon: string;
 }
 
 const social: SocialItem[] = [
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/company/pyconindia/",
-    logo: LinkedInLogo,
+    icon: "linkedin",
   },
   {
     name: "Facebook",
     url: "https://www.facebook.com/PyConIndia/",
-    logo: FacebookLogo,
+    icon: "facebook",
   },
   {
     name: "Twitter",
     url: "https://twitter.com/pyconindia",
-    logo: TwitterLogo,
+    icon: "twitter",
   },
   {
     name: "Instagram",
     url: "https://www.instagram.com/inpycon/",
-    logo: InstagramLogo,
+    icon: "instagram",
   },
   {
     name: "Zulip",
     url: "https://pyconindia.zulipchat.com/",
-    logo: ZulipLogo,
+    icon: "zulip",
   },
   {
     name: "Email",
     url: "mailto:contact@in.pycon.org",
-    logo: Email,
+    icon: "envelope",
   },
 ];
 
 const Footer: React.FC = () => {
   return (
-    <footer
-      className="bg-footer"
-    >
+    <footer className="bg-footer">
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12 pb-5 text-center">
@@ -69,16 +63,14 @@ const Footer: React.FC = () => {
             <h3 className="footer-title">Connect Us On</h3>
             <ul className="social list-group list-group-horizontal justify-content-center justify-content-md-start">
               {social.map((item, index) => (
-                <li className="list-group-item" key={index}>
-                  <a href={item.url} target="_blank" rel="noopener noreferrer">
-                    <Image
-                      src={item.logo}
-                      alt={item.name.toString()}
-                      width={40}
-                      height={40}
-                    />
-                  </a>
-                </li>
+                <Link
+                  key={index}
+                  className="list-group-item"
+                  href={item.url}
+                  target="_blank"
+                >
+                  <IconComponent name={item.icon} />
+                </Link>
               ))}
             </ul>
           </div>
