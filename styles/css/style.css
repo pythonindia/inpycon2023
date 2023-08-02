@@ -13,10 +13,6 @@
   --header-height: 80px;
 }
 
-html {
-  scroll-behavior: smooth !important;
-}
-
 html,
 body,
 h1,
