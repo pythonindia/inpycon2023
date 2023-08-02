@@ -94,14 +94,9 @@ button a {
   display: block;
 }
 
-.hero-container {
-  min-height: calc(100vh - 90px)
-}
-
 .bg-banner {
   background: url("/2023/images/backgrounds/bg-header-dot.png") repeat;
   background-size: contain;
-  /* height: calc(100vh - var(--header-height)); */
 }
 
 .bg-banner-overlay {
@@ -141,10 +136,10 @@ button a {
   background-size: contain !important;
   height: 460px !important;
   position: absolute;
-  bottom: 80px !important;
+  bottom: 80px;
   content: "";
   left: 0;
-  right: 145px;
+  right: 170px;
 }
 
 .layer-3 {
@@ -714,6 +709,18 @@ button a {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  .layer-2 {
+    bottom: 0px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .layer-2 {
+    bottom: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .headerlogo {
     width: 60% !important;
@@ -745,13 +752,6 @@ button a {
     text-align: center !important;
   }
 
-  .bg-banner {
-    background: url("/2023/images/animation/rep-car.png") repeat !important;
-    background-size: auto !important;
-    overflow: hidden;
-    height: 66.5rem;
-  }
-
   .bg-banner .pycon-logo img {
     width: 320px;
     height: 90px;
@@ -774,12 +774,6 @@ button a {
   .layer-3 {
     background-size: 62% !important;
     right: 0px !important;
-  }
-
-  .layer-2 {
-    background-size: 96% !important;
-    right: 134px !important;
-    bottom: 36px !important;
   }
 
   .date-text img {
@@ -949,9 +943,8 @@ button a {
   }
 
   .layer-2 {
-    background-size: 88% !important;
-    right: 252px !important;
-    bottom: 66px !important;
+    background-size: 102% !important;
+    right: 200px !important;
   }
 
   .layer-3 {
@@ -1010,13 +1003,6 @@ button a {
     margin-top: 62% !important;
   }
 
-  .bg-banner {
-    background: url("/2023/images/animation/rep-car.png") repeat !important;
-    background-size: auto !important;
-    height: 70rem;
-    overflow: hidden;
-  }
-
   header .navbar-expand-md .navbar-nav .nav-link {
     padding: 20px 7px 20px 7px !important;
   }
@@ -1024,7 +1010,7 @@ button a {
   .layer-2 {
     background-size: 86% !important;
     right: 344px !important;
-    bottom: 66px !important;
+    bottom: 66px;
   }
 
   .layer-3 {
@@ -1230,4 +1216,3 @@ button a {
     transform: scale(1, 1);
   }
 }
-
