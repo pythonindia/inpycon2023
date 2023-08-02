@@ -937,6 +937,17 @@ button a {
   }
 }
 
+@media (max-width: 576px) {
+  .layer-2 {
+    background-size: 100% !important;
+    right: 80px;
+  }
+
+  .layer-3 {
+    background-size: 50% !important;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
   .anim-sec {
     margin-top: 67% !important;
