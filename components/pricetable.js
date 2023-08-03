@@ -17,7 +17,7 @@ const TicketsPriceTable = () => {
         const extractedTickets = data.ticket_details.map((ticket) => ({
           id: ticket.ticket_id,
           name: ticket.ticket_name,
-          price: ticket.minimum_price,
+          price: ticket.minimum_price || ticket.ticket_price,
           soldOut: ticket.sold_out,
           description: ticket.description,
         }));
