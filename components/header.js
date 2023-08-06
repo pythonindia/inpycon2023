@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 
 import IconComponent from "./icons";
 import logo from "../public/images/logos/logo.png";
+import { BreadcrumbJsonLd } from "next-seo";
 
 const navBarItems = [
   {
@@ -155,6 +156,18 @@ export default function Header() {
           </div>
         </div>
       </div>
+      {/* schema */}
+      <BreadcrumbJsonLd
+        itemListElements={
+          navBarItems.map((item, index) => (
+            {
+              position: index+1,
+              name: item.name,
+              item: item.openInNewTab ? item.href : `https://in.pycon.org${item.href}`,
+            }
+          ))
+        }
+      />
     </header>
   );
 }
