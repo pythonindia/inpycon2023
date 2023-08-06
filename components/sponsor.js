@@ -2,6 +2,8 @@ import Button from "./button";
 import SponsorData from "../data/sponsor.yml";
 
 const SponsorComponent = () => {
+  const sponsorTiers = Object.keys(SponsorData);
+
   return (
     <section className="bg-event home-section" id="sponsors">
       <div className="container pt-4">
@@ -33,26 +35,22 @@ const SponsorComponent = () => {
             />
           </div>
         </div>
-        {/* <div className="col-md-12 m-auto sp-sor text-center pt-5">
-            <div className="sponsortitle">Platinum</div>
+        {sponsorTiers.map(tier => (
+        <div key={tier}>
+          <div className="col-md-12 m-auto sp-sor text-center pt-5">
+            <div className="sponsortitle">{tier.charAt(0).toUpperCase() + tier.slice(1)}</div>
           </div>
-          <div className="row pt-5 pb-5">
-            {SponsorData.platinum.map((image, index) => (
-              <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle" key={index}>
-                <img src={image} className="img-fluid" alt="" />
+          <div className="row justify-content-center pt-5 pb-5">
+            {SponsorData[tier].map((sponsor, index) => (
+              <div className={`col-md-3 col-6 mb-md-0 mb-3 bt-circle ${SponsorData[tier].length === 1 ? 'mx-auto' : ''}`} key={index}>
+                <a href={sponsor.website} target="_blank" rel="noreferrer">
+                  <img src={sponsor.logo} className="img-fluid sponsor-logo" alt="" />
+                </a>
               </div>
             ))}
           </div>
-          <div className="col-md-12 m-auto sp-sor text-center pt-md-5">
-            <div className="sponsortitle">Gold</div>
-          </div>
-          <div className="row pt-5 pb-5">
-            {SponsorData.gold.map((image, index) => (
-              <div className="col-md-3 col-6 mb-md-0 mb-3 bt-circle" key={index}>
-                <img src={image} className="img-fluid" alt="" />
-              </div>
-            ))}
-          </div> */}
+        </div>
+      ))}
       </div>
     </section>
   );
