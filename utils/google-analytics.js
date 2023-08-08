@@ -9,11 +9,6 @@ export const trackPageView = (url) => {
 export const initializeGA = () => {
     if (typeof window !== "undefined") {
         if (!window.gtag) {
-            const script = document.createElement("script");
-            script.src = "https://www.googletagmanager.com/gtag/js";
-            script.async = true;
-            document.head.appendChild(script);
-
             window.dataLayer = window.dataLayer || [];
             window.gtag = function () {
                 window.dataLayer.push(arguments);
