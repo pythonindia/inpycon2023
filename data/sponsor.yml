@@ -5,6 +5,9 @@ platinum:
     linkedin: https://www.linkedin.com/company/neo4j/
     twitter: https://twitter.com/neo4j
     facebook: https://www.facebook.com/neo4j.graph.database
+  - logo: images/sponsors/happyfox.png
+    website: https://happyfox.com
+    linkedin: https://www.linkedin.com/company/happyfox-inc-/
 gold:
   - logo: images/sponsors/innovaccer.png
     website: https://innovaccer.com/
