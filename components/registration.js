@@ -93,3 +93,4 @@ const RegistrationSection = () => {
 };
 
 export default RegistrationSection;
+
