@@ -3,7 +3,7 @@ import CommunityPartnersData from "../data/CommunityPartners.yml";
 
 const CommunityPartners = () => {
   return (
-    <section className="bg-community-partners home-section px-5" id="community-partners">
+    <section className="bg-community-partners home-section" id="community-partners">
       <div className="container pt-5 pb-5">
         <div className="row align-items-center">
           <h2 className="col-auto com-head text-white" data-aos="fade-down" data-aos-duration="1000">Community Partners</h2>
