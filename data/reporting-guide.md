@@ -22,7 +22,7 @@ a. **Contact a Volunteer:** Look for individuals wearing "PyCon India Volunteer"
 badges and approach them to make your report in person.
 
 b. **Email:** You can send an email to
-[report@in.pycon.org](mailto:report@in.pycon.org) to submit your report
+[coc@in.pycon.org](mailto:coc@in.pycon.org) to submit your report
 electronically.
 
 c. **In-person:** If you prefer to discuss the matter in person, please notify
