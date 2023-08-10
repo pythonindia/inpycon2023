@@ -24,7 +24,7 @@ const RegistrationSection = () => {
             </h2>
             <h3 className="pt-5 text-white">Hyderabad, 29 Sep - 02 Oct</h3>
             <p className="pt-4 text-white">
-              Pycon India 2023 is the premier conference for Python enthusiasts and professionals,
+              PyCon India 2023 is the premier conference for Python enthusiasts and professionals,
               offering an unparalleled opportunity to dive deep into the world of python and explore
               its limitless potentials.
             </p>
@@ -93,3 +93,4 @@ const RegistrationSection = () => {
 };
 
 export default RegistrationSection;
+
