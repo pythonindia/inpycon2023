@@ -17,7 +17,7 @@ const TicketsPriceTable = () => {
         const extractedTickets = data.ticket_details.map((ticket) => ({
           id: ticket.ticket_id,
           name: ticket.ticket_name,
-          price: ticket.ticket_price,
+          price: ticket.minimum_price || ticket.ticket_price,
           soldOut: ticket.sold_out,
           description: ticket.description,
         }));
@@ -32,7 +32,7 @@ const TicketsPriceTable = () => {
   return (
     <section className="bg-pricetable home-section">
       <div className="container-fluid">
-        <div className="row pt-5 pb-5" style={{justifyContent: 'center'}}>
+        <div className="row pt-5 pb-5" style={{ justifyContent: 'center' }}>
           {tickets.map((ticket) => (
             <div key={ticket.id} className="ticket-wrap row">
               <div className="col-md-5 col-sm-8 col-xs-12 px-5">
@@ -58,7 +58,7 @@ const TicketsPriceTable = () => {
                     buttonClassName="custom-button submit-btn register-btn-extra-padding w-100"
                     anchorClassName="text-decoration-none text-light"
                     buttonLabel="Buy Tickets"
-                    buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
+                    buttonHyperLink={`https://konfhub.com/checkout/pyconindia2023?ticketId=${ticket.id}`}
                   />}
               </div>
             </div>

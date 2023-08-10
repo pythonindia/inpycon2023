@@ -1,66 +1,78 @@
 import { useRouter } from "next/router";
+import Image from "next/image";
+import Link from "next/link";
+
+import { useEffect, useState } from "react";
+
 import KeynoteData from "../../data/keynote.yml";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import IconComponent from "../../components/icons";
 
 const SpeakerPage = () => {
   const router = useRouter();
   const { speakerFullName } = router.query;
-  const formattedSpeakerFullName = speakerFullName
-    ? speakerFullName.replace(/-/g, " ")
-    : "";
-  const speaker = KeynoteData.find(
-    (s) =>
-      s.fullName.toLowerCase() === formattedSpeakerFullName.toLowerCase()
-  );
+  const [speaker, setSpeaker] = useState(null);
 
-  if (!speaker) {
-    return (
-      <>
-        <Header />
-        <section id="speaker">
-          <div className="container">
-            <div className="row pt-5">
-              <div className="col-md-12 pt-3 pb-5">
-                <h2 className="com-head">Speaker not found</h2>
-              </div>
-            </div>
-          </div>
-        </section>
-        <Footer />
-      </>
-    );
-  }
+  useEffect(() => {
+    const findSpeaker = () => {
+      const formattedSpeakerFullName = speakerFullName
+        ? speakerFullName.replace(/-/g, " ")
+        : "";
+      const foundSpeaker = KeynoteData.find(
+        (s) =>
+          s.fullName.toLowerCase() === formattedSpeakerFullName.toLowerCase()
+      );
+      if (!foundSpeaker) {
+        router.push('/404');
+      }
+      setSpeaker(foundSpeaker);
+    };
+
+    if (speakerFullName) {
+      findSpeaker();
+    }
+  }, [speakerFullName, router]);
 
   return (
     <>
-      <Header />
-      <section id="speaker">
-        <div className="container">
-          <div className="row pt-5">
-            <div className="col-md-5">
-              <div className="s1-image pt-5">
-                <img
+      {speaker &&
+        <div id="keynote">
+          <Header />
+          <div className="container bg-speaker-bio-box">
+            <div className="row my-4 bg-speaker-bio-header align-items-center w-100">
+              <div className="col-12 py-4 text-center">
+                <Image
                   src={speaker.profilePicture}
-                  className="img-fluid w-75 "
                   alt={speaker.fullName}
+                  className="speaker-bio-image"
+                  width={500}
+                  height={500}
                 />
               </div>
-            </div>
-            <div className="col-md-7">
-              <div className="col-md-12 pt-3 pb-5">
-              <h2 className="com-head">{speaker.fullName}</h2>
-            </div>
-              <div className="s1-text p-2">
-                <h2 className="mb-3">About the Speaker</h2>
+              <div className="col-12 py-2 text-center">
+                <h1>{speaker.fullName}</h1>
                 <p>{speaker.title}</p>
-                <p className="lead w-75">{speaker.about}</p>
               </div>
             </div>
+            <div className="row bg-speaker-bio-about pt-4 px-4">
+              <p dangerouslySetInnerHTML={{ __html: speaker.about }}></p>
+            </div>
+            <div className="bg-speaker-bio-social py-2 px-4">
+              {speaker.social.map((item, index) =>
+              (
+                <span className="me-2" key={index}>
+                  <Link href={item.link} target="_blank">
+                    <IconComponent name={item.platform} />
+                  </Link>
+                </span>
+              )
+              )}
+            </div>
           </div>
+          <Footer />
         </div>
-      </section>
-      <Footer />
+      }
     </>
   );
 };

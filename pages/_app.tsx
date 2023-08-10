@@ -1,16 +1,34 @@
 import { AppProps } from "next/app";
-import "../styles/css/style.css";
-import {useEffect} from "react";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import AOS from "aos";
 import Head from "next/head";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
+import Script from "next/script";
+import { initializeGA, trackPageView } from "../utils/google-analytics";
+import "../styles/css/style.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+  const canonicalURL = `https://in.pycon/org/2023${router.pathname}`;
+
   useEffect(() => {
     AOS.init({
       duration: 800, // Animation duration
       once: true, // Only animate elements once
     });
-  }, []);
+
+    initializeGA();
+    const handleRouteChange = (url: string) => {
+      trackPageView(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
       <Head>
@@ -20,20 +38,20 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="keywords"
-          itemProp="keywords"
-          content="PyCon India, PyConIndia, PyConIndia2023, Python, India, PyCon, Conference, Hyderabad, 2023, PyConIn"
-        />
-        <meta
-          name="description"
-          itemProp="description"
-          content="The premier conference in India on using and developing the python programming language"
-        />
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <title>PyCon India 2023, Hyderabad</title>
       </Head>
+      {/* Default page SEO starts */}
+      <DefaultSeo {...SEO} canonical={canonicalURL} />
+      {/* Default page SEO ends */}
+      <Script
+        src="https://cdn.userway.org/widget.js"
+        data-account="T8lCiGpEJy"
+        async
+        defer
+      ></Script>
+      <Script src="https://www.googletagmanager.com/gtag/js" async></Script>
       <Component {...pageProps} />
     </>
   );

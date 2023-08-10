@@ -1,10 +1,26 @@
 platinum:
-  - images/sp-1.png
-  - images/sp-2.png
-  - images/sp-3.png
-  - images/sp-1.png
+  - logo: images/sponsors/neo4j.png
+    website: http://neo4j.com
+    instagram: https://www.instagram.com/neo4j/
+    linkedin: https://www.linkedin.com/company/neo4j/
+    twitter: https://twitter.com/neo4j
+    facebook: https://www.facebook.com/neo4j.graph.database
+  - logo: images/sponsors/happyfox.png
+    website: https://happyfox.com
+    linkedin: https://www.linkedin.com/company/happyfox-inc-/
 gold:
-  - images/sp-1.png
-  - images/sp-2.png
-  - images/sp-3.png
-  - images/sp-1.png
+  - logo: images/sponsors/innovaccer.png
+    website: https://innovaccer.com/
+    linkedin: https://www.linkedin.com/company/innovaccer/
+silver:
+  - logo: images/sponsors/zoho.png
+    website: https://www.site24x7.com/
+    linkedin: https://www.linkedin.com/company/site24x7
+    twitter: https://twitter.com/Site24x7
+    facebook: https://facebook.com/Site24x7
+  - logo: images/sponsors/frappe.png
+    website: http://frappe.io
+    instagram: https://www.instagram.com/frappetech/
+    linkedin: https://in.linkedin.com/company/frappe-technologies
+    twitter: https://twitter.com/frappetech
+    facebook: https://www.facebook.com/ERPNext

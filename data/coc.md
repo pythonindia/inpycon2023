@@ -6,7 +6,7 @@ bloglike: true
 nav: code-of-conduct
 ---
 
-## The Short Form
+### The Short Form
 
 We invite you to come to PyCon India 2023 in a spirit of curiosity,
 friendliness, open-mindedness, and respect. We will not tolerate
@@ -38,9 +38,9 @@ including warning the offender or expulsion from the community and community
 events with no refund of event tickets. Please read on for a more detailed
 version of the Code of Conduct below.
 
-## The Long Form
+### The Long Form
 
-### Aim
+#### Aim
 
 PyCon India is a community organized conference intended for
 advocating the use and adoption of the Python programming language in
@@ -58,18 +58,18 @@ gender, sexual orientation, physical appearance, disability,
 neurotype, race, religion, political opinion, culture or
 employment. We don’t tolerate harassment of attendees in any form.
 
-### Where
+#### Where
 
 This Code of Conduct applies to the venue of PyCon India 2023
 Conference, pre-event & post-event informal gatherings, related online
 forums and all conference related events organized by PyCon India.
 
-### Who
+#### Who
 
 This is applicable to speakers, participants, sponsors, volunteers and
 organizers.
 
-### Be The Best You Can Be
+#### Be The Best You Can Be
 
 - Be kind, sensitive, understanding and respectful to other
     attendees.
@@ -84,7 +84,7 @@ organizers.
 
 - Do not insult or put down attendees or engage in any action that violates the open, welcoming and sharing spirit of the conference.
 
-### Please Refrain From
+#### Please Refrain From
 
 - Offensive verbal comments related to gender, sexual orientation,
     disability, physical appearance, body size, race, religion.
@@ -119,7 +119,7 @@ form, including, but not limited to the activities mentioned here.
 Participants asked to stop any harassing behavior are expected to
 comply immediately.
 
-## Reporting
+### Reporting
 
 If you are being harassed or notice that someone else is being harassed,
 or have any other concerns, please reach out to us at
@@ -135,12 +135,26 @@ the following committee members. The Helpdesk can assist you in finding them
 at the venue:
 
 - Nivesh Krishna (CoC Chair)
-- Vandana Pv (Diversity & Inclusion Chair)
+  - Code of Conduct Workgroup
+  - vniveshkrishna.98 at gmail dot com
+- Vandana PV (Diversity & Inclusion Chair)
+  - Diversity Workgroup
+  - pv.vandana29 at gmail dot com
 - Amritha Madam
+  - Communications Workgroup
+  - madamamritha at gmail dot com
 - Bhanu K
+  - R&D initiatives Workgroup
+  - talk2kish at gmail dot com
 - Kalyan Prasad
+  - Co-Conference Chair
+  - kalyan.prsd at gmail dot com
 - Snehith Allamraju
+  - Co-Conference Chair
+  - snehith_allamraju_2019 at cba dot isb dot edu
 - Sanchit Balchandani
+  - Conference Chair
+  - balchandani.sanchit at gmail dot com
 
 For more information on how to report incidents and what to include in your
 report, please visit our [Reporting Guide](../reporting-guide). It provides
@@ -152,7 +166,7 @@ welcoming environment for all attendees. Your cooperation helps us ensure a
 positive experience for everyone at PyCon India. Thank you for being proactive
 in maintaining the integrity of our community.
 
-## License
+### License
 
 This Code of Conduct is derived from
 
