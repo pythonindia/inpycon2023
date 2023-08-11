@@ -106,6 +106,19 @@ button a {
   width: 100%;
 }
 
+.register-btn .light-yellow-btn {
+  width: 100%;
+}
+
+.light-yellow-btn {
+  color: #000;
+  background-color: '#F2EEE';
+}
+
+.light-yellow-btn:hover {
+  opacity: 0.8;
+}
+
 .register-btn .submit-btn {
   width: 100%;
 }
