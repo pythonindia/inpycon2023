@@ -4,16 +4,15 @@ const Travel = () => {
       {" "}
       <section className="home-section" id="travel">
         <div className="container">
-          <div className="row pt-5">
-            <div className="col-md-12 pt-3 pb-5">
-              <h2
-                h2
-                className="com-head"
+          <div className="row pt-2">
+            <div className="col-md-12 pt-1 pb-5">
+              <h1
+                className="com-head text-center"
                 data-aos="fade-down"
                 data-aos-duration="800"
               >
                 Getting to PyCon India 2023
-              </h2>
+              </h1>
               <div className="pycon-travel mt-5">
                 <p>
                   This page is to help attendees to find various ways to Reach

@@ -1,16 +1,14 @@
-import fs from "fs";
+import Head from "next/head";
 import MiscLayout from "../components/miscLayout";
-
 import Travel from "../components/travel";
 
-interface CoCPageProps {
-  markdownContent: string;
-}
-
-export default function CoCPage({ markdownContent }: CoCPageProps) {
+export default function TravelPage() {
   return (
     <MiscLayout>
-      <Travel />
+        <Head>
+          <title>PyCon India 2023, Hyderabad | Travel</title>
+        </Head>
+        <Travel />
     </MiscLayout>
   );
 }
