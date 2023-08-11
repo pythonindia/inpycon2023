@@ -44,7 +44,7 @@ const CommunityPartners = () => {
         {CommunityPartnersData.map((partner, index) => (
           <div className="col-md-3 col-6 bt-circle my-2" key={index}>
             <a href={partner.website} target="_blank" rel="noreferrer">
-              <img src={partner.logo} className="img-fluid community-partner-logo" alt={partner.name} />
+              <img src={partner.logo} className={`img-fluid community-partner-logo ${partner.paddingClass}`} alt={partner.name} />
             </a>
           </div>
         ))}
