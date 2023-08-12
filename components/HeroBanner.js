@@ -40,6 +40,16 @@ const HeroBanner = () => {
                   />
                 </div>
               </div>
+              <div className="row register-btn justify-content-center">
+                <div className="col-md-6 col-8 pt-3">
+                  <Button
+                    buttonClassName="custom-button light-yellow-btn register-btn-extra-padding"
+                    anchorClassName="text-decoration-none"
+                    buttonLabel="BoFs and Posters"
+                    buttonHyperLink="https://in.pycon.org/cfp/bofs-and-posters-2023/proposals/"
+                  />
+                </div>
+              </div>
               <h2 className="pt-5 mb-4 date-text text-center">
                 29 Sept - 02 Oct
                 <Image
@@ -59,7 +69,7 @@ const HeroBanner = () => {
                     </div>
                   </div>
                 ))}
-                </div>
+              </div>
             </div>
             <div className="col-lg-6 position-relative anim-sec">
               <div className="layer-1 animate glow delay-1"></div>

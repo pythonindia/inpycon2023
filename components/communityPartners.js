@@ -1,8 +1,9 @@
 import Button from "./button";
+import CommunityPartnersData from "../data/CommunityPartners.yml";
 
 const CommunityPartners = () => {
   return (
-    <section className="bg-community-partners home-section pb-5" id="community-partners">
+    <section className="bg-community-partners home-section" id="community-partners">
       <div className="container pt-5 pb-5">
         <div className="row align-items-center">
           <h2 className="col-auto com-head text-white" data-aos="fade-down" data-aos-duration="1000">Community Partners</h2>
@@ -38,6 +39,15 @@ const CommunityPartners = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="row justify-content-center pt-3 py-5">
+        {CommunityPartnersData.map((partner, index) => (
+          <div className="col-md-3 col-6 bt-circle my-2" key={index}>
+            <a href={partner.website} target="_blank" rel="noreferrer">
+              <img src={partner.logo} className={`img-fluid community-partner-logo ${partner.paddingClass}`} alt={partner.name} />
+            </a>
+          </div>
+        ))}
       </div>
     </section >
   );

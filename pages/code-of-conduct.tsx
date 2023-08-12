@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import fs from "fs";
 import path from "path";
 import CoC from "../components/coc";
@@ -10,6 +12,9 @@ interface CoCPageProps {
 export default function CoCPage({ markdownContent }: CoCPageProps) {
   return (
     <MiscLayout>
+      <Head>
+        <title>PyCon India 2023, Hyderabad | COC</title>
+      </Head>
       <CoC markdownContent={markdownContent} />
     </MiscLayout>
   );
