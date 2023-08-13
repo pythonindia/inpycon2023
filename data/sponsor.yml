@@ -36,7 +36,7 @@ silver:
     linkedin: https://www.linkedin.com/company/site24x7
     twitter: https://twitter.com/Site24x7
     facebook: https://facebook.com/Site24x7
-    paddingClass: p-4
+    paddingClass: p-3
   - logo: images/sponsors/frappe.png
     website: http://frappe.io
     instagram: https://www.instagram.com/frappetech/
