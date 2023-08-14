@@ -248,6 +248,7 @@ button a {
 .grey-btn {
   color: white;
   background-color: grey;
+  width: 100%;
 }
 
 .green-btn:hover {
@@ -267,6 +268,25 @@ button a {
 
 .submit-btn:hover {
   opacity: 0.8;
+}
+
+.custom-tooltip-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-tooltip {
+  position: absolute;
+  top: 101%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .date-text {
