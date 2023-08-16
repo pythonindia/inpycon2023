@@ -1,27 +1,38 @@
-## PyCon India 2023 Travel Information
+# Travel Information for PyCon India 2023 in Hyderabad
 
-This page provides information for attendees on how to reach PyCon India 2023 happening in Hyderabad, India. For more detailed travel information, refer to the [Hyderabad Wiki Page](https://wikitravel.org/en/Hyderabad#Get_in).
+Welcome to PyCon India 2023 in Hyderabad! Below you'll find detailed travel information on how to reach the conference venue.
+
+## Getting to Hyderabad
 
 ### By Plane - Rajiv Gandhi International Airport
 
-**To Hyderabad:** Various Indian airlines operate from Rajiv Gandhi International Airport including Air India, Air India Express, Indian Airlines, Indigo Airlines, Trujet, and SpiceJet.
-
-**From the Airport to the Venue:** Upon arriving at the airport, you have the option to take air-conditioned buses (Pushpak) to Hi-Tech City (Opposite Shilparamam) for around 250 INR. Buses run frequently from 3:30 AM to 12 AM, and hourly during midnight. Travel time varies from 45 minutes to 2 hours. [Bus timings](http://www.hyderabad.aero/to-from-airport.aspx) are available online. You can also hire metered cabs from Skycabs and Meru or use app-based services like Uber or Ola.
+If you're arriving by air, the Rajiv Gandhi International Airport serves as your gateway to Hyderabad. Various Indian airlines operate flights to this airport, including Air India, Air India Express, Indian Airlines, Indigo Airlines, Trujet, and SpiceJet.
 
 ### By Train - Secunderabad or Hyderabad
 
-**To Hyderabad:** Indian Railways offer services to Hyderabad from various parts of India. Major railway stations include Secunderabad, Hyderabad, Kachiguda, and Begumpet. Hyderabad Deccan Station is also known as Nampally Station. Most trains for South and North India start from Hyderabad via Secunderabad.
-
-From the stations to the venue, you can take buses to Shilparamam (Hitex) and then use a cab or auto to reach the venue.
+For those opting for train travel, Indian Railways offer services to Hyderabad from different parts of India. Major railway stations include Secunderabad, Hyderabad, Kachiguda, and Begumpet. Hyderabad Deccan Station, also known as Nampally Station, is a significant hub for trains to South and North India via Secunderabad.
 
 ### By Car
 
-Hyderabad is well-connected to other major cities by road, including Bangalore, Chennai, and Mumbai. The Bangalore-Hyderabad route is part of the North South corridor upgraded to a four-lane divided highway.
+Hyderabad is well-connected to other major cities by road. Routes like the Bangalore-Hyderabad corridor have been upgraded to four-lane divided highways, providing a convenient option for road travelers.
 
 ### By Bus
 
-Hyderabad is well-connected by state government and private buses to various parts of Telangana, South India, and Western India. Major bus stations include JBS (Jubilee Bus Station) in Secunderabad and MGBS (Imliban), one of the largest bus stations in the world.
+Hyderabad's extensive bus network, including state government and private buses, connects the city to various parts of Telangana, South India, and Western India. Major bus stations include JBS (Jubilee Bus Station) in Secunderabad and MGBS (Imliban), which holds the distinction of being one of the largest bus stations in the world.
 
-From the bus stand to the venue, you can take buses to Shilparamam (Hitex) and then use an auto or cab to reach the venue.
+For more comprehensive travel information and options, please refer to the [Hyderabad Wiki Page](https://wikitravel.org/en/Hyderabad#Get_in).
 
-For more detailed inquiries, contact [contact@in.pycon.org](mailto:contact@in.pycon.org).
+## Getting to the Conference Venue - JNTU-H, Kukatpally
+
+The conference will be held at JNTU-H, Kukatpally. Here are the different ways to reach the venue:
+
+### Via Hyderabad Metro
+
+JNTU-H, Kukatpally is best accessible via the Hyderabad Metro Red line. You can get down at either the "KPHB Colony" or "JNTU College" stop and then walk towards JNTU-H, Kukatpally.
+
+- **From the Blue Line:** If you're arriving via the Blue line, you can easily switch to the Red line (towards Miyapur) at Ameerpet station.
+- **From the Green Line:** If you're coming via the Green line, you can switch to the Red line (towards M.G. Bus Station) at the M.G. Bus Station stop.
+
+For a list of stations on the Hyderabad Metro Red line, you can refer to [Wikipedia](https://en.wikipedia.org/wiki/Red_Line_(Hyderabad_Metro)).
+
+We're excited to welcome you to PyCon India 2023 and hope you have a fantastic experience in Hyderabad! If you have any further inquiries or need assistance, feel free to contact us at [contact@in.pycon.org](mailto:contact@in.pycon.org).
