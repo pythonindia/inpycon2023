@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
@@ -36,6 +37,9 @@ const SpeakerPage = () => {
 
   return (
     <>
+      <Head>
+        <title>PyCon India 2023, Hyderabad | Keynote Speaker</title>
+      </Head>
       {speaker &&
         <div id="keynote">
           <Header />

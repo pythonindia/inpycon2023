@@ -5,25 +5,54 @@ platinum:
     linkedin: https://www.linkedin.com/company/neo4j/
     twitter: https://twitter.com/neo4j
     facebook: https://www.facebook.com/neo4j.graph.database
+    paddingClass: p-4
   - logo: images/sponsors/happyfox.png
     website: https://happyfox.com
     linkedin: https://www.linkedin.com/company/happyfox-inc-/
+    paddingClass: p-4
 gold:
   - logo: images/sponsors/innovaccer.png
     website: https://innovaccer.com/
     linkedin: https://www.linkedin.com/company/innovaccer/
+    paddingClass: p-4
   - logo: images/sponsors/corteva.png
     website: https://www.corteva.com/
     linkedin: https://www.linkedin.com/company/corteva/
+    paddingClass: p-3
+  - logo: images/sponsors/lindex.png
+    website: https://www.llamaindex.ai/
+    linkedin: https://www.linkedin.com/company/llamaindex/
+    twitter: https://twitter.com/llama_index
+    paddingClass: p-3
+  - logo: images/sponsors/toyota.png
+    website: https://toyotaconnected.co.in/
+    linkedin:  https://www.linkedin.com/company/toyota-connected-india-pvt-ltd/
+    twitter:  https://twitter.com/tcin_india
+    facebook: https://www.facebook.com/TCIN.India
+    paddingClass: p-4
 silver:
   - logo: images/sponsors/zoho.png
     website: https://www.site24x7.com/
     linkedin: https://www.linkedin.com/company/site24x7
     twitter: https://twitter.com/Site24x7
     facebook: https://facebook.com/Site24x7
+    paddingClass: p-3
   - logo: images/sponsors/frappe.png
     website: http://frappe.io
     instagram: https://www.instagram.com/frappetech/
     linkedin: https://in.linkedin.com/company/frappe-technologies
     twitter: https://twitter.com/frappetech
     facebook: https://www.facebook.com/ERPNext
+    paddingClass: p-4
+  - logo: images/sponsors/certa.png
+    website: https://getcerta.com
+    instagram: https://www.instagram.com/getcerta
+    linkedin: https://www.linkedin.com/company/certa-in
+    twitter: https://www.twitter.com/certa
+    paddingClass: p-4
+associate:
+  - logo: images/sponsors/reckonsys.png
+    website: https://www.reckonsys.com/
+    linkedin: https://www.linkedin.com/company/reckonsys/
+    instagram: https://instagram.com/reckonsys?igshid=MzRlODBiNWFlZA==
+    paddingClass: p-4

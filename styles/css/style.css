@@ -106,6 +106,19 @@ button a {
   width: 100%;
 }
 
+.register-btn .light-yellow-btn {
+  width: 100%;
+}
+
+.light-yellow-btn {
+  color: #000;
+  background-color: '#F2EEE2';
+}
+
+.light-yellow-btn:hover {
+  opacity: 0.8;
+}
+
 .register-btn .submit-btn {
   width: 100%;
 }
@@ -235,6 +248,7 @@ button a {
 .grey-btn {
   color: white;
   background-color: grey;
+  width: 100%;
 }
 
 .green-btn:hover {
@@ -254,6 +268,25 @@ button a {
 
 .submit-btn:hover {
   opacity: 0.8;
+}
+
+.custom-tooltip-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.custom-tooltip {
+  position: absolute;
+  top: 101%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .date-text {
@@ -587,6 +620,14 @@ button a {
   height: 100%;
 }
 
+.community-partner-logo {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f2eee2;
+}
+
 .sp-sor {
   border-bottom: 2px solid #1f928d !important;
 }
@@ -604,7 +645,6 @@ button a {
 .bt-circle img {
   border: 1px solid #f5dda1;
   border-radius: 10px;
-  padding: 25px;
   height: 95px;
   width: 90%;
 }

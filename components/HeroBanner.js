@@ -5,6 +5,7 @@ import calendar from "../public/images/icons/calendar.png";
 import logo from "../public/images/logos/logo.png";
 import calendarData from "../data/calendar.yml";
 import Button from "./button";
+import Tooltip from "./tooltip";
 
 const HeroBanner = () => {
   return (
@@ -35,9 +36,30 @@ const HeroBanner = () => {
                   <Button
                     buttonClassName="custom-button submit-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none"
-                    buttonLabel="Call For Proposal"
-                    buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+                    buttonLabel="BoFs and Posters"
+                    buttonHyperLink="https://in.pycon.org/cfp/bofs-and-posters-2023/proposals/"
                   />
+                </div>
+              </div>
+              <div className="row register-btn justify-content-center">
+                <div className="col-md-6 col-8 pt-3">
+                  <Button
+                    buttonClassName="custom-button submit-btn register-btn-extra-padding"
+                    anchorClassName="text-decoration-none text-light"
+                    buttonLabel="Call For DevSprints"
+                    buttonHyperLink="https://in.pycon.org/cfp/devsprint-2023/proposals/"
+                  />
+                </div>
+                <div className="col-md-6 col-8 pt-3">
+                  <Tooltip text="CFP closed for Talks and Workshops">
+                    <Button
+                      buttonClassName="custom-button grey-btn register-btn-extra-padding"
+                      anchorClassName="text-decoration-none"
+                      buttonLabel="Call For Proposal"
+                      buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
+                      disabled={true}
+                    />
+                  </Tooltip>
                 </div>
               </div>
               <h2 className="pt-5 mb-4 date-text text-center">
@@ -59,7 +81,7 @@ const HeroBanner = () => {
                     </div>
                   </div>
                 ))}
-                </div>
+              </div>
             </div>
             <div className="col-lg-6 position-relative anim-sec">
               <div className="layer-1 animate glow delay-1"></div>
@@ -74,7 +96,7 @@ const HeroBanner = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 };
 

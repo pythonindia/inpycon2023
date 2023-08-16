@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import fs from "fs";
 import path from "path";
 import Faqs from "../components/faqs";
@@ -11,6 +13,9 @@ interface CoCPageProps {
 export default function CoCPage({ markdownContent }: CoCPageProps) {
   return (
     <MiscLayout>
+      <Head>
+        <title>PyCon India 2023, Hyderabad | FAQ</title>
+      </Head>
       <FaQSchema />
       <Faqs markdownContent={markdownContent} />
     </MiscLayout>
