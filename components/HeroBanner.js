@@ -15,7 +15,7 @@ const HeroBanner = () => {
           <div className="row pt-5">
             <div className="col-lg-6 pb-5">
               <div className="d-md-block pycon-logo text-center text-lg-start">
-                <a href="#">
+                <a href="/2023/suprise">
                   <Image src={logo} width="100%" height="100%" alt="" />
                 </a>
               </div>

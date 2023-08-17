@@ -239,8 +239,89 @@ button a {
   cursor: pointer;
   position: relative;
 }
+ 
+/* Cyper Page CSS */
+.cyber-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.green-btn {
+.cyber-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cyber-form-group {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center; /* Align items on the same line */
+  flex-direction: column;
+}
+
+.cyber-label {
+  color: #20C20E;
+  font-size: 24px;
+  margin: 2rem;
+}
+
+.cyber-heading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #20C20E;
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: black;
+}
+
+
+.cyber-label2 {
+  color: #20C20E;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cyber-form-control {
+  flex: 1; /* Expand input to take remaining space */
+  border: 2px solid #20C20E;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.cyber-btn-primary {
+  background-color: #20C20E;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .cyber-form-group {
+    flex-direction: column; /* Change to column layout for mobile */
+  }
+  .cyber-label {
+    margin: 0.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+ .green-btn {
   color: white;
   background-color: #1f928d;
 }
