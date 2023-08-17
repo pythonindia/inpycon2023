@@ -1,3 +1,4 @@
+import Head from "next/head";
 import fs from "fs";
 import path from "path";
 import ReportingGuide from "../components/reporting_guide";
@@ -10,6 +11,9 @@ interface ReportingGuidePageProps {
 export default function ReportingGuidePage({ markdownContent }: ReportingGuidePageProps) {
   return (
     <MiscLayout>
+      <Head>
+        <title>PyCon India 2023, Hyderabad | Reporting Guide</title>
+      </Head>
       <ReportingGuide markdownContent={markdownContent} />
     </MiscLayout>
   );
