@@ -12,11 +12,12 @@ violations of our [Code Of Conduct](../code-of-conduct) very seriously. This
 Reporting Guide aims to provide clear instructions on how to report any concerns
 and the steps we will take to address reported incidents.
 
-## Reporting Process
+### Reporting Process
 
-If you experience or witness any behavior that you believe violates the PyCon
-India Code Of Conduct, we encourage you to report it as soon as possible.
-Reports can be made through the following channels:
+If you experience any harassment, or unfair treatment, or witness any
+behavior you believe violates the PyCon India [Code Of Conduct](../code-of-conduct),
+we encourage you to report it as soon as possible. Reports can be made through the
+following channels:
 
 a. **Contact a Volunteer:** Look for individuals wearing "PyCon India Volunteer"
 badges and approach them to make your report in person.
@@ -28,7 +29,7 @@ electronically.
 c. **In-person:** If you prefer to discuss the matter in person, please notify
 any member of the PyCon India organizing team or the Code Of Conduct Committee.
 
-## Information to Include in Your Report
+### Information to Include in Your Report
 
 When filing a report, please provide as much relevant information as possible.
 The following details are essential to help us understand and address the
@@ -57,7 +58,7 @@ situation:
 - **Is the incident ongoing?:** Let us know if the incident is ongoing or if
   there is an immediate threat to someone's safety.
 
-## Confidentiality
+### Confidentiality
 
 All reports will be treated with strict confidentiality. We understand the
 sensitive nature of such matters and will protect the privacy of all parties
@@ -65,13 +66,15 @@ involved to the best of our ability. In some cases, we may need to make a public
 statement, but the identities of victims and reporters will remain confidential
 unless instructed otherwise.
 
-## Reporting Concerns about Volunteers or Organizers
+### Reporting Concerns about Volunteers or Organizers
 
 If your report concerns a possible violation by a volunteer or organizer, you
 can make your report directly to the Chair of the Code Of Conduct Committee,
-whose contact information will be made available during the conference.
+whose contact information will be made available during the conference.The current
+Chair is Nivesh Krishna, and you can reach out via email at
+vniveshkrishna.98 at gmail dot com
 
-## Response and Resolution
+### Response and Resolution
 
 Once a report is received, the Code Of Conduct Committee will promptly initiate
 an investigation. The Diversity working group will review the incident, consider
@@ -93,18 +96,18 @@ responses may include but are not limited to:
 - Request for an apology: Asking the responsible party to issue an apology to
   the affected individuals or the community.
 
-## Timeline
+### Timeline
 
 We aim to respond to the reporter within one week of receiving the report with
 either a resolution or an explanation of the ongoing investigation.
 
-## Retaliation
+### Retaliation
 
 PyCon India strictly prohibits any form of retaliation against individuals who
 report incidents in good faith. We are committed to creating a safe environment
 for everyone, and retaliation will not be tolerated.
 
-## License
+### License
 
 This Reporting Guide for PyCon India 2023 is licensed under a Creative Commons
 Attribution 3.0 Unported License.
