@@ -64,8 +64,8 @@ const navBarItems = [
     name: "Python Express",
     href: "https://pythonexpress.org/",
     openInNewTab: true,
-  }
-]
+  },
+];
 
 export default function Header() {
   const [activeNavBarItem, setActiveNavBarItem] = useState();
@@ -79,7 +79,9 @@ export default function Header() {
       const sectionElement = document.getElementById(item.id);
       if (sectionElement) {
         const rect = sectionElement.getBoundingClientRect();
-        const isVisible = (rect.top - elementOffsetTop <= 0) && (rect.bottom - elementOffsetTop > 0);
+        const isVisible =
+          rect.top - elementOffsetTop <= 0 &&
+          rect.bottom - elementOffsetTop > 0;
         if (isVisible) {
           setActiveNavBarItem(i);
           // Stop checking once we find the visible element
@@ -91,17 +93,16 @@ export default function Header() {
 
   useEffect(() => {
     handleScroll();
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [navBarScrollTrigger]);
 
-
   const navBarClickHandler = () => {
-    setNavBarToggle((prv) => (!prv));
-    setNavBarScrollTrigger((prv) => (!prv));
-  }
+    setNavBarToggle((prv) => !prv);
+    setNavBarScrollTrigger((prv) => !prv);
+  };
 
   return (
     <header className="bg-header sticky-top">
@@ -131,10 +132,16 @@ export default function Header() {
                 aria-label="Toggle navigation"
                 onClick={navBarClickHandler}
               >
-                <IconComponent name="bars" color="#000" backgroundColor='#FFF' />
+                <IconComponent
+                  name="bars"
+                  color="#000"
+                  backgroundColor="#FFF"
+                />
               </button>
               <div
-                className={"navbar-collapse" + (navBarToggle ? "" : " collapse")}
+                className={
+                  "navbar-collapse" + (navBarToggle ? "" : " collapse")
+                }
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav">
@@ -145,8 +152,14 @@ export default function Header() {
                         target={item.openInNewTab ? "_blank" : "_self"}
                         onClick={navBarClickHandler}
                       >
-                        <span className={"nav-link" + (index == activeNavBarItem ? " active" : "")}>
-                          {item.name}</span>
+                        <span
+                          className={
+                            "nav-link" +
+                            (index == activeNavBarItem ? " active" : "")
+                          }
+                        >
+                          {item.name}
+                        </span>
                       </Link>
                     </li>
                   ))}
@@ -158,15 +171,13 @@ export default function Header() {
       </div>
       {/* schema */}
       <BreadcrumbJsonLd
-        itemListElements={
-          navBarItems.map((item, index) => (
-            {
-              position: index+1,
-              name: item.name,
-              item: item.openInNewTab ? item.href : `https://in.pycon.org${item.href}`,
-            }
-          ))
-        }
+        itemListElements={navBarItems.map((item, index) => ({
+          position: index + 1,
+          name: item.name,
+          item: item.openInNewTab
+            ? item.href
+            : `https://in.pycon.org${item.href}`,
+        }))}
       />
     </header>
   );
