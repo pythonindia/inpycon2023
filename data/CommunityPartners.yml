@@ -1,4 +1,30 @@
 - name: FOSS United
   logo: images/community-partners/foss-united.png
   website: https://fossunited.org
+  description: FOSS United is a non-profit foundation that aims at promoting and strengthening the Free and Open Source Software (FOSS) ecosystem in India.
   paddingClass: p-2
+- name: OCD India
+  logo: images/community-partners/ocd-india.png
+  website: https://ocd-india.github.io
+  description: Open community of developers is an independent all tech community organisation which assist in creating community programs, initiatives and leaders. They’ve collaborated with Github, ElasticSearch, Jetbrains and many more for various community initiatives and you can too :)
+  paddingClass: p-2
+- name: Hackerabad
+  logo: images/community-partners/hackerabad.png
+  website: https://hackerabad.framer.website
+  description: Hackerabad is a student-led, open source community that focuses on peer learning and growing by sharing with the community. It is an inclusive community that encourages knowledge and emphasises fun.
+  paddingClass: p-3
+- name: Cloud Native Computing Foundation Hyderabad
+  logo: images/community-partners/cloud-native-computing-foundation-hyderabad.jpeg
+  website: https://community.cncf.io/hyderabad
+  description:
+    The CNCF Hyderabad is a vibrant community of Cloud Native enthusiasts who want to learn, architect/design/develop applications based on cloud-native architecture principles, tools & frameworks as recommended by CNCF.
+    We only organize meetups on Cloud Native, DevOps, CI/CD, Microservices, Containers, and Automation exploring tools in the Cloud Native ecosystem.
+    The topics would cover areas such as best practices/guidelines, challenges, and solution approaches for the development and operations of cloud-native apps on various cloud platforms such as AWS, Azure, GCP, IBM Cloud, Oracle Cloud, Cloud foundry, etc.
+  paddingClass: p-1
+- name: Google Developer Student Club - School of Data Science and Forecasting
+  logo: images/community-partners/google-developer-student-club-school-of-data-science-and-forecasting.png
+  website: https://gdsc.community.dev/school-of-data-science-and-forecasting-indore/
+  description:
+    The GDSC-School of Data Science and Forecasting, DAVV chapter, powered by Google, is a community for tech enthusiasts.
+    It offers hands-on experience with developer tools, enhancing skills in a collaborative environment. Open to all expertise levels, it aims to motivate members to solve real-world problems through skill-building and collaboration.
+  paddingClass: p-1

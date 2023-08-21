@@ -39,15 +39,15 @@ const CommunityPartners = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="row justify-content-center pt-3 py-5">
-        {CommunityPartnersData.map((partner, index) => (
-          <div className="col-md-3 col-6 bt-circle my-2" key={index}>
-            <a href={partner.website} target="_blank" rel="noreferrer">
-              <img src={partner.logo} className={`img-fluid community-partner-logo ${partner.paddingClass}`} alt={partner.name} />
-            </a>
-          </div>
-        ))}
+        <div className="row justify-content-center mt-3 py-5">
+          {CommunityPartnersData.map((partner, index) => (
+            <div className="col-md-3 col-6 bt-circle my-3" key={index}>
+              <a href={partner.website} target="_blank" rel="noreferrer">
+                <img src={partner.logo} className={`img-fluid community-partner-logo ${partner.paddingClass}`} alt={partner.name} />
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </section >
   );
