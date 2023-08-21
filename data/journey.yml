@@ -27,7 +27,7 @@
   title: 4th Year of PyCon India
   date: 28th - 30th September 2012
   location: Christ University Campus, Bangalore
-  speaker: David Mertz
+  speaker: David Mertz, Jacob Kaplan-Moss
   description: PyCon India 2012 is a community conference by the Python developer community. A pure volunteer effort, it is being hosted for the fourth time in India and will attract some of the best Python developers in India and abroad.
   link: https://in.pycon.org/2012/
 - year: 2013
@@ -35,7 +35,7 @@
   title: 5th Year of PyCon India
   date: 30th August - 1th September 2013
   location: NIMHANS Convention Centre, Bangalore
-  speaker: Kiran Jonnalagadda
+  speaker: Kiran Jonnalagadda, Kenneth Reitz
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community, and it attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2013/
 - year: 2014
@@ -43,7 +43,7 @@
   title: 6th Year of PyCon India
   date: 26th - 28th September 2014
   location: NIMHANS Convention Centre, Bangalore
-  speaker: Kushal Das
+  speaker: Kushal Das, Michael Foord
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2014/
 - year: 2015
@@ -51,7 +51,7 @@
   title: 7th Year of PyCon India
   date: 3rd - 5th October 2015
   location: NIMHANS Convention Centre, Bangalore
-  speaker: Ajith Kumar
+  speaker: Ajith Kumar, Nicholas H.Tollervey
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2015/
 - year: 2016
@@ -59,7 +59,7 @@
   title: 8th Year of PyCon India
   date: 23rd - 25th September 2016
   location: JNU Convention Centre, New Delhi
-  speaker: Baishampayan Ghose
+  speaker: Baishampayan Ghose, Andreas Mueller, Van Lindberg
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2016/
 - year: 2017
@@ -67,7 +67,7 @@
   title: 9th Year of PyCon India
   date: 2nd - 5th November, 2017
   location: Shaheed Sukhdev College Of Business Studies, New Delhi
-  speaker: Noufal Ibrahim
+  speaker: Elizabeth Ferrao, Noufal Ibrahim, Peter Wong
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2017/
 - year: 2018
@@ -75,7 +75,7 @@
   title: 10th Year of PyCon India
   date: 5th - 9th October 2018
   location: Hyderabad International Convention Centre, Hyderabad
-  speaker: Armin Ronacher
+  speaker: Armin Ronacher, Carol Willing, Travis E. Oliphant, Sidu Ponnappa
   description: A major milestone. We marked ten years of hosting PyCon India. The premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2018/
 - year: 2019
@@ -83,7 +83,7 @@
   title: 11th Year of PyCon India
   date: 12th - 15th October 2019
   location: Chennai Trade Center, Chennai
-  speaker: David Beazley
+  speaker: Ines Montani, David Beazley Jake VanderPlas, Devi A S L
   description: PyCon India, the premier conference in India on using and developing the Python programming language, is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
   link: https://in.pycon.org/2019/
 - year: 2020
@@ -91,15 +91,15 @@
   title: 12th Year of PyCon India
   date: 2nd - 5th October 2020
   location: Online
-  speaker: James Powell
-  description: The first year of the pandemic marked the twelfth year of hosting PyCon India. It was also the year PyCon India went online for the first time. While our speakers filled their workstations with mics and camera equipment, we saw our audience rendering virtual keychains from the virtual goodie bag.  
+  speaker: James Powell, Naomi Ceder, S Anand, Terri Oda, Victor Stinner
+  description: The first year of the pandemic marked the twelfth year of hosting PyCon India. It was also the year PyCon India went online for the first time. While our speakers filled their workstations with mics and camera equipment, we saw our audience rendering virtual keychains from the virtual goodie bag.
   link: https://in.pycon.org/2020/
 - year: 2021
   image: /2023/images/journey/PyCon2021.png
   title: 13th Year of PyCon India
   date: 17th - 19th September 2021
   location: Online
-  speaker: Sebastian Ramirez
+  speaker: Alolita Sharma, Sebastián Ramírez, Dr. Ajith Kumar Basu, Luciano Ramalho
   description: Our second online conference and the thirteenth year of hosting PyCon India. The speakers took it a step further this year and added batteries to their workstations. We saw pictures of people wearing PyCon India 2021 T-shirts, which made us very happy.
   link: https://in.pycon.org/2021/
 - year: 2023
@@ -107,5 +107,5 @@
   title: 14th Year of PyCon India
   date: 29th Sep - 2nd Oct, 2023
   location: Hyderabad
-  description: The fourteenth year of the conference marks its return to Hyderabad for the second time. We are excited to host the conference and meet the community in person. 
+  description: The fourteenth year of the conference marks its return to Hyderabad for the second time. We are excited to host the conference and meet the community in person.
   link: https://in.pycon.org/2023/

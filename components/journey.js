@@ -1,5 +1,5 @@
-import { Carousel, Button } from "react-bootstrap";
 import { useEffect, useState } from "react";
+import { Carousel } from "react-bootstrap";
 import JourneyData from "../data/journey.yml";
 
 const JourneyComponent = () => {
@@ -65,7 +65,7 @@ const JourneyComponent = () => {
                           </div>
                         </div>
                         <h6 className="fw-bolder mt-4">
-                          Keynote Speaker: {journey.speaker}
+                          {journey.year <= 2011 ? "Keynote Speaker:" : "Keynote Speakers:"} {journey.speaker}
                         </h6>
                         <p>{journey.description}</p>
                       </div>
