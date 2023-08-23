@@ -620,6 +620,10 @@ button a {
   height: 100%;
 }
 
+.sponsor-gap {
+  margin-bottom: 20px;
+}
+
 .community-partner-logo {
   object-fit: contain;
   object-position: center;

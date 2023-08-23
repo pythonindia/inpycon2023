@@ -5,7 +5,7 @@ platinum:
     linkedin: https://www.linkedin.com/company/neo4j/
     twitter: https://twitter.com/neo4j
     facebook: https://www.facebook.com/neo4j.graph.database
-    paddingClass: p-4
+    paddingClass: p-1
   - logo: images/sponsors/happyfox.png
     website: https://happyfox.com
     linkedin: https://www.linkedin.com/company/happyfox-inc-/
@@ -50,6 +50,19 @@ silver:
     linkedin: https://www.linkedin.com/company/certa-in
     twitter: https://www.twitter.com/certa
     paddingClass: p-4
+  - logo: images/sponsors/seneca.png
+    website: https://www.senecaglobal.com
+    instagram: https://www.instagram.com/senecaglobalinc
+    facebook: https://www.facebook.com/groups/senecaglobal/
+    linkedin: https://www.linkedin.com/company/senecaglobal/
+    twitter: https://www.twitter.com/senecaglobal
+    paddingClass: p-0
+  - logo: images/sponsors/avoma.png
+    website: https://www.avoma.com/
+    facebook: https://www.facebook.com/AvomaInc
+    linkedin: https://www.linkedin.com/company/avoma/
+    twitter: https://twitter.com/AvomaInc
+    paddingClass: p-1
 associate:
   - logo: images/sponsors/reckonsys.png
     website: https://www.reckonsys.com/

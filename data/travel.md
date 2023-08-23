@@ -33,6 +33,6 @@ JNTU-H, Kukatpally is best accessible via the Hyderabad Metro Red line. You can 
 - **From the Blue Line:** If you're arriving via the Blue line, you can easily switch to the Red line (towards Miyapur) at Ameerpet station.
 - **From the Green Line:** If you're coming via the Green line, you can switch to the Red line (towards M.G. Bus Station) at the M.G. Bus Station stop.
 
-For a list of stations on the Hyderabad Metro Red line, you can refer to [Wikipedia](https://en.wikipedia.org/wiki/Red_Line_(Hyderabad_Metro)).
+For a list of stations on the Hyderabad Metro Red line, you can refer to [Wikipedia](<https://en.wikipedia.org/wiki/Red_Line_(Hyderabad_Metro)>).
 
 We're excited to welcome you to PyCon India 2023 and hope you have a fantastic experience in Hyderabad! If you have any further inquiries or need assistance, feel free to contact us at [contact@in.pycon.org](mailto:contact@in.pycon.org).
