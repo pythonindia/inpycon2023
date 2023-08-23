@@ -19,8 +19,11 @@ behavior you believe violates the PyCon India [Code Of Conduct](../code-of-condu
 we encourage you to report it as soon as possible. Reports can be made through the
 following channels:
 
-a. **Contact a Volunteer:** Look for individuals wearing "PyCon India Volunteer"
-badges and approach them to make your report in person.
+a. **Code of Conduct (CoC) Workgroup Area:** You can directly approach the CoC
+workgroup area with any concerns you may have. If you are unable to locate the
+COC workgroup area, please ask one of our volunteers wearing "PyCon India
+Volunteer" badges for assistance. They will gladly direct you to the CoC
+Workgroup area.
 
 b. **Email:** You can send an email to
 [coc@in.pycon.org](mailto:coc@in.pycon.org) to submit your report
