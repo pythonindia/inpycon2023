@@ -21,7 +21,7 @@ following channels:
 
 a. **Code of Conduct (CoC) Workgroup Area:** You can directly approach the CoC
 workgroup area with any concerns you may have. If you are unable to locate the
-COC workgroup area, please ask one of our volunteers wearing "PyCon India
+CoC workgroup area, please ask one of our volunteers wearing "PyCon India
 Volunteer" badges for assistance. They will gladly direct you to the CoC
 Workgroup area.
 
