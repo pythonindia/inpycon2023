@@ -118,3 +118,8 @@ Attribution 3.0 Unported License.
 Thank you for helping us maintain a respectful and inclusive atmosphere at PyCon
 India 2023. By reporting incidents, you contribute to the collective effort to
 make our conference a safe and welcoming experience for all attendees.
+
+This guide has been inspired by:
+
+- [PyCon US 2023 - Procedures for Reporting Incidents](https://us.pycon.org/2023/about/code-of-conduct/attendee-reporting/)
+- [Django Code of Conduct - Reporting Guide](https://www.djangoproject.com/conduct/reporting/)
