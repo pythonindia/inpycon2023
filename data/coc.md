@@ -126,17 +126,16 @@ or have any other concerns, please reach out to us at
 [coc@in.pycon.org](mailto:coc@in.pycon.org) before, during or after the
 conference.
 
-Feel free to contact a conference volunteer to report any such incidents.
-Volunteers will be wearing "PyCon India Volunteer" badges.
+Feel free to contact a conference volunteer or directly reach out to Code of Conduct committe and they will take your report and do the needful action.
+Volunteers will be wearing "PyCon India Volunteer" badges and CoC committe will be wearing a special color shirt to be able to easily identify them. 
 
-If you are unable to locate a conference volunteer or would prefer to report
-directly to the Code of Conduct Committee, please feel free to contact any of
-the following committee members. The Helpdesk can assist you in finding them
+Feel free to contact any of the following committee members. The Helpdesk can assist you in finding them
 at the venue:
 
 - Nivesh Krishna (CoC Chair)
   - Code of Conduct Workgroup
   - vniveshkrishna.98 at gmail dot com
+  - +91 9010912005 (Calls & WhatsApp)
 - Vandana PV (Diversity & Inclusion Chair)
   - Diversity Workgroup
   - pv.vandana29 at gmail dot com
