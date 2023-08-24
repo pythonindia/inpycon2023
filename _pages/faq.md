@@ -1,3 +1,11 @@
+---
+layout: default
+title: Frequently Asked Questions
+header: Code Of Conduct
+slug: faq
+bloglike: true
+nav: code-of-conduct
+---
 
 ### What is PyCon India?
 
