@@ -9,7 +9,7 @@ export default function YLW({ markdownContent }) {
         data-aos-duration="800"
         id="ylw"
       >
-        Young Learners Workshop @ PyCon India 2023
+        Young Learners Workshop
       </h1>
       <ReactMarkdown className="content">{markdownContent}</ReactMarkdown>
     </>

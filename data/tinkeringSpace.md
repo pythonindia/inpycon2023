@@ -30,7 +30,7 @@ Experienced hosts will be available to guide the participants.
 
 Note that this track is designed to be a learning based experience with no concrete outcomes as there are no tasks assigned to participants.
 
-Anitha Raman ([LinkedIn](https://www.linkedin.com/in/anitharaman/)) and Manav Sethi ([LinkedIn](https://www.linkedin.com/in/insaanimanav/)) will co-host the event.
+Anitha Raman ([LinkedIn](https://www.linkedin.com/in/anitharaman/)) and Manav Sethi ([LinkedIn](https://www.linkedin.com/in/insaanimanav/)) will co-host the event. Anitha and Manav are experienced in teaching students on electronics, Python.
 
 ## How to Participate
 
@@ -45,10 +45,15 @@ To make the most of your Tinkering Space experience, please keep the following g
 1. **Age Range**: The Tinkering Space is perfect for children aged between 10-15 yrs.  However, older children are also welcome to attend if they have a keen interest in technology and tinkering.
 2. **Supervision**: Parents or guardians are kindly requested to accompany their children throughout the event and provide necessary guidance and supervision.
 3. **Equipment**: All the essential hardware will be provided at the Tinkering Space. You and your kids only need to bring your enthusiasm and eagerness to learn!
+4. **Code of Conduct**: All participants, guardians, parents **must** abide by the conference [Code of Conduct](https://in.pycon.org/2023/code-of-conduct/) during the workshop and when at the conference.
 
 Don't miss out on this incredible opportunity to bond with your children and explore the realm of technology together. Secure your tickets for the Tinkering Space at PyCon India now and create unforgettable memories that will inspire and shape the future!
 
 For any inquiries or additional information, please contact our team at [contact@in.pycon.org](mailto:contact@in.pycon.org).
+
+During an emergency at the conference, please call Bhanu at [8142650099](tel:+918142650099). Leave a WhatsApp message or an SMS if you don't get a call response.
+
+Code of Committee is responsible for ensuring everyone has a safe and secure conference experience at PyCon India. Get familiarized with the [reporting guide](https://in.pycon.org/2023/reporting-guide/) when you feel you have an unwelcoming experience at the conference.
 
 We can't wait to see you and your young innovators at the Tinkering Space!
 

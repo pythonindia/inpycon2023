@@ -9,7 +9,7 @@ export default function TinkeringSpace({ markdownContent }) {
         data-aos-duration="800"
         id="TinkeringSpace"
       >
-        Tinkering Space @ PyCon India 2023
+        Tinkering Space
       </h1>
       <ReactMarkdown className="content">{markdownContent}</ReactMarkdown>
     </>
