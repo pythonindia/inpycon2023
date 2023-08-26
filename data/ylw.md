@@ -74,4 +74,4 @@ For any inquiries or additional information, please contact our team at [contact
 
 During an emergency at the conference, please call Bhanu at [8142650099](tel:+918142650099). Leave a WhatsApp message or an SMS if you don't get a call response.
 
-Code of Committee is responsible for ensuring everyone has a safe and secure conference experience at PyCon India. Get familiarized with the [reporting guide](https://in.pycon.org/2023/reporting-guide/) when you feel you have an unwelcoming experience at the conference.
+Code of Conduct workgroup is responsible for ensuring everyone has a safe and secure conference experience at PyCon India. Get familiarized with the [reporting guide](https://in.pycon.org/2023/reporting-guide/) when you feel you have an unwelcoming experience at the conference.

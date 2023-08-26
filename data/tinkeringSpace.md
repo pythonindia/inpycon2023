@@ -53,7 +53,7 @@ For any inquiries or additional information, please contact our team at [contact
 
 During an emergency at the conference, please call Bhanu at [8142650099](tel:+918142650099). Leave a WhatsApp message or an SMS if you don't get a call response.
 
-Code of Committee is responsible for ensuring everyone has a safe and secure conference experience at PyCon India. Get familiarized with the [reporting guide](https://in.pycon.org/2023/reporting-guide/) when you feel you have an unwelcoming experience at the conference.
+Code of Conduct workgroup is responsible for ensuring everyone has a safe and secure conference experience at PyCon India. Get familiarized with the [reporting guide](https://in.pycon.org/2023/reporting-guide/) when you feel you have an unwelcoming experience at the conference.
 
 We can't wait to see you and your young innovators at the Tinkering Space!
 
@@ -63,7 +63,7 @@ We can't wait to see you and your young innovators at the Tinkering Space!
 - No. Tinkering Space needs a different ticket. Please write to us if you'd like to cancel your existing one and get Tinkering Space only ticket.
 
 2. Am I only allowed to bring my kid?
-- You can bring two children and will be responsible for them at the event.
+- You can bring two children and are responsible for them at the event.
 
 3. What does the ticket cover?
 - Tinkering Space ticket is focused for Day 2 of the conference. It covers access to the Tinkering Space event, lunch on Day 2.
