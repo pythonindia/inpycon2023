@@ -28,3 +28,20 @@
     The GDSC-School of Data Science and Forecasting, DAVV chapter, powered by Google, is a community for tech enthusiasts.
     It offers hands-on experience with developer tools, enhancing skills in a collaborative environment. Open to all expertise levels, it aims to motivate members to solve real-world problems through skill-building and collaboration.
   paddingClass: p-1
+- name: Microsoft Student Community Hyderabad
+  logo: images/community-partners/microsoft-student-community-hyderabad.png
+  website: https://www.linkedin.com/company/microsoft-learn-student-community-hyderabad/about/
+  description: The Microsoft Student Learn Community is a dynamic platform fostering the growth of technology and development enthusiasts. With a focus on learning and awareness, it equips students with technical skills, industry insights, and networking opportunities. Through resources, events, and connections, it empowers students to excel in technology careers, enriching their professional journey.
+  paddingClass: p-1
+- name: She Loves Tech
+  logo: images/community-partners/she-loves-tech.png
+  website: https://www.shelovestech.org
+  description:
+    She Loves Tech is the world’s largest acceleration platform for women and technology.
+    We are building a global ecosystem to facilitate greater visibility, funding opportunities, and community among women in technology to catalyse USD 1 Billion in funding for women by 2030.Our ecosystem of intensive competitions, objective-based program and strong community support of world class leaders, are designed for early stage startups to accelerate, raise and thrive.
+  paddingClass: p-1
+- name: Postman Community Kolkata
+  logo: images/community-partners/postman-community-kolkata.jpg
+  website: https://www.linkedin.com/company/postman-community-kolkata
+  description: Welcome to the vibrant world of the Postman Community Kolkata – an API-focused community nestled in the "City of Joy", Kolkata! In this tech-savvy and innovation-driven community, enthusiasts, developers, and professionals gather to explore, discuss, and learn about all things related to APIs and Postman.
+  paddingClass: p-1

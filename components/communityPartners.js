@@ -1,5 +1,6 @@
 import Button from "./button";
 import CommunityPartnersData from "../data/CommunityPartners.yml";
+import Tooltip from "./tooltip";
 
 const CommunityPartners = () => {
   return (
@@ -23,12 +24,15 @@ const CommunityPartners = () => {
         </p>
         <div className="row register-btn justify-content-center w-100">
           <div className="col-lg-4 col-md-6 col-8 pt-3">
-            <Button
-              buttonClassName="custom-button green-btn"
-              anchorClassName="text-decoration-none text-light"
-              buttonLabel="Register"
-              buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSeKJ0I9zM-Kq66NoRGgWgQjIFyVIMWALRpsS6AS2PIi2Z6NJw/viewform"
-            />
+            <Tooltip text="Registration closed for Community Partners">
+              <Button
+                buttonClassName="custom-button grey-btn"
+                anchorClassName="text-decoration-none"
+                buttonLabel="Register"
+                buttonHyperLink="https://docs.google.com/forms/d/e/1FAIpQLSeKJ0I9zM-Kq66NoRGgWgQjIFyVIMWALRpsS6AS2PIi2Z6NJw/viewform"
+                disabled={true}
+              />
+            </Tooltip>
           </div>
           <div className="col-lg-4 col-md-6 col-8 pt-3">
             <Button

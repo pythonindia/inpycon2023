@@ -155,6 +155,16 @@ Contact any of the following committee members. The Helpdesk can assist you in f
   - Conference Chair
   - balchandani.sanchit at gmail dot com
 
+For more information on how to report incidents and what to include in your
+report, please visit our [Reporting Guide](../reporting-guide). It provides
+clear instructions on the reporting process and the steps we take to address
+reported incidents.
+
+We take every report seriously and are committed to creating a safe and
+welcoming environment for all attendees. Your cooperation helps us ensure a
+positive experience for everyone at PyCon India. Thank you for being proactive
+in maintaining the integrity of our community.
+
 ### License
 
 This Code of Conduct is derived from
