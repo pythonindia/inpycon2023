@@ -36,7 +36,7 @@ Anitha Raman ([LinkedIn](https://www.linkedin.com/in/anitharaman/)) and Manav Se
 
 Head over to KonfHub and secure your family's spot. Don't delay, as tickets are limited and will be in high demand.
 
-**Tickets** - coming soon!
+**Tickets** - [Buy at KonfHub](https://konfhub.com/pyconindia2023#tickets)
 
 ## Important Guidelines
 
