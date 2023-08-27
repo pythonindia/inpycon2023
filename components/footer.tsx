@@ -76,6 +76,18 @@ const Footer: React.FC = () => {
           </div>
           <div className="col-md text-center pt-md-0 pt-4">
             <h3 className="footer-title">Copyright @ 2023 PyCon India</h3>
+            <a
+              rel="license"
+              href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+              target="_blank"
+            >
+              <Image
+                width="88"
+                height="31"
+                alt="Creative Commons License"
+                src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+              />
+            </a>
           </div>
           <div className="col-md-2 text-center text-md-start pt-md-0 pt-3">
             <h3 className="footer-title">Design By</h3>
