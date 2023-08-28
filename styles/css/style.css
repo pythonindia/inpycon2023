@@ -27,7 +27,7 @@ a,
 span {
   font-family: "Instrument Sans", sans-serif !important;
   color: #000;
-  font-weight: 400;
+  font-weight: 400!important;
 }
 
 body,
@@ -286,7 +286,7 @@ button a {
   padding: 4px 8px;
   border-radius: 4px;
   white-space: nowrap;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .date-text {
