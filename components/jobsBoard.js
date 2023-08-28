@@ -76,25 +76,28 @@ const JobsBoard = ({ jobs }) => {
                     {job.jobLocation}
                   </div>
                 }
+                {job.jobType &&
+                  <div className="mb-1">
+                    <span className="me-2">
+                      <IconComponent name="briefCase" size={30} />
+                    </span>
+                    {job.jobType}
+                  </div>
+                }
               </div>
               {/* Start of Job Body */}
               <div className="row mt-2">
-                {job.jobType &&
-                  <span>
-                    {"Type: " + job.jobType}
-                  </span>
-                }
+                {job.jobDescription &&
+                  <Paragraph
+                    text={job.jobDescription}
+                    isHtml={true}
+                    numberOfLines={3}
+                  />}
                 {job.skills &&
                   <div className="mb-1">
                     {"Skills: " + job.skills}
                   </div>
                 }
-                {job.jobDescription &&
-                  <Paragraph
-                    text={"Job Description: " + job.jobDescription}
-                    isHtml={true}
-                    numberOfLines={3}
-                  />}
                 {job.companyDescription &&
                   <Paragraph
                     text={"Company Description: " + job.companyDescription}
