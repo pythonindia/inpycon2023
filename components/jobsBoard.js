@@ -2,6 +2,8 @@ import Link from "next/link";
 import Button from "components/button";
 import Paragraph from "components/paragraph";
 
+import IconComponent from "components/icons";
+
 const JobsBoard = ({ jobs }) => {
   return (
     <div
@@ -49,25 +51,53 @@ const JobsBoard = ({ jobs }) => {
             <div className="jobs-card p-4">
               {/* Start of Job Header */}
               <div>
-                <h3>{job.jobTitle}</h3>
-                <a href={job.companyWebsite} target="_blank">
-                  <h6>{job.companyName}</h6>
+                <h4>{job.jobTitle}</h4>
+                {job.companyWebsite ? <a href={job.companyWebsite} target="_blank">
+                  <div className="mb-1">
+                    <span className="me-2">
+                      <IconComponent name="building" size={30} />
+                    </span>
+                    {job.companyName}
+                  </div>
                 </a>
+                  :
+                  <div>
+                    <span className="me-2">
+                      <IconComponent name="building" size={30} />
+                    </span>
+                    {job.companyName}
+                  </div>
+                }
+                {job.jobLocation &&
+                  <div className="mb-1">
+                    <span className="me-2">
+                      <IconComponent name="location" size={30} />
+                    </span>
+                    {job.jobLocation}
+                  </div>
+                }
               </div>
               {/* Start of Job Body */}
-              <div className="row mt-4">
-                {job.jobType && <span><strong>Type: </strong>{job.jobType}</span>}
-                {job.jobLocation && <span><strong>Location: </strong>{job.jobLocation}</span>}
-                {job.skills && <span><strong>Skills: </strong>{job.skills}</span>}
+              <div className="row mt-2">
+                {job.jobType &&
+                  <span>
+                    {"Type: " + job.jobType}
+                  </span>
+                }
+                {job.skills &&
+                  <div className="mb-1">
+                    {"Skills: " + job.skills}
+                  </div>
+                }
                 {job.jobDescription &&
                   <Paragraph
-                    text={"<strong>Job Description : </strong>" + job.jobDescription}
+                    text={"Job Description: " + job.jobDescription}
                     isHtml={true}
                     numberOfLines={3}
                   />}
                 {job.companyDescription &&
                   <Paragraph
-                    text={"<strong>Company Description : </strong>" + job.companyDescription}
+                    text={"Company Description: " + job.companyDescription}
                     isHtml={true}
                     numberOfLines={3}
                   />}

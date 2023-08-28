@@ -1,10 +1,12 @@
-import { FaBars, FaEnvelope, FaFacebook, FaGithub, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter } from "react-icons/fa6";
+import { FaBars, FaBuilding, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter } from "react-icons/fa6";
 import { SiZulip } from "react-icons/si";
 
 
 export const icons = {
   bars: FaBars,
   mail: FaEnvelope,
+  building: FaBuilding,
+  location: FaLocationDot,
   facebook: FaFacebook,
   github: FaGithub,
   instagram: FaInstagram,

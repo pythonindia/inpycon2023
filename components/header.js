@@ -46,6 +46,12 @@ const navBarItems = [
     openInNewTab: false,
   },
   {
+    name: "Jobs",
+    href: "/jobs/",
+    id: "jobs",
+    openInNewTab: true,
+  },
+  {
     name: "Blog",
     href: "https://in.pycon.org/blog/",
     openInNewTab: true,
