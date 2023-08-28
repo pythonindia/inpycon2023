@@ -27,7 +27,7 @@ a,
 span {
   font-family: "Instrument Sans", sans-serif !important;
   color: #000;
-  font-weight: 400;
+  font-weight: 400!important;
 }
 
 body,
