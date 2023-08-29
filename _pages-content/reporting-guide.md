@@ -1,9 +1,6 @@
 ---
-layout: default
+slug: reporting-guide
 title: Reporting Guide
-header: Reporting Guide
-bloglike: true
-nav: reporting-guide
 ---
 
 At PyCon India 2023, we are committed to providing a safe and welcoming

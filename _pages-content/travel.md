@@ -1,5 +1,6 @@
 ---
 slug: travel
+title: Getting to PyCon India 2023
 ---
 # Travel Information for PyCon India 2023 in Hyderabad
 

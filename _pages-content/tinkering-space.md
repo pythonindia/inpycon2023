@@ -1,3 +1,8 @@
+---
+slug: tinkering-space
+title: Tinkering Space
+---
+
 ### Join the Tinkering Space!
 
 Are you ready to embark on an extraordinary full-day adventure with your little ones? PyCon India is thrilled to introduce the Tinkering Space, a unique experimental track designed to foster new learning experiences at the conference. We cordially invite parents to bring their children and dive into the world of creativity and innovation through hands-on tinkering with cutting-edge hardware.
