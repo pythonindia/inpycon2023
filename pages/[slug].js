@@ -18,9 +18,8 @@ export default function Misc({ post }) {
 }
 
 export async function getStaticProps({ params }) {
-  const post = getPostBySlug(params.slug, ["title", "slug", "content"]);
+  const post = getPostBySlug("_pages-content", params.slug, ["title", "slug", "content"]);
   const content = post.content;
-  // const content = await markdownToHtml(post.content || "");
 
   return {
     props: {
@@ -33,8 +32,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const posts = getAllPosts(["slug"]);
-  console.log(posts);
+  const posts = getAllPosts("_pages-content", ["slug"]);
   return {
     paths: posts.map((post) => {
       return {
