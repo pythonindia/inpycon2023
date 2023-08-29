@@ -11,7 +11,7 @@ import "../styles/css/style.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
-  const canonicalURL = `https://in.pycon/org/2023${router.pathname}`;
+  const canonicalURL = `https://in.pycon/org/2023${router.asPath}`;
 
   useEffect(() => {
     AOS.init({
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
         <meta name="google-site-verification" content="RqR6U8x5VU0hgv44NF8TcklATGcn-k8MHu2jKFU_Ys8" />
-        <title>PyCon India 2023, Hyderabad</title>
+        <title>PyCon India 2023, Hyderabad | ${router.asPath}</title>
       </Head>
       {/* Default page SEO starts */}
       <DefaultSeo {...SEO} canonical={canonicalURL} />
