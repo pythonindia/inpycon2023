@@ -45,3 +45,8 @@
   website: https://www.linkedin.com/company/postman-community-kolkata
   description: Welcome to the vibrant world of the Postman Community Kolkata – an API-focused community nestled in the "City of Joy", Kolkata! In this tech-savvy and innovation-driven community, enthusiasts, developers, and professionals gather to explore, discuss, and learn about all things related to APIs and Postman.
   paddingClass: p-1
+- name: Student Developers Community
+  logo: images/community-partners/student-developers-community.jpg
+  website: https://www.linkedin.com/company/sdcindia01
+  description: Student Developer Community - sdc is a student-run community focused on providing a platform for students to collaborate, learn, and build projects together. our goal is to help students gain practical experience and improve their skills in software development.
+  paddingClass: p-2
