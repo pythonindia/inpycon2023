@@ -30,6 +30,11 @@ gold:
     twitter:  https://twitter.com/tcin_india
     facebook: https://www.facebook.com/TCIN.India
     paddingClass: p-4
+  - logo: images/sponsors/zeomega.png
+    website: https://www.zeomega.com/
+    linkedin:  https://www.linkedin.com/company/zeomega/
+    twitter:  https://twitter.com/zeomega
+    paddingClass: p-3
 silver:
   - logo: images/sponsors/zoho.png
     website: https://www.site24x7.com/
