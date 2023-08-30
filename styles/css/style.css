@@ -793,7 +793,7 @@ button a {
 .jobs-card {
   background: #f2eee2;
   border-radius: 2%;
-  min-height: 400px;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
