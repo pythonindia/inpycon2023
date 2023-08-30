@@ -243,6 +243,9 @@ button a {
   border: 2px solid black;
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .green-btn {
@@ -790,7 +793,7 @@ button a {
 .jobs-card {
   background: #f2eee2;
   border-radius: 2%;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 @media (max-width: 1200px) {

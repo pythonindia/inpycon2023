@@ -70,7 +70,11 @@ const Footer: React.FC = () => {
                   target="_blank"
                   aria-label={`Hyperlink to PyCon India's ${item.icon} profile.`}
                 >
-                  <IconComponent name={item.icon} />
+                  <IconComponent
+                    name={item.icon}
+                    color="#fff"
+                    backgroundColor="1f928d"
+                  />
                 </Link>
               ))}
             </ul>

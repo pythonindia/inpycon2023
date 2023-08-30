@@ -67,7 +67,7 @@ const SpeakerPage = () => {
               (
                 <span className="me-2" key={index}>
                   <Link href={item.link} target="_blank">
-                    <IconComponent name={item.platform} />
+                    <IconComponent name={item.platform} color="#fff" backgroundColor="1f928d" />
                   </Link>
                 </span>
               )
