@@ -794,6 +794,21 @@ button a {
   background: #f2eee2;
   border-radius: 2%;
   min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-skill-tag {
+  border-radius: 0.25rem;
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  line-height: 1;
+  text-align: center;
+  background-color: #068580;
+  color: #fff;
+  margin-right: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 1200px) {

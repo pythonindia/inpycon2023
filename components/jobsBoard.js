@@ -46,77 +46,87 @@ const JobsBoard = ({ jobs }) => {
           }
         </div>
         {jobs && jobs.map((job, index) => (
-          <div key={index} className="col-lg-4 col-md-6 col-12 mb-4">
+          <div key={index} className="col-xl-4 col-lg-6 col-12 mb-4">
             <div className="jobs-card p-4">
-              {/* Start of Job Header */}
               <div>
-                <h4>{job.jobTitle}</h4>
-                {job.companyWebsite ?
-                  <Link href={job.companyWebsite} target="_blank" >
-                    <div className="mb-1">
+                {/* Job Header */}
+                <div>
+                  <h4>{job.jobTitle}</h4>
+                  {job.companyWebsite ?
+                    <Link href={job.companyWebsite} target="_blank" >
+                      <div className="mb-1">
+                        <span className="me-2">
+                          <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
+                        </span>
+                        {job.companyName}
+                      </div>
+                    </Link>
+                    :
+                    <div>
                       <span className="me-2">
                         <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
                       </span>
                       {job.companyName}
                     </div>
-                  </Link>
-                  :
-                  <div>
-                    <span className="me-2">
-                      <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
-                    </span>
-                    {job.companyName}
-                  </div>
-                }
-                {job.jobLocation &&
-                  <div className="mb-1">
-                    <span className="me-2">
-                      <IconComponent name="location" color="#fff" backgroundColor="1f928d" size={30} />
-                    </span>
-                    {job.jobLocation}
-                  </div>
-                }
-                {job.jobType &&
-                  <div className="mb-1">
-                    <span className="me-2">
-                      <IconComponent name="briefCase" color="#fff" backgroundColor="1f928d" size={30} />
-                    </span>
-                    {job.jobType}
-                  </div>
-                }
+                  }
+                  {job.jobLocation &&
+                    <div className="mb-1">
+                      <span className="me-2">
+                        <IconComponent name="location" color="#fff" backgroundColor="1f928d" size={30} />
+                      </span>
+                      {job.jobLocation}
+                    </div>
+                  }
+                  {job.jobType &&
+                    <div className="mb-1">
+                      <span className="me-2">
+                        <IconComponent name="briefCase" color="#fff" backgroundColor="1f928d" size={30} />
+                      </span>
+                      {job.jobType}
+                    </div>
+                  }
+                </div>
+                {/* Job Body */}
+                <div className="row my-2">
+                  {job.skills &&
+                    <div className="mb-1">
+                      {job.skills.split(", ").map((skill, index) => (
+                        <span
+                          key={index}
+                          className="job-skill-tag"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  }
+                  {job.jobDescription &&
+                    <Paragraph
+                      text={job.jobDescription}
+                      isHtml={true}
+                      numberOfLines={3}
+                    />}
+                </div>
               </div>
-              {/* Start of Job Body */}
-              <div className="row mt-2">
-                {job.skills &&
-                  <div className="mb-1">
-                    {"Skills: " + job.skills}
-                  </div>
-                }
-                {job.jobDescription &&
-                  <Paragraph
-                    text={job.jobDescription}
-                    isHtml={true}
-                    numberOfLines={3}
-                  />}
-                <div className="row register-btn justify-content-center">
-                  <div className="col-lg-6 col-12 mt-3">
-                    <Button
-                      buttonClassName="custom-button green-btn"
-                      anchorClassName="text-decoration-none text-light"
-                      buttonLabel="Apply"
-                      buttonHyperLink={job.jobApplicationLink}
-                      icon={<IconComponent className="ms-2" name="arrowRight" padding={0} size={20} />}
-                    />
-                  </div>
-                  <div className="col-lg-6 col-12 mt-3">
-                    <Button
-                      buttonClassName="custom-button submit-btn"
-                      anchorClassName="text-decoration-none text-light"
-                      buttonLabel="Email"
-                      buttonHyperLink={`mailto:${job.email}`}
-                      icon={<IconComponent className="ms-2" name="envelope" padding={0} size={20} />}
-                    />
-                  </div>
+              {/* Job Footer */}
+              <div className="row register-btn justify-content-center">
+                <div className="col-lg-6 col-12 mt-2">
+                  <Button
+                    buttonClassName="custom-button green-btn"
+                    anchorClassName="text-decoration-none text-light"
+                    buttonLabel="Apply"
+                    buttonHyperLink={job.jobApplicationLink}
+                    icon={<IconComponent className="ms-2" name="arrowRight" padding={0} size={20} />}
+                  />
+                </div>
+                <div className="col-lg-6 col-12 mt-2">
+                  <Button
+                    buttonClassName="custom-button submit-btn"
+                    anchorClassName="text-decoration-none text-light"
+                    buttonLabel="Email"
+                    buttonHyperLink={`mailto:${job.email}`}
+                    icon={<IconComponent className="ms-2" name="envelope" padding={0} size={20} />}
+                  />
                 </div>
               </div>
             </div>
