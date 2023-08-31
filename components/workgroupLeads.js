@@ -35,33 +35,35 @@ const WorkgroupLeads = () => {
       <div className="row py-4 bg-work-group-leads">
         {sortedWorkgroupLeadsData.map((lead, index) => (
           <div
-            className="col-lg-6 col-12"
+            className="col-xl-6 col-12"
             data-aos="fade-right"
             data-aos-duration="1000"
             key={index}
           >
             <div className="row workgroup-leads-box bg-white p-3 mb-4 mx-2">
-              <div className="col-auto">
+              <div className="col-12 col-md-auto pb-3 text-center">
                 <img
                   className="workgroup-leads-image"
                   src={lead.profilePicture}
                   alt={lead.fullName}
                 />
               </div>
-              <div className="col">
-                <h4>{lead.fullName}</h4>
-                <p>{lead.title}</p>
-                <Paragraph text={lead.about} isHtml={true} numberOfLines={3} />
-                <div className="py-2">
-                  {lead.social.map((item, index) =>
-                  (
-                    <span className="me-2" key={index}>
-                      <Link href={item.link} target="_blank">
-                        <IconComponent name={item.platform} />
-                      </Link>
-                    </span>
-                  )
-                  )}
+              <div className="col-12 col-md">
+                <div className="text-center text-md-start">
+                  <h4>{lead.fullName}</h4>
+                  <p>{lead.title}</p>
+                  <Paragraph text={lead.about} isHtml={true} numberOfLines={3} />
+                  <div className="py-2">
+                    {lead.social.map((item, index) =>
+                    (
+                      <span className="me-2" key={index}>
+                        <Link href={item.link} target="_blank">
+                          <IconComponent name={item.platform} />
+                        </Link>
+                      </span>
+                    )
+                    )}
+                  </div>
                 </div>
               </div>
             </div>
