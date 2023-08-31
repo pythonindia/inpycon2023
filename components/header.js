@@ -211,7 +211,7 @@ export default function Header() {
                 <ul className="navbar-nav">
                   {navBarItems.map((item, index) =>
                     item.children ? (
-                      <DropDownMenu item={item} />
+                      <DropDownMenu key={index} item={item} />
                     ) : (
                       <li key={index} className="nav-item">
                         <Link
@@ -262,7 +262,7 @@ function DropDownMenu({ item }) {
       </Dropdown.Toggle>
       <Dropdown.Menu>
         {item.children.map((dropdownItem, index) => (
-          <Link href={dropdownItem.href}>
+          <Link key={index} href={dropdownItem.href}>
             <Dropdown.Item as="li">{dropdownItem.name}</Dropdown.Item>
           </Link>
         ))}
