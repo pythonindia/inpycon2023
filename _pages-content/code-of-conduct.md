@@ -1,9 +1,6 @@
 ---
-layout: default
+slug: code-of-conduct
 title: Code Of Conduct
-header: Code Of Conduct
-bloglike: true
-nav: code-of-conduct
 ---
 
 ### The Short Form

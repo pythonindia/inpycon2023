@@ -1,3 +1,7 @@
+---
+slug: ylw
+title: Young Learners Workshop
+---
 ### What is the Young Learners Workshop (YLW)?
 
 YLW promotes code literacy among school students with Python programming language using engaging hardware (ex: Raspberry Pi devices). This is an opportunity for students, teachers to learn from each other and from the Indian Python community to cultivate their programming, communication and technology skills.

@@ -1,3 +1,7 @@
+---
+slug: faq
+title: Frequently Asked Questions
+---
 
 ### What is PyCon India?
 
