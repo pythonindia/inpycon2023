@@ -52,18 +52,18 @@ const WorkgroupLeads = () => {
                 <div className="text-center text-md-start">
                   <h4>{lead.fullName}</h4>
                   <p>{lead.title}</p>
-                  <Paragraph text={lead.about} isHtml={true} numberOfLines={3} />
-                  <div className="py-2">
-                    {lead.social.map((item, index) =>
-                    (
-                      <span className="me-2" key={index}>
-                        <Link href={item.link} target="_blank">
-                          <IconComponent name={item.platform} />
-                        </Link>
-                      </span>
-                    )
-                    )}
-                  </div>
+                </div>
+                <Paragraph text={lead.about} isHtml={true} numberOfLines={3} />
+                <div className="py-2">
+                  {lead.social.map((item, index) =>
+                  (
+                    <span className="me-2" key={index}>
+                      <Link href={item.link} target="_blank">
+                        <IconComponent name={item.platform} />
+                      </Link>
+                    </span>
+                  )
+                  )}
                 </div>
               </div>
             </div>
