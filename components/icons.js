@@ -4,7 +4,7 @@ import { SiZulip } from "react-icons/si";
 
 export const icons = {
   bars: FaBars,
-  envelope: FaEnvelope,
+  mail: FaEnvelope,
   facebook: FaFacebook,
   github: FaGithub,
   instagram: FaInstagram,

@@ -33,6 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta charSet="utf-8" />
+        <html lang="en" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -40,7 +41,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="robots" content="index, follow" />
         <link rel="icon" href="/2023/images/icons/favicon.ico" />
-        <meta name="google-site-verification" content="RqR6U8x5VU0hgv44NF8TcklATGcn-k8MHu2jKFU_Ys8" />
+        <meta
+          name="google-site-verification"
+          content="RqR6U8x5VU0hgv44NF8TcklATGcn-k8MHu2jKFU_Ys8"
+        />
         <title>PyCon India 2023, Hyderabad | ${router.asPath}</title>
       </Head>
       {/* Default page SEO starts */}

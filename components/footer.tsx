@@ -41,7 +41,7 @@ const social: SocialItem[] = [
   {
     name: "Email",
     url: "mailto:contact@in.pycon.org",
-    icon: "envelope",
+    icon: "mail",
   },
 ];
 
@@ -68,6 +68,7 @@ const Footer: React.FC = () => {
                   className="list-group-item"
                   href={item.url}
                   target="_blank"
+                  aria-label={`Hyperlink to PyCon India's ${item.icon} profile.`}
                 >
                   <IconComponent name={item.icon} />
                 </Link>

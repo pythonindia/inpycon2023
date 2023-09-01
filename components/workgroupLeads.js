@@ -45,7 +45,7 @@ const WorkgroupLeads = () => {
                 <img
                   className="workgroup-leads-image"
                   src={lead.profilePicture}
-                  alt={lead.fullName}
+                  alt={`Picture of ${lead.fullName}`}
                 />
               </div>
               <div className="col-12 col-md">
@@ -58,7 +58,10 @@ const WorkgroupLeads = () => {
                   {lead.social.map((item, index) =>
                   (
                     <span className="me-2" key={index}>
-                      <Link href={item.link} target="_blank">
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        aria-label={`Hyperlink to workgroup leads ${item.platform} profile.`}>
                         <IconComponent name={item.platform} />
                       </Link>
                     </span>
