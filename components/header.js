@@ -5,30 +5,32 @@ import { useState, useEffect } from "react";
 import IconComponent from "./icons";
 import logo from "../public/images/logos/logo.png";
 import { BreadcrumbJsonLd } from "next-seo";
+import { Dropdown } from "react-bootstrap";
 
 const navBarItems = [
   {
     name: "Home",
     href: "/#hero",
     id: "hero",
-    openInNewTab: false,
-  },
-  {
-    name: "Journey",
-    href: "/#journey",
-    id: "journey",
-    openInNewTab: false,
+    children: [
+      {
+        name: "Journey",
+        href: "/#journey",
+        id: "journey",
+        openInNewTab: false,
+      },
+      {
+        name: "Attend",
+        href: "/#attend",
+        id: "attend",
+        openInNewTab: false,
+      },
+    ],
   },
   {
     name: "Keynotes",
     href: "/#keynote",
     id: "keynote",
-    openInNewTab: false,
-  },
-  {
-    name: "Attend",
-    href: "/#attend",
-    id: "attend",
     openInNewTab: false,
   },
   {
@@ -49,21 +51,83 @@ const navBarItems = [
     openInNewTab: true,
   },
   {
-    name: "FAQ",
-    href: "/faq/",
-    id: "faq",
-    openInNewTab: false,
+    name: "Events and Spaces",
+    children: [
+      {
+        name: "Python Express",
+        href: "https://pythonexpress.org/",
+        openInNewTab: true,
+      },
+      {
+        name: "YLW (Young Learners Workshop)",
+        href: "/ylw/",
+        id: "ylw",
+        openInNewTab: false,
+      },
+      {
+        name: "Tinkering Space",
+        href: "/tinkering-space/",
+        id: "tinkering space",
+        openInNewTab: false,
+      },
+    ],
   },
+  // {
+  //   name: "Jobs",
+  //   id: "jobs",
+  //   children: [
+  //     {
+  //       name: "Job Board",
+  //       href: "/jobs/",
+  //       id: "jobs",
+  //       openInNewTab: false,
+  //     },
+  //     {
+  //       name: "Job Board Rules and Guidelines",
+  //       href: "/jobs/rules-guidelines",
+  //       id: "job rule guideline",
+  //       openInNewTab: false,
+  //     },
+  //   ],
+  // },
   {
-    name: "COC",
-    href: "/code-of-conduct/",
-    id: "coc",
+    name: "About",
+    href: "#",
     openInNewTab: false,
-  },
-  {
-    name: "Python Express",
-    href: "https://pythonexpress.org/",
-    openInNewTab: true,
+    hasDropdown: true,
+    children: [
+      {
+        name: "Volunteers",
+        href: "/volunteers/",
+        id: "volunteers",
+        openInNewTab: false,
+      },
+
+      {
+        name: "Travel",
+        href: "/travel/",
+        id: "travel",
+        openInNewTab: false,
+      },
+      {
+        name: "Code of Conduct",
+        href: "/code-of-conduct/",
+        id: "coc",
+        openInNewTab: false,
+      },
+      {
+        name: "Reporting Guide",
+        href: "/reporting-guide/",
+        id: "reporting guide",
+        openInNewTab: false,
+      },
+      {
+        name: "FAQ",
+        href: "/faq/",
+        id: "faq",
+        openInNewTab: false,
+      },
+    ],
   },
 ];
 
@@ -145,24 +209,32 @@ export default function Header() {
                 id="navbarNavDropdown"
               >
                 <ul className="navbar-nav">
-                  {navBarItems.map((item, index) => (
-                    <li key={index} className="nav-item">
-                      <Link
-                        href={item.href}
-                        target={item.openInNewTab ? "_blank" : "_self"}
-                        onClick={navBarClickHandler}
-                      >
-                        <span
-                          className={
-                            "nav-link" +
-                            (index == activeNavBarItem ? " active" : "")
-                          }
+                  {navBarItems.map((item, index) =>
+                    item.children ? (
+                      <DropDownMenu
+                        key={index}
+                        item={item}
+                        navBarClickHandler={() => navBarClickHandler()}
+                      />
+                    ) : (
+                      <li key={index} className="nav-item">
+                        <Link
+                          href={item.href}
+                          target={item.openInNewTab ? "_blank" : "_self"}
+                          onClick={navBarClickHandler}
                         >
-                          {item.name}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
+                          <span
+                            className={
+                              "nav-link" +
+                              (index == activeNavBarItem ? " active" : "")
+                            }
+                          >
+                            {item.name}
+                          </span>
+                        </Link>
+                      </li>
+                    )
+                  )}
                 </ul>
               </div>
             </div>
@@ -180,5 +252,31 @@ export default function Header() {
         }))}
       />
     </header>
+  );
+}
+
+function DropDownMenu({ item, navBarClickHandler }) {
+  return (
+    <Dropdown className="nav-item" as={"li"}>
+      <Dropdown.Toggle
+        className="nav-link"
+        style={{ background: "inherit", border: "none" }}
+      >
+        {item.name}
+      </Dropdown.Toggle>
+      <Dropdown.Menu align="start" as="ul" role="menu">
+        {item.children.map((dropdownItem, index) => (
+          <Link
+            key={index}
+            href={dropdownItem.href}
+            onClick={navBarClickHandler}
+          >
+            <Dropdown.Item as="li" role="menuitem">
+              {dropdownItem.name}
+            </Dropdown.Item>
+          </Link>
+        ))}
+      </Dropdown.Menu>
+    </Dropdown>
   );
 }
