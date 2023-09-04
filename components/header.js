@@ -97,12 +97,17 @@ const navBarItems = [
     hasDropdown: true,
     children: [
       {
-        name: "Volunteers",
-        href: "/volunteers/",
-        id: "volunteers",
+        name: "Workgroup Leads",
+        href: "/volunteers/workgroup-leads",
+        id: "workgroup-leads",
         openInNewTab: false,
       },
-
+      // {
+      //   name: "Volunteers",
+      //   href: "/volunteers/",
+      //   id: "volunteers",
+      //   openInNewTab: false,
+      // },
       {
         name: "Travel",
         href: "/travel/",
@@ -112,7 +117,7 @@ const navBarItems = [
       {
         name: "Code of Conduct",
         href: "/code-of-conduct/",
-        id: "coc",
+        id: "code-of-conduct",
         openInNewTab: false,
       },
       {
