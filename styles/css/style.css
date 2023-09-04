@@ -63,6 +63,11 @@ header .nav-link {
   text-decoration: none !important;
 }
 
+.navbar-nav .nav-item .dropdown-item {
+  padding: 1rem;
+  font-weight: 500;
+}
+
 .navbar-nav a {
   text-decoration: none;
 }
@@ -789,6 +794,15 @@ button a {
 
   .navbar-nav {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .navbar-nav .dropdown-menu{
+    position: relative !important;
+    transform: none !important;
+    align-items: center;
+  }
+  .navbar-nav .dropdown-toggle{
+    margin: 0 auto;
   }
 
   header .navbar-expand-lg .navbar-nav .nav-link {
