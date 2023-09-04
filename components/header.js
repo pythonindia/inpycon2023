@@ -211,7 +211,11 @@ export default function Header() {
                 <ul className="navbar-nav">
                   {navBarItems.map((item, index) =>
                     item.children ? (
-                      <DropDownMenu key={index} item={item} />
+                      <DropDownMenu
+                        key={index}
+                        item={item}
+                        navBarClickHandler={() => navBarClickHandler()}
+                      />
                     ) : (
                       <li key={index} className="nav-item">
                         <Link
@@ -251,7 +255,7 @@ export default function Header() {
   );
 }
 
-function DropDownMenu({ item }) {
+function DropDownMenu({ item, navBarClickHandler }) {
   return (
     <Dropdown className="nav-item" as={"li"}>
       <Dropdown.Toggle
@@ -260,10 +264,16 @@ function DropDownMenu({ item }) {
       >
         {item.name}
       </Dropdown.Toggle>
-      <Dropdown.Menu>
+      <Dropdown.Menu align="start" as="ul" role="menu">
         {item.children.map((dropdownItem, index) => (
-          <Link key={index} href={dropdownItem.href}>
-            <Dropdown.Item as="li">{dropdownItem.name}</Dropdown.Item>
+          <Link
+            key={index}
+            href={dropdownItem.href}
+            onClick={navBarClickHandler}
+          >
+            <Dropdown.Item as="li" role="menuitem">
+              {dropdownItem.name}
+            </Dropdown.Item>
           </Link>
         ))}
       </Dropdown.Menu>
