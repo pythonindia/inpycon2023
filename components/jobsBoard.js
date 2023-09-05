@@ -22,7 +22,7 @@ const JobsBoard = ({ jobs }) => {
           Welcome to the PyCon India 2023 Job Board – your gateway to exciting career opportunities in the world of technology! PyCon India is one of the largest and most vibrant Python conferences in the Asia-Pacific region. This year, we are thrilled to offer an exclusive platform for technology enthusiasts and companies to connect, network, and explore career possibilities.
         </p>
         <Link
-          href="jobs-board-rules-guidelines"
+          href="/jobs-board-rules-guidelines/"
           target="_blank"
         >
           Rules and Guidelines

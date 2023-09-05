@@ -84,7 +84,7 @@ const navBarItems = [
       },
       {
         name: "Job Board Rules and Guidelines",
-        href: "/jobs-board-rules-guidelines",
+        href: "/jobs-board-rules-guidelines/",
         id: "jobs-board-rules-guidelines",
         openInNewTab: false,
       },
