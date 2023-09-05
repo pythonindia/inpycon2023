@@ -77,24 +77,24 @@ const navBarItems = [
       },
     ],
   },
-  // {
-  //   name: "Jobs",
-  //   id: "jobs",
-  //   children: [
-  //     {
-  //       name: "Job Board",
-  //       href: "/jobs/",
-  //       id: "jobs",
-  //       openInNewTab: false,
-  //     },
-  //     {
-  //       name: "Job Board Rules and Guidelines",
-  //       href: "/jobs/rules-guidelines",
-  //       id: "job rule guideline",
-  //       openInNewTab: false,
-  //     },
-  //   ],
-  // },
+  {
+    name: "Jobs",
+    id: "jobs",
+    children: [
+      {
+        name: "Job Board",
+        href: "/jobs/",
+        id: "jobs",
+        openInNewTab: false,
+      },
+      {
+        name: "Job Board Rules and Guidelines",
+        href: "/jobs-board-rules-guidelines/",
+        id: "jobs-board-rules-guidelines",
+        openInNewTab: false,
+      },
+    ],
+  },
   {
     name: "About",
     href: "#",
