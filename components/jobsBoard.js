@@ -19,7 +19,7 @@ const JobsBoard = ({ jobs }) => {
       </h1>
       <div className="my-4 text-center">
         <p>
-          Welcome to the PyCon India 2023 Job Board – your gateway to exciting career opportunities in the world of Python! PyCon India is one of the largest and most vibrant Python conferences in the Asia-Pacific region, and this year, we are thrilled to offer an exclusive platform for Python enthusiasts and companies to connect, network, and explore career possibilities.
+          Welcome to the PyCon India 2023 Job Board – your gateway to exciting career opportunities in the world of technology! PyCon India is one of the largest and most vibrant Python conferences in the Asia-Pacific region. This year, we are thrilled to offer an exclusive platform for technology enthusiasts and companies to connect, network, and explore career possibilities.
         </p>
         <Link
           href="jobs-board-rules-guidelines"
@@ -53,14 +53,18 @@ const JobsBoard = ({ jobs }) => {
                 <div>
                   <h4>{job.jobTitle}</h4>
                   {job.companyWebsite ?
-                    <Link href={job.companyWebsite} target="_blank" >
-                      <div className="mb-1">
+                    <div className="mb-1">
+                      <Link
+                        href={job.companyWebsite}
+                        target="_blank"
+                        style={{ textDecoration: "none" }}
+                      >
                         <span className="me-2">
                           <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
                         </span>
                         {job.companyName}
-                      </div>
-                    </Link>
+                      </Link>
+                    </div>
                     :
                     <div>
                       <span className="me-2">
@@ -125,7 +129,7 @@ const JobsBoard = ({ jobs }) => {
                     anchorClassName="text-decoration-none text-light"
                     buttonLabel="Email"
                     buttonHyperLink={`mailto:${job.email}`}
-                    icon={<IconComponent className="ms-2" name="envelope" padding={0} size={20} />}
+                    icon={<IconComponent className="ms-2" name="mail" padding={0} size={20} />}
                   />
                 </div>
               </div>

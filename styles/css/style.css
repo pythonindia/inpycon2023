@@ -846,12 +846,13 @@ button a {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .navbar-nav .dropdown-menu{
+  .navbar-nav .dropdown-menu {
     position: relative !important;
     transform: none !important;
     align-items: center;
   }
-  .navbar-nav .dropdown-toggle{
+
+  .navbar-nav .dropdown-toggle {
     margin: 0 auto;
   }
 
