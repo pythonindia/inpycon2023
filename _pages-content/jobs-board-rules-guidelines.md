@@ -6,7 +6,7 @@ title: Job Board - Rules and Guidelines
 ### Job Submission and Approval Process:
 
 - We do not impose any restrictions on the industry/technology of the submitted jobs. Any jobs that are helpful to the community are welcome.
-- After successful job submission, each job will undergo a verification process by the PyCon India 2023 team.
+- After successful job submission, each job will undergo a verification process by the PyCon India 2023 team to ensure there are no spam postings.
 - The approval process may take approximately 3-4 days.
 - Approved jobs will be made visible on the job board once they pass the verification process.
 - Submissions that do not meet the guidelines may be rejected, and submitters will be notified of the reasons for rejection.
@@ -34,6 +34,4 @@ title: Job Board - Rules and Guidelines
 - Please make sure to follow PyCon India's [Code of Conduct](https://in.pycon.org/2023/code-of-conduct/).
 - If you feel unsafe during any of the interactions, or feel like someone is violating the rules, please [report the incident to the CoC Workgroup](https://in.pycon.org/2023/reporting-guide/).
 
-### Disclaimer:
-
-- Display a disclaimer stating that PyCon India 2023 is not responsible for the accuracy, quality, or legitimacy of job listings, and users should exercise their discretion when applying for jobs.
+Disclaimer: PyCon India 2023 is not responsible for the accuracy, quality, or legitimacy of job listings, and users should exercise their discretion when applying for jobs.
