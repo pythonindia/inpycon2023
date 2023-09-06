@@ -15,8 +15,9 @@ const HeroBanner = () => {
           <div className="row pt-5">
             <div className="col-lg-6 pb-5">
               <div className="d-md-block pycon-logo text-center text-lg-start">
+                <h1 hidden>PyCon India 2023</h1>
                 <a href="#">
-                  <Image src={logo} width="100%" height="100%" alt="" />
+                  <Image src={logo} width="100%" height="100%" alt="PyCon India, Hyderabad 2023 logo showing people and hyderabad charminar in the background" />
                 </a>
               </div>
               <p className="pt-3 text-center text-lg-start">

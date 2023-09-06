@@ -13,7 +13,7 @@ const SponsorComponent = () => {
               Event Sponsors
               <img
                 src="/2023/images/icons/handshake.png"
-                alt=""
+                alt="image showing a handshake icon"
                 className="img-fluid ps-3"
               />
             </h2>
@@ -44,7 +44,7 @@ const SponsorComponent = () => {
               {SponsorData[tier].map((sponsor, index) => (
                 <div className={`col-md-3 col-6 mb-md-0 mb-3 bt-circle ${SponsorData[tier].length === 1 ? 'mx-auto' : ''}`} key={index}>
                   <a href={sponsor.website} target="_blank" rel="noreferrer">
-                    <img src={sponsor.logo} className={`img-fluid sponsor-logo sponsor-gap ${sponsor.paddingClass}`} alt="" />
+                    <img src={sponsor.logo} className={`img-fluid sponsor-logo sponsor-gap ${sponsor.paddingClass}`} alt={`${sponsor.website}`} />
                   </a>
                 </div>
               ))}
