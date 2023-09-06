@@ -45,7 +45,7 @@ const JourneyComponent = () => {
                         <img
                           src={journey.image}
                           className="img-fluid w-100"
-                          alt=""
+                          alt={journey.title}
                         />
                       </div>
                     </div>
@@ -80,7 +80,7 @@ const JourneyComponent = () => {
       </div>
       <div className="container-fluid p-0">
         <div className="pt-5">
-          <img src="/2023/images/backgrounds/journey.png" className="img-fluid" />
+          <img src="/2023/images/backgrounds/journey.png" className="img-fluid" alt="background with icon of hyderabad, statue of unity etc."/>
         </div>
       </div>
     </section>
