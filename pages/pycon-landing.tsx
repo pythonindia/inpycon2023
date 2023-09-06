@@ -17,7 +17,7 @@ export default function PyConIndiaWeb() {
       <HeroBanner />
       <JourneyComponent />
       <KeynoteComponent />
-      {/* <ConferenceSchedule /> */}
+      <ConferenceSchedule />
       <RegistrationSection />
       <SponsorComponent />
       <CommunityPartners />

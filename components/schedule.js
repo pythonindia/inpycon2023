@@ -21,7 +21,11 @@ const ConferenceSchedule = () => {
               data-aos-duration="1000"
             >
               Conference Schedule{" "}
-              <img src="/2023/images/icons/sandwatch.png" alt="" className="img-fluid" />
+              <img
+                src="/2023/images/icons/sandwatch.png"
+                alt=""
+                className="img-fluid"
+              />
             </h2>
             <ul
               className="nav nav-pills mb-3 pt-5"
@@ -57,28 +61,41 @@ const ConferenceSchedule = () => {
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
               >
-                {currentSchedule.schedule.map((scheduleItem, idx) => (
-                  <div
-                    className="row bt-bottom align-items-center pt-4 pb-4"
-                    key={idx}
-                  >
-                    <div className="col-md-3">
-                      <p className="mb-0 date-announced">{scheduleItem.time}</p>
+                <div className="row">
+              {console.log(currentSchedule)}
+                {currentSchedule.schedule.map((scheduleItem, idx) => {
+                  console.log(scheduleItem);
+                  const { time, image, description, speaker, track } =
+                    scheduleItem;
+                  return (
+                    <div className="col-3">
+                      {/* <ScheduleCard {...scheduleItem} /> */}
                     </div>
-                    <div className="col-md-2 text-center">
-                      <img
-                        src={scheduleItem.image}
-                        className="img-fluid"
-                        alt=""
-                      />
-                    </div>
-                    <div className="col-md-7">
-                      <p className="mb-0 date-content">
-                        {scheduleItem.description}
-                      </p>
-                    </div>
-                  </div>
-                ))}
+                    // <div
+                    //   className="row bt-bottom align-items-center pt-4 pb-4"
+                    //   key={idx}
+                    // >
+                    //   <div className="col-md-3">
+                    //     <p className="mb-0 date-announced">{time}</p>
+                    //   </div>
+                    //   <div className="col-md-2 text-center">
+                    //     <img src={image} className="img-fluid" alt="" />
+                    //   </div>
+                    //   <div className="col-md-7">
+                    //     <p className="mb-0 date-content">
+                    //       {description}
+                    //       {speaker && (
+                    //         <span className="ft-weight"> By {speaker} </span>
+                    //       )}
+                    //       {track && (
+                    //         <span className="rt-green text-white">{track}</span>
+                    //       )}
+                    //     </p>
+                    //   </div>
+                    // </div>
+                  );
+                })}
+                </div>
               </div>
             </div>
           </div>
@@ -87,5 +104,11 @@ const ConferenceSchedule = () => {
     </section>
   );
 };
+
+// function ScheduleCard({title, image, time, description, speaker, track}) {
+//   return (
+
+//   );
+// }
 
 export default ConferenceSchedule;
