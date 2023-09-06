@@ -35,6 +35,11 @@ gold:
     linkedin:  https://www.linkedin.com/company/zeomega/
     twitter:  https://twitter.com/zeomega
     paddingClass: p-3
+  - logo: images/sponsors/google.png
+    website: https://cloud.google.com/
+    facebook:  https://www.facebook.com/GoogleCloudIN
+    twitter:  https://twitter.com/GoogleCloud_IN
+    paddingClass: p-3
 silver:
   - logo: images/sponsors/zoho.png
     website: https://www.site24x7.com/
