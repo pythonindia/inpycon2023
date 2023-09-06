@@ -14,6 +14,11 @@ const navBarItems = [
     id: "hero",
     children: [
       {
+        name: "Home",
+        href: "/#hero",
+        id: "hero",
+      },
+      {
         name: "Journey",
         href: "/#journey",
         id: "journey",
@@ -96,6 +101,11 @@ const navBarItems = [
     openInNewTab: false,
     hasDropdown: true,
     children: [
+      {
+        name: "About Us",
+        href: "/about-us/",
+        id: "about-us",
+      },
       {
         name: "Workgroup Leads",
         href: "/volunteers/workgroup-leads",
