@@ -23,7 +23,7 @@
     - platform: twitter
       link: https://twitter.com/MaitiAnanyo
 - fullName: Dr. Muralidharan Murugesan
-  title: CFP Shadow Lead
+  title: CFP Co-WG Lead
   profilePicture: /2023/images/workgroup-leads/dr-muralidharan-murugesan.jpg
   about:
     A passionate teacher disseminating the computing knowledge to the students for the past 36 years. Experienced in developing computing curricula for my Institution and to our University.<br>
@@ -70,3 +70,34 @@
       link: https://instagram.com/madam_amritha
     - platform: facebook
       link: https://www.facebook.com/amritha.ammu.98
+- fullName: Bhushan Kapkar
+  title: Communications/Promotions WG Lead
+  profilePicture: /2023/images/workgroup-leads/bhushan-kapkar.jpg
+  about:
+    Bhushan is an experienced Data Scientist who is enthusiastic about AI technology, open-source projects, solving business problems and community engagement.<br>
+    With over 9.5 years of experience in the software industry, he has diverse portfolio also worked across various technologies and domains. He actively participates in the Hyderabad Python Users Group, and he volunteers for AWS Community Days.<br>
+    Bhushan also enjoys mentoring others to help them advance and grow in their careers.
+  roleAtPyCon: As the lead for the Social Media Promotions/Communications workgroup, my primary goal is to ensure effective communication and coordination among all workgroups involved in PyCon India 2023. I collaborate closely with the core teams to establish action plans aligned with our objectives and keep track of these plans using GitHub issues. Additionally, I am also committed to mentoring and assisting the volunteers ensuring they have the essential resources and guidance to excel in their roles and contribute effectively. I also take on the responsibility of providing updates to the PyCon India community through the mailing list.
+  social:
+    - platform: linkedin
+      link: https://linkedin.com/in/bhushankapkar
+    - platform: twitter
+      link: https://twitter.com/bpkapkar
+    - platform: instagram
+      link: https://www.instagram.com/bhushankapkar5/
+    - platform: facebook
+      link: https://www.facebook.com/bhushan.kapkar
+- fullName: Nivesh Krishna
+  title: CoC Chair and Community Partners WG Lead
+  profilePicture: /2023/images/workgroup-leads/nivesh-krishna.jpg
+  about:
+    I work as a full stack engineer at Velocity Clinical Research where I work on various interesting projects which make clinical trials safe and faster. I contribute to open source projects.<br>
+    I love to play basketball when I'm not solving the world problems.
+  roleAtPyCon: I establish and enforce code of conduct for the event, and make it possible for everyone to attend. I make sure that PyCon India is a welcoming place for all. I also lead community partners for the event to make sure that communities get the recognition they deserve and people are able to connect with them.
+  social:
+    - platform: linkedin
+      link: https://in.linkedin.com/in/nivesh-krishna-ba80496b
+    - platform: twitter
+      link: https://twitter.com/vniveshkrishna
+    - platform: instagram
+      link: https://instagram.com/me.nivesh
