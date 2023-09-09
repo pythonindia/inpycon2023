@@ -7,7 +7,7 @@ export default function WorkgroupLeadsPage() {
   return (
     <>
       <Head>
-        <title>PyCon India 2023, Hyderabad | Workgroup Leads</title>
+        <title>PyCon India 2023, Hyderabad | Meet Our Workgroup Leads</title>
       </Head>
       <Header />
       <WorkgroupLeads />
