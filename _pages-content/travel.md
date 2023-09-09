@@ -47,4 +47,4 @@ We're excited to welcome you to PyCon India 2023 and hope you have a fantastic e
 #### Assistance for Attendees
 
 - PyCon India 2023 has partnered with a vendor who is associated with Treebo and Oyo Chain of Hotels, to provide Accommodation assistance at discounted rates close to the Conference Venue.
-- To book a Hotel you can fill our [accommodation booking form](https://bit.ly/pycon-india-2023-accommodation). You can find the Hotels Prices and their proximity to the Conference venue in the form. Once you fill the form you will be contacted by the vendor regarding further steps to confirm your booking.
+- To book a Hotel you can fill out the [accommodation booking form](https://bit.ly/pycon-india-2023-accommodation) shared by the vendor. You can find the Hotel Prices and their proximity to the Conference venue in the form. Once you fill out the form you will be contacted by the vendor regarding further steps to confirm your booking.
