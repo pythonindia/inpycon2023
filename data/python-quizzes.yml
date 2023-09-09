@@ -1,0 +1,24 @@
+- question: "What is the capital of France?"
+  answers:
+    - text: "Paris"
+      isCorrect: true
+    - text: "London"
+      isCorrect: false
+    - text: "Berlin"
+      isCorrect: false
+- question: "What is the capital of France?"
+  answers:
+    - text: "Paris"
+      isCorrect: true
+    - text: "London"
+      isCorrect: false
+    - text: "Berlin"
+      isCorrect: false
+- question: "What is the capital of France?"
+  answers:
+    - text: "Paris"
+      isCorrect: true
+    - text: "London"
+      isCorrect: false
+    - text: "Berlin"
+      isCorrect: false

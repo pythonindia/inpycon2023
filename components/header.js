@@ -141,8 +141,14 @@ const navBarItems = [
         href: "/faq/",
         id: "faq",
         openInNewTab: false,
-      },
+      }
     ],
+  },
+  {
+    name: "Quiz Game",
+    href: "/quiz-game/",
+    id: "quiz-game",
+    openInNewTab: false,
   },
 ];
 
