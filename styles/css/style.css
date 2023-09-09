@@ -471,6 +471,18 @@ button a {
   background-color: #FAFAF3
 }
 
+.bg-volunteers {
+  background-color: #FAFAF3
+}
+
+.volunteer-span {
+  text-transform: capitalize;
+}
+
+.volunteer-span:hover {
+  text-transform: uppercase;
+}
+
 .bg-speaker-bio-box {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   border-radius: 20px;
