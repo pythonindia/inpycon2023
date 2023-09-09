@@ -18,7 +18,7 @@ const TicketsPriceTable = () => {
           id: ticket.ticket_id,
           name: ticket.ticket_name,
           price: ticket.minimum_price || ticket.ticket_price,
-          soldOut: !(ticket.remaining_count > 0),
+          soldOut: (ticket.sold_out && !ticket.waitlist_enabled) || (ticket.remaining_count <= 0 && !ticket.waitlist_enabled),
           description: ticket.description,
         }));
         setTickets(extractedTickets);
