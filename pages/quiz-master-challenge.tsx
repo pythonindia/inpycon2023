@@ -7,7 +7,7 @@ export default function QuizGamePage() {
   return (
     <>
       <Head>
-        <title>PyCon India 2023, Hyderabad | Quiz Game</title>
+        <title>PyCon India 2023, Hyderabad | QuizMaster Challenge</title>
       </Head>
       <Header />
       <QuizGame />

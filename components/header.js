@@ -145,9 +145,9 @@ const navBarItems = [
     ],
   },
   {
-    name: "Quiz Game",
-    href: "/quiz-game/",
-    id: "quiz-game",
+    name: "QuizMaster Challenge",
+    href: "/quiz-master-challenge/",
+    id: "quiz-master-challenge",
     openInNewTab: false,
   },
 ];
