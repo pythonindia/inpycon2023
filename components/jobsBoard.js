@@ -27,8 +27,9 @@ const JobsBoard = ({ jobs }) => {
         >
           Rules and Guidelines
         </Link>
+        <br />
         <Button
-          buttonClassName="custom-button green-btn px-5 my-4 mx-auto"
+          buttonClassName="custom-button green-btn px-5 my-4"
           anchorClassName="text-decoration-none text-light"
           buttonLabel="Submit a Job"
           buttonHyperLink="https://forms.gle/1b1VeRprtCUMcdJs9"

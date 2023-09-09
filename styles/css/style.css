@@ -243,9 +243,6 @@ button a {
   border: 2px solid black;
   cursor: pointer;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .green-btn {
