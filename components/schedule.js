@@ -1,3 +1,4 @@
+import { Accordion, Card } from "react-bootstrap";
 import ScheduleData from "../data/schedule.yml";
 import React, { useState } from "react";
 
@@ -74,6 +75,20 @@ const ConferenceSchedule = () => {
                 </div>
               </div>
             </div>
+
+            {/* Mobile Accordion  */}
+            {ScheduleData.map((item, idx) => {
+              return (
+                <ScheduleAccordion
+                  key={idx}
+                  id={idx}
+                  currentSchedule={currentSchedule}
+                  handleTabClick={() => handleTabClick(idx)}
+                  {...item}
+                />
+              );
+            })}
+            {/* Mobile Accordion ends */}
           </div>
         </div>
       </div>
@@ -81,15 +96,7 @@ const ConferenceSchedule = () => {
   );
 };
 
-function ScheduleCard({
-  title,
-  image,
-  time,
-  description,
-  speaker,
-  track,
-  talks,
-}) {
+function ScheduleCard({ image, time, talks }) {
   return (
     <div className="row bt-bottom align-items-center pt-4 pb-4">
       <div className="col-md-2">
@@ -119,7 +126,7 @@ function ScheduleCard({
 function ScheduleTalk({ description, speaker, track, size }) {
   return (
     <>
-      <div className={`col-${size} ${size == 1 || 'text-center'}`}>
+      <div className={`col-${size} ${size == 1 || "text-center"}`}>
         <p className="mb-0 date-content">
           {description}
           {speaker && <span className="ft-weight"> By {speaker} </span>}
@@ -127,6 +134,49 @@ function ScheduleTalk({ description, speaker, track, size }) {
         </p>
       </div>
     </>
+  );
+}
+
+function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
+  return (
+    <Accordion key={id}
+    className="d-block d-lg-none">
+      <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
+        <Accordion.Header>{date}</Accordion.Header>
+        <Accordion.Body style={{padding: "1rem 0rem"}}>
+          {currentSchedule.schedule.map((scheduleItem, idx) => {
+            return scheduleItem.talks.map(talk => {
+              return (
+                <Card style={{ margin: '0.8rem 0' }}>
+                <Card.Body>
+                  <Card.Title>{talk.description}</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">{scheduleItem.time}</Card.Subtitle>
+                  {/* <Card.Text>
+                    {talk.track}
+                  </Card.Text> */}
+                </Card.Body>
+              </Card>
+                // <div
+                //   className="row bt-bottom align-items-center pt-4 pb-4"
+                //   key={idx}
+                // >
+                //   <div className="col-md-3 col-5">
+                //     <p className="mb-0 date-announced">{scheduleItem.time}</p>
+                //   </div>
+                //   <div className="col-md-2 col-2 text-center">
+                //     <img src="images/icons/tab1.png" className="img-fluid" />
+                //   </div>
+
+                //   <div className="col-md-7 col-5" key={idx}>
+                //     <p className="mb-0 date-content">{talk.description}</p>
+                //   </div>
+                // </div>
+              );
+            });
+          })}
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
   );
 }
 

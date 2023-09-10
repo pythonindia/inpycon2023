@@ -7,16 +7,12 @@
           description: Registrations / Tea
           duration: 75
           track: Track 1 - 4
-        - image: "/2023/images/icons/tab1.png"
-          description: Track 2
-          duration: 75
-          track: Track 1 - 4
     - time: "10:00 - 01:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
           description: Workshop
           duration: 180
-      track: Track 1 - 4
+          track: Track 1 - 4
     - time: "01:00 - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab4.png"
@@ -36,7 +32,7 @@
       talks:
         - image: /2023/images/icons/tab1.png
           description: Registrations
-    - time: "09:30 AM - 09:15 AM"
+    - time: "09:00 AM - 09:15 AM"
       talks:
         - image: /2023/images/icons/tab2.png
           description: Opening Address - Day 1
@@ -150,125 +146,123 @@
   title: Conference Day - 2
   schedule:
     - time: "08:30 AM - 09:20 AM"
-      image: "/2023/images/icons/tab1.png"
-      description: Registrations
+      talks:
+        - image: "/2023/images/icons/tab1.png"
+          description: Registrations
     - time: "09:20 AM - 09:25 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Opening Address - Day 2
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Opening Address - Day 2
     - time: "09:30 AM - 10:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Keynote
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Keynote
       speaker: Cheuk Ting Ho
     - time: "10:30 AM - 11:00 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Tea Break
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Tea Break
     - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk/Activity
-      track: Track 4
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 1
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 2
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 3
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk/Activity
+          track: Track 4
 
     - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Google + Innovacer
-      track: Track 4
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 1
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 2
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 3
+        - image: "/2023/images/icons/tab2.png"
+          description: Google + Innovacer
+          track: Track 4
 
     - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Toyota
-      track: Track 4
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 1
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 2
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          track: Track 3
+        - image: "/2023/images/icons/tab2.png"
+          description: Toyota
+          track: Track 4
 
     - time: "12:50 PM - 02:00 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Lunch
-      track: Track 1-4
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Lunch
+          track: Track 1-4
 
     - time: "02:00 PM - 02:30 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Lightning Talks
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Lightning Talks
 
     - time: "02:35 PM - 03:30 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Women in Tech Panel Discussion
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Women in Tech Panel Discussion
 
     - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk/Activity
-      speaker: TBD
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk/Activity
+          speaker: TBD
 
     - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk/Activity
-      speaker: TBD
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk
+          speaker: TBD
+        - image: "/2023/images/icons/tab2.png"
+          description: Talk/Activity
+          speaker: TBD
 
     - time: "05:00 PM - 06:00 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Keynote
-      speaker: Shailesh Kumar
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Keynote
+          speaker: Shailesh Kumar
 
     - time: "06:00 PM - 06:15 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Closing Address - Day 2
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Closing Address - Day 2
