@@ -2,151 +2,149 @@
   title: Workshop
   schedule:
     - time: "08:30 AM - 09:45 AM"
-      image: "/2023/images/icons/tab1.png"
-      description: Registrations / Tea
+      talks:
+        - image: "/2023/images/icons/tab1.png"
+          description: Registrations / Tea
+          duration: 75
+          track: Track 1 - 4
+        - image: "/2023/images/icons/tab1.png"
+          description: Track 2
+          duration: 75
+          track: Track 1 - 4
+    - time: "10:00 - 01:00 PM"
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Workshop
+          duration: 180
       track: Track 1 - 4
-    - time: "10:00 AM - 01:00 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Workshop
-      track: Track 1 - 4
-    - time: "01:00 PM - 02:30 PM"
-      image: "/2023/images/icons/tab4.png"
-      description: Lunch
+    - time: "01:00 - 02:30 PM"
+      talks:
+        - image: "/2023/images/icons/tab4.png"
+          description: Lunch
+          duration: 90
       track: Track 1 - 4
     - time: "02:00 PM - 05:00 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Workshop
-      track: Track 1 - 4
+      talks:
+        - image: "/2023/images/icons/tab2.png"
+          description: Workshop
+          track: Track 1 - 4
 
-- date: "Sep 30th | Saturday"
+- date: Sep 30th | Saturday
   title: Conference Day - 1
   schedule:
     - time: "08:00 AM - 09:00 AM"
-      image: "/2023/images/icons/tab1.png"
-      description: Registrations
+      talks:
+        - image: /2023/images/icons/tab1.png
+          description: Registrations
     - time: "09:30 AM - 09:15 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Opening Address - Day 1
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Opening Address - Day 1
     - time: "09:15 AM - 09:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Diya lighting ceremony
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Diya lighting ceremony
     - time: "09:30 AM - 10:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Keynote by Jessica Greene
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Keynote by Jessica Greene
     - time: "10:30 AM - 11:00 AM"
-      image: "/2023/images/icons/tab4.png"
-      description: Tea Break
+      talks:
+        - image: /2023/images/icons/tab4.png
+          description: Tea Break
     - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "11:00 AM - 11:30 AM"
-      image: "/2023/images/icons/tab2.png"
-      description: Neo4J
-      track: Track 4
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 1
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 2
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 3
+        - image: /2023/images/icons/tab2.png
+          description: Neo4J
+          track: Track 4
     - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "11:40 AM - 12:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Google + Innovacer
-      track: Track 4
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 1
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 2
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 3
+        - image: /2023/images/icons/tab2.png
+          description: Google + Innovacer
+          track: Track 4
     - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 1
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 2
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      track: Track 3
-    - time: "12:20 PM - 12:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Toyota
-      track: Track 4
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 1
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 2
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          track: Track 3
+        - image: /2023/images/icons/tab2.png
+          description: Toyota
+          track: Track 4
     - time: "12:50 PM - 02:00 PM"
-      image: "/2023/images/icons/tab4.png"
-      description: Lunch
-      track: Track 1-4
-
+      talks:
+        - image: /2023/images/icons/tab4.png
+          description: Lunch
+          track: Track 1-4
     - time: "02:00 PM - 02:30 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Lightning Talks
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Lightning Talks
     - time: "02:35 PM - 03:30 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Keynote
-      speaker: Marcelo
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Keynote
+          speaker: Marcelo
     - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "03:40 PM - 04:10 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk/Activity
-      speaker: TBD
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk/Activity
+          speaker: TBD
     - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk
-      speaker: TBD
-    - time: "04:20 PM - 04:50 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Talk/Activity
-      speaker: TBD
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk
+          speaker: TBD
+        - image: /2023/images/icons/tab2.png
+          description: Talk/Activity
+          speaker: TBD
     - time: "05:00 PM - 06:00 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Keynote
-      speaker: Rushabh Mehta
-
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Keynote
+          speaker: Rushabh Mehta
     - time: "06:00 PM - 06:15 PM"
-      image: "/2023/images/icons/tab2.png"
-      description: Closing Address - Day 1
+      talks:
+        - image: /2023/images/icons/tab2.png
+          description: Closing Address - Day 1
 
 - date: "Oct 1st | Saturday"
   title: Conference Day - 2

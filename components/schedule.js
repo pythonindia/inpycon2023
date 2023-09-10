@@ -1,6 +1,9 @@
 import ScheduleData from "../data/schedule.yml";
 import React, { useState } from "react";
 
+// group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
+const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
+
 const ConferenceSchedule = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
@@ -20,10 +23,10 @@ const ConferenceSchedule = () => {
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              Conference Schedule{" "}
+              Conference Schedule
               <img
                 src="/2023/images/icons/sandwatch.png"
-                alt=""
+                alt="sandwatch"
                 className="img-fluid"
               />
             </h2>
@@ -62,39 +65,12 @@ const ConferenceSchedule = () => {
                 aria-labelledby="pills-home-tab"
               >
                 <div className="row">
-              {console.log(currentSchedule)}
-                {currentSchedule.schedule.map((scheduleItem, idx) => {
-                  console.log(scheduleItem);
-                  const { time, image, description, speaker, track } =
-                    scheduleItem;
-                  return (
-                    <div className="col-3">
-                      {/* <ScheduleCard {...scheduleItem} /> */}
-                    </div>
-                    // <div
-                    //   className="row bt-bottom align-items-center pt-4 pb-4"
-                    //   key={idx}
-                    // >
-                    //   <div className="col-md-3">
-                    //     <p className="mb-0 date-announced">{time}</p>
-                    //   </div>
-                    //   <div className="col-md-2 text-center">
-                    //     <img src={image} className="img-fluid" alt="" />
-                    //   </div>
-                    //   <div className="col-md-7">
-                    //     <p className="mb-0 date-content">
-                    //       {description}
-                    //       {speaker && (
-                    //         <span className="ft-weight"> By {speaker} </span>
-                    //       )}
-                    //       {track && (
-                    //         <span className="rt-green text-white">{track}</span>
-                    //       )}
-                    //     </p>
-                    //   </div>
-                    // </div>
-                  );
-                })}
+                  {currentSchedule.schedule.map((scheduleItem, idx) => {
+                    console.log(scheduleItem);
+                    const { time, image, description, speaker, track } =
+                      scheduleItem;
+                    return <ScheduleCard {...scheduleItem} key={idx} />;
+                  })}
                 </div>
               </div>
             </div>
@@ -105,10 +81,53 @@ const ConferenceSchedule = () => {
   );
 };
 
-// function ScheduleCard({title, image, time, description, speaker, track}) {
-//   return (
+function ScheduleCard({
+  title,
+  image,
+  time,
+  description,
+  speaker,
+  track,
+  talks,
+}) {
+  return (
+    <div className="row bt-bottom align-items-center pt-4 pb-4">
+      <div className="col-md-2">
+        <p className="mb-0 date-announced">{time}</p>
+      </div>
+      <div className="col-md-1 text-center">
+        <img src={image} className="img-fluid" alt="" />
+      </div>
+      <div className="col-md-9">
+        <div className="row">
+          {talks.map((talk, id) => {
+            const talkLength = talks.length;
+            return (
+              <ScheduleTalk
+                {...talk}
+                size={Math.floor(12 / talkLength)}
+                key={id}
+              />
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+}
 
-//   );
-// }
+function ScheduleTalk({ description, speaker, track, size }) {
+  return (
+    <>
+      <div className={`col-${size} ${size == 1 || 'text-center'}`}>
+        <p className="mb-0 date-content">
+          {description}
+          {speaker && <span className="ft-weight"> By {speaker} </span>}
+          {/* {track && <span className="rt-green text-white">{track}</span>} */}
+        </p>
+      </div>
+    </>
+  );
+}
 
 export default ConferenceSchedule;
