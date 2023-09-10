@@ -67,7 +67,6 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
-                    console.log(scheduleItem);
                     const { time, image, description, speaker, track } =
                       scheduleItem;
                     return <ScheduleCard {...scheduleItem} key={idx} />;
@@ -147,7 +146,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
           {currentSchedule.schedule.map((scheduleItem, idx) => {
             return scheduleItem.talks.map(talk => {
               return (
-                <Card style={{ margin: '0.8rem 0' }}>
+                <Card style={{ margin: '0.8rem 0' }} key={idx}>
                 <Card.Body>
                   <Card.Title>{talk.description}</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">{scheduleItem.time}</Card.Subtitle>
