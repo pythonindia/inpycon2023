@@ -40,6 +40,13 @@ gold:
     facebook:  https://www.facebook.com/GoogleCloudIN
     twitter:  https://twitter.com/GoogleCloud_IN
     paddingClass: p-3
+  - logo: images/sponsors/rezoomex.png
+    website: www.rezoomex.com
+    facebook: https://www.facebook.com/rezoomex/
+    twitter:  https://twitter.com/rezoomex
+    linkedin: https://www.linkedin.com/company/10327498/admin/feed/posts/
+    instagram: https://www.instagram.com/rezoomex/?hl=en
+    paddingClass: p-2
 silver:
   - logo: images/sponsors/zoho.png
     website: https://www.site24x7.com/
