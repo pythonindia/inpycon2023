@@ -62,7 +62,7 @@ const WorkgroupLeads = () => {
                         href={item.link}
                         target="_blank"
                         aria-label={`Hyperlink to workgroup leads ${item.platform} profile.`}>
-                        <IconComponent name={item.platform} />
+                        <IconComponent name={item.platform} color="#fff" backgroundColor="1f928d" />
                       </Link>
                     </span>
                   )
