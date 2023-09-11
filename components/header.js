@@ -34,6 +34,12 @@ const navBarItems = [
     openInNewTab: false,
   },
   {
+    name: "Schedule",
+    href: "/#schedule",
+    id: "schedule",
+    openInNewTab: false,
+  },
+  {
     name: "Sponsors",
     href: "/#sponsors",
     id: "sponsors",

@@ -122,13 +122,15 @@ function ScheduleCard({ image, time, talks }) {
   );
 }
 
-function ScheduleTalk({ description, speaker, track, size }) {
+function ScheduleTalk({ description, speaker, track, size, proposalLink }) {
   return (
     <>
       <div className={`col-${size} ${size == 1 || "text-center"}`}>
         <p className="mb-0 date-content">
-          {description}
-          {speaker && <span className="ft-weight"> By {speaker} </span>}
+          <a href={proposalLink} target="_blank" rel="noopener noreferrer">
+            {description}
+          </a>
+          {speaker && <span className="ft-weight"> <br /> {speaker} </span>}
           {/* {track && <span className="rt-green text-white">{track}</span>} */}
         </p>
       </div>
@@ -138,8 +140,7 @@ function ScheduleTalk({ description, speaker, track, size }) {
 
 function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
   return (
-    <Accordion key={id}
-    className="d-block d-lg-none">
+    <Accordion key={id} className="d-block d-lg-none">
       <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
         <Accordion.Header>{date}</Accordion.Header>
         <Accordion.Body style={{padding: "1rem 0rem"}}>
@@ -147,14 +148,22 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
             return scheduleItem.talks.map(talk => {
               return (
                 <Card style={{ margin: '0.8rem 0' }} key={idx}>
-                <Card.Body>
-                  <Card.Title>{talk.description}</Card.Title>
-                  <Card.Subtitle className="mb-2 text-muted">{scheduleItem.time}</Card.Subtitle>
-                  {/* <Card.Text>
-                    {talk.track}
-                  </Card.Text> */}
-                </Card.Body>
-              </Card>
+                  <Card.Body>
+                    <Card.Title>
+                      <a href={talk.proposalLink} target="_blank" rel="noopener noreferrer">
+                        {talk.description}
+                      </a>
+                      <br />
+                      {talk.speaker && <>
+                        <span> By {talk.speaker} </span>
+                      </>}
+                    </Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">{scheduleItem.time}</Card.Subtitle>
+                    {/* <Card.Text>
+                      {talk.track}
+                    </Card.Text> */}
+                  </Card.Body>
+                </Card>
                 // <div
                 //   className="row bt-bottom align-items-center pt-4 pb-4"
                 //   key={idx}
