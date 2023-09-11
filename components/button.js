@@ -14,6 +14,7 @@ const Button = (props) => {
         disabled={props.disabled}
       >
         {props.buttonLabel}
+        {props.icon && props.icon}
       </button>
     </a>
   );

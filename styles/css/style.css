@@ -787,6 +787,27 @@ button a {
   cursor: pointer;
 }
 
+.jobs-card {
+  background: #f2eee2;
+  border-radius: 2%;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-skill-tag {
+  border-radius: 0.25rem;
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  line-height: 1;
+  text-align: center;
+  background-color: #207572;
+  color: #fff;
+  margin-right: 0.25rem;
+  margin-top: 0.25rem;
+}
+
 @media (max-width: 1200px) {
   .layer-2 {
     bottom: 0px;
@@ -822,12 +843,13 @@ button a {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 
-  .navbar-nav .dropdown-menu{
+  .navbar-nav .dropdown-menu {
     position: relative !important;
     transform: none !important;
     align-items: center;
   }
-  .navbar-nav .dropdown-toggle{
+
+  .navbar-nav .dropdown-toggle {
     margin: 0 auto;
   }
 
