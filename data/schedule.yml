@@ -1,4 +1,4 @@
-- date: "Sep 29th | Thursday"
+- date: "Sep 29th | Friday"
   title: Workshop
   schedule:
     - time: "08:30 AM - 09:45 AM"
@@ -66,7 +66,7 @@
           duration: 180
           track: Track 4
 
-- date: "Sep 30th | Friday"
+- date: "Sep 30th | Saturday"
   title: Conference Day 1
   schedule:
     - time: "08:00 AM - 09:00 AM"
@@ -206,8 +206,8 @@
           proposalLink:
           track: Track 1
         - image: "/2023/images/icons/tab12.png"
-          description: Technical Panel Discussion
-          speaker: TBA
+          description: Technical Panel Discussion - "LLMs in Production"
+          speaker: 
           duration: 30
           proposalLink:
           track: Track 2
@@ -262,7 +262,7 @@
           duration: 15
           track: Track 1 - 4
 
-- date: "Oct 1st | Saturday"
+- date: "Oct 1st | Sunday"
   title: Conference Day 2
   schedule:
     - time: "08:30 AM - 09:20 AM"
@@ -382,7 +382,7 @@
     - time: "02:35 PM - 03:30 PM"
       talks:
         - image: "/2023/images/icons/tab10.png"
-          description: Women in Tech Panel Discussion
+          description: Diversity Panel Discussion
           duration: 55
           track: Track 1 - 4
     - time: "03:40 PM - 04:10 PM"
