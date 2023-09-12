@@ -36,7 +36,7 @@ const Volunteers = () => {
           {sortedVolunteersData.map((volunteer, index) => (
             <div
               key={index}
-              className="col-lg-3 col-md-6 col-sm-12">
+              className="col-md-6 col-sm-12">
               <span
                 className="volunteer-span">
                 {volunteer.fullName}
