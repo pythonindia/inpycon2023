@@ -101,3 +101,30 @@
       link: https://twitter.com/vniveshkrishna
     - platform: instagram
       link: https://instagram.com/me.nivesh
+- fullName: Vandana Pv
+  title: Diversity WG Lead
+  profilePicture: /2023/images/workgroup-leads/vandana-pv.jpg
+  about:
+    Vandana is a Conversational AI Architect and a tech evangelist who enjoys creating conversational artificial intelligence systems. She oversees a few communities, where she offer spaces for students, working professionals and other members of the community to connect, collaborate, and share information.<br>
+    Her ardent interest include making jewellery and paintings, as well as designing interfaces and vector graphics. Get in touch if you enjoy coffee, as she not only loves to have conversations with ai systems but also with new individuals.
+  roleAtPyCon: I'm responsible for creating and implementing DEI strategies and programs for the event along with building relationships with communities focused on DEI.
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/vandanapv/
+    - platform: twitter
+      link: https://twitter.com/vandanapv
+- fullName: Nikhil Maan
+  title: Content WG Lead
+  profilePicture: /2023/images/workgroup-leads/nikhil-maan.jpg
+  about:
+    I'm a full-stack software developer at Essentia.dev, a passionate advocate for open-source projects, and an Alan Turing fan.<br>
+    I love coding, maths, contributing to open-source, and giving back to the community.<br>
+    When I'm not doing any of those, sometimes I play Basketball, Badminton, and chess. Not at the same time, ofcourse. And, here's an obligatory ""I use Arch, btw.""
+  roleAtPyCon: The content workgroup helps create any written content required for PyCon India. I coordinate with other workgroup leads and volunteers to get all the content ready and write some of that myself, wherever required, to bring you all the information and updates about PyCon India.
+  social:
+    - platform: linkedin
+      link: https://in.linkedin.com/in/Sc0rpi0n101
+    - platform: twitter
+      link: https://twitter.com/Sc0rpi0n101
+    - platform: instagram
+      link: https://instagram.com/Sc0rpi0n101
