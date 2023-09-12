@@ -32,7 +32,7 @@ const WorkgroupLeads = () => {
           We are delighted to introduce the dedicated leaders who drive PyCon India 2023 forward. Their unwavering commitment and passion for our community are the driving forces behind our success. Get to know our Workgroup Leads.
         </p>
       </div>
-      <div className="row py-4 bg-work-group-leads">
+      <div className="row justify-content-center py-4 bg-work-group-leads">
         {sortedWorkgroupLeadsData.map((lead, index) => (
           <div
             className="col-xl-6 col-12"

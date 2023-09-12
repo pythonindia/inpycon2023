@@ -19,73 +19,37 @@ const KeynoteComponent = () => {
       </section>
       <section className="bg-members">
         <div className="container">
-          <div className="row top-up">
-            <div className="col-md-6">
-              {KeynoteData
-                .filter((_, index) => index % 2 === 0) // Filter even indices for the first column
-                .map((speaker, index) => (
-                  <Link href="/keynote/[speakerFullName]"
-                    as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
-                    style={{ textDecoration: "none" }}
-                    target="_blank"
+          <div className="row top-up justify-content-center">
+            {KeynoteData.map((speaker, index) => (
+              <div key={index} className="col-md-6" >
+                <Link href="/keynote/[speakerFullName]"
+                  as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
+                  style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  <div
+                    className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
+                    data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+                    data-aos-duration="1000"
                     key={index}
                   >
-                    <div
-                      className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
-                      data-aos="fade-right"
-                      data-aos-duration="1000"
-                      key={index}
-                    >
-                      <div className="row align-items-center w-100">
-                        <div className="col-auto">
-                          <img
-                            src={speaker.profilePicture}
-                            alt={speaker.fullName}
-                            className="speaker-image"
-                          />
-                        </div>
-                        <div className="col">
-                          <h4>{speaker.fullName}</h4>
-                          <p>{speaker.title}</p>
-                        </div>
+                    <div className="row align-items-center w-100">
+                      <div className="col-auto">
+                        <img
+                          src={speaker.profilePicture}
+                          alt={speaker.fullName}
+                          className="speaker-image"
+                        />
+                      </div>
+                      <div className="col">
+                        <h4>{speaker.fullName}</h4>
+                        <p>{speaker.title}</p>
                       </div>
                     </div>
-                  </Link>
-                ))}
-            </div>
-            <div className="col-md-6">
-              {/* Second Column */}
-              {KeynoteData
-                .filter((_, index) => index % 2 !== 0) // Filter odd indices for the second column
-                .map((speaker, index) => (
-                  <Link href="/keynote/[speakerFullName]"
-                    as={`/keynote/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
-                    style={{ textDecoration: "none" }}
-                    target="_blank"
-                    key={index}
-                  >
-                    <div
-                      className="bg-speakerbox bg-white p-3 p-lg-5 mb-3 mb-md-5"
-                      data-aos="fade-left"
-                      data-aos-duration="1000"
-                    >
-                      <div className="row align-items-center w-100">
-                        <div className="col-auto">
-                          <img
-                            src={speaker.profilePicture}
-                            alt={speaker.fullName}
-                            className="speaker-image"
-                          />
-                        </div>
-                        <div className="col">
-                          <h4>{speaker.fullName}</h4>
-                          <p>{speaker.title}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-            </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>
