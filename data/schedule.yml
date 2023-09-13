@@ -84,7 +84,7 @@
     - time: "09:15 AM - 09:30 AM"
       talks:
         - image: "/2023/images/icons/tab3.png"
-          description: Diya lighting ceremony
+          description: Lamp lighting ceremony
           duration: 15
           track: Track 1 - 4
     - time: "09:30 AM - 10:30 AM"
@@ -206,7 +206,7 @@
           proposalLink:
           track: Track 1
         - image: "/2023/images/icons/tab12.png"
-          description: Technical Panel Discussion - "LLMs in Production"
+          description: Technical Panel Discussion - LLMs in Production
           speaker: 
           duration: 30
           proposalLink:
@@ -218,10 +218,10 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/metaprogramming-in-python~bo22X/
           track: Track 3
         - image: "/2023/images/icons/tab12.png"
-          description: TBA
-          speaker: TBA
+          description: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
+          speaker: Priyadarshan Patil
           duration: 30
-          proposalLink: TBA
+          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
           track: Track 4
     - time: "04:20 PM - 04:50 PM"
       talks:
@@ -232,10 +232,10 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/speeding-up-python-with-rust-geoip-lookup-database-as-a-case-study~aOY7Y/
           track: Track 1
         - image: "/2023/images/icons/tab13.png"
-          description: TBA
-          speaker: TBA
+          description:  Unleashing the Power of Python - Teaching Computer Science to Kids 
+          speaker: Prasanna MG
           duration: 30
-          proposalLink: TBA
+          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unleashing-the-power-of-python-teaching-computer-science-to-kids~erk04/
           track: Track 2
         - image: "/2023/images/icons/tab13.png"
           description: Evaluating Generative Vision Models - Insights into the Fréchet Inception Distance and CLIP
@@ -350,10 +350,10 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/how-i-restarted-my-career-by-contributing-to-open-source~dPNm4/
           track: Track 1
         - image: "/2023/images/icons/tab7.png"
-          description: TBA
-          speaker: TBA
+          description:  PyVelox - Interfacing Python bindings for the unified execution engine by Meta 
+          speaker:  Sanjiban Sengupta
           duration: 30
-          proposalLink: TBA
+          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/pyvelox-interfacing-python-bindings-for-the-unified-execution-engine-by-meta~eXDo5/
           track: Track 2
         - image: "/2023/images/icons/tab7.png"
           description: Taking a Multilingual Conversational Engine to Production - Theory to Reality
