@@ -1,0 +1,69 @@
+- fullName: Shaurya Agarwal
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "All Them Data Engines: Pandas, Spark, Dask, Polars and more - Data Munging with Python circa 2023"
+  social:
+    - platform: github
+      link: https://github.com/shauryashaurya
+    - platform: linkedin
+      link: https://www.linkedin.com/in/shauryashaurya/
+    - platform: twitter
+      link: https://twitter.com/shauryashaurya
+- fullName: Ravi Theja
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "Mastering Retrieval Augmented Generation (RAG) with LlamaIndex and LLMs"
+  social:
+    - platform: github
+      link: https://github.com/ravi03071991
+    - platform: linkedin
+      link: https://www.linkedin.com/in/ravidesetty/
+    - platform: twitter
+      link: https://twitter.com/ravithejads
+    - platform: instagram
+      link: https://www.instagram.com/180degreeshift/
+- fullName: Vivek Keshore
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "From Novice to Virtuoso: Mastering Object-Oriented Python in 3 Hours"
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/vivek-keshore/
+- fullName: Laisha Wadhwa
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "Python + Blockchain: Your Guide to Building Full Stack DApps"
+- fullName: Abhijeet Kumar
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "Instruction Finetuning: Unlock the Power of Large Language Models"
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/laisha-wadhwa
+    - platform: twitter
+      link: https://twitter.com/laishawadhwa
+- fullName: Hemangi Karchalkar
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "Let's have fun building APIs with Starlette: The Asynchronous Python Web Framework"
+  social:
+    - platform: linkedin
+      link: https://in.linkedin.com/in/hemangi-karchalkar-774a1b83
+    - platform: instagram
+      link: https://www.instagram.com/hemangi.k/
+- fullName: Jatin Goel
+  title:
+  profilePicture:
+  about:
+  proposalTitle: "Building Multi-Tenant applications with Django and Django-Tenants"
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/goeljatin/
+    - platform: twitter
+      link: https://twitter.com/_JatinGoel

@@ -2,7 +2,6 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import HeroBanner from "../components/HeroBanner";
 import JourneyComponent from "../components/journey";
-import KeynoteComponent from "../components/keynote";
 import SponsorComponent from "../components/sponsor";
 import CommunityPartners from "../components/communityPartners";
 import ConventionCenterSection from "../components/conventioncenter";
@@ -16,7 +15,6 @@ export default function PyConIndiaWeb() {
       <Header />
       <HeroBanner />
       <JourneyComponent />
-      <KeynoteComponent />
       <ConferenceSchedule />
       <RegistrationSection />
       <SponsorComponent />

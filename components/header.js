@@ -33,12 +33,6 @@ const navBarItems = [
     ],
   },
   {
-    name: "Keynotes",
-    href: "/#keynote",
-    id: "keynote",
-    openInNewTab: false,
-  },
-  {
     name: "Schedule",
     href: "/#schedule",
     id: "schedule",
@@ -54,6 +48,12 @@ const navBarItems = [
     name: "Community Partners",
     href: "/#community-partners",
     id: "community-partners",
+    openInNewTab: false,
+  },
+  {
+    name: "Speakers",
+    href: "/speakers",
+    id: "speakers",
     openInNewTab: false,
   },
   {

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import { useEffect, useState } from "react";
 
-import KeynoteData from "../../data/keynote.yml";
+import KeynoteData from "../../data/speakers/keynote.yml";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 import IconComponent from "../../components/icons";

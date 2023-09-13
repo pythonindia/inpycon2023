@@ -332,6 +332,10 @@ button a {
   text-shadow: 2px 2px #eac141 !important;
 }
 
+.com-text-white {
+  text-shadow: 2px 2px #fff !important;
+}
+
 .bg-journey .carousel-control-prev {
   left: -60px !important;
   width: 35px !important;
@@ -403,7 +407,7 @@ button a {
 
 .bg-speakers {
   background: #eac124 url("/2023/images/backgrounds/shadow-yel.png");
-  height: 421px;
+  height: 300px;
   position: relative;
 }
 
