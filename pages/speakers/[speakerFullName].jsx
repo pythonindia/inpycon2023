@@ -52,8 +52,8 @@ const SpeakerPage = () => {
         <div id="keynote">
           <Header />
           <div className="container bg-speaker-bio-box">
-            <div className="my-4 bg-speaker-bio-header align-items-center w-100">
-              <div className="row py-4 text-center justify-content-center">
+            <div className="row my-4 bg-speaker-bio-header w-100">
+              <div className="d-flex col-12 py-4 justify-content-center">
                 {speaker.profilePicture ? (
                   <Image
                     src={speaker.profilePicture}
@@ -69,7 +69,7 @@ const SpeakerPage = () => {
                   />
                 )}
               </div>
-              <div className="row py-2 text-center">
+              <div className="col-12 py-2 text-center">
                 <h1>{speaker.fullName}</h1>
                 <p>{speaker.title}</p>
               </div>
