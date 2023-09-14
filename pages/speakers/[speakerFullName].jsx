@@ -19,7 +19,11 @@ const SpeakerPage = () => {
   const [speaker, setSpeaker] = useState(null);
 
   useEffect(() => {
-    const speakers = [...keynoteSpeakers, ...featuredSpeakers, ...workshopInstructors];
+    const speakers = [
+      ...keynoteSpeakers,
+      ...featuredSpeakers,
+      ...workshopInstructors,
+    ];
     const findSpeaker = () => {
       const formattedSpeakerFullName = speakerFullName
         ? speakerFullName.replace(/-/g, " ")
@@ -29,7 +33,7 @@ const SpeakerPage = () => {
           s.fullName.toLowerCase() === formattedSpeakerFullName.toLowerCase()
       );
       if (!foundSpeaker) {
-        router.push('/404');
+        router.push("/404");
       }
       setSpeaker(foundSpeaker);
     };
@@ -44,22 +48,26 @@ const SpeakerPage = () => {
       <Head>
         <title>PyCon India 2023, Hyderabad | Keynote Speaker</title>
       </Head>
-      {speaker &&
+      {speaker && (
         <div id="keynote">
           <Header />
           <div className="container bg-speaker-bio-box">
             <div className="my-4 bg-speaker-bio-header align-items-center w-100">
               <div className="row py-4 text-center justify-content-center">
-                {speaker.profilePicture ?
+                {speaker.profilePicture ? (
                   <Image
                     src={speaker.profilePicture}
                     alt={speaker.fullName}
                     className="speaker-bio-image"
                     width={500}
                     height={500}
-                  /> :
-                  <NameAvatar className="speaker-bio-image" name={speaker.fullName} />
-                }
+                  />
+                ) : (
+                  <NameAvatar
+                    className="speaker-bio-image"
+                    name={speaker.fullName}
+                  />
+                )}
               </div>
               <div className="row py-2 text-center">
                 <h1>{speaker.fullName}</h1>
@@ -68,24 +76,27 @@ const SpeakerPage = () => {
             </div>
             <div className="row bg-speaker-bio-about pt-4 px-4">
               <p dangerouslySetInnerHTML={{ __html: speaker.about }}></p>
-              {speaker.proposalTitle && <p>Addressing: {speaker.proposalTitle}</p>
-              }
+              {speaker.proposalTitle && (
+                <p>Addressing: {speaker.proposalTitle}</p>
+              )}
             </div>
             <div className="bg-speaker-bio-social py-2 px-4">
-              {speaker.social.map((item, index) =>
-              (
+              {speaker.social.map((item, index) => (
                 <span className="me-2" key={index}>
                   <Link href={item.link} target="_blank">
-                    <IconComponent name={item.platform} color="#fff" backgroundColor="1f928d" />
+                    <IconComponent
+                      name={item.platform}
+                      color="#fff"
+                      backgroundColor="1f928d"
+                    />
                   </Link>
                 </span>
-              )
-              )}
+              ))}
             </div>
           </div>
           <Footer />
         </div>
-      }
+      )}
     </>
   );
 };
