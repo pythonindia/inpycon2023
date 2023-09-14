@@ -83,7 +83,11 @@ const SpeakerPage = () => {
             <div className="bg-speaker-bio-social py-2 px-4">
               {speaker.social.map((item, index) => (
                 <span className="me-2" key={index}>
-                  <Link href={item.link} target="_blank">
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    aria-label={`Hyperlink to speaker's ${item.icon} profile.`}
+                  >
                     <IconComponent
                       name={item.platform}
                       color="#fff"
