@@ -1,6 +1,6 @@
 - fullName: Jessica Greene
   title: Software Engineer at Ecosia
-  profilePicture: /2023/images/keynote-speakers/jessica-greene.jpg
+  profilePicture: /2023/images/speakers/keynote/jessica-greene.jpg
   about:
     Jessica Greene is a self-taught slash community-taught Software Engineer, with a diverse background that includes film, television, and specialty coffee roasting. In 2017, she made the pivotal decision to retrain and add programming to her skill set, leading her to join the team at Ecosia in 2018. In her role, she leverages her Python and Golang skills to build and operate APIs, perform data analysis, and develop features that inspire users to make more climate-focused choices, thereby contributing to Ecosia's mission of global tree planting and a better planet.<br>
     Passionate about fostering diversity and inclusivity in tech, Jessica has been co-organizing PyLadies Berlin since 2018. She orchestrates events, workshops, and talks, and provides mentorship to other programmers. Recently, she joined the Python Software Foundation's Code of Conduct Work Group to further support the global community. When she's not coding or at community events, Jessica enjoys reading, building Lego kits, knitting, dog-sitting, and exploring new aspects of software engineering.
@@ -11,9 +11,10 @@
       link: https://mastodon.social/@sleepypioneer
     - platform: twitter
       link: https://twitter.com/sleepypioneer
+
 - fullName: Marcelo Trylesinski
   title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
-  profilePicture: /2023/images/keynote-speakers/marcelo-trylesinski.jpg
+  profilePicture: /2023/images/speakers/keynote/marcelo-trylesinski.jpg
   about:
     Marcelo is an open-source developer who has made significant contributions to the FastAPI community. He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server that powers FastAPI applications.<br>
     His invaluable contributions led to his hiring as a senior software engineer by Pydantic, a widely used library for data validation and serialization.<br>
@@ -25,9 +26,10 @@
       link: https://www.linkedin.com/in/marcelotryle
     - platform: twitter
       link: https://twitter.com/marcelotryle
+
 - fullName: Rushabh Mehta
   title: Founder and CEO, Frappe & Director, FOSS United
-  profilePicture: /2023/images/keynote-speakers/rushabh-mehta.jpg
+  profilePicture: /2023/images/speakers/keynote/rushabh-mehta.jpg
   about:
     Rushabh Mehta works with a passionate team at Frappe and the ERPNext community, revolutionizing business software with high-quality, free, and open-source tools like ERPNext. Frappe is a democratic company with over 60 world-class engineers and consultants, producing various open-source software and platforms.<br>
     He actively contributes to FOSS United, promoting Free and Open Source Software in India. FOSS United brings together diverse participants through events and platforms.<br>
@@ -43,9 +45,10 @@
       link: https://twitter.com/rushabh_mehta
     - platform: website
       link: https://frappe.io
+
 - fullName: Cheuk Ting Ho
   title: Open Source Developer, Community Manager, PSF Board Member
-  profilePicture: /2023/images/keynote-speakers/cheuk-ting-ho.jpg
+  profilePicture: /2023/images/speakers/keynote/cheuk-ting-ho.jpg
   about:
     After having a career as a Data Scientist and Developer Advocate, Cheuk dedicated her work into the open-source community. She has co-founded Humble Data, a beginner Python workshop that has been happening around the world.<br/>
     Cheuk also contributes to multiple Open Source libraries like Hypothesis, Pytest, Pandas, Jupyter Notebook and Django. She has served the EuroPython Society board for two years and is now a fellow and director of the Python Software Foundation.
@@ -60,9 +63,10 @@
       link: https://twitter.com/cheukting_ho
     - platform: website
       link: https://cheuk.dev
+
 - fullName: Shailesh Kumar
   title: Chief Data Scientist, CoE AI/ML Jio
-  profilePicture: /2023/images/keynote-speakers/shailesh-kumar.jpg
+  profilePicture: /2023/images/speakers/keynote/shailesh-kumar.jpg
   about:
     Dr. Shailesh Kumar is currently the Chief Data Scientist at the Centre of Excellence in AI/ML, Reliance Jio. He has published over 20 international papers and book chapters and holds more than 20 patents in AI/ML. He was recognized as one of the top 10 data scientists in India in 2015 by Analytics India Magazine.<br>
     Dr. Shailesh Kumar was formerly the Vice President at Ola Cabs where he worked on several computer science, machine learning, artificial intelligence and optimization issues in fleet management. He was also the Chief Scientist and Co- Founder of Third Leap – an EdTech startup that uses AI to create personalized math guides. Prior to this, Dr. Kumar worked at Google on a variety of products at Google involving Information Retrieval, Enterprise Search, Legal E-Discovery, Natural Language Understanding (Phrase Discovery, Word Sense Disambiguation), Computer Vision, Knowledge Graph Mining, Conversation Modelling, and Deep Learning on Text and Vision. His experience of creating AI based solutions ranges comprises multiple domains including finance, remote sensing, retail, knowledge graph, conversational computing and computer vision."

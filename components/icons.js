@@ -1,4 +1,4 @@
-import { FaBars, FaBriefcase, FaBuilding, FaCircleArrowRight, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter } from "react-icons/fa6";
+import { FaBars, FaBriefcase, FaBuilding, FaCircleArrowRight, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa6";
 import { SiZulip } from "react-icons/si";
 
 
@@ -12,10 +12,12 @@ export const icons = {
   facebook: FaFacebook,
   github: FaGithub,
   instagram: FaInstagram,
+  medium: FaMedium,
   linkedin: FaLinkedin,
   mastodon: FaMastodon,
   twitter: FaTwitter,
   website: FaGlobe,
+  youtube: FaYoutube,
   zulip: SiZulip
 };
 

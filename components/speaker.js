@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import NameAvatar from "components/nameAvatar";
+
 const SpeakerComponent = (props) => {
   const sortedSpeakers = props.speakers.sort((a, b) => {
     // Convert names to uppercase for case-insensitive sorting
@@ -17,10 +19,10 @@ const SpeakerComponent = (props) => {
 
   return (
     <>
-      <section className="bg-speakers home-section my-5">
+      <section className="bg-speakers home-section my-5 pt-md-5">
         <div className="container">
-          <div className="row pt-md-5 pb-5 align-items-center align-items-md-start">
-            <div className="col-md-8 col-7 pt-2">
+          <div className="row align-items-center align-items-md-start">
+            <div className="col-md-8 col-7 py-5">
               <h2 className="com-text-white">{props.title}</h2>
             </div>
             {props.showMicCreative &&
@@ -48,11 +50,16 @@ const SpeakerComponent = (props) => {
                   >
                     <div className="row align-items-center w-100">
                       <div className="col-auto">
-                        <img
-                          src={speaker.profilePicture}
-                          alt={speaker.fullName}
-                          className="speaker-image"
-                        />
+                        {speaker.profilePicture ?
+                          <img
+                            src={speaker.profilePicture}
+                            alt={speaker.fullName}
+                            className="speaker-image"
+                          />
+                          :
+                          <NameAvatar
+                            className="speaker-image"
+                            name={speaker.fullName} />}
                       </div>
                       <div className="col">
                         <h4>{speaker.fullName}</h4>
