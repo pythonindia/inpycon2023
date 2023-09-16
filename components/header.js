@@ -113,13 +113,13 @@ const navBarItems = [
         id: "about-us",
       },
       {
-        name: "Meet Our Volunteers",
+        name: "Volunteers",
         href: "/volunteers/",
         id: "volunteers",
         openInNewTab: false,
       },
       {
-        name: "Meet Our Workgroup Leads",
+        name: "Workgroup Leads",
         href: "/volunteers/workgroup-leads",
         id: "workgroup-leads",
         openInNewTab: false,

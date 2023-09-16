@@ -1,7 +1,37 @@
-import VolunteersData from "../data/volunteers.yml";
+import Link from "next/link";
+import VolunteersData from "data/volunteers.yml";
+import WorkgroupLeadsData from "data/workgroupLeads.yml";
+
+
+const VolunteerInfo = (props) => {
+  const volunteer = props.volunteer;
+  return (
+    <div className="col-md-6 col-sm-12">
+      {
+        volunteer.profileLink ?
+          (<Link
+            href={props.volunteer.profileLink}
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <span
+              className="volunteer-span">
+              {volunteer.fullName}
+            </span>
+          </Link>) :
+          (<span
+            className="volunteer-span">
+            {volunteer.fullName}
+          </span>)
+      }
+    </div>
+  )
+}
 
 const Volunteers = () => {
-  const sortedVolunteersData = VolunteersData.sort((a, b) => {
+  const volunteersData = [...VolunteersData, ...WorkgroupLeadsData];
+
+  const sortedVolunteersData = volunteersData.sort((a, b) => {
     // Convert names to uppercase for case-insensitive sorting
     const nameA = a.fullName.toUpperCase();
     const nameB = b.fullName.toUpperCase();
@@ -34,14 +64,7 @@ const Volunteers = () => {
       <div className="row py-4 bg-volunteers">
         <div className="row px-4 capitalize">
           {sortedVolunteersData.map((volunteer, index) => (
-            <div
-              key={index}
-              className="col-md-6 col-sm-12">
-              <span
-                className="volunteer-span">
-                {volunteer.fullName}
-              </span>
-            </div>
+            <VolunteerInfo key={index} volunteer={volunteer} />
           ))}
         </div>
       </div>

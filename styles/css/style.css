@@ -472,7 +472,8 @@ button a {
 }
 
 .bg-volunteers {
-  background-color: #FAFAF3
+  background-color: #FAFAF3;
+  min-height: 40vh;
 }
 
 .volunteer-span {
