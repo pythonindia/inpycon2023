@@ -80,6 +80,13 @@ silver:
     linkedin: https://www.linkedin.com/company/avoma/
     twitter: https://twitter.com/AvomaInc
     paddingClass: p-1
+  - logo: images/sponsors/bloomberg.png
+    website: https://techatbloomberg.com/python
+    facebook: https://www.facebook.com/bloomberg
+    linkedin: https://www.linkedin.com/company/bloomberg
+    twitter: https://twitter.com/TechAtBloomberg
+    instagram: https://www.instagram.com/bloomberg
+    paddingClass: p-3
 associate:
   - logo: images/sponsors/reckonsys.png
     website: https://www.reckonsys.com/
