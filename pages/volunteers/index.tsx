@@ -7,7 +7,7 @@ export default function VolunteersPage() {
   return (
     <>
       <Head>
-        <title>PyCon India 2023, Hyderabad | Meet Our Volunteers</title>
+        <title>PyCon India 2023, Hyderabad | Volunteers</title>
       </Head>
       <Header />
       <Volunteers />
