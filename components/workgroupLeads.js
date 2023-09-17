@@ -25,11 +25,11 @@ const WorkgroupLeads = () => {
         data-aos="fade-down"
         data-aos-duration="800"
       >
-        Workgroup Leads
+        Meet Our Workgroup Leads
       </h1>
       <div className="row my-4 text-center">
         <p>
-          We are delighted to introduce the dedicated leaders who drive PyCon India 2023 forward. Their unwavering commitment and passion for our community are the driving forces behind our success. Get to know our Workgroup Leads.
+          We are delighted to introduce the dedicated leaders who drive PyCon India 2023 forward. Their unwavering commitment and passion for our community are the driving forces behind our success.
         </p>
       </div>
       <div className="row justify-content-center py-4 bg-work-group-leads">
