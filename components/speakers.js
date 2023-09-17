@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import NameAvatar from "components/nameAvatar";
 
-const SpeakerComponent = (props) => {
+const Speakers = (props) => {
   const sortedSpeakers = props.speakers.sort((a, b) => {
     // Convert names to uppercase for case-insensitive sorting
     const nameA = a.fullName.toUpperCase();
@@ -36,7 +36,7 @@ const SpeakerComponent = (props) => {
         <div className="container">
           <div className="row top-up justify-content-center">
             {sortedSpeakers.map((speaker, index) => (
-              <div key={index} className="col-lg-6 col-md-12">
+              <div key={speaker.id} className="col-lg-6 col-md-12">
                 <Link href="/speakers/[speakerFullName]"
                   as={`/speakers/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
                   style={{ textDecoration: "none" }}
@@ -46,7 +46,6 @@ const SpeakerComponent = (props) => {
                     className="bg-speakerbox bg-white py-3 ps-3 pe-2 mb-3"
                     data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
                     data-aos-duration="1000"
-                    key={index}
                   >
                     <div className="row align-items-center w-100">
                       <div className="col-auto">
@@ -77,8 +76,8 @@ const SpeakerComponent = (props) => {
   );
 };
 
-SpeakerComponent.defaultProps = {
+Speakers.defaultProps = {
   showMicCreative: false
 };
 
-export default SpeakerComponent;
+export default Speakers;

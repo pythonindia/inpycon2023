@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Header from "components/header";
 import Footer from "components/footer";
-import SpeakerComponent from "components/speaker";
+import Speakers from "components/speakers";
 import keynoteSpeakers from "data/speakers/keynote.yml";
 import featuredSpeakers from "data/speakers/featured.yml";
 import workshopInstructors from "data/speakers/workshopInstructors.yml";
 
-const SpeakerPage = () => {
+const SpeakersPage = () => {
   return (
     <>
       <Head>
@@ -21,23 +21,17 @@ const SpeakerPage = () => {
         >
           Speakers for the Event
         </h1>
-        <SpeakerComponent
+        <Speakers
           speakers={keynoteSpeakers}
           showMicCreative={true}
           title="Keynote Speakers"
         />
-        <SpeakerComponent
-          speakers={featuredSpeakers}
-          title="Featured Speakers"
-        />
-        <SpeakerComponent
-          speakers={workshopInstructors}
-          title="Workshop Instructors"
-        />
+        <Speakers speakers={featuredSpeakers} title="Featured Speakers" />
+        <Speakers speakers={workshopInstructors} title="Workshop Instructors" />
       </div>
       <Footer />
     </>
   );
 };
 
-export default SpeakerPage;
+export default SpeakersPage;

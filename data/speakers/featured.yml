@@ -1,4 +1,5 @@
 - fullName: Shivam Chaurasia
+  id: SS-01
   title:
   profilePicture: /2023/images/speakers/featured/shivam-chaurasia.jpg
   about: Software Architect at EPAM Systems.
@@ -10,6 +11,7 @@
       link: https://www.instagram.com/tracebackerror
 
 - fullName: Karthika Vijayan
+  id: SS-02
   title:
   profilePicture: /2023/images/speakers/featured/karthika-vijayan.jpg
   about:
@@ -21,6 +23,7 @@
       link: https://www.linkedin.com/in/karthika-vijayan/
 
 - fullName: Bowrna
+  id: SS-03
   title:
   profilePicture: /2023/images/speakers/featured/bowrna.jpg
   about:
@@ -32,6 +35,7 @@
       link: https://github.com/Bowrna
 
 - fullName: Shruti Dhavalikar
+  id: SS-04
   title:
   profilePicture: /2023/images/speakers/featured/shruti-dhavalikar.jpg
   about:
@@ -45,6 +49,7 @@
       link: https://scholar.google.com/citations?user=5029f7QAAAAJ&hl=en
 
 - fullName: Bhavani Ravi
+  id: SS-05
   title:
   profilePicture: /2023/images/speakers/featured/bhavani-ravi.jpg
   about:
@@ -56,6 +61,7 @@
       link: https://twitter.com/BhavaniRavi_
 
 - fullName: Abhijit Gadgil
+  id: SS-06
   title:
   profilePicture: /2023/images/speakers/featured/abhijit-gadgil.jpg
   about: Abhijit is a long time Pythonista and more recently interested in Rust. He's keen on building next generation telecom infra using modern, safe programming languages and contributes to projects in the same space, including some he's conceived.
@@ -67,6 +73,7 @@
       link: https://linkedin.com/in/gabhijit
 
 - fullName: Kartheek Surampudi
+  id: SS-07
   title:
   profilePicture: /2023/images/speakers/featured/kartheek-surampudi.jpg
   about:
@@ -82,6 +89,7 @@
       link: https://twitter.com/kartheek0000
 
 - fullName: Samhita Alla
+  id: SS-08
   title:
   profilePicture: /2023/images/speakers/featured/samhita-alla.jpg
   about:
@@ -99,6 +107,7 @@
       link: https://allasamhita.io/
 
 - fullName: Sangarshanan
+  id: SS-09
   title:
   profilePicture: /2023/images/speakers/featured/sangarshanan.jpg
   about: I'm Sangarshanan, a developer from planet Earth. I love making stuff that helps and amuses me in equal measure and standing upside down while holding a banana. When I'm bored you can find me making absurdist memes, yet another spotify playlist or staring straight into the void.
@@ -110,6 +119,7 @@
       link: https://twitter.com/sangarshanan
 
 - fullName: Nirant Kasliwal
+  id: SS-10
   title:
   profilePicture:
   about: Nirant is best known for his work in NLP. He maintains Awesome NLP, which is recommended by Stanford in some of their courses. He is also the author of FastEmbed, a text embedding library built with retrieval and performance in mind.
@@ -123,6 +133,7 @@
       link: https://twitter.com/NirantK
 
 - fullName: Shrayas Rajagopal
+  id: SS-11
   title:
   profilePicture: /2023/images/speakers/featured/shrayas-rajagopal.jpg
   about:
@@ -142,6 +153,7 @@
       link: https://shrayas.com
 
 - fullName: Navin Pai
+  id: SS-12
   title:
   profilePicture: /2023/images/speakers/featured/navin-pai.jpg
   about:
@@ -157,6 +169,7 @@
       link: https://twitter.com/navinpai
 
 - fullName: Dinesh Venkatesan
+  id: SS-13
   title:
   profilePicture:
   about: Dinesh Venkatesan is a logician and Mathematician currently working as Principal Researcher at Microsoft. He is passionate about making the digital world a safer place for everybody
@@ -166,6 +179,7 @@
       link: https://twitter.com/MalwareResearch
 
 - fullName: Yash Mehrotra
+  id: SS-14
   title:
   profilePicture: /2023/images/speakers/featured/yash-mehrotra.jpg
   about:
@@ -183,6 +197,7 @@
       link: https://yashmehrotra.com
 
 - fullName: Mayank Khanduja
+  id: SS-15
   title:
   profilePicture: /2023/images/speakers/featured/mayank-khanduja.jpg
   about: Data Scientist at Esri
@@ -198,6 +213,7 @@
       link: https://www.instagram.com/mayank_404_/
 
 - fullName: Abhijeet Manhas
+  id: SS-16
   title:
   profilePicture: /2023/images/speakers/featured/abhijeet-manhas.jpg
   about:
@@ -223,6 +239,7 @@
       link: https://abhijeetmanhas.github.io/
 
 - fullName: Kamran Ahmad
+  id: SS-17
   title:
   profilePicture: /2023/images/speakers/featured/kamran-ahmad.jpg
   about: Kamran is a software engineer at Microsoft where he’s building the Azure Sovereign Cloud. He's been developing software for a decade and his current area of interest is distributed systems. He's also a Certified Solutions Architect. He shares his thoughts on Medium, speaks at community events and answers questions on StackOverflow. When he's not working, you'll find him reading a book or going on a long drive.
@@ -232,6 +249,7 @@
       link: https://www.linkedin.com/in/kamahmad/
 
 - fullName: Aby M Joseph
+  id: SS-18
   title:
   profilePicture: /2023/images/speakers/featured/aby-m-joseph.jpg
   about:
@@ -243,6 +261,7 @@
       link: https://www.linkedin.com/in/abymjoseph/
 
 - fullName: Abhinand C
+  id: SS-19
   title:
   profilePicture: /2023/images/speakers/featured/abhinand-c.jpg
   about:
@@ -256,6 +275,7 @@
       link: https://www.linkedin.com/in/abhinand-c
 
 - fullName: Navya Agarwal
+  id: SS-20
   title:
   profilePicture: /2023/images/speakers/featured/navya-agarwal.jpg
   about: Navya Agarwal is a third year Computer Science student at IGDTUW.<br>
@@ -274,6 +294,7 @@
       link: https://navyaagarwal.com/
 
 - fullName: Angelin Mary John
+  id: SS-21
   title:
   profilePicture: /2023/images/speakers/featured/angelin-mary-john.jpg
   about:
@@ -291,6 +312,7 @@
       link: https://angelinjohn.com/
 
 - fullName: Shashi Jeevan M P
+  id: SS-22
   title:
   profilePicture: /2023/images/speakers/featured/shashi-jeevan-m-p.jpg
   about: Shashi Jeevan has 25+ years of experience in the software industry. Certified Ethical Hacker (Practical) and Inventor of a US Patent. Working as VP of Delivery and Deployment at TekFriday Processing Solutions and manages Cloud, DevOps and Security.
@@ -310,6 +332,7 @@
       link: https://truepythoneer.com/
 
 - fullName: S Anand
+  id: SS-23
   title:
   profilePicture: /2023/images/speakers/featured/s-anand.jpg
   about:
@@ -323,6 +346,7 @@
       link: https://github.com/sanand0
 
 - fullName: Madhuri Anagal
+  id: SS-24
   title:
   profilePicture: /2023/images/speakers/featured/madhuri-anagal.jpg
   about: Test automation framework developer at Acclivis, Pune
@@ -332,6 +356,7 @@
       link: https://linkedin.com/in/madhurianagal
 
 - fullName: Kurian Benoy
+  id: SS-25
   title:
   profilePicture: /2023/images/speakers/featured/kurian-benoy.jpg
   about: Kurian Benoy is a Team Lead and AI Engineer working in sentient.io. I am a FOSS enthusiast with who have multiple years of experience in Python and Machine learning experience.
@@ -347,6 +372,7 @@
       link: https://kurianbenoy.com
 
 - fullName: Nitin Kishore Sai Samala
+  id: SS-26
   title:
   profilePicture: /2023/images/speakers/featured/nitin-kishore-sai-samala.jpg
   about:
@@ -364,6 +390,7 @@
       link: https://snknitin.github.io
 
 - fullName: Rumanu Bhardwaj
+  id: SS-27
   title:
   profilePicture:
   about: Rumanu is a data privacy researcher who is excited to attend PyCon India in person!
@@ -375,6 +402,7 @@
       link: https://www.instagram.com/rubeeread/
 
 - fullName: Dheeraj Choudhary
+  id: SS-28
   title:
   profilePicture: /2023/images/speakers/featured/dheeraj-choudhary.jpg
   about:
@@ -397,6 +425,7 @@
       link: https://dheeraj3choudhary.com/
 
 - fullName: Sasidhar Donaparthi
+  id: SS-29
   title:
   profilePicture:
   about: Innovative and dynamic hands-on technology leader with 25+ years of IT experience in manufacturing and financial services domains, Working as Data Scientist in Financial services company.
@@ -410,6 +439,7 @@
       link: https://twitter.com/sdonapar
 
 - fullName: Srijan R Shetty
+  id: SS-30
   title:
   profilePicture:
   about:
@@ -428,6 +458,7 @@
       link: https://instagram.com/srijanshetty
 
 - fullName: Bhawna Chauhan
+  id: SS-31
   title:
   profilePicture: /2023/images/speakers/featured/bhawna-chauhan.jpg
   about: Developer @Monado | Founder @SheBuilds | GCE 🚩| MLH Top 50 | LFX'23 at CNCF - Harbor | MLH Fellow'22 | XROS'23 Mentee @Harbor
@@ -445,6 +476,7 @@
       link: https://bhawna-resume.vercel.app/
 
 - fullName: Kesia Mary Joies
+  id: SS-32
   title:
   profilePicture: /2023/images/speakers/featured/kesia-mary-joies.jpg
   about: Kesia Mary Joies is a passionate Python developer. At present, she is focused on developing Strollby - a travel platform that utilises Python microservices with GraphQL backend. She was a speaker in PyConf Hyderabad 2022, and embarked on her journey as an International speaker at the oldest and longest running volunteer-led Python programming conference, EuroPython Conference 2023.
@@ -458,6 +490,7 @@
       link: https://www.instagram.com/kesia.jo/
 
 - fullName: Shaikh Mohd Ubaid Mohd Jawed
+  id: SS-33
   title:
   profilePicture: /2023/images/speakers/featured/shaikh-mohd-ubaid-mohd-jawed.jpg
   about:
@@ -473,6 +506,7 @@
       link: https://shaikh-ubaid.github.io/
 
 - fullName: Prasanna Mg
+  id: SS-34
   title:
   profilePicture: /2023/images/speakers/featured/prasanna-mg.jpg
   about:
@@ -493,6 +527,7 @@
       link: https://www.youngwonks.com/
 
 - fullName: Priyadarshan Patil
+  id: SS-35
   title:
   profilePicture: /2023/images/speakers/featured/priyadarshan-patil.jpg
   about:
@@ -504,6 +539,7 @@
       link: https://www.linkedin.com/in/priyadarshanpatil/
 
 - fullName: Sanjiban Sengupta
+  id: SS-36
   title:
   profilePicture: /2023/images/speakers/featured/sanjiban-sengupta.jpg
   about: Sanjiban works at Voltron Data on open-source data engineering. He has been participating in various open-source data (science, engineering & analytics) development, and is associated with CERN for the development of the ROOT data analysis project.

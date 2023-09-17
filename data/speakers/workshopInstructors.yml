@@ -1,4 +1,5 @@
 - fullName: Shaurya Agarwal
+  id: SW-01
   title:
   profilePicture: /2023/images/speakers/workshopInstructors/shaurya-agarwal.jpg
   about:
@@ -14,6 +15,7 @@
       link: https://twitter.com/shauryashaurya
 
 - fullName: Ravi Theja
+  id: SW-02
   title:
   profilePicture: /2023/images/speakers/workshopInstructors/ravi-theja.jpg
   about:
@@ -31,6 +33,7 @@
       link: https://www.instagram.com/180degreeshift/
 
 - fullName: Vivek Keshore
+  id: SW-03
   title:
   profilePicture: /2023/images/speakers/workshopInstructors/vivek-keshore.jpg
   about:
@@ -43,6 +46,7 @@
       link: https://www.linkedin.com/in/vivek-keshore/
 
 - fullName: Laisha Wadhwa
+  id: SW-04
   title:
   profilePicture:
   about:
@@ -57,6 +61,7 @@
       link: https://twitter.com/laishawadhwa
 
 - fullName: Abhijeet Kumar
+  id: SW-05
   title:
   profilePicture: /2023/images/speakers/workshopInstructors/abhijeet-kumar.jpg
   about:
@@ -71,6 +76,7 @@
       link: https://twitter.com/laishawadhwa
 
 - fullName: Hemangi Karchalkar
+  id: SW-06
   title:
   profilePicture:
   about:
@@ -84,6 +90,7 @@
       link: https://www.instagram.com/hemangi.k/
 
 - fullName: Jatin Goel
+  id: SW-07
   title:
   profilePicture:
   about:
