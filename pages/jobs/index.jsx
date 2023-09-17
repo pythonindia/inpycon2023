@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Header from "components/header";
 import JobsBoard from "components/jobsBoard";
 import Footer from "components/footer";
@@ -7,6 +8,9 @@ import fetchSheetData from "utils/googleSheets";
 const JobsPage = ({ jobs }) => {
   return (
     <>
+      <Head>
+        <title>PyCon India 2023, Hyderabad | Job Board</title>
+      </Head>
       <Header />
       <JobsBoard jobs={jobs} />
       <Footer />
