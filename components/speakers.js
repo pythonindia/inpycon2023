@@ -66,7 +66,7 @@ const Speakers = (props) => {
                       {speaker.profilePicture ?
                         <img
                           src={speaker.profilePicture}
-                          alt={speaker.fullName}
+                          alt={`Image of ${speaker.fullName}`}
                           className="speaker-image"
                         />
                         :

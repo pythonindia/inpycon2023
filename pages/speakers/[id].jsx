@@ -9,6 +9,7 @@ import SpeakerDetail from "components/speakerDetail";
 import keynoteSpeakers from "data/speakers/keynote.yml";
 import featuredSpeakers from "data/speakers/featured.yml";
 import workshopInstructors from "data/speakers/workshopInstructors.yml";
+import { fetchSpeakers } from "lib/data";
 
 const SpeakerPage = () => {
   const router = useRouter();
@@ -16,11 +17,11 @@ const SpeakerPage = () => {
   const [speaker, setSpeaker] = useState(null);
 
   useEffect(() => {
+    const categorizedSpeakers = fetchSpeakers();
     const speakers = [
-      ...keynoteSpeakers,
-      ...featuredSpeakers,
-      ...workshopInstructors,
-    ];
+      ...categorizedSpeakers["keynoteSpeakers"],
+      ...categorizedSpeakers["featuredSpeakers"],
+      ...categorizedSpeakers["workshopInstructors"]];
 
     const findSpeaker = () => {
       const foundSpeaker = speakers.find(

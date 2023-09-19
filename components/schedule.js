@@ -1,6 +1,7 @@
 import { Accordion, Card } from "react-bootstrap";
 import ScheduleData from "../data/schedule.yml";
 import React, { useState } from "react";
+import Link from "next/link";
 
 // group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
 const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
@@ -39,9 +40,7 @@ const ConferenceSchedule = () => {
               {ScheduleData.map((item, index) => (
                 <li className="nav-item" role="presentation" key={index}>
                   <button
-                    className={`nav-link ${
-                      index === selectedTab ? "active" : "nav-link-inactive"
-                    }`}
+                    className={`nav-link ${index === selectedTab ? "active" : "nav-link-inactive"}`}
                     id={`pills-tab-${index}`}
                     data-bs-toggle="pill"
                     data-bs-target={`#pills-${index}`}
@@ -67,7 +66,7 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
-                    const { time, image, description, speaker, track } =
+                    const { time, image, topic, speakers, track } =
                       scheduleItem;
                     return <ScheduleCard {...scheduleItem} key={idx} />;
                   })}
@@ -122,18 +121,30 @@ function ScheduleCard({ image, time, talks }) {
   );
 }
 
-function ScheduleTalk({ description, speaker, track, size, proposalLink }) {
+function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   return (
     <>
       <div className={`col-${size} ${size == 1 || "text-center"}`}>
         <p className="mb-0 date-content">
-          <a href={proposalLink} target="_blank" rel="noopener noreferrer">
-            {description}
-          </a>
-          {speaker && <span className="ft-weight"> <br /> {speaker} </span>}
+          {proposalLink ?
+            <Link
+              href={proposalLink}
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              {title}
+            </Link> :
+            <span>{title}</span>
+          }
+          {speakers && speakers.map(speaker => (
+            <span key={speaker.id} className="ft-weight" >
+              <br />
+              {speaker.fullName}
+            </span>
+          ))}
           {/* {track && <span className="rt-green text-white">{track}</span>} */}
         </p>
-      </div>
+      </div >
     </>
   );
 }
@@ -143,7 +154,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
     <Accordion key={id} className="d-block d-lg-none">
       <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
         <Accordion.Header>{date}</Accordion.Header>
-        <Accordion.Body style={{padding: "1rem 0rem"}}>
+        <Accordion.Body style={{ padding: "1rem 0rem" }}>
           {currentSchedule.schedule.map((scheduleItem, idx) => {
             return scheduleItem.talks.map(talk => {
               return (
@@ -151,12 +162,19 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                   <Card.Body>
                     <Card.Title>
                       <a href={talk.proposalLink} target="_blank" rel="noopener noreferrer">
-                        {talk.description}
+                        {talk.title}
                       </a>
                       <br />
-                      {talk.speaker && <>
-                        <span> By {talk.speaker} </span>
-                      </>}
+                      {talk.speakersPlaceHolder ?
+                        <span>By {talk.speakersPlaceHolder}</span> :
+                        talk.speakers && <span>{"By "}</span>
+                      }
+                      {talk.speakers && talk.speakers.map((speaker, index) => (
+                        <span key={speaker.id} className="ft-weight">
+                          {speaker.fullName}
+                          {index !== 0 && " & "}
+                        </span>
+                      ))}
                     </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">{scheduleItem.time}</Card.Subtitle>
                     {/* <Card.Text>
@@ -176,7 +194,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                 //   </div>
 
                 //   <div className="col-md-7 col-5" key={idx}>
-                //     <p className="mb-0 date-content">{talk.description}</p>
+                //     <p className="mb-0 date-content">{talk.title}</p>
                 //   </div>
                 // </div>
               );

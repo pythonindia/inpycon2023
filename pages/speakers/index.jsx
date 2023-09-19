@@ -1,12 +1,24 @@
 import Head from "next/head";
+import { useState, useEffect } from "react";
+
 import Header from "components/header";
 import Footer from "components/footer";
 import Speakers from "components/speakers";
-import keynoteSpeakers from "data/speakers/keynote.yml";
-import featuredSpeakers from "data/speakers/featured.yml";
-import workshopInstructors from "data/speakers/workshopInstructors.yml";
+import { fetchSpeakers } from "lib/data";
+
 
 const SpeakersPage = () => {
+  const [speakers, setSpeakers] = useState({
+    keynoteSpeakers: [],
+    featuredSpeakers: [],
+    workshopInstructors: []
+  });
+
+  useEffect(() => {
+    const categorizedSpeakers = fetchSpeakers();
+    setSpeakers(categorizedSpeakers);
+  }, []);
+
   return (
     <>
       <Head>
@@ -21,13 +33,9 @@ const SpeakersPage = () => {
         >
           Speakers for the Event
         </h1>
-        <Speakers
-          speakers={keynoteSpeakers}
-          showMicCreative={true}
-          title="Keynote Speakers"
-        />
-        <Speakers speakers={featuredSpeakers} title="Speakers" />
-        <Speakers speakers={workshopInstructors} title="Workshop Instructors" />
+        <Speakers speakers={speakers["keynoteSpeakers"]} showMicCreative={true} title="Keynote Speakers" />
+        <Speakers speakers={speakers["featuredSpeakers"]} title="Speakers" />
+        <Speakers speakers={speakers["workshopInstructors"]} title="Workshop Instructors" />
       </div>
       <Footer />
     </>

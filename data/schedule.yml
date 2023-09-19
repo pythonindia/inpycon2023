@@ -14,11 +14,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/from-novice-to-virtuoso-mastering-object-oriented-python-in-3-hours~dL9gX/
           duration: 180
           track: Track 1
-          speaker:
+          speakers:
             - id: WS-03
               fullName: Vivek Keshore
               title:
               profilePicture: /2023/images/speakers/workshopInstructors/vivek-keshore.jpg
+              proposalTitle: From Novice to Virtuoso - Mastering Object-Oriented Python in 3 Hours
               about:
                 A Python Enthusiast who loves building software applications and education related content. A technology professional and a passionate programmer with 11 years of experience in Python & Python related technologies, currently working as Python Architect at SenecaGlobal Inc, Hyderabad.<br>
                 Worked on multiple professional projects in various industrial and technical domains. The expertise is in application development, data processing & analysis, data structures, & algorithms, various non-relational and relational databases, Python, Flask, FastAPI, Celery, RabbitMQ, Redis, Cassandra, AWS, Airflow, and various other tech stacks. An open source contributor, and published self developed libraries on PyPI. Loves creating libraries and various utility tools that help me in solving a challenge/problem that could also be used by others in the developers community.<br>
@@ -31,11 +32,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/instruction-finetuning-unlock-the-power-of-large-language-models~dJ66J/
           track: Track 2
           duration: 180
-          speaker:
+          speakers:
             - id: WS-05
               fullName: Abhijeet Kumar
               title:
               profilePicture: /2023/images/speakers/workshopInstructors/abhijeet-kumar.jpg
+              proposalTitle: Instruction Finetuning - Unlock the Power of Large Language Models
               about:
                 He is an applied scientist with 10+ years of relevant experience in solving problems leveraging advanced analytics, machine learning and deep learning techniques. In past, He served as a Scientific Officer in Bhabha Atomic Research Center and worked on variety of domains such as conversational speech, satellite imagery and texts.<br>
                 Currently, He is Director, Data Scientist with Fidelity investments engaged in development of data science, NLP and Graphs solutions for financial use-cases. He has expertise in navigating with early stage ideas and ambiguous problem domains to uncover actionable insights and deliver value.<br>
@@ -50,11 +52,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/lets-have-fun-building-apis-with-starlette-the-asynchronous-python-web-framework~aM8DG/
           track: Track 3
           duration: 180
-          speaker:
+          speakers:
             - id: WS-06
               fullName: Hemangi Karchalkar
               title:
               profilePicture:
+              proposalTitle: Let's have fun building APIs with Starlette - The Asynchronous Python Web Framework
               about:
                 I’m Hemangi Karchalkar and I’m a senior software developer working at Epam systems. I’ve been programming as a professional for 5 years and as an amateur for about half my life.<br>
                 In my current role I wear multiple hats. I love teaching and have worked as a mentor in my past organizations and guided people who are new to python.
@@ -67,9 +70,7 @@
           title: Sponsored Workshop by Neo4j
           duration: 180
           track: Track 4
-          speaker:
-            - id: SWS-01
-              fullName: TBA
+          speakersPlaceHolder: TBA
     - time: "01:00 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab4.png"
@@ -83,11 +84,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/all-them-data-engines-pandas-spark-dask-polars-and-more-data-munging-with-python-circa-2023~eZq5d/
           duration: 180
           track: Track 1
-          speaker:
+          speakers:
             - id: WS-01
               fullName: Shaurya Agarwal
               title:
               profilePicture: /2023/images/speakers/workshopInstructors/shaurya-agarwal.jpg
+              proposalTitle: All Them Data Engines - Data Munging with Python circa 2023 - Pandas, Spark, Dask, Polars and more
               about:
                 Shaurya Agarwal, Deputy Head - Engg, at Barnes & Noble LoudCloud, with 20+ years of experience in Machine Learning, Distributed Computing & Cloud.<br>
                 He leads next-gen data engg initiatives at BNED incl the flagship "First Day Complete" program team.
@@ -103,11 +105,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mastering-retrieval-augmented-generation-rag-with-llamaindex-and-llms~egJL3/
           duration: 180
           track: Track 2
-          speaker:
+          speakers:
             - fullName: Ravi Theja
               id: WS-02
               title:
               profilePicture: /2023/images/speakers/workshopInstructors/ravi-theja.jpg
+              proposalTitle: Mastering Retrieval Augmented Generation (RAG) with LlamaIndex and LLMs
               about:
                 Ravi Theja is a Machine Learning Engineer III at Inmobi's Glance group, where he focuses on enhancing user experiences on the Glance TV and Glance feed platforms. Utilizing expertise in NLP, Deep Learning, and Recommender Systems, he has been instrumental in driving engagement across these platforms.<br>
                 In addition to his primary role, Ravi actively contributes to open source projects, with a significant emphasis on LlamaIndex, a library designed as a data framework to help build LLM apps.
@@ -125,11 +128,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/building-multi-tenant-applications-with-django-and-django-tenants~aQW10/
           duration: 180
           track: Track 3
-          speaker:
+          speakers:
             - id: WS-07
               fullName: Jatin Goel
               title:
               profilePicture:
+              proposalTitle: Building Multi-Tenant applications with Django and Django-Tenants
               about:
                 Software Engineer with a knack of solving complex problems having an experience of 8+ years in the industry.<br>
                 Through his journey Jatin has had the opportunity to work on problems like Automation Frameworks, Programmatic Advertising, Multi-Tenant Healthcare Platform, Multi-Tenant Loan Origination System, Workflow Engine, etc.<br>
@@ -144,11 +148,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/python-blockchain-your-guide-to-building-full-stack-dapps~dBBNN/
           duration: 180
           track: Track 4
-          speaker:
+          speakers:
             - id: WS-04
               fullName: Laisha Wadhwa
               title:
               profilePicture:
+              proposalTitle: Python + Blockchain - Your Guide to Building Full Stack DApps
               about:
                 Formerly a Senior Software Developer at Goldman, Laisha has evolved into the Head of Devrel at Pesto tech, bridging the tech community's brightest minds. She's a passionate advocate for Data and Machine Learning, using them to solve real-world challenges.<br>
                 Beyond that, she has ventured into the realms of Web3, crafting solutions that redefine the future of tech. Her brainchild, RadarFi, is a cutting-edge security product, reflecting her commitment to the new version of the web.<br>
@@ -186,20 +191,21 @@
           title: Keynote by Jessica Greene
           duration: 60
           track: Track 1 - 4
-          - id: KS-01
-            fullName: Jessica Greene
-            title: Software Engineer at Ecosia
-            profilePicture: /2023/images/speakers/keynote/jessica-greene.jpg
-            about:
-              Jessica Greene is a self-taught slash community-taught Software Engineer, with a diverse background that includes film, television, and specialty coffee roasting. In 2017, she made the pivotal decision to retrain and add programming to her skill set, leading her to join the team at Ecosia in 2018. In her role, she leverages her Python and Golang skills to build and operate APIs, perform data analysis, and develop features that inspire users to make more climate-focused choices, thereby contributing to Ecosia's mission of global tree planting and a better planet.<br>
-              Passionate about fostering diversity and inclusivity in tech, Jessica has been co-organizing PyLadies Berlin since 2018. She orchestrates events, workshops, and talks, and provides mentorship to other programmers. Recently, she joined the Python Software Foundation's Code of Conduct Work Group to further support the global community. When she's not coding or at community events, Jessica enjoys reading, building Lego kits, knitting, dog-sitting, and exploring new aspects of software engineering.
-            social:
-              - platform: linkedin
-                link: https://www.linkedin.com/in/jessica0greene
-              - platform: mastodon
-                link: https://mastodon.social/@sleepypioneer
-              - platform: twitter
-                link: https://twitter.com/sleepypioneer
+          speakers:
+            - id: KS-01
+              fullName: Jessica Greene
+              title: Software Engineer at Ecosia
+              profilePicture: /2023/images/speakers/keynote/jessica-greene.jpg
+              about:
+                Jessica Greene is a self-taught slash community-taught Software Engineer, with a diverse background that includes film, television, and specialty coffee roasting. In 2017, she made the pivotal decision to retrain and add programming to her skill set, leading her to join the team at Ecosia in 2018. In her role, she leverages her Python and Golang skills to build and operate APIs, perform data analysis, and develop features that inspire users to make more climate-focused choices, thereby contributing to Ecosia's mission of global tree planting and a better planet.<br>
+                Passionate about fostering diversity and inclusivity in tech, Jessica has been co-organizing PyLadies Berlin since 2018. She orchestrates events, workshops, and talks, and provides mentorship to other programmers. Recently, she joined the Python Software Foundation's Code of Conduct Work Group to further support the global community. When she's not coding or at community events, Jessica enjoys reading, building Lego kits, knitting, dog-sitting, and exploring new aspects of software engineering.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/jessica0greene
+                - platform: mastodon
+                  link: https://mastodon.social/@sleepypioneer
+                - platform: twitter
+                  link: https://twitter.com/sleepypioneer
     - time: "10:30 AM - 11:00 AM"
       talks:
         - image: "/2023/images/icons/tab5.png"
@@ -213,11 +219,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/programming-minecraft-with-python~bmZQ9/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-23
               fullName: S Anand
               title:
               profilePicture: /2023/images/speakers/featured/s-anand.jpg
+              proposalTitle: Programming Minecraft with Python
               about:
                 Anand is a co-founder of Gramener, a data science company. He leads a team that automates insights from data and narrates these as visual data stories. He is one of India's top 10 data scientists and is a regular TEDx speaker.<br>
                 Anand is a gold medalist from IIM Bangalore and an alumnus of IIT Madras, London Business School, IBM, Infosys, Lehman Brothers, and BCG.<br>
@@ -231,11 +238,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/evolution-of-type-hints-in-python~b68oR/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-29
               fullName: Sasidhar Donaparthi
               title:
               profilePicture:
+              proposalTitle: Evolution of Type hints in Python
               about: Innovative and dynamic hands-on technology leader with 25+ years of IT experience in manufacturing and financial services domains, Working as Data Scientist in Financial services company.
               social:
                 - platform: github
@@ -249,11 +257,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/revealing-uncommon-tricks-25-obscure-pandas-numpy-hacks-learnt-over-5-years-of-being-a-data-scientist~bkR5N/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-26
               fullName: Nitin Kishore Sai Samala
               title:
               profilePicture: /2023/images/speakers/featured/nitin-kishore-sai-samala.jpg
+              proposalTitle: Revealing Uncommon Tricks - 25 Obscure Pandas & NumPy Hacks learnt over 5 years of being a Data Scientist
               about:
                 A Jack-of-all-trades with a Masters in Computer Science and a Minor in Data Science. I graduated from UMASS Amherst in 2018 and am currently working a Staff Data Scientist. My undergrad was done from BITS Pilani. I love solving puzzles/ciphers, deductive reasoning and tackling real-world challenges that require learning and combining different concepts. I aimed to be a generalist across all the subfields and domains of AI, but have limited my current expertise to GNNs, RL and Deep NLP.<br>
                 My name is a palindrome, and I’m a polymath and a polyglot (First Language is Python🐉 ). Life is a constant struggle between being a member of the community and standing out as an individual. I find a balance between both.
@@ -271,11 +280,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/architecting-scalable-python-micro-services-with-graphql-valuable-lessons-and-best-practices~elY5r/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
             - id: FS-19
               fullName: Abhinand C
               title:
               profilePicture: /2023/images/speakers/featured/abhinand-c.jpg
+              proposalTitle: Architecting Scalable Python micro-services with GraphQL - Valuable Lessons and Best Practices
               about:
                 Abhinand C is a Product Engineer at Strollby, UST who loves to experiment with tech and build products for crafting a brighter future. At UST, he works on developing and scaling Python-based GraphQL micro-services.<br>
                 Beyond the office, Abhinand actively volunteers with Kerala Police Cyberdome & Trivandrum Python Community. He also nurtures personal hobby projects, and contributes to the open-source community. He even had the privilege of delivering talks at renowned conferences like EuroPython and PyConf Hyderabad.
@@ -291,11 +301,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/ai-engineering-in-python-system-design-101~elY5g/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-10
               fullName: Nirant Kasliwal
               title:
               profilePicture:
+              proposalTitle: AI Engineering in Python - System Design 101
               about: Nirant is best known for his work in NLP. He maintains Awesome NLP, which is recommended by Stanford in some of their courses. He is also the author of FastEmbed, a text embedding library built with retrieval and performance in mind.
               social:
                 - platform: github
@@ -309,11 +320,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unlock-the-power-of-automation-codify-aws-infrastructure-with-python-cdk~aQZ9b/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-28
               fullName: Dheeraj Choudhary
               title:
               profilePicture: /2023/images/speakers/featured/dheeraj-choudhary.jpg
+              proposalTitle: Unlock the Power of Automation - Codify AWS Infrastructure with Python CDK
               about:
                 Dheeraj is a Lead Engineer focused in AWS Cloud and DevOps Domain with 10+ years of IT experience. He specializes in DevOps & Build and Release Engineering, Software configuration management in automating, build, deploy and release, cloud providers, and API for Amazon (AWS). He is 5x AWS Certified and has also been a DevOps Engineering Lead, which includes an extensive understanding of high availability architecture and concepts.<br>
                 Dheeraj is an AWS User Group Pune leader, and is passionate about co-organizing physical Meetup and AWS Community Days. He is an active international speaker at AWS community events and conducts guest lectures and workshops on AWS Cloud Computing for Colleges and Universities in Pune. He has recently nominated as AWS Community Hero.<br>
@@ -336,11 +348,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/lpython-novel-fast-retargetable-python-compiler~bYEp2/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
           - id: FS-33
             fullName: Shaikh Mohd Ubaid Mohd Jawed
             title:
             profilePicture: /2023/images/speakers/featured/shaikh-mohd-ubaid-mohd-jawed.jpg
+            proposalTitle: LPython - Novel, Fast, Retargetable Python Compiler
             about:
               Ubaid Shaikh received his B.Tech degree in Computer Science and Engineering from Indian Institute of Technology Indore, India.<br>
               He is currently a Compiler Developer at GSI Technology working on LPython and LFortran Compilers. In the past, he has interned at Development Bank of Singapore (DBS Bank) and has been a Google Summer of Code (GSoC) Fellow.
@@ -356,11 +369,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
           - id: FS-07
             fullName: Kartheek Surampudi
             title:
             profilePicture: /2023/images/speakers/featured/kartheek-surampudi.jpg
+            proposalTitle: Mistakes made and lessons learned doing IPC in Python
             about:
               Meet Kartheek, Head of Engineering at ScaleGenAI, with extensive experience in Python, Deep Learning, and Cloud/System Architecture. Holding a bachelor's degree in Information Technology, Kartheek has led various projects, including MLOps and highly available backend systems.<br>
               His expertise, in Python, lies in concurrency and OOP, and he is currently focused on reducing training time for GenAI models by 10x at ScaleGenAI.
@@ -378,11 +392,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-pipelines-in-production-bad-vs-best-practices~dBKQe/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-05
               fullName: Bhavani Ravi
               title:
               profilePicture: /2023/images/speakers/featured/bhavani-ravi.jpg
+              proposalTitle: Data Pipelines in Production - Bad vs Best Practices
               about:
                 Bhavani Ravi is an independent software consultant building Python-based backend, Devops, and Data systems. She also teaches Python via an online month-long bootcamp.<br>
                 She is an opensource enthusiast and has contributed to Pandas and Apache Airflow.
@@ -394,11 +409,12 @@
           duration: 30
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/music-making-with-python-and-foxdot~dwpp8/
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-09
               fullName: Sangarshanan
               title:
               profilePicture: /2023/images/speakers/featured/sangarshanan.jpg
+              proposalTitle: Music Making with Python and FoxDot
               about: I'm Sangarshanan, a developer from planet Earth. I love making stuff that helps and amuses me in equal measure and standing upside down while holding a banana. When I'm bored you can find me making absurdist memes, yet another spotify playlist or staring straight into the void.
               social:
                 - platform: github
@@ -410,11 +426,12 @@
           duration: 30
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/whats-the-mojo-behind-mojo~e1mZe/
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-17
               fullName: Kamran Ahmad
               title:
               profilePicture: /2023/images/speakers/featured/kamran-ahmad.jpg
+              proposalTitle: What's the mojo behind Mojo
               about: Kamran is a software engineer at Microsoft where he’s building the Azure Sovereign Cloud. He's been developing software for a decade and his current area of interest is distributed systems. He's also a Certified Solutions Architect. He shares his thoughts on Medium, speaks at community events and answers questions on StackOverflow. When he's not working, you'll find him reading a book or going on a long drive.
               social:
                 - platform: linkedin
@@ -433,7 +450,7 @@
       talks:
         - image: "/2023/images/icons/tab10.png"
           title: Lightning Talks
-          speaker: On Spot
+          speakersPlaceHolder: On Spot
           duration: 30
           track: Track 1 - 4
     - time: "02:35 PM - 03:30 PM"
@@ -442,22 +459,22 @@
           title: Keynote by Marcelo Trylesinski
           duration: 55
           track: Track 1 - 4
-          speaker:
-          - id: KS-02
-            fullName: Marcelo Trylesinski
-            title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
-            profilePicture: /2023/images/speakers/keynote/marcelo-trylesinski.jpg
-            about:
-              Marcelo is an open-source developer who has made significant contributions to the FastAPI community. He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server that powers FastAPI applications.<br>
-              His invaluable contributions led to his hiring as a senior software engineer by Pydantic, a widely used library for data validation and serialization.<br>
-              Apart from software development, Marcelo enjoys fitness, soccer, dancing, and photography. He's a well-rounded individual who's always eager to learn and grow.
-            social:
-              - platform: instagram
-                link: https://www.instagram.com/marcelotryle
-              - platform: linkedin
-                link: https://www.linkedin.com/in/marcelotryle
-              - platform: twitter
-                link: https://twitter.com/marcelotryle
+          speakers:
+            - id: KS-02
+              fullName: Marcelo Trylesinski
+              title: Software Engineer @Pydantic, Uvicorn & Starlette Maintainer, FastAPI Expert
+              profilePicture: /2023/images/speakers/keynote/marcelo-trylesinski.jpg
+              about:
+                Marcelo is an open-source developer who has made significant contributions to the FastAPI community. He maintains Starlette, a critical dependency of FastAPI, and Uvicorn, a high-performance web server that powers FastAPI applications.<br>
+                His invaluable contributions led to his hiring as a senior software engineer by Pydantic, a widely used library for data validation and serialization.<br>
+                Apart from software development, Marcelo enjoys fitness, soccer, dancing, and photography. He's a well-rounded individual who's always eager to learn and grow.
+              social:
+                - platform: instagram
+                  link: https://www.instagram.com/marcelotryle
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/marcelotryle
+                - platform: twitter
+                  link: https://twitter.com/marcelotryle
     - time: "03:40 PM - 04:10 PM"
       talks:
         - image: "/2023/images/icons/tab12.png"
@@ -473,11 +490,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/metaprogramming-in-python~bo22X/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-18
               fullName: Aby M Joseph
               title:
               profilePicture: /2023/images/speakers/featured/aby-m-joseph.jpg
+              proposalTitle: Metaprogramming In Python
               about:
                 Aby is a Product Engineer at UST working in the travel domain. With a keen eye for detail and a desire to improve, he is currently exploring more on the Python microservices and the GraphQL ecosystem.<br>
                 Aby also has experience in resolving various business problems by combining purpose-led research and digital technology innovation with rapid prototyping.
@@ -489,15 +507,15 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
             - id: FS-35
               fullName: Priyadarshan Patil
               title:
               profilePicture: /2023/images/speakers/featured/priyadarshan-patil.jpg
+              proposalTitle: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
               about:
                 Priyadarshan works as Solution Consultant at Sahaj.ai. He has 16 years of Software Engineering experience focussed on Tech Consulting and implementation and building strong technology teams. He has worked on Distributed systems, and traditional monolith platforms and built products on top of Eclipse Platform.<br>
                 He has diverse experience in Software Engineering - building tech platforms, delivery management, customer relationship management, and presales. At Sahaj, he is learning the art of building technology platforms with extreme programming practice and working in high-trust and High accountability technology teams. He is also helping Sahaj bootstrap its delivery center in Hyderabad.
-              proposalTitle: "Data Encoding Formats: A Comparison of Text-Based and Binary Encoding"
               social:
                 - platform: linkedin
                   link: https://www.linkedin.com/in/priyadarshanpatil/
@@ -508,11 +526,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/speeding-up-python-with-rust-geoip-lookup-database-as-a-case-study~aOY7Y/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-06
               fullName: Abhijit Gadgil
               title:
               profilePicture: /2023/images/speakers/featured/abhijit-gadgil.jpg
+              proposalTitle: Speeding up Python with Rust - GeoIP Lookup Database as a case study
               about: Abhijit is a long time Pythonista and more recently interested in Rust. He's keen on building next generation telecom infra using modern, safe programming languages and contributes to projects in the same space, including some he's conceived.
               social:
                 - platform: github
@@ -524,11 +543,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unleashing-the-power-of-python-teaching-computer-science-to-kids~erk04/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-34
               fullName: Prasanna Mg
               title:
               profilePicture: /2023/images/speakers/featured/prasanna-mg.jpg
+              proposalTitle: Unleashing the Power of Python - Teaching Computer Science to Kids
               about:
                 Prasanna is a drone enthusiast who loves building drones and making them autonomous.<br>
                 He is a freestyle drone pilot, his drones can cross speeds over 150km/hr. He once provided a drone flying experience to PK Mishra, the principal secretary of our PM, Shri Narender Modi. He is currently a python instructor at Youngwonks, a reputed coding school in the US.<br>
@@ -549,13 +569,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/evaluating-generative-vision-models-insights-into-the-frechet-inception-distance-and-clip~b821L/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-15
               fullName: Mayank Khanduja
               title:
               profilePicture: /2023/images/speakers/featured/mayank-khanduja.jpg
+              proposalTitle: Evaluating Generative Vision Models - Insights into the Fréchet Inception Distance and CLIP
               about: Data Scientist at Esri
-              proposalTitle: "Evaluating Generative Vision Models: Insights into the Fréchet Inception Distance and CLIP"
               social:
                 - platform: github
                   link: https://github.com/mayank2
@@ -570,24 +590,42 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/securing-your-python-applications-and-network-using-zero-trust-security~eg1kb/
           duration: 30
           track: Track 4
-          speaker: Srijan R Shetty
+          speakers:
+            - id: FS-37
+              fullName: Srijan R Shetty
+              title:
+              profilePicture:
+              proposalTitle: Securing your python applications and network using Zero Trust Security
+              about:
+                Srijan R Shetty is currently the cofounder and CTO/CISO of Fuze (https://fuze.finance). Fuze is a B2B SaaS startup building APIs for banks and fintechs in Middle East to build on top of digital assets infrastructure.<br>
+                Previously he co-founded https://allroundclub.com - an EdTech teaching kids extra curriculars online. He spent half a decade in Goldman Sachs building a HFT dark pools and running liquidity provisioning strategies for automated trading. He also managed a Central Risk Book at Goldman Sachs, hedging Delta and FX Risk.<br>
+                Srijan is a recognized expert in software development and consults many startups in Systems Architecture. Srijan has more than 10 years of experience in writing scalable and secure production software.
+              social:
+                - platform: linkedin
+                  link: https://linkedin.com/in/srijanshetty
+                - platform: github
+                  link: https://github.com/srijanshetty
+                - platform: twitter
+                  link: https://twitter.com/srijanshetty
+                - platform: instagram
+                  link: https://instagram.com/srijanshetty
     - time: "05:00 PM - 06:00 PM"
       talks:
         - image: "/2023/images/icons/tab14.png"
           title: Keynote by Rushabh Mehta
           duration: 60
           track: Track 1 - 4
-          speaker:
+          speakers:
             - id: KS-03
               fullName: Rushabh Mehta
               title: Founder and CEO, Frappe & Director, FOSS United
               profilePicture: /2023/images/speakers/keynote/rushabh-mehta.jpg
+              proposalTitle: Building Frappe Framework - an ontology based system to build complex web applications.
               about:
                 Rushabh Mehta works with a passionate team at Frappe and the ERPNext community, revolutionizing business software with high-quality, free, and open-source tools like ERPNext. Frappe is a democratic company with over 60 world-class engineers and consultants, producing various open-source software and platforms.<br>
                 He actively contributes to FOSS United, promoting Free and Open Source Software in India. FOSS United brings together diverse participants through events and platforms.<br>
                 In his 20-year career, he primarily worked as an engineer, creating Frappe Framework.<br>
                 Check out his projects and contributions at erpnext.com, frappe.io, fossunited.org, frappeframework.com, github.com/rmehta
-              topic: Building Frappe Framework - an ontology based system to build complex web applications.
               social:
                 - platform: github
                   link: https://github.com/rmehta
@@ -625,7 +663,7 @@
           title: Keynote by Cheuk Ting Ho
           duration: 60
           track: Track 1 - 4
-          speaker:
+          speakers:
             - id: KS-04
               fullName: Cheuk Ting Ho
               title: Open Source Developer, Community Manager, PSF Board Member
@@ -657,13 +695,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/openai-whisper-and-its-amazing-power-to-do-fine-tuning-demonstrated-on-my-mother-tongue~eENWa/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-25
               fullName: Kurian Benoy
               title:
               profilePicture: /2023/images/speakers/featured/kurian-benoy.jpg
+              proposalTitle: OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue
               about: Kurian Benoy is a Team Lead and AI Engineer working in sentient.io. I am a FOSS enthusiast with who have multiple years of experience in Python and Machine learning experience.
-              proposalTitle: "OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue"
               social:
                 - platform: github
                   link: https://github.com/kurianbenoy/
@@ -678,13 +716,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/accelerating-testing-cycles-of-embedded-devices-using-python~bqxRp/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-24
               fullName: Madhuri Anagal
               title:
               profilePicture: /2023/images/speakers/featured/madhuri-anagal.jpg
+              proposalTitle: Accelerating testing cycles of embedded devices using Python
               about: Test automation framework developer at Acclivis, Pune
-              proposalTitle: "Accelerating testing cycles of embedded devices using Python"
               social:
                 - platform: linkedin
                   link: https://linkedin.com/in/madhurianagal
@@ -693,11 +731,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unlocking-the-cosmos-querying-space-observatories-with-python~bmZw9/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-16
               fullName: Abhijeet Manhas
               title:
               profilePicture: /2023/images/speakers/featured/abhijeet-manhas.jpg
+              proposalTitle: Unlocking the Cosmos - Querying Space Observatories with Python
               about:
                 "Abhijeet Manhas, a Computer Science graduate from IIT Mandi, currently works as a Software Engineer at a big tech MnC.<br>
                 Abhijeet started learning Python during his studies at college, where Python was integral to his data science coursework. During sophomore, he started contributing to open-source. His prowess led him to be one of the main contributor to the data search module in SunPy, a solar physics Python library, and consequently got selected as a Google Summer of Code student in 2020 under the OpenAstronomy organisation.<br>
@@ -705,7 +744,6 @@
                 Abhijeet is all set to deliver a talk titled 'Unlocking the Cosmos: Querying Space Observatories with Python.' This talk aims to equip participants with the skills needed to harness astronomical data for computation, introducing Python for astronomy, data access, library usage, visualisation techniques, and scientific computing. Drawing from his experiences, Abhijeet will present a solar data case study with SunPy and delve into how individuals can contribute to this vital field<br>
                 Beyond his professional accomplishments, Abhijeet's passion for astronomy has been a lifelong pursuit. He lead astronomy club during college, fostering stargazing experiences and merging his liking for programming with his fascination for the cosmos. Abhijeet envisions a collaborative, open-source scientific community in India that partners closely with government bodies, paralleling the achievements of similar communities outside India.<br>
                 Join us to embark on a journey to the stars and witness the limitless possibilities Python offers in the realm of astronomy and solar physics."
-              proposalTitle: "Unlocking the Cosmos: Querying Space Observatories with Python"
               social:
                 - platform: github
                   link: https://github.com/abhijeetmanhas/
@@ -724,11 +762,12 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/embracing-observability-in-modern-python-applications-harnessing-the-power-of-opentelemetry~epYgp/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
             - id: FS-21
               fullName: Angelin Mary John
               title:
               profilePicture: /2023/images/speakers/featured/angelin-mary-john.jpg
+              proposalTitle: Embracing Observability in Modern Python Applications - Harnessing the Power of OpenTelemetry
               about:
                 Angelin John, a seasoned full-stack software engineer with an exciting journey spanning six years, during which I have honed my expertise in React, Java, Python, and Django. As an Associate Technical Lead at KeyValue Software Systems, I am passionate about collaborating with diverse teams to create innovative and cutting-edge products that make a real impact.<br>
                 Beyond my technical role, I take great pride in being a Google Women Techmakers Ambassador, advocating for diversity and inclusion in the tech industry. Empowering and supporting women in technology is a cause close to my heart, and I am dedicated to fostering an inclusive and supportive tech community.<br>
@@ -748,13 +787,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/harnessing-the-power-of-django-streaminghttpresponse-for-efficient-web-streaming~azVya/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-01
               fullName: Shivam Chaurasia
               title:
               profilePicture: /2023/images/speakers/featured/shivam-chaurasia.jpg
-              about: Software Architect at EPAM Systems.
               proposalTitle: Harnessing the Power of Django StreamingHttpResponse for Efficient Web Streaming
+              about: Software Architect at EPAM Systems.
               social:
                 - platform: github
                   link: https://github.com/tracebackerror
@@ -765,15 +804,15 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/kubernetes-python-unleashing-the-power-of-python-controllers~dJVKd/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-14
               fullName: Yash Mehrotra
               title:
               profilePicture: /2023/images/speakers/featured/yash-mehrotra.jpg
+              proposalTitle: Kubernetes + Python - Unleashing the Power of Python Controllers
               about:
                 Yash Mehrotra is a Platform Engineer at Flanksource building a mission-control plane tailored for enterprises. With over 5+ years of experience, he has taken on several roles as a Software Developer, DevOps Engineer and Platform Engineer. This diverse background has helped him develop a unique lens while tackling different challenges.<br>
                 When he's not hacking around systems, he enjoys critiquing F1 Ferrari's race strategy or wallowing in sadness after Manchester United loses.
-              proposalTitle: "Kubernetes + Python: Unleashing the Power of Python Controllers"
               social:
                 - platform: github
                   link: https://github.com/yashmehrotra
@@ -788,15 +827,15 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/fine-tuning-insights-lessons-from-experimenting-with-a-large-language-model-on-slack-data~b4xxx/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-08
               fullName: Samhita Alla
               title:
               profilePicture: /2023/images/speakers/featured/samhita-alla.jpg
+              proposalTitle: Fine-Tuning Insights - Lessons from Experimenting with a Large Language Model on Slack
               about:
                 Samhita is a developer advocate at Union.ai and a former tools developer at Oracle. She is passionate about software development and technical writing, and enjoys tackling challenges in the fields of growth and developer relations.<br>
                 In her free time, Samhita loves building machine learning and web applications. Committed to helping others succeed in the technology realm, Samhita has self-published a book navigating through the complex landscape of the field.
-              proposalTitle: "Fine-Tuning Insights: Lessons from Experimenting with a Large Language Model on Slack Data"
               social:
                 - platform: github
                   link: https://github.com/samhita-alla
@@ -811,7 +850,20 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/zero-copy-zen-boost-performance-with-memory-view~dyPoP/
           duration: 30
           track: Track 4
-          speaker: Kesia Joies
+          speakers:
+            - id: SS-32
+              fullName: Kesia Mary Joies
+              title:
+              profilePicture: /2023/images/speakers/featured/kesia-mary-joies.jpg
+              proposalTitle: Zero-Copy Zen - Boost Performance with Memory View
+              about: Kesia Mary Joies is a passionate Python developer. At present, she is focused on developing Strollby - a travel platform that utilises Python microservices with GraphQL backend. She was a speaker in PyConf Hyderabad 2022, and embarked on her journey as an International speaker at the oldest and longest running volunteer-led Python programming conference, EuroPython Conference 2023.
+              social:
+                - platform: github
+                  link: https://github.com/kesiajo
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/kesiajoies/
+                - platform: instagram
+                  link: https://www.instagram.com/kesia.jo/
     - time: "12:20 PM - 12:50 PM"
       talks:
         - image: "/2023/images/icons/tab7.png"
@@ -819,30 +871,30 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/how-i-restarted-my-career-by-contributing-to-open-source~dPNm4/
           duration: 30
           track: Track 1
-          speaker:
-          - id: FS-03
-            fullName: Bowrna
-            title:
-            profilePicture: /2023/images/speakers/featured/bowrna.jpg
-            about:
-              Bowrna is currently working for Unravel Data and former Outreachy Intern for Apache Airflow. She is a self taught programmer who started building software after non CS degree. With experience of about 8 years, She thinks she has learnt a drop in ocean and wants to explore more.<br>
-              She has contributed to Apache Airflow project and working on solutions to monitor pipeline in her day job.
-            proposalTitle: How I restarted my career by contributing to Open Source?
-            social:
-              - platform: github
-                link: https://github.com/Bowrna
+          speakers:
+            - id: FS-03
+              fullName: Bowrna
+              title:
+              profilePicture: /2023/images/speakers/featured/bowrna.jpg
+              proposalTitle: How I restarted my career by contributing to Open Source?
+              about:
+                Bowrna is currently working for Unravel Data and former Outreachy Intern for Apache Airflow. She is a self taught programmer who started building software after non CS degree. With experience of about 8 years, She thinks she has learnt a drop in ocean and wants to explore more.<br>
+                She has contributed to Apache Airflow project and working on solutions to monitor pipeline in her day job.
+              social:
+                - platform: github
+                  link: https://github.com/Bowrna
         - image: "/2023/images/icons/tab7.png"
           title: PyVelox - Interfacing Python bindings for the unified execution engine by Meta
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/pyvelox-interfacing-python-bindings-for-the-unified-execution-engine-by-meta~eXDo5/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-36
               fullName: Sanjiban Sengupta
               title:
               profilePicture: /2023/images/speakers/featured/sanjiban-sengupta.jpg
+              proposalTitle: PyVelox - Interfacing Python bindings for the unified execution engine by Meta
               about: Sanjiban works at Voltron Data on open-source data engineering. He has been participating in various open-source data (science, engineering & analytics) development, and is associated with CERN for the development of the ROOT data analysis project.
-              proposalTitle: "PyVelox: Interfacing Python bindings for the unified execution engine by Meta"
               social:
                 - platform: github
                   link: https://github.com/sanjibansg
@@ -859,35 +911,35 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/taking-a-multilingual-conversational-engine-to-production-theory-to-reality~ejRQv/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-02
               fullName: Karthika Vijayan
               title:
               profilePicture: /2023/images/speakers/featured/karthika-vijayan.jpg
+              proposalTitle: Taking a Multilingual Conversational Engine to Production - Theory to Reality
               about:
                 Dr. Karthika Vijayan is a Solution Consultant at Sahaj Software. She is a PhD from IIT Hyderabad, and was a post doc from IISc Bangalore and NUS, Singapore.<br>
                 She has been conducting research in the field of conversational AI with voice and text data for almost a decade. Her research has been published in several journals and presented at various international conferences. Her expertise includes creating customised solutions for real-world business problems by designing composite machine learning pipelines.
-              proposalTitle: "Taking a Multilingual Conversational Engine to Production: Theory to Reality"
               social:
                 - platform: linkedin
                   link: https://www.linkedin.com/in/karthika-vijayan/
-                    - image: "/2023/images/icons/tab7.png"
-                      title: Sponsored Talk
-                      duration: 30
-                      track: Track 4
             - id: FS-04
               fullName: Shruti Dhavalikar
               title:
               profilePicture: /2023/images/speakers/featured/shruti-dhavalikar.jpg
+              proposalTitle: Taking a Multilingual Conversational Engine to Production - Theory to Reality
               about:
                 Shruti Dhavalikar is a skilled Data Scientist with over 4 years of experience in the field, currently working as a Solution Consultant at Sahaj Software in Pune, India. With a deep passion for data science and a strong understanding of data analysis, she thrives on designing models that build valuable business insights from data.<br>
                 Passionate about her work, she actively contributes to research projects and tries to stay at the forefront of advancements in the field. She has published research papers at international conferences.
-              proposalTitle: "Taking a Multilingual Conversational Engine to Production: Theory to Reality "
               social:
                 - platform: linkedin
                   link: https://www.linkedin.com/in/shruti-dhavalikar-83514615a
                 - platform: website
                   link: https://scholar.google.com/citations?user=5029f7QAAAAJ&hl=en
+        - image: "/2023/images/icons/tab7.png"
+          title: Sponsored Talk
+          duration: 30
+          track: Track 4
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
@@ -917,17 +969,17 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-11
               fullName: Shrayas Rajagopal
               title:
               profilePicture: /2023/images/speakers/featured/shrayas-rajagopal.jpg
+              proposalTitle: The programmers guide to timestamps and timezones
               about:
                 Shrayas Rajagopal heads the engineering efforts at a Logic Soft - a small organization with a large impact. Logic Soft is the only recognized software providers for the Book Trade businesses. If you have ever gone to a book store, it is very likely that Logic Soft's software is running their business behind the scenes.<br>
                 At Logic Soft he is responsible for all key technical and business decisions and has set a foundation for building the next generation of web and mobile applications in the organization. He enjoys building simple and future proof software with a focus on readability and scalability. He strongly believes that new technologies are not the right way to solve problems - simple design is.<br>
                 Previously at SAP Labs, he worked on a small team that helped test and build out Sentinel - an Algorithmic Trading platform on a then new gen SAP database - SAP HANA.<br>
                 Outside of work, he enjoys running very long distances, trekking mountains or whipping up something in the kitchen"
-              proposalTitle: The programmers guide to timestamps and timezones
               social:
                 - platform: github
                   link: https://github.com/shrayasr
@@ -942,13 +994,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-why-conundrum-practical-causal-inference-and-discovery-with-python~eZ6YR/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-13
               fullName: Dinesh Venkatesan
               title:
               profilePicture:
+              proposalTitle: The Why Conundrum - Practical causal inference and discovery with python
               about: Dinesh Venkatesan is a logician and Mathematician currently working as Principal Researcher at Microsoft. He is passionate about making the digital world a safer place for everybody
-              proposalTitle: The Why conundrum - Practical Causal inference and discovery with Python
               social:
                 - platform: twitter
                   link: https://twitter.com/MalwareResearch
@@ -957,13 +1009,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/python-powered-game-design-and-3d-modelling-unleashing-creativity-and-immersion~dNQvb/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
             - id: FS-31
               fullName: Bhawna Chauhan
               title:
               profilePicture: /2023/images/speakers/featured/bhawna-chauhan.jpg
+              proposalTitle: Python-powered Game Design and 3D Modelling - Unleashing Creativity and Immersion
               about: Developer @Monado | Founder @SheBuilds | GCE 🚩| MLH Top 50 | LFX'23 at CNCF - Harbor | MLH Fellow'22 | XROS'23 Mentee @Harbor
-              proposalTitle: "Python-powered Game Design and 3D Modelling: Unleashing Creativity and Immersion"
               social:
                 - platform: github
                   link: https://github.com/ConnectBhawna
@@ -982,13 +1034,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/amaze-your-friends-by-painting-images-on-google-sheets-using-python~eER80/
           duration: 30
           track: Track 1
-          speaker:
+          speakers:
             - id: FS-22
               fullName: Shashi Jeevan M P
               title:
               profilePicture: /2023/images/speakers/featured/shashi-jeevan-m-p.jpg
+              proposalTitle: Amaze your friends by painting images on Google Sheets using Python
               about: Shashi Jeevan has 25+ years of experience in the software industry. Certified Ethical Hacker (Practical) and Inventor of a US Patent. Working as VP of Delivery and Deployment at TekFriday Processing Solutions and manages Cloud, DevOps and Security.
-              proposalTitle: "Amaze your friends by painting images on Google Sheets using Python"
               social:
                 - platform: github
                   link: https://github.com/shashijeevan
@@ -1007,13 +1059,13 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/how-differential-privacy-changed-the-world-and-what-the-math-really-means~dNk9D/
           duration: 30
           track: Track 2
-          speaker:
+          speakers:
             - id: FS-27
               fullName: Rumanu Bhardwaj
               title:
               profilePicture:
+              proposalTitle: How Differential Privacy Changed The World, and What The Math Really Means
               about: Rumanu is a data privacy researcher who is excited to attend PyCon India in person!
-              proposalTitle: "How Differential Privacy Changed The World, and What The Math Really Means"
               social:
                 - platform: twitter
                   link: https://twitter.com/festusdrakon
@@ -1024,16 +1076,16 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/complex-network-analysis-in-economics~en5rE/
           duration: 30
           track: Track 3
-          speaker:
+          speakers:
             - id: FS-20
               fullName: Navya Agarwal
               title:
               profilePicture: /2023/images/speakers/featured/navya-agarwal.jpg
+              proposalTitle: Complex Network Analysis in Economics
               about: Navya Agarwal is a third year Computer Science student at IGDTUW.<br>
                 She has worked on NetworkX as an Outreachy intern.<br>
                 She is currently researching Coordinated Campaigns on Social Media using complex network analysis.<br>
                 She is passionate about Open Source, specifically the Scientific Python ecosystem.
-              proposalTitle: "Complex Network Analysis in Economics"
               social:
                 - platform: github
                   link: https://github.com/navyagarwal
@@ -1048,15 +1100,15 @@
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/talking-to-the-linux-kernel-with-python-and-ebpf~egJZ3/
           duration: 30
           track: Track 4
-          speaker:
+          speakers:
             - id: FS-12
               fullName: Navin Pai
               title:
               profilePicture: /2023/images/speakers/featured/navin-pai.jpg
+              proposalTitle: Talking to the Linux Kernel with Python and eBPF
               about:
                 Navin is a Founding Engineer at OpsVerse, where he's part of the core team building managed, modern, OFS-based tool ecosystems for DevOps.<br>
                 When not talking tech, you can find him ranting about football, literature, economics, and pop culture.<br>
-              proposalTitle: Talking to the Linux Kernel with Python and eBPF
               social:
                 - platform: github
                   link: https://github.com/navinpai/
@@ -1070,7 +1122,7 @@
           title: Keynote by Dr. Shailesh Kumar
           duration: 60
           track: Track 1 - 4
-          speaker:
+          speakers:
           - id: KS-05
             fullName: Shailesh Kumar
             title: Chief Data Scientist, CoE AI/ML Jio
