@@ -26,7 +26,7 @@ const SpeakersPage = () => {
           showMicCreative={true}
           title="Keynote Speakers"
         />
-        <Speakers speakers={featuredSpeakers} title="Featured Speakers" />
+        <Speakers speakers={featuredSpeakers} title="Speakers" />
         <Speakers speakers={workshopInstructors} title="Workshop Instructors" />
       </div>
       <Footer />

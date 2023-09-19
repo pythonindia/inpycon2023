@@ -1,6 +1,6 @@
-import { FaBars, FaBriefcase, FaBuilding, FaCircleArrowRight, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa6";
+import { FaWindowClose } from "react-icons/fa";
+import { FaBars, FaBriefcase, FaBuilding, FaArrowUpRightFromSquare, FaMaximize, FaCircleArrowRight, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa6";
 import { SiZulip } from "react-icons/si";
-
 
 export const icons = {
   arrowRight: FaCircleArrowRight,
@@ -18,7 +18,11 @@ export const icons = {
   twitter: FaTwitter,
   website: FaGlobe,
   youtube: FaYoutube,
-  zulip: SiZulip
+  close: FaWindowClose,
+  maximizeWindow: FaMaximize,
+  newTab: FaArrowUpRightFromSquare,
+  zulip: SiZulip,
+
 };
 
 export const IconComponent = ({ ...props }) => {

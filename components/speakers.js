@@ -1,8 +1,11 @@
-import Link from "next/link";
+import React, { useState } from "react";
 
 import NameAvatar from "components/nameAvatar";
+import SpeakerDetail from "components/speakerDetail";
+import CustomModal from './customModal';
 
 const Speakers = (props) => {
+  const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const sortedSpeakers = props.speakers.sort((a, b) => {
     // Convert names to uppercase for case-insensitive sorting
     const nameA = a.fullName.toUpperCase();
@@ -16,6 +19,15 @@ const Speakers = (props) => {
     }
     return 0;
   });
+
+  const handleOpenSpeakerModal = (id) => {
+    setSelectedSpeakerId(id);
+  };
+
+  const handleCloseSpeakerModal = () => {
+    setSelectedSpeakerId(null);
+  };
+
 
   return (
     <>
@@ -36,42 +48,52 @@ const Speakers = (props) => {
         <div className="container">
           <div className="row top-up justify-content-center">
             {sortedSpeakers.map((speaker, index) => (
-              <div key={speaker.id} className="col-lg-6 col-md-12">
-                <Link href="/speakers/[speakerFullName]"
-                  as={`/speakers/${encodeURIComponent(speaker.fullName.toLowerCase().replace(/\s+/g, "-"))}`}
-                  style={{ textDecoration: "none" }}
-                  target="_blank"
+              <div
+                className="col-lg-6 col-md-12"
+                key={speaker.id}
+              >
+                <div
+                  className="bg-speakerbox bg-white py-3 ps-3 pe-2 mb-3"
+                  data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+                  data-aos-duration="1000"
+                  onClick={() => handleOpenSpeakerModal(speaker.id)}
+                  style={{
+                    cursor: "pointer"
+                  }}
                 >
-                  <div
-                    className="bg-speakerbox bg-white py-3 ps-3 pe-2 mb-3"
-                    data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-                    data-aos-duration="1000"
-                  >
-                    <div className="row align-items-center w-100">
-                      <div className="col-auto">
-                        {speaker.profilePicture ?
-                          <img
-                            src={speaker.profilePicture}
-                            alt={speaker.fullName}
-                            className="speaker-image"
-                          />
-                          :
-                          <NameAvatar
-                            className="speaker-image"
-                            name={speaker.fullName} />}
-                      </div>
-                      <div className="col">
-                        <h4>{speaker.fullName}</h4>
-                        <p>{speaker.title}</p>
-                      </div>
+                  <div className="row align-items-center w-100">
+                    <div className="col-auto">
+                      {speaker.profilePicture ?
+                        <img
+                          src={speaker.profilePicture}
+                          alt={speaker.fullName}
+                          className="speaker-image"
+                        />
+                        :
+                        <NameAvatar
+                          className="speaker-image"
+                          name={speaker.fullName} />}
+                    </div>
+                    <div className="col">
+                      <h4>{speaker.fullName}</h4>
+                      <p>{speaker.title}</p>
                     </div>
                   </div>
-                </Link>
+                </div>
+                {
+                  <CustomModal
+                    showModal={selectedSpeakerId == speaker.id}
+                    handleClose={handleCloseSpeakerModal}
+                  >
+                    <SpeakerDetail speaker={speaker} showHyperLink={true} />
+                  </CustomModal>
+                }
               </div>
-            ))}
+            ))
+            }
           </div>
         </div>
-      </section>
+      </section >
     </>
   );
 };
