@@ -41,7 +41,7 @@ const SpeakerPage = () => {
   return (
     <>
       <Head>
-        <title>PyCon India 2023, Hyderabad | Keynote Speaker</title>
+        <title>PyCon India 2023, Hyderabad | Speaker</title>
       </Head>
       {speaker && (
         <div id="speaker-info">
