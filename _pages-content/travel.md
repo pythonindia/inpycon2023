@@ -42,6 +42,15 @@ For a list of stations on the Hyderabad Metro Red line, you can refer to [Wikipe
 
 We're excited to welcome you to PyCon India 2023 and hope you have a fantastic experience in Hyderabad! If you have any further inquiries or need assistance, feel free to contact us at [contact@in.pycon.org](mailto:contact@in.pycon.org).
 
+### Getting to the DevSprints Venue - Phenom People Pvt Ltd, Whitefield, Kondapur
+
+The DevSprints will be held at **[Phenom People Pvt Ltd, Whitefield, Kondapur.](https://goo.gl/maps/hmHBapTF6bMNJWWx5)**
+
+Phenom People Pvt Ltd, Whitefield, Kondapur is best accessible via the Hyderabad Metro Blue line. You can get down at Raidurg Metro Station and then take a auto or cab to Phenom People Pvt Ltd, Whitefield, Kondapur.
+
+- **From the Red Line:** If you're arriving via the Red line, you can easily switch to the Blue line (towards Hitec City) at Ameerpet station.
+- **From the Green Line:** If you're coming via the Green line, you can switch to the Blue line (towards Hitec City) at the M.G. Bus Station stop.
+
 ### Accommodation
 
 #### Assistance for Attendees
