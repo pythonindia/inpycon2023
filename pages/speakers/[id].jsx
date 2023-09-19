@@ -6,9 +6,6 @@ import { useEffect, useState } from "react";
 import Header from "components/header";
 import Footer from "components/footer";
 import SpeakerDetail from "components/speakerDetail";
-import keynoteSpeakers from "data/speakers/keynote.yml";
-import featuredSpeakers from "data/speakers/featured.yml";
-import workshopInstructors from "data/speakers/workshopInstructors.yml";
 import { fetchSpeakers } from "lib/data";
 
 const SpeakerPage = () => {
