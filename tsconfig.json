@@ -14,7 +14,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "types": ["@fortawesome/fontawesome-svg-core", "@fortawesome/free-solid-svg-icons"],
+    "types": [
+      "@fortawesome/fontawesome-svg-core",
+      "@fortawesome/free-solid-svg-icons"
+    ],
     "plugins": [
       {
         "name": "next"
@@ -27,6 +30,13 @@
       "@utils/*": ["utils/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/HeroBanner.js", "pages/speaker.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/HeroBanner.js",
+    "pages/speaker.js"
+  ],
   "exclude": ["node_modules"]
 }
