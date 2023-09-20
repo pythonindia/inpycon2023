@@ -6,14 +6,14 @@
         - image: "/2023/images/icons/tab1.png"
           title: Registrations / Tea
           duration: 75
-          track: Track 1 - 4
+          track: 1
     - time: "10:00 AM - 01:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
           title: From Novice to Virtuoso - Mastering Object-Oriented Python in 3 Hours
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/from-novice-to-virtuoso-mastering-object-oriented-python-in-3-hours~dL9gX/
           duration: 180
-          track: Track 1
+          track: 1
           speakers:
             - id: WS-03
               fullName: Vivek Keshore
@@ -30,7 +30,7 @@
         - image: "/2023/images/icons/tab2.png"
           title: Instruction Finetuning - Unlock the Power of Large Language Models
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/instruction-finetuning-unlock-the-power-of-large-language-models~dJ66J/
-          track: Track 2
+          track: 2
           duration: 180
           speakers:
             - id: WS-05
@@ -50,7 +50,7 @@
         - image: "/2023/images/icons/tab2.png"
           title: Let's have fun building APIs with Starlette - The Asynchronous Python Web Framework
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/lets-have-fun-building-apis-with-starlette-the-asynchronous-python-web-framework~aM8DG/
-          track: Track 3
+          track: 3
           duration: 180
           speakers:
             - id: WS-06
@@ -69,21 +69,21 @@
         - image: "/2023/images/icons/tab2.png"
           title: Sponsored Workshop by Neo4j
           duration: 180
-          track: Track 4
+          track: 4
           speakersPlaceHolder: TBA
     - time: "01:00 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab4.png"
           title: Lunch
           duration: 60
-          track: Track 1 - 4
+          track: 1
     - time: "02:00 PM - 05:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
           title: All Them Data Engines - Data Munging with Python circa 2023 - Pandas, Spark, Dask, Polars and more
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/all-them-data-engines-pandas-spark-dask-polars-and-more-data-munging-with-python-circa-2023~eZq5d/
           duration: 180
-          track: Track 1
+          track: 1
           speakers:
             - id: WS-01
               fullName: Shaurya Agarwal
@@ -104,7 +104,7 @@
           title: Mastering Retrieval Augmented Generation (RAG) with LlamaIndex and LLMs
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mastering-retrieval-augmented-generation-rag-with-llamaindex-and-llms~egJL3/
           duration: 180
-          track: Track 2
+          track: 2
           speakers:
             - fullName: Ravi Theja
               id: WS-02
@@ -127,7 +127,7 @@
           title: Building Multi-Tenant applications with Django and Django-Tenants
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/building-multi-tenant-applications-with-django-and-django-tenants~aQW10/
           duration: 180
-          track: Track 3
+          track: 3
           speakers:
             - id: WS-07
               fullName: Jatin Goel
@@ -147,7 +147,7 @@
           title: Python + Blockchain - Your Guide to Building Full Stack DApps
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/python-blockchain-your-guide-to-building-full-stack-dapps~dBBNN/
           duration: 180
-          track: Track 4
+          track: 4
           speakers:
             - id: WS-04
               fullName: Laisha Wadhwa
@@ -172,25 +172,25 @@
         - image: "/2023/images/icons/tab1.png"
           title: Registrations
           duration: 60
-          track: Track 1 - 4
+          track: 1
     - time: "09:00 AM - 09:15 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
           title: Opening Address - Day 1
           duration: 15
-          track: Track 1 - 4
+          track: 1
     - time: "09:15 AM - 09:30 AM"
       talks:
         - image: "/2023/images/icons/tab3.png"
           title: Lamp lighting ceremony
           duration: 15
-          track: Track 1 - 4
+          track: 1
     - time: "09:30 AM - 10:30 AM"
       talks:
         - image: "/2023/images/icons/tab4.png"
           title: Keynote by Jessica Greene
           duration: 60
-          track: Track 1 - 4
+          track: 1
           speakers:
             - id: KS-01
               fullName: Jessica Greene
@@ -211,14 +211,14 @@
         - image: "/2023/images/icons/tab5.png"
           title: Tea Break
           duration: 30
-          track: Track 1 - 4
+          track: 1
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab6.png"
           title: Programming Minecraft with Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/programming-minecraft-with-python~bmZQ9/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-23
               fullName: S Anand
@@ -237,7 +237,7 @@
           title: Evolution of Type hints in Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/evolution-of-type-hints-in-python~b68oR/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-29
               fullName: Sasidhar Donaparthi
@@ -256,7 +256,7 @@
           title: Revealing Uncommon Tricks - 25 Obscure Pandas & NumPy Hacks learnt over 5 years of being a Data Scientist
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/revealing-uncommon-tricks-25-obscure-pandas-numpy-hacks-learnt-over-5-years-of-being-a-data-scientist~bkR5N/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-26
               fullName: Nitin Kishore Sai Samala
@@ -279,7 +279,7 @@
           title: Architecting Scalable Python micro-services with GraphQL - Valuable Lessons and Best Practices
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/architecting-scalable-python-micro-services-with-graphql-valuable-lessons-and-best-practices~elY5r/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-19
               fullName: Abhinand C
@@ -300,7 +300,7 @@
           title: AI Engineering in Python - System Design 101
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/ai-engineering-in-python-system-design-101~elY5g/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-10
               fullName: Nirant Kasliwal
@@ -319,7 +319,7 @@
           title: Unlock the Power of Automation - Codify AWS Infrastructure with Python CDK
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unlock-the-power-of-automation-codify-aws-infrastructure-with-python-cdk~aQZ9b/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-28
               fullName: Dheeraj Choudhary
@@ -347,7 +347,7 @@
           title: LPython - Novel, Fast, Retargetable Python Compiler
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/lpython-novel-fast-retargetable-python-compiler~bYEp2/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
           - id: FS-33
             fullName: Shaikh Mohd Ubaid Mohd Jawed
@@ -368,7 +368,7 @@
           title: Mistakes made and lessons learned doing IPC in Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
           - id: FS-07
             fullName: Kartheek Surampudi
@@ -391,7 +391,7 @@
           title: Data Pipelines in Production - Bad vs Best Practices
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-pipelines-in-production-bad-vs-best-practices~dBKQe/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-05
               fullName: Bhavani Ravi
@@ -408,7 +408,7 @@
           title: Music Making with Python and FoxDot
           duration: 30
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/music-making-with-python-and-foxdot~dwpp8/
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-09
               fullName: Sangarshanan
@@ -425,7 +425,7 @@
           title: What's the mojo behind Mojo
           duration: 30
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/whats-the-mojo-behind-mojo~e1mZe/
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-17
               fullName: Kamran Ahmad
@@ -439,26 +439,26 @@
         - image: "/2023/images/icons/tab8.png"
           title: Sponsored Talk
           duration: 30
-          track: Track 4
+          track: 4
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
           title: Lunch
           duration: 70
-          track: Track 1 - 4
+          track: 1
     - time: "02:00 PM - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab10.png"
           title: Lightning Talks
           speakersPlaceHolder: On Spot
           duration: 30
-          track: Track 1 - 4
+          track: 1
     - time: "02:35 PM - 03:30 PM"
       talks:
         - image: "/2023/images/icons/tab11.png"
           title: Keynote by Marcelo Trylesinski
           duration: 55
-          track: Track 1 - 4
+          track: 1
           speakers:
             - id: KS-02
               fullName: Marcelo Trylesinski
@@ -480,16 +480,16 @@
         - image: "/2023/images/icons/tab12.png"
           title: Sponsored Talk
           duration: 30
-          track: Track 1
+          track: 1
         - image: "/2023/images/icons/tab12.png"
           title: Technical Panel Discussion - LLMs in Production
           duration: 30
-          track: Track 2
+          track: 2
         - image: "/2023/images/icons/tab12.png"
           title: Metaprogramming In Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/metaprogramming-in-python~bo22X/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-18
               fullName: Aby M Joseph
@@ -506,7 +506,7 @@
           title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-35
               fullName: Priyadarshan Patil
@@ -525,7 +525,7 @@
           title: Speeding up Python with Rust - GeoIP Lookup Database as a case study
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/speeding-up-python-with-rust-geoip-lookup-database-as-a-case-study~aOY7Y/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-06
               fullName: Abhijit Gadgil
@@ -542,7 +542,7 @@
           title: Unleashing the Power of Python - Teaching Computer Science to Kids
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unleashing-the-power-of-python-teaching-computer-science-to-kids~erk04/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-34
               fullName: Prasanna Mg
@@ -568,7 +568,7 @@
           title: Evaluating Generative Vision Models - Insights into the Fréchet Inception Distance and CLIP
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/evaluating-generative-vision-models-insights-into-the-frechet-inception-distance-and-clip~b821L/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-15
               fullName: Mayank Khanduja
@@ -589,7 +589,7 @@
           title: Securing your python applications and network using Zero Trust Security
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/securing-your-python-applications-and-network-using-zero-trust-security~eg1kb/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-37
               fullName: Srijan R Shetty
@@ -614,7 +614,7 @@
         - image: "/2023/images/icons/tab14.png"
           title: Keynote by Rushabh Mehta
           duration: 60
-          track: Track 1 - 4
+          track: 1
           speakers:
             - id: KS-03
               fullName: Rushabh Mehta
@@ -640,7 +640,7 @@
         - image: "/2023/images/icons/tab15.png"
           title: Closing Address - Day 1
           duration: 15
-          track: Track 1 - 4
+          track: 1
 
 - date: "Oct 1st | Sunday"
   title: Conference Day 2
@@ -650,19 +650,19 @@
         - image: "/2023/images/icons/tab1.png"
           title: Registrations
           duration: 50
-          track: Track 1 - 4
+          track: 1
     - time: "09:20 AM - 09:25 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
           title: Opening Address - Day 2
           duration: 5
-          track: Track 1 - 4
+          track: 1
     - time: "09:30 AM - 10:30 AM"
       talks:
         - image: "/2023/images/icons/tab3.png"
           title: Keynote by Cheuk Ting Ho
           duration: 60
-          track: Track 1 - 4
+          track: 1
           speakers:
             - id: KS-04
               fullName: Cheuk Ting Ho
@@ -687,14 +687,14 @@
         - image: "/2023/images/icons/tab4.png"
           title: Tea Break
           duration: 30
-          track: Track 1 - 4
+          track: 1
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab5.png"
           title: OpenAI Whisper and it's amazing power to do fine-tuning demonstrated on my mother-tongue
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/openai-whisper-and-its-amazing-power-to-do-fine-tuning-demonstrated-on-my-mother-tongue~eENWa/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-25
               fullName: Kurian Benoy
@@ -715,7 +715,7 @@
           title: Accelerating testing cycles of embedded devices using Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/accelerating-testing-cycles-of-embedded-devices-using-python~bqxRp/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-24
               fullName: Madhuri Anagal
@@ -730,7 +730,7 @@
           title: Unlocking the Cosmos - Querying Space Observatories with Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/unlocking-the-cosmos-querying-space-observatories-with-python~bmZw9/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-16
               fullName: Abhijeet Manhas
@@ -761,7 +761,7 @@
           title: Embracing Observability in Modern Python Applications - Harnessing the Power of OpenTelemetry
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/embracing-observability-in-modern-python-applications-harnessing-the-power-of-opentelemetry~epYgp/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-21
               fullName: Angelin Mary John
@@ -786,7 +786,7 @@
           title: Harnessing the Power of Django StreamingHttpResponse for Efficient Web Streaming
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/harnessing-the-power-of-django-streaminghttpresponse-for-efficient-web-streaming~azVya/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-01
               fullName: Shivam Chaurasia
@@ -803,7 +803,7 @@
           title: Kubernetes + Python - Unleashing the Power of Python Controllers
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/kubernetes-python-unleashing-the-power-of-python-controllers~dJVKd/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-14
               fullName: Yash Mehrotra
@@ -826,7 +826,7 @@
           title: Fine-Tuning Insights - Lessons from Experimenting with a Large Language Model on Slack
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/fine-tuning-insights-lessons-from-experimenting-with-a-large-language-model-on-slack-data~b4xxx/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-08
               fullName: Samhita Alla
@@ -849,7 +849,7 @@
           title: Zero-Copy Zen - Boost Performance with Memory View
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/zero-copy-zen-boost-performance-with-memory-view~dyPoP/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: SS-32
               fullName: Kesia Mary Joies
@@ -870,7 +870,7 @@
           title: How I restarted my career by contributing to Open Source?
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/how-i-restarted-my-career-by-contributing-to-open-source~dPNm4/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-03
               fullName: Bowrna
@@ -887,7 +887,7 @@
           title: PyVelox - Interfacing Python bindings for the unified execution engine by Meta
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/pyvelox-interfacing-python-bindings-for-the-unified-execution-engine-by-meta~eXDo5/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-36
               fullName: Sanjiban Sengupta
@@ -910,7 +910,7 @@
           title: Taking a Multilingual Conversational Engine to Production - Theory to Reality
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/taking-a-multilingual-conversational-engine-to-production-theory-to-reality~ejRQv/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-02
               fullName: Karthika Vijayan
@@ -939,36 +939,36 @@
         - image: "/2023/images/icons/tab7.png"
           title: Sponsored Talk
           duration: 30
-          track: Track 4
+          track: 4
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
           title: Lunch
           duration: 70
-          track: Track 1 - 4
+          track: 1
     - time: "02:00 PM - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
           title: Lightning Talks
           duration: 30
-          track: Track 1 - 4
+          track: 1
     - time: "02:35 PM - 03:30 PM"
       talks:
         - image: "/2023/images/icons/tab10.png"
           title: Diversity Panel Discussion
           duration: 55
-          track: Track 1 - 4
+          track: 1
     - time: "03:40 PM - 04:10 PM"
       talks:
         - image: "/2023/images/icons/tab11.png"
           title: Sponsored Talk
           duration: 30
-          track: Track 1
+          track: 1
         - image: "/2023/images/icons/tab11.png"
           title: The programmers guide to timestamps and timezones
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-11
               fullName: Shrayas Rajagopal
@@ -993,7 +993,7 @@
           title: The Why Conundrum - Practical causal inference and discovery with python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-why-conundrum-practical-causal-inference-and-discovery-with-python~eZ6YR/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-13
               fullName: Dinesh Venkatesan
@@ -1008,7 +1008,7 @@
           title: Python-powered Game Design and 3D Modelling - Unleashing Creativity and Immersion
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/python-powered-game-design-and-3d-modelling-unleashing-creativity-and-immersion~dNQvb/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-31
               fullName: Bhawna Chauhan
@@ -1033,7 +1033,7 @@
           title: Amaze your friends by painting images on Google Sheets using Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/amaze-your-friends-by-painting-images-on-google-sheets-using-python~eER80/
           duration: 30
-          track: Track 1
+          track: 1
           speakers:
             - id: FS-22
               fullName: Shashi Jeevan M P
@@ -1058,7 +1058,7 @@
           title: How Differential Privacy Changed The World, and What The Math Really Means
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/how-differential-privacy-changed-the-world-and-what-the-math-really-means~dNk9D/
           duration: 30
-          track: Track 2
+          track: 2
           speakers:
             - id: FS-27
               fullName: Rumanu Bhardwaj
@@ -1075,7 +1075,7 @@
           title: Complex Network Analysis in Economics
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/complex-network-analysis-in-economics~en5rE/
           duration: 30
-          track: Track 3
+          track: 3
           speakers:
             - id: FS-20
               fullName: Navya Agarwal
@@ -1099,7 +1099,7 @@
           title: Talking to the Linux Kernel with Python and eBPF
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/talking-to-the-linux-kernel-with-python-and-ebpf~egJZ3/
           duration: 30
-          track: Track 4
+          track: 4
           speakers:
             - id: FS-12
               fullName: Navin Pai
@@ -1121,7 +1121,7 @@
         - image: "/2023/images/icons/tab13.png"
           title: Keynote by Dr. Shailesh Kumar
           duration: 60
-          track: Track 1 - 4
+          track: 1
           speakers:
           - id: KS-05
             fullName: Shailesh Kumar
@@ -1138,4 +1138,4 @@
         - image: "/2023/images/icons/tab14.png"
           title: Closing Address - Day 2
           duration: 15
-          track: Track 1 - 4
+          track: 1

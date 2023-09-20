@@ -4,11 +4,21 @@ import Link from "next/link";
 import IconComponent from "components/icons";
 import NameAvatar from "components/nameAvatar";
 
-const Topic = (speaker) => {
+const TalkDetail = (speaker) => {
   return (
-    speaker.proposalLink ?
-      <p>Addressing: <Link target="_blank" href={speaker.proposalLink}>{speaker.proposalTitle}</Link></p> :
-      <p>Addressing: {speaker.proposalTitle}</p>
+    <>
+      <span>Talk Details:</span>
+      <ul className="ms-3">
+        {speaker.proposalLink ?
+          <li>Addressing: <Link target="_blank" href={speaker.proposalLink}>{speaker.proposalTitle}</Link></li> :
+          <li>Addressing: {speaker.proposalTitle}</li>
+        }
+        {speaker.talkDate && <li>Date: {speaker.talkDate}</li>}
+        {speaker.talkTime && <li>Time: {speaker.talkTime}</li>}
+        {speaker.track && <li>Track: {speaker.track}</li>}
+
+      </ul>
+    </>
   )
 }
 
@@ -42,8 +52,7 @@ const SpeakerDetail = ({ speaker, showHyperLink }) => {
         <div className="row bg-speaker-bio-about pt-4 px-4">
           <p dangerouslySetInnerHTML={{ __html: speaker.about }}></p>
           {speaker.proposalTitle &&
-            <Topic {...speaker} />}
-          {speaker.track && <p>Track: {speaker.track}</p>}
+            <TalkDetail {...speaker} />}
         </div>
         <div className="d-flex justify-content-between bg-speaker-bio-social py-2 px-4">
           <div>
