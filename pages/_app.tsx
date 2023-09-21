@@ -49,12 +49,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       {/* Default page SEO starts */}
       <DefaultSeo {...SEO} canonical={canonicalURL} />
       {/* Default page SEO ends */}
-      <Script
-        src="https://cdn.userway.org/widget.js"
-        data-account="T8lCiGpEJy"
-        async
-        defer
-      ></Script>
       <Script src="https://www.googletagmanager.com/gtag/js" async></Script>
       <Component {...pageProps} />
     </>
