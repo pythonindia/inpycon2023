@@ -391,18 +391,21 @@ button a {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+  object-fit: cover;
 }
 
 .workgroup-leads-image {
   border-radius: 50%;
   height: 150px;
   width: 150px;
+  object-fit: cover;
 }
 
 .speaker-bio-image {
   border-radius: 50%;
   height: 240px;
   width: 240px;
+  object-fit: cover;
 }
 
 .name-initial-avatar {
