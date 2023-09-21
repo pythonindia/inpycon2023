@@ -1,6 +1,7 @@
 import { FaWindowClose } from "react-icons/fa";
 import { FaBars, FaBriefcase, FaBuilding, FaArrowUpRightFromSquare, FaMaximize, FaCircleArrowRight, FaEnvelope, FaFacebook, FaGithub, FaLocationDot, FaGlobe, FaInstagram, FaLinkedin, FaMastodon, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa6";
 import { SiZulip } from "react-icons/si";
+import { RiTwitterXFill } from "react-icons/ri";
 
 export const icons = {
   arrowRight: FaCircleArrowRight,
@@ -15,7 +16,7 @@ export const icons = {
   medium: FaMedium,
   linkedin: FaLinkedin,
   mastodon: FaMastodon,
-  twitter: FaTwitter,
+  twitter: RiTwitterXFill,
   website: FaGlobe,
   youtube: FaYoutube,
   close: FaWindowClose,
