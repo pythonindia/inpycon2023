@@ -10,17 +10,12 @@ const Partners = () => {
         </div>
         <div className="row justify-content-center mt-3 py-5">
           {PartnersData.map((partner, index) => (
-            <div className="col-6 bt-circle my-3 text-center" key={index}>
-              <Link
-                href={partner.website}
-                target="_blank"
-                rel="noreferrer">
-                <img
-                  src={partner.logo}
-                  className={`img-fluid partners-logo ${partner.paddingClass}`}
-                  alt={partner.name}
-                />
-              </Link>
+            <div className="col-md-3 col-6 bt-circle my-2 text-center" key={index}>
+              <img
+                src={partner.logo}
+                className={`img-fluid partners-logo ${partner.paddingClass}`}
+                alt={partner.name}
+              />
               <p className="pt-2">{partner.title}</p>
             </div>
           ))}
