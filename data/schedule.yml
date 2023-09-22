@@ -132,7 +132,7 @@
             - id: WS-07
               fullName: Jatin Goel
               title:
-              profilePicture:/2023/images/speakers/workshopInstructors/jatin-goel.jpeg
+              profilePicture: /2023/images/speakers/workshopInstructors/jatin-goel.jpeg
               proposalTitle: Building Multi-Tenant applications with Django and Django-Tenants
               about:
                 Software Engineer with a knack of solving complex problems having an experience of 8+ years in the industry.<br>
