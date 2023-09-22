@@ -93,3 +93,8 @@ associate:
     linkedin: https://www.linkedin.com/company/reckonsys/
     instagram: https://instagram.com/reckonsys?igshid=MzRlODBiNWFlZA==
     paddingClass: p-4
+  - logo: images/sponsors/volantio.png
+    website: https://volantio.com/
+    twitter: https://twitter.com/volantio
+    linkedin: https://www.linkedin.com/company/volantio-inc-/
+    paddingClass: p-4
