@@ -1,0 +1,10 @@
+- name:  JNTU, Hyderabad
+  title: Academic Partner
+  logo: images/community-partners/foss-united.png
+  website: https://fossunited.org
+  paddingClass: p-2
+- name: Phenom People
+  title: Venue Partner
+  logo: images/community-partners/ocd-india.png
+  website: https://ocd-india.github.io
+  paddingClass: p-2

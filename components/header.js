@@ -30,6 +30,18 @@ const navBarItems = [
         id: "attend",
         openInNewTab: false,
       },
+      {
+        name: "Community Partners",
+        href: "/#community-partners",
+        id: "community-partners",
+        openInNewTab: false,
+      },
+      {
+        name: "Partners",
+        href: "/#partners",
+        id: "partners",
+        openInNewTab: false,
+      },
     ],
   },
   {
@@ -42,12 +54,6 @@ const navBarItems = [
     name: "Sponsors",
     href: "/#sponsors",
     id: "sponsors",
-    openInNewTab: false,
-  },
-  {
-    name: "Community Partners",
-    href: "/#community-partners",
-    id: "community-partners",
     openInNewTab: false,
   },
   {
