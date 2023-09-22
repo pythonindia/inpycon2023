@@ -55,3 +55,10 @@
   website: https://www.meetup.com/tensorflow-user-group-hyderabad/
   description: TFUG is more than just a community. We are a diverse and passionate group of individuals who share a common love for TensorFlow, Google's powerful open-source machine learning framework. Our TFUG is not just a collection of enthusiasts.. it is a dynamic ecosystem of learners, innovators, and collaborators. We are advocates of knowledge sharing and exploration. Together, we embark on a journey of learning and discovery, exchanging ideas and expertise that propel us towards the forefront of machine learning advancements. Our TFUG events, workshops, and study groups are tailored to inspire creativity and deepen our understanding of this transformative technology. TFUG is a safe haven where everyone's voice is valued and heard. We believe in the power of collaboration - where experts and newcomers alike come together to exchange insights, share experiences, and collectively elevate our skills. Our TFUG is not just about individual growth; it is about nurturing a great community that stands strong together.
   paddingClass: p-2
+- name: Women Techmakers
+  logo: images/community-partners/wtm.png
+  description: Google's Women Techmakers program provides visibility, community, and resources for women in technology.
+  website: https://www.linkedin.com/company/womentechmakersindia/?viewAsMember=true
+  paddingClass: p-0
+
+
