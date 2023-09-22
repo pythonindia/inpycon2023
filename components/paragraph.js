@@ -10,7 +10,7 @@ const Paragraph = (props) => {
   return (<>
     {props.isHtml &&
       <p
-        className={expanded ? 'm-0' : 'paragraph-limit-text m-0'}
+        className={props.className + (expanded ? ' m-0' : ' paragraph-limit-text m-0')}
         dangerouslySetInnerHTML={{ __html: props.isHtml && props.text }}
         style={{ WebkitLineClamp: props.numberOfLines }}
       >
@@ -18,7 +18,7 @@ const Paragraph = (props) => {
     }
     {!props.isHtml &&
       <p
-        className={expanded ? 'm-0' : 'paragraph-limit-text m-0'}
+        className={props.className + (expanded ? ' m-0' : ' paragraph-limit-text m-0')}
         style={{ WebkitLineClamp: props.numberOfLines }}
       >
         {props.text}
