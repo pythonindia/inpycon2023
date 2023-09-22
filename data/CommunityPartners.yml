@@ -58,7 +58,7 @@
 - name: Women Techmakers
   logo: images/community-partners/wtm.png
   description: Google's Women Techmakers program provides visibility, community, and resources for women in technology.
-  website: https://www.linkedin.com/company/womentechmakersindia/?viewAsMember=true
+  website: https://developers.google.com/womentechmakers
   paddingClass: p-0
 
 
