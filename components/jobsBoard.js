@@ -110,6 +110,7 @@ const JobsBoard = ({ jobs }) => {
                       text={job.jobDescription}
                       isHtml={true}
                       numberOfLines={3}
+                      className="balanced-text"
                     />}
                 </div>
               </div>

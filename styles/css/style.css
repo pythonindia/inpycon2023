@@ -823,6 +823,11 @@ button a {
   justify-content: space-between;
 }
 
+.balanced-text {
+  white-space: pre-wrap;
+  text-wrap: balance;
+}
+
 .job-skill-tag {
   border-radius: 0.25rem;
   display: inline-block;
