@@ -5,9 +5,9 @@ const Partners = () => {
   return (
     <section className="home-section" id="partners">
       <div className="container pt-5 pb-5">
-        <div className="row align-items-center">
+        <div className="row">
           <h2
-            className="col-auto com-head"
+            className="com-head"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
