@@ -1,0 +1,16 @@
+- name: PythonPune
+  logo: images/local-user-groups-chapters/python-pune.png
+  website: https://pythonpune.in/
+  paddingClass: p-0
+- name: BangPypers
+  logo: images/local-user-groups-chapters/bang-pypers.png
+  website: https://bangalore.pythonindia.org/
+  paddingClass: p-0
+- name: HydPy
+  logo: images/local-user-groups-chapters/hyd-py.png
+  website: https://www.hydpy.org/
+  paddingClass: p-0
+- name: ChennaiPy
+  logo: images/local-user-groups-chapters/chennai-py.png
+  website: http://chennaipy.org/
+  paddingClass: p-0

@@ -42,6 +42,12 @@ const navBarItems = [
         id: "partners",
         openInNewTab: false,
       },
+      {
+        name: "Local User Groups & Chapters",
+        href: "/#local-user-groups-chapters",
+        id: "local-user-groups-chapters",
+        openInNewTab: false,
+      }
     ],
   },
   {

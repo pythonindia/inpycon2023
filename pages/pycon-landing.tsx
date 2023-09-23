@@ -9,6 +9,7 @@ import SubscribeSection from "../components/subscribe";
 import RegistrationSection from "../components/registration";
 import ConferenceSchedule from "../components/schedule";
 import Partners from "components/partners";
+import LocalUserGroupsChapters from "components/localUserGroups";
 
 export default function PyConIndiaWeb() {
   return (
@@ -21,6 +22,7 @@ export default function PyConIndiaWeb() {
       <SponsorComponent />
       <CommunityPartners />
       <Partners/>
+      <LocalUserGroupsChapters />
       {/* <section className="bg-latest">
       <div className="container">
         <div className="row pt-5 pb-5">
