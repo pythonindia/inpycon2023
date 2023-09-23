@@ -4,9 +4,18 @@ import Button from "./button";
 import Paragraph from "./paragraph";
 
 const isTicketSoldOut = (ticket) => {
-  let soldOut = false;
+  var soldOut = false;
   if (ticket.end_timestamp) {
-    const ticketEndDate = new Date(ticket.end_timestamp + " UTC+0530");
+    const parts = ticket.end_timestamp.split(' ');
+    const datePart = parts[0];
+    const timePart = parts[1];
+    const [year, month, day] = datePart.split('-').map(Number);
+    const [hours, minutes, seconds] = timePart.split(':').map(Number);
+
+    const ticketEndDate = new Date(Date.UTC(year, month - 1, day, hours, minutes, seconds));
+    // Adjust the date based on the IST offset
+    ticketEndDate.setHours(ticketEndDate.getHours() + 5);
+    ticketEndDate.setMinutes(ticketEndDate.getMinutes() + 30);
     // Get the current date and time in IST
     const currentDate = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
     soldOut = ticketEndDate < currentDate;
