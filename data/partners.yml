@@ -1,15 +1,15 @@
-- name:  JNTU, Hyderabad
+- name:  CEFT, JNTUH-Blackbucks
   title: Academic Partner
-  logo: images/partners/jntu.png
+  logo: images/partners/jntu_blackbucks.png
   paddingClass: p-1
   website: https://jntuh.ac.in
-- name:  Black Buck
-  title: Academic Partner
-  logo: images/partners/black-buck.png
-  paddingClass: p-1
-  website: https://www.theblackbucks.com
 - name: Phenom People
   title: Venue Partner
   logo: images/partners/phenom-people.png
   paddingClass: p-0
   website: https://www.phenom.com
+- name: Yashoda Hospital
+  title: Medical Partner
+  logo: images/partners/yashoda.png
+  paddingClass: p-0
+  website: https://www.yashodahospitals.com/
