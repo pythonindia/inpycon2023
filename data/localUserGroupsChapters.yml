@@ -14,3 +14,11 @@
   logo: images/local-user-groups-chapters/chennai-py.png
   website: http://chennaipy.org/
   paddingClass: p-0
+- name: PyChandigarh
+  logo: images/local-user-groups-chapters/py-chandigarh.svg
+  website: https://pychandigarh.github.io/
+  paddingClass: p-1
+- name: PyLadiesBangalore
+  logo: images/local-user-groups-chapters/pyladies-bangalore.jpg
+  website: https://pyladies.com/locations/blr/
+  paddingClass: p-0
