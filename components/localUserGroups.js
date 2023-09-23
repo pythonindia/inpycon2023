@@ -9,7 +9,7 @@ const LocalUserGroupsChapters = () => {
         <div className="row">
           <h2 className="com-head text-white" data-aos="fade-down" data-aos-duration="1000">Local User Groups & Chapters</h2>
         </div>
-        <div className="row justify-content-center mt-3 py-5">
+        <div className="row justify-content-center py-5">
           {localUserGroupsChaptersData.map((partner, index) => (
             <div className="col-md-3 col-6 bt-circle my-3" key={index}>
               <Link href={partner.website} target="_blank">

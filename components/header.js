@@ -302,6 +302,7 @@ function DropDownMenu({ item, navBarClickHandler }) {
           <Link
             key={index}
             href={dropdownItem.href}
+            target={dropdownItem.openInNewTab ? "_blank" : "_self"}
             onClick={navBarClickHandler}
           >
             <Dropdown.Item as="li" role="menuitem">

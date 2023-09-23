@@ -3,6 +3,19 @@ import { useState, useEffect } from "react";
 import Button from "./button";
 import Paragraph from "./paragraph";
 
+const isTicketSoldOut = (ticket) => {
+  let soldOut = false;
+  if (ticket.end_timestamp) {
+    const ticketEndDate = new Date(ticket.end_timestamp + " UTC+0530");
+    // Get the current date and time in IST
+    const currentDate = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
+    soldOut = ticketEndDate < currentDate;
+  }
+  soldOut = soldOut || (ticket.sold_out && !ticket.waitlist_enabled)
+    || (ticket.remaining_count <= 0 && !ticket.waitlist_enabled);
+  return soldOut;
+}
+
 const TicketsPriceTable = () => {
   const [tickets, setTickets] = useState([]);
 
@@ -18,7 +31,7 @@ const TicketsPriceTable = () => {
           id: ticket.ticket_id,
           name: ticket.ticket_name,
           price: ticket.minimum_price || ticket.ticket_price,
-          soldOut: (ticket.sold_out && !ticket.waitlist_enabled) || (ticket.remaining_count <= 0 && !ticket.waitlist_enabled),
+          soldOut: isTicketSoldOut(ticket),
           description: ticket.description,
         }));
         setTickets(extractedTickets);

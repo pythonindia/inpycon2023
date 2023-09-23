@@ -14,7 +14,7 @@ const Partners = () => {
             Partners
           </h2>
         </div>
-        <div className="row justify-content-center mt-3 py-5">
+        <div className="row justify-content-center py-5">
           {PartnersData.map((partner, index) => (
             <div
               className="col-md-3 col-6 bt-circle my-2 text-center"
