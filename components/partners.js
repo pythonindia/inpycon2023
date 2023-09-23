@@ -14,7 +14,7 @@ const Partners = () => {
               <a href={partner.website} target="_blank" rel="noreferrer">
               <img
                 src={partner.logo}
-                className={`img-fluid partners-logo ${partner.paddingClass}`}
+                className={`img-fluid  ${partner.paddingClass}`}
                 alt={partner.name}
               />
               </a>
