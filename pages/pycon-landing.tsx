@@ -7,7 +7,6 @@ import CommunityPartners from "../components/communityPartners";
 import ConventionCenterSection from "../components/conventioncenter";
 import SubscribeSection from "../components/subscribe";
 import RegistrationSection from "../components/registration";
-import ConferenceSchedule from "../components/schedule";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
 
@@ -17,7 +16,6 @@ export default function PyConIndiaWeb() {
       <Header />
       <HeroBanner />
       <JourneyComponent />
-      <ConferenceSchedule />
       <RegistrationSection />
       <SponsorComponent />
       <CommunityPartners />

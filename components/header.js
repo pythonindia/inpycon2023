@@ -52,7 +52,7 @@ const navBarItems = [
   },
   {
     name: "Schedule",
-    href: "/#schedule",
+    href: "/schedule",
     id: "schedule",
     openInNewTab: false,
   },
