@@ -745,6 +745,12 @@ button a {
   height: 726px !important;
 }
 
+.bg-hall.devsprint {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url("/2023/images/backgrounds/bg-hall1.jpg") no-repeat;
+  background-size: cover;
+}
+
 .hallhead {
   font-size: 35px !important;
   line-height: 2;
