@@ -116,24 +116,28 @@ const JobsBoard = ({ jobs }) => {
               </div>
               {/* Job Footer */}
               <div className="row register-btn justify-content-center">
-                <div className="col-lg-6 col-12 mt-2">
-                  <Button
-                    buttonClassName="custom-button green-btn"
-                    anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Apply"
-                    buttonHyperLink={job.jobApplicationLink}
-                    icon={<IconComponent className="ms-2" name="arrowRight" padding={0} size={20} />}
-                  />
-                </div>
-                <div className="col-lg-6 col-12 mt-2">
-                  <Button
-                    buttonClassName="custom-button submit-btn"
-                    anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Email"
-                    buttonHyperLink={`mailto:${job.email}`}
-                    icon={<IconComponent className="ms-2" name="mail" padding={0} size={20} />}
-                  />
-                </div>
+                {job.jobApplicationLink &&
+                  <div className="col-lg-6 col-12 mt-2">
+                    <Button
+                      buttonClassName="custom-button green-btn"
+                      anchorClassName="text-decoration-none text-light"
+                      buttonLabel="Apply"
+                      buttonHyperLink={job.jobApplicationLink}
+                      icon={<IconComponent className="ms-2" name="arrowRight" padding={0} size={20} />}
+                    />
+                  </div>
+                }
+                {job.email &&
+                  <div className="col-lg-6 col-12 mt-2">
+                    <Button
+                      buttonClassName="custom-button submit-btn"
+                      anchorClassName="text-decoration-none text-light"
+                      buttonLabel="Email"
+                      buttonHyperLink={`mailto:${job.email}`}
+                      icon={<IconComponent className="ms-2" name="mail" padding={0} size={20} />}
+                    />
+                  </div>
+                }
               </div>
             </div>
           </div>

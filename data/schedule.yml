@@ -56,7 +56,7 @@
             - id: WS-06
               fullName: Hemangi Karchalkar
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/workshopInstructors/hemangi-karchalkar.jpg
               proposalTitle: Let's have fun building APIs with Starlette - The Asynchronous Python Web Framework
               about:
                 I’m Hemangi Karchalkar and I’m a senior software developer working at Epam systems. I’ve been programming as a professional for 5 years and as an amateur for about half my life.<br>
@@ -152,7 +152,7 @@
             - id: WS-04
               fullName: Laisha Wadhwa
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/workshopInstructors/laisha-wadhwa.jpg
               proposalTitle: Python + Blockchain - Your Guide to Building Full Stack DApps
               about:
                 Formerly a Senior Software Developer at Goldman, Laisha has evolved into the Head of Devrel at Pesto tech, bridging the tech community's brightest minds. She's a passionate advocate for Data and Machine Learning, using them to solve real-world challenges.<br>
@@ -242,7 +242,7 @@
             - id: FS-29
               fullName: Sasidhar Donaparthi
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/featured/sasidhar-donaparthi.jpg
               proposalTitle: Evolution of Type hints in Python
               about: Innovative and dynamic hands-on technology leader with 25+ years of IT experience in manufacturing and financial services domains, Working as Data Scientist in Financial services company.
               social:
@@ -305,7 +305,7 @@
             - id: FS-10
               fullName: Nirant Kasliwal
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/featured/nirant-kasliwal.jpg
               proposalTitle: AI Engineering in Python - System Design 101
               about: Nirant is best known for his work in NLP. He maintains Awesome NLP, which is recommended by Stanford in some of their courses. He is also the author of FastEmbed, a text embedding library built with retrieval and performance in mind.
               social:
@@ -594,7 +594,7 @@
             - id: FS-37
               fullName: Srijan R Shetty
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/featured/srijan-r-shetty.jpg
               proposalTitle: Securing your python applications and network using Zero Trust Security
               about:
                 Srijan R Shetty is currently the cofounder and CTO/CISO of Fuze (https://fuze.finance). Fuze is a B2B SaaS startup building APIs for banks and fintechs in Middle East to build on top of digital assets infrastructure.<br>
@@ -998,7 +998,7 @@
             - id: FS-13
               fullName: Dinesh Venkatesan
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/featured/dinesh-venkatesan.jpg
               proposalTitle: The Why Conundrum - Practical causal inference and discovery with python
               about: Dinesh Venkatesan is a logician and Mathematician currently working as Principal Researcher at Microsoft. He is passionate about making the digital world a safer place for everybody
               social:
@@ -1063,7 +1063,7 @@
             - id: FS-27
               fullName: Rumanu Bhardwaj
               title:
-              profilePicture:
+              profilePicture: /2023/images/speakers/featured/rumanu-bhardwaj.jpg
               proposalTitle: How Differential Privacy Changed The World, and What The Math Really Means
               about: Rumanu is a data privacy researcher who is excited to attend PyCon India in person!
               social:
