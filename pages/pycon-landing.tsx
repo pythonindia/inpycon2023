@@ -6,7 +6,6 @@ import SponsorComponent from "../components/sponsor";
 import CommunityPartners from "../components/communityPartners";
 import SubscribeSection from "../components/subscribe";
 import RegistrationSection from "../components/registration";
-import ConferenceSchedule from "../components/schedule";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
 import { fetchSpeakers } from "lib/data";
@@ -20,7 +19,6 @@ export default function PyConIndiaWeb() {
       <HeroBanner />
       <JourneyComponent />
       <Speakers speakers={speakers["keynoteSpeakers"]} showMicCreative={true} title="Keynote Speakers" />
-      <ConferenceSchedule />
       <RegistrationSection />
       <SponsorComponent />
       <CommunityPartners />
