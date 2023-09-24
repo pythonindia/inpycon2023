@@ -1,6 +1,7 @@
 platinum:
   - logo: images/sponsors/neo4j.png
     website: http://neo4j.com
+    name: neo4j
     instagram: https://www.instagram.com/neo4j/
     linkedin: https://www.linkedin.com/company/neo4j/
     twitter: https://twitter.com/neo4j
@@ -8,40 +9,48 @@ platinum:
     paddingClass: p-1
   - logo: images/sponsors/happyfox.png
     website: https://happyfox.com
+    name: happyfox
     linkedin: https://www.linkedin.com/company/happyfox-inc-/
     paddingClass: p-4
 gold:
   - logo: images/sponsors/innovaccer.png
     website: https://innovaccer.com/
+    name: innovaccer
     linkedin: https://www.linkedin.com/company/innovaccer/
     paddingClass: p-4
   - logo: images/sponsors/corteva.png
     website: https://www.corteva.com/
+    name: corteva
     linkedin: https://www.linkedin.com/company/corteva/
     paddingClass: p-3
   - logo: images/sponsors/lindex.png
     website: https://www.llamaindex.ai/
+    name: llamaindex
     linkedin: https://www.linkedin.com/company/llamaindex/
     twitter: https://twitter.com/llama_index
     paddingClass: p-3
   - logo: images/sponsors/toyota.png
     website: https://toyotaconnected.co.in/
+    name: toyota
     linkedin:  https://www.linkedin.com/company/toyota-connected-india-pvt-ltd/
     twitter:  https://twitter.com/tcin_india
     facebook: https://www.facebook.com/TCIN.India
     paddingClass: p-4
   - logo: images/sponsors/zeomega.png
     website: https://www.zeomega.com/
+    name: zeomega
     linkedin:  https://www.linkedin.com/company/zeomega/
     twitter:  https://twitter.com/zeomega
     paddingClass: p-3
   - logo: images/sponsors/google.png
     website: https://cloud.google.com/
+    name: google cloud
     facebook:  https://www.facebook.com/GoogleCloudIN
     twitter:  https://twitter.com/GoogleCloud_IN
     paddingClass: p-3
   - logo: images/sponsors/rezoomex.png
     website: https://www.rezoomex.com/
+    name: rezoomex
     facebook: https://www.facebook.com/rezoomex/
     twitter:  https://twitter.com/rezoomex
     linkedin: https://www.linkedin.com/company/10327498/admin/feed/posts/
@@ -50,12 +59,14 @@ gold:
 silver:
   - logo: images/sponsors/zoho.png
     website: https://www.site24x7.com/
+    name: zoho
     linkedin: https://www.linkedin.com/company/site24x7
     twitter: https://twitter.com/Site24x7
     facebook: https://facebook.com/Site24x7
     paddingClass: p-3
   - logo: images/sponsors/frappe.png
     website: http://frappe.io
+    name: frappe
     instagram: https://www.instagram.com/frappetech/
     linkedin: https://in.linkedin.com/company/frappe-technologies
     twitter: https://twitter.com/frappetech
@@ -63,12 +74,14 @@ silver:
     paddingClass: p-4
   - logo: images/sponsors/certa.png
     website: https://getcerta.com
+    name: certa
     instagram: https://www.instagram.com/getcerta
     linkedin: https://www.linkedin.com/company/certa-in
     twitter: https://www.twitter.com/certa
     paddingClass: p-4
   - logo: images/sponsors/seneca.png
     website: https://www.senecaglobal.com
+    name: seneca global
     instagram: https://www.instagram.com/senecaglobalinc
     facebook: https://www.facebook.com/groups/senecaglobal/
     linkedin: https://www.linkedin.com/company/senecaglobal/
@@ -76,12 +89,14 @@ silver:
     paddingClass: p-0
   - logo: images/sponsors/avoma.png
     website: https://www.avoma.com/
+    name: avoma
     facebook: https://www.facebook.com/AvomaInc
     linkedin: https://www.linkedin.com/company/avoma/
     twitter: https://twitter.com/AvomaInc
     paddingClass: p-1
   - logo: images/sponsors/bloomberg.png
     website: https://techatbloomberg.com/python
+    name: bloomberg engineering
     facebook: https://www.facebook.com/bloomberg
     linkedin: https://www.linkedin.com/company/bloomberg
     twitter: https://twitter.com/TechAtBloomberg
@@ -90,11 +105,13 @@ silver:
 associate:
   - logo: images/sponsors/reckonsys.png
     website: https://www.reckonsys.com/
+    name: reckonsys
     linkedin: https://www.linkedin.com/company/reckonsys/
     instagram: https://instagram.com/reckonsys?igshid=MzRlODBiNWFlZA==
     paddingClass: p-4
   - logo: images/sponsors/volantio.png
     website: https://volantio.com/
+    name: volantio
     twitter: https://twitter.com/volantio
     linkedin: https://www.linkedin.com/company/volantio-inc-/
     paddingClass: p-4
