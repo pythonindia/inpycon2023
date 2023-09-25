@@ -1,4 +1,4 @@
-import { Accordion, Card } from "react-bootstrap";
+import { Accordion, Badge, Card, Stack } from "react-bootstrap";
 import ScheduleData from "../data/schedule.yml";
 import SpeakerDetail from "components/speakerDetail";
 import React, { useState } from "react";
@@ -8,6 +8,21 @@ import CustomModal from "./customModal";
 
 // group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
 const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
+
+const getTrackRoom = (num) => {
+  switch (num) {
+    default:
+      return "";
+    case 1:
+      return "JN Auditorium";
+    case 2:
+      return "ECE Seminar Hall";
+    case 3:
+      return "JHUB Hall 1";
+    case 4:
+      return "JHUB Hall 2";
+  }
+};
 
 const ConferenceSchedule = () => {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -198,6 +213,9 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
               {title}
             </a>
           </p>
+          <Stack>
+            <Badge bg="secondary">{getTrackRoom(track)}</Badge>
+          </Stack>
         </div>
       </div>
     </>
@@ -218,10 +236,16 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
       <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
         <Accordion.Header>{date}</Accordion.Header>
         <Accordion.Body style={{ padding: "1rem 0rem" }}>
-          {currentSchedule.schedule.map((scheduleItem, idx) => {
-            return scheduleItem.talks.map((talk) => {
+          {currentSchedule.schedule.map((scheduleItem) => {
+            return scheduleItem.talks.map((talk, idx) => {
               return (
-                <Card style={{ margin: "0.8rem 0" }} key={idx}>
+                <Card
+                  style={{ margin: "0.8rem 0" }}
+                  key={`accordion-card-${idx}`}
+                >
+                  {talk.title.indexOf("Keynote") > -1 && (
+                    <Card.Header className="bg-warning">Keynote</Card.Header>
+                  )}
                   <Card.Body>
                     <Card.Subtitle className="mb-4">
                       {scheduleItem.time}
@@ -236,6 +260,9 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                         {talk.title}
                       </a>
                     </Card.Title>
+                    <Stack>
+                      <Badge bg="secondary">{getTrackRoom(talk.track)}</Badge>
+                    </Stack>
                     <Card.Text className="pt-1">
                       {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
@@ -262,6 +289,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                               </span>
                             </div>
                             <CustomModal
+                              key={`accordio-modal-${index}`}
                               showModal={selectedSpeakerId == speaker.id}
                               handleClose={handleCloseSpeakerModal}
                             >
