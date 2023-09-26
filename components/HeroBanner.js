@@ -26,12 +26,15 @@ const HeroBanner = () => {
               </p>
               <div className="row register-btn justify-content-center">
                 <div className="col-md-6 col-8 pt-3">
-                  <Button
-                    buttonClassName="custom-button green-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Buy Tickets"
-                    buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
-                  />
+                  <Tooltip text="Ticket sales are closed">
+                    <Button
+                      buttonClassName="custom-button grey-btn register-btn-extra-padding"
+                      anchorClassName="text-decoration-none text-light"
+                      buttonLabel="Buy Tickets"
+                      buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
+                      disabled={true}
+                    />
+                  </Tooltip>
                 </div>
                 <div className="col-md-6 col-8 pt-3">
                   <Button
