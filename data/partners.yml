@@ -1,8 +1,13 @@
-- name:  CEFT, JNTUH-Blackbucks
+- name: JNTU, Hyderabad
   title: Academic Partner
-  logo: images/partners/jntu_blackbucks.png
+  logo: images/partners/jntu.png
   paddingClass: p-1
   website: https://jntuh.ac.in
+- name: Black Bucks
+  title: Academic Partner
+  logo: images/partners/black-buck.png
+  paddingClass: p-1
+  website: https://www.theblackbucks.com
 - name: Phenom People
   title: Venue Partner
   logo: images/partners/phenom-people.png
