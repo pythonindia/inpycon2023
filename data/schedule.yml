@@ -349,42 +349,42 @@
           duration: 30
           track: 3
           speakers:
-          - id: FS-33
-            fullName: Shaikh Mohd Ubaid Mohd Jawed
-            title:
-            profilePicture: /2023/images/speakers/featured/shaikh-mohd-ubaid-mohd-jawed.jpg
-            proposalTitle: LPython - Novel, Fast, Retargetable Python Compiler
-            about:
-              Ubaid Shaikh received his B.Tech degree in Computer Science and Engineering from Indian Institute of Technology Indore, India.<br>
-              He is currently a Compiler Developer at GSI Technology working on LPython and LFortran Compilers. In the past, he has interned at Development Bank of Singapore (DBS Bank) and has been a Google Summer of Code (GSoC) Fellow.
-            social:
-              - platform: github
-                link: https://github.com/Shaikh-Ubaid
-              - platform: linkedin
-                link: https://www.linkedin.com/in/shaikh-ubaid/
-              - platform: website
-                link: https://shaikh-ubaid.github.io/
+            - id: FS-33
+              fullName: Shaikh Mohd Ubaid Mohd Jawed
+              title:
+              profilePicture: /2023/images/speakers/featured/shaikh-mohd-ubaid-mohd-jawed.jpg
+              proposalTitle: LPython - Novel, Fast, Retargetable Python Compiler
+              about:
+                Ubaid Shaikh received his B.Tech degree in Computer Science and Engineering from Indian Institute of Technology Indore, India.<br>
+                He is currently a Compiler Developer at GSI Technology working on LPython and LFortran Compilers. In the past, he has interned at Development Bank of Singapore (DBS Bank) and has been a Google Summer of Code (GSoC) Fellow.
+              social:
+                - platform: github
+                  link: https://github.com/Shaikh-Ubaid
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/shaikh-ubaid/
+                - platform: website
+                  link: https://shaikh-ubaid.github.io/
         - image: "/2023/images/icons/tab7.png"
           title: Mistakes made and lessons learned doing IPC in Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
           track: 4
           speakers:
-          - id: FS-07
-            fullName: Kartheek Surampudi
-            title:
-            profilePicture: /2023/images/speakers/featured/kartheek-surampudi.jpg
-            proposalTitle: Mistakes made and lessons learned doing IPC in Python
-            about:
-              Meet Kartheek, Head of Engineering at ScaleGenAI, with extensive experience in Python, Deep Learning, and Cloud/System Architecture. Holding a bachelor's degree in Information Technology, Kartheek has led various projects, including MLOps and highly available backend systems.<br>
-              His expertise, in Python, lies in concurrency and OOP, and he is currently focused on reducing training time for GenAI models by 10x at ScaleGenAI.
-            social:
-              - platform: github
-                link: https://github.com/k4rth33k
-              - platform: linkedin
-                link: https://www.linkedin.com/in/kartheek-surampudi-0a535a163/
-              - platform: twitter
-                link: https://twitter.com/kartheek0000
+            - id: FS-07
+              fullName: Kartheek Surampudi
+              title:
+              profilePicture: /2023/images/speakers/featured/kartheek-surampudi.jpg
+              proposalTitle: Mistakes made and lessons learned doing IPC in Python
+              about:
+                Meet Kartheek, Head of Engineering at ScaleGenAI, with extensive experience in Python, Deep Learning, and Cloud/System Architecture. Holding a bachelor's degree in Information Technology, Kartheek has led various projects, including MLOps and highly available backend systems.<br>
+                His expertise, in Python, lies in concurrency and OOP, and he is currently focused on reducing training time for GenAI models by 10x at ScaleGenAI.
+              social:
+                - platform: github
+                  link: https://github.com/k4rth33k
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/kartheek-surampudi-0a535a163/
+                - platform: twitter
+                  link: https://twitter.com/kartheek0000
     - time: "12:20 PM - 12:50 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
@@ -500,8 +500,23 @@
                 Aby is a Product Engineer at UST working in the travel domain. With a keen eye for detail and a desire to improve, he is currently exploring more on the Python microservices and the GraphQL ecosystem.<br>
                 Aby also has experience in resolving various business problems by combining purpose-led research and digital technology innovation with rapid prototyping.
               social:
+            - id: FS-77
+              fullName: M Ashwin Kishore
+              title:
+              profilePicture: /2023/images/speakers/featured/m_ashwin_kishore.jpg
+              proposalTitle: Metaprogramming In Python
+              about:
+                M Aswin Kishore is a community-oriented developer with a knack for leveraging technology to tackle real-world problems. He is currently working as a Product Engineer at UST in the travel domain, specializing in Python microservices and the GraphQL ecosystem.
+                His journey began at the Google Developer Students Club during his college years, where he not only fine-tuned his technical skills but also organized technical events to share the latest tech trends with his peers. Today, Aswin is an active member of the Trivandrum Python community, dedicated to spreading his love for Python throughout his hometown.
+              social:
                 - platform: linkedin
-                  link: https://www.linkedin.com/in/abymjoseph/
+                  link: https://www.linkedin.com/in/maswinkishore
+                - platform: github
+                  link: https://github.com/mak626
+                - platform: twitter
+                  link: https://twitter.com/maswinkishore
+                - platform: website
+                  link: https://mak626.github.io/
         - image: "/2023/images/icons/tab12.png"
           title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
@@ -682,6 +697,52 @@
                   link: https://twitter.com/cheukting_ho
                 - platform: website
                   link: https://cheuk.dev
+    - time: "10:30 AM - 05:00 PM"
+      talks:
+        - title: Tinkering Space
+          track: Tinkering Space
+          speakers:
+            - id: TS-01
+              fullName: Anitha Raman
+              title: Founder & CEO codePannu
+              profilePicture: /2023/images/speakers/tinkeringSpace/anitha_raman.png
+              about:
+                With a decade of experience in building and scaling teams in data science and another 5 yrs as an
+                independent consultant with tech enabled startups, Anitha Raman has now initiated this mission to provide easy and application-based Tech education for kids across the globe.
+                She strongly believes that every child regardless of their background or location, deserves equal access to quality learning opportunities
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/anitharaman
+                - platform: instagram
+                  link: https://instagram.com/anitha__raman
+            - id: TS-02
+              fullName: Manav Sethi
+              profilePicture: /2023/images/speakers/tinkeringSpace/manav.png
+              about: Manav Sethi is a Backend and Machine Learning Engineer at Olvyhq, Beyond this he loves to tinker with electronics, build robots with a great interest in democratizing robots . As a result he has also co-founded A.T.O.M Robotics Lab which is an open robotics lab based out of Delhi which works on ROS and other open source robotics stacks building industrial robots for education.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/insaanimanav/
+                - platform: website
+                  link: https://manav.co.in/
+
+    - time: "10:30 AM - 01:30 PM"
+      talks:
+        - title: Young Learners Workshop
+          track: Young Learners Workshop
+          speakers:
+            - id: YLW-01
+              fullName: Harsh Mittal
+              title:
+              profilePicture: /2023/images/speakers/ylw/harsh_mittal.jpg
+              about: Harsh Mittal is a Robotics Software Developer with over 3 years of experience and is currently working in Brane Enterprises on creating Autonomous Swarm Drones and Quadraped. He has completed is Bachelors from LNMIIT in Electronics and Communication. Harsh is passionate about Robotics, Software Development, IoT and AI. He likes to share his knowledge via Youtube Tutorials and Blogs. Harsh has also given talks in PyCon India, PyCon Sweden and also have published paper in IEEE Osaka Japan.
+              social:
+                - platform: youtube
+                  link: www.youtube.com/@HarshMittalYoutube
+                - platform: website
+                  link: www.harshmittal.co.in/tutorials
+                - platform: website
+                  link: www.harshmittal.co.in
+
     - time: "10:30 AM - 11:00 AM"
       talks:
         - image: "/2023/images/icons/tab4.png"
@@ -937,9 +998,20 @@
                 - platform: website
                   link: https://scholar.google.com/citations?user=5029f7QAAAAJ&hl=en
         - image: "/2023/images/icons/tab7.png"
-          title: Sponsored Talk
+          title: Building Production Ready LLM Applications using MongoDB Atlas
           duration: 30
           track: 4
+          speakers:
+            - id: FS-39
+              fullName: Megha Arora
+              title:
+              profilePicture: /2023/images/speakers/featured/megha_arora.jpg
+              proposalTitle: Building Production Ready LLM Applications using MongoDB Atlas
+              about: Megha has around 13 years of industry experience in engineering roles across different domains with companies such as Apple, Microsoft, Samsung and Makemytrip India and post which she forayed into Dev Advocacy with MongoDB and is the first dev relations engineer to be hired for APAC region and will be leading the APAC dev advocacy squad with her team in Singapore and India. When it comes to tech, she likes being part of system design discussions and developing from scratch, doing POCs and debugging. Apart from this she focuses a lot on learning each day and chasing her passions of giving back to the community. She teaches topics such as system design and mentor students in limited capacity.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/arora-megha/
+
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
@@ -1082,7 +1154,8 @@
               title:
               profilePicture: /2023/images/speakers/featured/navya-agarwal.jpg
               proposalTitle: Complex Network Analysis in Economics
-              about: Navya Agarwal is a third year Computer Science student at IGDTUW.<br>
+              about:
+                Navya Agarwal is a third year Computer Science student at IGDTUW.<br>
                 She has worked on NetworkX as an Outreachy intern.<br>
                 She is currently researching Coordinated Campaigns on Social Media using complex network analysis.<br>
                 She is passionate about Open Source, specifically the Scientific Python ecosystem.
@@ -1123,16 +1196,16 @@
           duration: 60
           track: 1
           speakers:
-          - id: KS-05
-            fullName: Shailesh Kumar
-            title: Chief Data Scientist, CoE AI/ML Jio
-            profilePicture: /2023/images/speakers/keynote/shailesh-kumar.jpg
-            about:
-              Dr. Shailesh Kumar is currently the Chief Data Scientist at the Centre of Excellence in AI/ML, Reliance Jio. He has published over 20 international papers and book chapters and holds more than 20 patents in AI/ML. He was recognized as one of the top 10 data scientists in India in 2015 by Analytics India Magazine.<br>
-              Dr. Shailesh Kumar was formerly the Vice President at Ola Cabs where he worked on several computer science, machine learning, artificial intelligence and optimization issues in fleet management. He was also the Chief Scientist and Co- Founder of Third Leap – an EdTech startup that uses AI to create personalized math guides. Prior to this, Dr. Kumar worked at Google on a variety of products at Google involving Information Retrieval, Enterprise Search, Legal E-Discovery, Natural Language Understanding (Phrase Discovery, Word Sense Disambiguation), Computer Vision, Knowledge Graph Mining, Conversation Modelling, and Deep Learning on Text and Vision. His experience of creating AI based solutions ranges comprises multiple domains including finance, remote sensing, retail, knowledge graph, conversational computing and computer vision."
-            social:
-              - platform: linkedin
-                link: https://www.linkedin.com/in/shaileshk
+            - id: KS-05
+              fullName: Shailesh Kumar
+              title: Chief Data Scientist, CoE AI/ML Jio
+              profilePicture: /2023/images/speakers/keynote/shailesh-kumar.jpg
+              about:
+                Dr. Shailesh Kumar is currently the Chief Data Scientist at the Centre of Excellence in AI/ML, Reliance Jio. He has published over 20 international papers and book chapters and holds more than 20 patents in AI/ML. He was recognized as one of the top 10 data scientists in India in 2015 by Analytics India Magazine.<br>
+                Dr. Shailesh Kumar was formerly the Vice President at Ola Cabs where he worked on several computer science, machine learning, artificial intelligence and optimization issues in fleet management. He was also the Chief Scientist and Co- Founder of Third Leap – an EdTech startup that uses AI to create personalized math guides. Prior to this, Dr. Kumar worked at Google on a variety of products at Google involving Information Retrieval, Enterprise Search, Legal E-Discovery, Natural Language Understanding (Phrase Discovery, Word Sense Disambiguation), Computer Vision, Knowledge Graph Mining, Conversation Modelling, and Deep Learning on Text and Vision. His experience of creating AI based solutions ranges comprises multiple domains including finance, remote sensing, retail, knowledge graph, conversational computing and computer vision."
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/shaileshk
     - time: "06:00 PM - 06:15 PM"
       talks:
         - image: "/2023/images/icons/tab14.png"

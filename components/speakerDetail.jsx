@@ -9,18 +9,23 @@ const TalkDetail = (speaker) => {
     <>
       <span>Talk Details:</span>
       <ul className="ms-3">
-        {speaker.proposalLink ?
-          <li>Addressing: <Link target="_blank" href={speaker.proposalLink}>{speaker.proposalTitle}</Link></li> :
+        {speaker.proposalLink ? (
+          <li>
+            Addressing:{" "}
+            <Link target="_blank" href={speaker.proposalLink}>
+              {speaker.proposalTitle}
+            </Link>
+          </li>
+        ) : (
           <li>Addressing: {speaker.proposalTitle}</li>
-        }
+        )}
         {speaker.talkDate && <li>Date: {speaker.talkDate}</li>}
         {speaker.talkTime && <li>Time: {speaker.talkTime}</li>}
         {speaker.track && <li>Track: {speaker.track}</li>}
-
       </ul>
     </>
-  )
-}
+  );
+};
 
 const SpeakerDetail = ({ speaker, showHyperLink }) => {
   return (
@@ -51,27 +56,27 @@ const SpeakerDetail = ({ speaker, showHyperLink }) => {
         </div>
         <div className="row bg-speaker-bio-about pt-4 px-4">
           <p dangerouslySetInnerHTML={{ __html: speaker.about }}></p>
-          {speaker.proposalTitle &&
-            <TalkDetail {...speaker} />}
+          {speaker.proposalTitle && <TalkDetail {...speaker} />}
         </div>
         <div className="d-flex justify-content-between bg-speaker-bio-social py-2 px-4">
           <div>
-            {speaker.social.map((item, index) => (
-              <span className="me-1" key={index}>
-                <Link
-                  href={item.link}
-                  target="_blank"
-                  aria-label={`Hyperlink to speaker's ${item.icon} profile.`}
-                >
-                  <IconComponent
-                    className="my-1"
-                    name={item.platform}
-                    color="#fff"
-                    backgroundColor="1f928d"
-                  />
-                </Link>
-              </span>
-            ))}
+            {speaker.social &&
+              speaker.social.map((item, index) => (
+                <span className="me-1" key={index}>
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    aria-label={`Hyperlink to speaker's ${item.icon} profile.`}
+                  >
+                    <IconComponent
+                      className="my-1"
+                      name={item.platform}
+                      color="#fff"
+                      backgroundColor="1f928d"
+                    />
+                  </Link>
+                </span>
+              ))}
           </div>
           {showHyperLink && (
             <div>
