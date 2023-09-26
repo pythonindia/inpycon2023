@@ -102,6 +102,10 @@ silver:
     twitter: https://twitter.com/TechAtBloomberg
     instagram: https://www.instagram.com/bloomberg
     paddingClass: p-3
+  - logo: images/sponsors/redhat.png
+    website: https://www.redhat.com/
+    twitter: https://twitter.com/redhatopen
+    paddingClass: p-3
 associate:
   - logo: images/sponsors/reckonsys.png
     website: https://www.reckonsys.com/
