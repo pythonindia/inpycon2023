@@ -4,9 +4,12 @@
     - time: "08:30 AM - 09:45 AM"
       talks:
         - image: "/2023/images/icons/tab1.png"
-          title: Registrations / Tea
+          title: Registrations 
           duration: 75
-          track: 1
+          track: 8
+        - title: Tea
+          duration: 75
+          track: 7
     - time: "10:00 AM - 01:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
@@ -55,7 +58,6 @@
           speakers:
             - id: WS-06
               fullName: Hemangi Karchalkar
-              title:
               profilePicture: /2023/images/speakers/workshopInstructors/hemangi-karchalkar.jpg
               proposalTitle: Let's have fun building APIs with Starlette - The Asynchronous Python Web Framework
               about:
@@ -67,16 +69,16 @@
                 - platform: instagram
                   link: https://www.instagram.com/hemangi.k/
         - image: "/2023/images/icons/tab2.png"
-          title: Sponsored Workshop by Neo4j
+          title: Graph-Powered NLP with Neo4j, Python, and LLM (Sponsored Workshop by Neo4j)
           duration: 180
           track: 4
-          speakersPlaceHolder: TBA
+
     - time: "01:00 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab4.png"
           title: Lunch
           duration: 60
-          track: 1
+          track: 7
     - time: "02:00 PM - 05:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
@@ -172,7 +174,7 @@
         - image: "/2023/images/icons/tab1.png"
           title: Registrations
           duration: 60
-          track: 1
+          track: 8
     - time: "09:00 AM - 09:15 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
@@ -211,7 +213,7 @@
         - image: "/2023/images/icons/tab5.png"
           title: Tea Break
           duration: 30
-          track: 1
+          track: 7
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab6.png"
@@ -294,6 +296,16 @@
                   link: https://github.com/abhinand-c
                 - platform: linkedin
                   link: https://www.linkedin.com/in/abhinand-c
+        - image: "/2023/images/icons/tab6.png"
+          title: Sponsored Talk by Toyota 
+          proposalLink: 
+          duration: 30
+          track: 5
+    - time: "11:00 AM - 12:50 PM"
+      talks:
+        - title: Birds of a feather
+          track: 6
+        
     - time: "11:40 AM - 12:10 PM"
       talks:
         - image: "/2023/images/icons/tab7.png"
@@ -385,6 +397,11 @@
                   link: https://www.linkedin.com/in/kartheek-surampudi-0a535a163/
                 - platform: twitter
                   link: https://twitter.com/kartheek0000
+        - image: "/2023/images/icons/tab7.png"
+          title: Sponsored Talk by Google 
+          proposalLink: 
+          duration: 30
+          track: 5
     - time: "12:20 PM - 12:50 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
@@ -437,15 +454,43 @@
                 - platform: linkedin
                   link: https://www.linkedin.com/in/kamahmad/
         - image: "/2023/images/icons/tab8.png"
-          title: Sponsored Talk
-          duration: 30
+          title: "Efficiency through Simplicity: Avoiding if-then statements with graphs" 
+          duration: 15
+          proposalLink: 
           track: 4
+          speakers:
+            - id: FS-101
+              fullName: Jason Koo
+              profilePicture: /2023/images/animation/layer6.png
+            - id: FS-102 
+              fullName: Alison Cossette
+              profilePicture: /2023/images/animation/layer6.png
+        - image: "/2023/images/icons/tab8.png"
+          title: "Building a Healthcare Platform: Key learnings from a 10 year journey" 
+          duration: 15
+          proposalLink: 
+          track: 4
+          speakers:
+            - id: FS-103
+              fullName: Aditi Mishra
+              profilePicture: /2023/images/animation/layer6.png
+            
+        - image: "/2023/images/icons/tab8.png"
+          title: PyConnect With Local Chapters - Delhi, Pune, Chennai, Bangalore, Hyderabad ...
+          proposalLink: 
+          duration: 30
+          track: 5
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
           title: Lunch
           duration: 70
-          track: 1
+          track: 7
+        - image: "/2023/images/icons/tab9.png"
+          title: PyLadies Luncheon
+          duration: 70
+          track: 6
+        
     - time: "02:00 PM - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab10.png"
@@ -478,13 +523,32 @@
     - time: "03:40 PM - 04:10 PM"
       talks:
         - image: "/2023/images/icons/tab12.png"
-          title: Sponsored Talk
+          title: "Beyond Code: Enterprise Grade Software Engineering"
           duration: 30
           track: 1
+          speakers: 
+            - id: FS-104
+              fullName: Pradeek
+              profilePicture: /2023/images/animation/layer6.png
+        
         - image: "/2023/images/icons/tab12.png"
-          title: Technical Panel Discussion - LLMs in Production
+          title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
+          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
           duration: 30
           track: 2
+          speakers:
+            - id: FS-35
+              fullName: Priyadarshan Patil
+              title:
+              profilePicture: /2023/images/speakers/featured/priyadarshan-patil.jpg
+              proposalTitle: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
+              about:
+                Priyadarshan works as Solution Consultant at Sahaj.ai. He has 16 years of Software Engineering experience focussed on Tech Consulting and implementation and building strong technology teams. He has worked on Distributed systems, and traditional monolith platforms and built products on top of Eclipse Platform.<br>
+                He has diverse experience in Software Engineering - building tech platforms, delivery management, customer relationship management, and presales. At Sahaj, he is learning the art of building technology platforms with extreme programming practice and working in high-trust and High accountability technology teams. He is also helping Sahaj bootstrap its delivery center in Hyderabad.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/priyadarshanpatil/
+          
         - image: "/2023/images/icons/tab12.png"
           title: Metaprogramming In Python
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/metaprogramming-in-python~bo22X/
@@ -517,23 +581,17 @@
                   link: https://twitter.com/maswinkishore
                 - platform: website
                   link: https://mak626.github.io/
+        
         - image: "/2023/images/icons/tab12.png"
-          title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
-          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
+          title: Technical Panel - LLMs in Production
           duration: 30
           track: 4
-          speakers:
-            - id: FS-35
-              fullName: Priyadarshan Patil
-              title:
-              profilePicture: /2023/images/speakers/featured/priyadarshan-patil.jpg
-              proposalTitle: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
-              about:
-                Priyadarshan works as Solution Consultant at Sahaj.ai. He has 16 years of Software Engineering experience focussed on Tech Consulting and implementation and building strong technology teams. He has worked on Distributed systems, and traditional monolith platforms and built products on top of Eclipse Platform.<br>
-                He has diverse experience in Software Engineering - building tech platforms, delivery management, customer relationship management, and presales. At Sahaj, he is learning the art of building technology platforms with extreme programming practice and working in high-trust and High accountability technology teams. He is also helping Sahaj bootstrap its delivery center in Hyderabad.
-              social:
-                - platform: linkedin
-                  link: https://www.linkedin.com/in/priyadarshanpatil/
+        
+        - image: "/2023/images/icons/tab12.png"
+          title: Open Slot
+          duration: 30
+          track: 5
+
     - time: "04:20 PM - 04:50 PM"
       talks:
         - image: "/2023/images/icons/tab13.png"
@@ -624,6 +682,22 @@
                   link: https://twitter.com/srijanshetty
                 - platform: instagram
                   link: https://instagram.com/srijanshetty
+        - image: "/2023/images/icons/tab13.png"
+          title: Sponsored Talk by ManageEngineSite 24x7
+          duration: 30
+          track: 5
+        - image: "/2023/images/icons/tab13.png"
+          title: Sponsored Talk by Frappe
+          duration: 30
+          track: 5
+
+    - time: "15:40 PM - 16:50 PM"
+      talks:
+        - image: "/2023/images/icons/tab13.png"
+          title: Software Exhibits
+          duration: 70
+          track: 6
+
     - time: "05:00 PM - 06:00 PM"
       talks:
         - image: "/2023/images/icons/tab14.png"

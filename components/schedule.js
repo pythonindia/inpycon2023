@@ -15,13 +15,21 @@ const getTrackRoom = (num) => {
     default:
       return "";
     case 1:
-      return "JN Auditorium";
+      return "JN Auditorium (Track 1)";
     case 2:
-      return "ECE Seminar Hall";
+      return "ECE Seminar Hall (Track 2)";
     case 3:
-      return "JHUB Hall 1";
+      return "JHUB Hall 1 (Track 3)";
     case 4:
-      return "JHUB Hall 2";
+      return "JHUB Hall 2 (Track 4)";
+    case 5: 
+      return "JN Auditorium (Open Space 1)"
+    case 6: 
+      return "JN Auditorium (Open Space 2)"
+    case 7: 
+      return "Cafeteria"
+    case 8: 
+      return "PyCon India 2023 Check-In Booth"
   }
 };
 
