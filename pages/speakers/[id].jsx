@@ -18,7 +18,10 @@ const SpeakerPage = () => {
     const speakers = [
       ...categorizedSpeakers["keynoteSpeakers"],
       ...categorizedSpeakers["featuredSpeakers"],
-      ...categorizedSpeakers["workshopInstructors"]];
+      ...categorizedSpeakers["workshopInstructors"],
+      ...categorizedSpeakers["tinkeringSpace"],
+      ...categorizedSpeakers["youngLearnersWorkshop"],
+    ];
 
     const findSpeaker = () => {
       const foundSpeaker = speakers.find(
