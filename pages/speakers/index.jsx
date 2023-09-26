@@ -11,7 +11,9 @@ const SpeakersPage = () => {
   const [speakers, setSpeakers] = useState({
     keynoteSpeakers: [],
     featuredSpeakers: [],
-    workshopInstructors: []
+    workshopInstructors: [],
+    tinkeringSpace: [],
+    youngLearnersWorkshop:[]
   });
 
   useEffect(() => {
@@ -36,6 +38,8 @@ const SpeakersPage = () => {
         <Speakers speakers={speakers["keynoteSpeakers"]} showMicCreative={true} title="Keynote Speakers" />
         <Speakers speakers={speakers["featuredSpeakers"]} title="Speakers" />
         <Speakers speakers={speakers["workshopInstructors"]} title="Workshop Instructors" />
+        <Speakers speakers={speakers["tinkeringSpace"]} title="Tinkering Space" />
+        <Speakers speakers={speakers["youngLearnersWorkshop"]} title="Young Learners Workshop" />
       </div>
       <Footer />
     </>

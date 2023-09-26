@@ -535,9 +535,13 @@ button a {
   color: #000 !important;
   background-color: #f2eee2 !important;
   border-radius: 0;
-  padding: 20px 30px !important;
+  padding: 10px 20px !important;
   text-align: start;
   border: 1px solid transparent !important;
+}
+
+.bg-conference .nav-pills .nav-link .date-acc{
+  font-size: 1.2rem !important;
 }
 
 .bg-conference .nav-pills .nav-link:hover {
@@ -547,6 +551,22 @@ button a {
 
 .bg-conference .nav-pills .nav-link.active {
   background-color: #eac124 !important;
+}
+
+.bg-conference .tab-pane .date-announced{
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+
+.bg-conference .talk-card .talk-title{
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500 !important;
+  color: #000;
+}
+
+.bg-conference .talk-card .talk-speaker-title{
+  display: inline-block;
 }
 
 .bt-top {

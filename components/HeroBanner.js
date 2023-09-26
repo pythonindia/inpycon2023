@@ -6,6 +6,7 @@ import logo from "../public/images/logos/logo.png";
 import calendarData from "../data/calendar.yml";
 import Button from "./button";
 import Tooltip from "./tooltip";
+import IconComponent from "./icons";
 
 const HeroBanner = () => {
   return (
@@ -17,31 +18,45 @@ const HeroBanner = () => {
               <div className="d-md-block pycon-logo text-center text-lg-start">
                 <h1 hidden>PyCon India 2023</h1>
                 <a href="#">
-                  <Image src={logo} width="100%" height="100%" alt="PyCon India, Hyderabad 2023 logo showing people and hyderabad charminar in the background" />
+                  <Image
+                    src={logo}
+                    width="100%"
+                    height="100%"
+                    alt="PyCon India, Hyderabad 2023 logo showing people and hyderabad charminar in the background"
+                  />
                 </a>
               </div>
               <p className="pt-3 text-center text-lg-start">
-                PyCon India 2023 is the premier conference for Python enthusiasts and professionals, offering an unparalleled opportunity to dive deep into the world of Python and explore its limitless potential.
-                Stay tuned for updates!
+                PyCon India 2023 is the premier conference for Python
+                enthusiasts and professionals, offering an unparalleled
+                opportunity to dive deep into the world of Python and explore
+                its limitless potential. Stay tuned for updates!
               </p>
               <div className="row register-btn justify-content-center">
                 <div className="col-md-6 col-8 pt-3">
-                  <Tooltip text="Ticket sales are closed">
-                    <Button
-                      buttonClassName="custom-button grey-btn register-btn-extra-padding"
-                      anchorClassName="text-decoration-none text-light"
-                      buttonLabel="Buy Tickets"
-                      buttonHyperLink="https://konfhub.com/pyconindia2023#tickets"
-                      disabled={true}
-                    />
-                  </Tooltip>
+                  <Button
+                    buttonHyperLink="/schedule/"
+                    openInNewTab={false}
+                    anchorClassName="text-decoration-none text-light"
+                    buttonClassName="custom-button green-btn"
+                    buttonLabel="Check out the Schedule"
+                    icon={
+                      <IconComponent
+                        className="ms-2"
+                        name="arrowRight"
+                        padding={0}
+                        size={20}
+                      />
+                    }
+                  />
                 </div>
                 <div className="col-md-6 col-8 pt-3">
                   <Button
-                    buttonClassName="custom-button submit-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none"
-                    buttonLabel="BoFs and Posters"
-                    buttonHyperLink="https://in.pycon.org/cfp/bofs-and-posters-2023/proposals/"
+                    buttonHyperLink="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
+                    openInNewTab={true}
+                    anchorClassName="text-decoration-none text-light"
+                    buttonClassName="custom-button green-btn"
+                    buttonLabel="Download Schedule"
                   />
                 </div>
               </div>
@@ -55,15 +70,12 @@ const HeroBanner = () => {
                   />
                 </div>
                 <div className="col-md-6 col-8 pt-3">
-                  <Tooltip text="CFP closed for Talks and Workshops">
-                    <Button
-                      buttonClassName="custom-button grey-btn register-btn-extra-padding"
-                      anchorClassName="text-decoration-none"
-                      buttonLabel="Call For Proposal"
-                      buttonHyperLink="https://in.pycon.org/cfp/pycon-india-2023/proposals/"
-                      disabled={true}
-                    />
-                  </Tooltip>
+                  <Button
+                    buttonClassName="custom-button submit-btn register-btn-extra-padding"
+                    anchorClassName="text-decoration-none"
+                    buttonLabel="BoFs and Posters"
+                    buttonHyperLink="https://in.pycon.org/cfp/bofs-and-posters-2023/proposals/"
+                  />
                 </div>
               </div>
               <h2 className="pt-5 mb-4 date-text text-center">
@@ -81,7 +93,9 @@ const HeroBanner = () => {
                   <div key={index} className="col-md-4">
                     <div className="conference">
                       <h3 className="fw-bolder">{calendar.title}</h3>
-                      <p className="pt-2">{calendar.date}, {calendar.location}</p>
+                      <p className="pt-2">
+                        {calendar.date}, {calendar.location}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -100,7 +114,7 @@ const HeroBanner = () => {
           </div>
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 

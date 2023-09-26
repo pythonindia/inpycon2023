@@ -6,12 +6,13 @@ import SponsorComponent from "../components/sponsor";
 import CommunityPartners from "../components/communityPartners";
 import SubscribeSection from "../components/subscribe";
 import RegistrationSection from "../components/registration";
-import ConferenceSchedule from "../components/schedule";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
 import { fetchSpeakers } from "lib/data";
 import Speakers from "components/speakers";
 import VenueSection from "../components/venue";
+import Link from "next/link";
+import IconComponent from "@components/icons";
 export default function PyConIndiaWeb() {
   const speakers = fetchSpeakers();
   return (
@@ -19,29 +20,32 @@ export default function PyConIndiaWeb() {
       <Header />
       <HeroBanner />
       <JourneyComponent />
-      <Speakers speakers={speakers["keynoteSpeakers"]} showMicCreative={true} title="Keynote Speakers" />
-      <ConferenceSchedule />
+      <Speakers
+        speakers={speakers["keynoteSpeakers"]}
+        showMicCreative={true}
+        title="Keynote Speakers"
+      />
       <RegistrationSection />
       <SponsorComponent />
       <CommunityPartners />
-      <Partners/>
+      <Partners />
       <LocalUserGroupsChapters />
-      <VenueSection 
+      <VenueSection
         cls=""
-        title="Workshop & Conference" 
-        name="Jawaharlal Nehru Technological University Hyderabad" 
+        title="Workshop & Conference"
+        name="Jawaharlal Nehru Technological University Hyderabad"
         address="Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085"
-        link="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3249696634384!2d78.38885227607479!3d17.49199398341322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3437ed8fd%3A0xbee11a361107ae67!2sJawaharlal%20Nehru%20Auditorium!5e0!3m2!1sen!2sin!4v1687286378815!5m2!1sen!2sin" 
-        />
-        <br/>
-      <VenueSection 
+        link="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3249696634384!2d78.38885227607479!3d17.49199398341322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3437ed8fd%3A0xbee11a361107ae67!2sJawaharlal%20Nehru%20Auditorium!5e0!3m2!1sen!2sin!4v1687286378815!5m2!1sen!2sin"
+      />
+      <br />
+      <VenueSection
         cls="devsprint"
-        title="DevSprints" 
-        name="Phenom People" 
+        title="DevSprints"
+        name="Phenom People"
         address="Plot No.5&6, 6th floor, White Field Rd, Kondapur, Telangana 500084"
-        link="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.052961578723!2d78.37047500499521!3d17.457179040200018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93cf9837fcc3%3A0x7b4d3fb76ff8ad18!2sPhenom%20People%20Pvt.Ltd!5e0!3m2!1sen!2sin!4v1695550693670!5m2!1sen!2sin" 
-        />
-        {/* <section className="bg-latest">
+        link="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.052961578723!2d78.37047500499521!3d17.457179040200018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93cf9837fcc3%3A0x7b4d3fb76ff8ad18!2sPhenom%20People%20Pvt.Ltd!5e0!3m2!1sen!2sin!4v1695550693670!5m2!1sen!2sin"
+      />
+      {/* <section className="bg-latest">
       <div className="container">
         <div className="row pt-5 pb-5">
           <div className="col-md-12">
