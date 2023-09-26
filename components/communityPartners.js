@@ -4,23 +4,50 @@ import Tooltip from "./tooltip";
 
 const CommunityPartners = () => {
   return (
-    <section className="bg-community-partners home-section" id="community-partners">
+    <section
+      className="bg-community-partners home-section"
+      id="community-partners"
+    >
       <div className="container pt-5 pb-5">
         <div className="row align-items-center">
-          <h2 className="col-auto com-head text-white" data-aos="fade-down" data-aos-duration="1000">Community Partners</h2>
+          <h2
+            className="col-auto com-head text-white"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            Community Partners
+          </h2>
           <div className="col-auto">
             <div>
-              <img className="community-partners-avatar" src="/2023/images/generic-illustrations/flip4.png" alt=""></img>
-              <img className="community-partners-avatar" src="/2023/images/generic-illustrations/flip1.png" alt=""></img>
+              <img
+                className="community-partners-avatar"
+                src="/2023/images/generic-illustrations/flip4.png"
+                alt=""
+              ></img>
+              <img
+                className="community-partners-avatar"
+                src="/2023/images/generic-illustrations/flip1.png"
+                alt=""
+              ></img>
             </div>
             <div>
-              <img className="community-partners-avatar" src="/2023/images/generic-illustrations/flip3.png" alt=""></img>
-              <img className="community-partners-avatar" src="/2023/images/generic-illustrations/flip2.png" alt=""></img>
+              <img
+                className="community-partners-avatar"
+                src="/2023/images/generic-illustrations/flip3.png"
+                alt=""
+              ></img>
+              <img
+                className="community-partners-avatar"
+                src="/2023/images/generic-illustrations/flip2.png"
+                alt=""
+              ></img>
             </div>
           </div>
         </div>
         <p className="py-3 pt-md-5 pb-md-5 text-white">
-          Join PyCon India&rsquo;s Community Partner Program and support the vibrant Python community in India. Become a partner and contribute to the growth of Python enthusiasts.
+          Join PyCon India&rsquo;s Community Partner Program and support the
+          vibrant Python community in India. Become a partner and contribute to
+          the growth of Python enthusiasts.
         </p>
         <div className="row register-btn justify-content-center w-100">
           <div className="col-lg-4 col-md-6 col-8 pt-3">
@@ -47,13 +74,18 @@ const CommunityPartners = () => {
           {CommunityPartnersData.map((partner, index) => (
             <div className="col-md-3 col-6 bt-circle my-3" key={index}>
               <a href={partner.website} target="_blank" rel="noreferrer">
-                <img src={partner.logo} className={`img-fluid community-partner-logo ${partner.paddingClass}`} alt={partner.name} />
+                <img
+                  src={partner.logo}
+                  className={`img-fluid shadow-sm community-partner-logo ${partner.paddingClass}`}
+                  alt={partner.name}
+                  title={partner.name}
+                />
               </a>
             </div>
           ))}
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 

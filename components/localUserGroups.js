@@ -1,13 +1,21 @@
 import Link from "next/link";
 import localUserGroupsChaptersData from "data/localUserGroupsChapters.yml";
 
-
 const LocalUserGroupsChapters = () => {
   return (
-    <section className="bg-local-groups home-section" id="local-user-groups-chapters">
+    <section
+      className="bg-local-groups home-section"
+      id="local-user-groups-chapters"
+    >
       <div className="container pt-5 pb-5">
         <div className="row">
-          <h2 className="com-head text-white" data-aos="fade-down" data-aos-duration="1000">Local User Groups & Chapters</h2>
+          <h2
+            className="com-head text-white"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
+            Local User Groups & Chapters
+          </h2>
         </div>
         <div className="row justify-content-center py-5">
           {localUserGroupsChaptersData.map((partner, index) => (
@@ -15,14 +23,16 @@ const LocalUserGroupsChapters = () => {
               <Link href={partner.website} target="_blank">
                 <img
                   src={partner.logo}
-                  className={`img-fluid local-group-logo ${partner.paddingClass}`}
-                  alt={partner.name} />
+                  className={`img-fluid shadow-sm local-group-logo ${partner.paddingClass}`}
+                  alt={partner.name}
+                  title={partner.name}
+                />
               </Link>
             </div>
           ))}
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 
