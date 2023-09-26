@@ -38,18 +38,35 @@ const ConferenceSchedule = () => {
       <div className="container-fluid pb-3 p-md-4">
         <div className="row pt-5 pb-5">
           <div className="col-md-12">
-            <h2
-              className="com-head"
-              data-aos="fade-down"
-              data-aos-duration="1000"
-            >
-              Schedule
-              <img
-                src="/2023/images/icons/sandwatch.png"
-                alt="sandwatch"
-                className="img-fluid"
-              />
-            </h2>
+            <div className="row pb-2 align-items-center">
+              <div className="col-auto">
+                <h2
+                  className="com-head"
+                  data-aos="fade-down"
+                  data-aos-duration="1000"
+                >
+                  Schedule
+                  <img
+                    src="/2023/images/icons/sandwatch.png"
+                    alt="sandwatch"
+                    className="img-fluid"
+                  />
+                </h2>
+              </div>
+              <div className="col">
+                <a
+                  className="text-decoration-none text-light p-0"
+                  href="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button class="custom-button green-btn p-2">
+                    Download Schedule
+                  </button>
+                </a>
+              </div>
+            </div>
+
             <ul
               className="nav nav-pills mb-3 pt-5"
               id="pills-tab"

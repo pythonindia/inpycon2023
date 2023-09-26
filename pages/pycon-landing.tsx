@@ -28,8 +28,8 @@ export default function PyConIndiaWeb() {
       {/* Schedule CTA starts */}
       <div className="bg-conference home-section pt-4">
         <div className="container">
-          <div className="row pt-5 pb-5">
-            <div className="col-md-12 text-center">
+          <div className="row pt-5 pb-5 text-center">
+            <div className="col pt-2">
               <Link
                 href="/schedule/"
                 className="text-decoration-none text-light"
@@ -42,6 +42,18 @@ export default function PyConIndiaWeb() {
                     padding={0}
                     size={20}
                   />
+                </button>
+              </Link>
+            </div>
+            <div className="col pt-2">
+              <Link
+                className="text-decoration-none text-light"
+                href="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="custom-button green-btn">
+                  Download Schedule
                 </button>
               </Link>
             </div>
