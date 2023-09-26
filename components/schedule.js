@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import CustomModal from "./customModal";
+import IconComponent from "@components/icons";
 
 // group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
 const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
@@ -54,7 +55,7 @@ const ConferenceSchedule = () => {
                 </h2>
               </div>
               <div className="col">
-                <a
+                <Link
                   className="text-decoration-none text-light p-0"
                   href="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
                   target="_blank"
@@ -62,8 +63,14 @@ const ConferenceSchedule = () => {
                 >
                   <button class="custom-button green-btn p-2">
                     Download Schedule
+                    <IconComponent
+                      className="ms-2"
+                      name="arrowRight"
+                      padding={0}
+                      size={20}
+                    />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -230,9 +237,13 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
               {title}
             </a>
           </p>
-          <Stack>
-            <Badge bg="secondary">{getTrackRoom(track)}</Badge>
-          </Stack>
+          {track && (
+            <Stack>
+              <Badge bg="success" tabIndex={0}>
+                {getTrackRoom(track)}
+              </Badge>
+            </Stack>
+          )}
         </div>
       </div>
     </>
@@ -277,9 +288,13 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                         {talk.title}
                       </a>
                     </Card.Title>
-                    <Stack>
-                      <Badge bg="secondary">{getTrackRoom(talk.track)}</Badge>
-                    </Stack>
+                    {talk.track && (
+                      <Stack>
+                        <Badge bg="success" tabIndex={0}>
+                          {getTrackRoom(talk.track)}
+                        </Badge>
+                      </Stack>
+                    )}
                     <Card.Text className="pt-1">
                       {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>

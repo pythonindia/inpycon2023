@@ -562,6 +562,7 @@ button a {
   font-size: 1.2rem;
   text-decoration: none;
   font-weight: 500 !important;
+  color: #000;
 }
 
 .bg-conference .talk-card .talk-speaker-title{

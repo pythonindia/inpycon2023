@@ -46,7 +46,8 @@ const NotFoundPage = () => {
             buttonClassName="custom-button submit-btn register-btn-extra-padding m-2"
             anchorClassName="text-decoration-none text-light"
             buttonLabel="Go Back"
-            onClickEvent={goBack}
+            openInNewTab={false}
+            onClickEvent={() => goBack()}
           />
           <Button
             buttonClassName="custom-button green-btn register-btn-extra-padding m-2"
