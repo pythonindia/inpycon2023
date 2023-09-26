@@ -9,7 +9,7 @@ const Button = (props) => {
       className={props.anchorClassName}
       style={{ pointerEvents: props.disabled ? "none" : "auto" }}
       onClick={props.onClickEvent}
-      rel={props.openInNewTab && 'noreferrer'}
+      rel={props.openInNewTab ? "noreferrer" : undefined}
     >
       <button
         className={props.buttonClassName}
@@ -18,7 +18,7 @@ const Button = (props) => {
         {props.buttonLabel}
         {props.icon && props.icon}
       </button>
-    </Link> 
+    </Link>
   );
 };
 

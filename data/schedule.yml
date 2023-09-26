@@ -503,7 +503,7 @@
             - id: FS-77
               fullName: M Ashwin Kishore
               title:
-              profilePicture: /2023/images/speakers/featured/m_ashwin_kishore.jpg
+              profilePicture: /2023/images/speakers/featured/m-ashwin-kishore.jpg
               proposalTitle: Metaprogramming In Python
               about:
                 M Aswin Kishore is a community-oriented developer with a knack for leveraging technology to tackle real-world problems. He is currently working as a Product Engineer at UST in the travel domain, specializing in Python microservices and the GraphQL ecosystem.
@@ -705,7 +705,7 @@
             - id: TS-01
               fullName: Anitha Raman
               title: Founder & CEO codePannu
-              profilePicture: /2023/images/speakers/tinkeringSpace/anitha_raman.png
+              profilePicture: /2023/images/speakers/tinkeringSpace/anitha-raman.jpg
               about:
                 With a decade of experience in building and scaling teams in data science and another 5 yrs as an
                 independent consultant with tech enabled startups, Anitha Raman has now initiated this mission to provide easy and application-based Tech education for kids across the globe.
@@ -717,7 +717,7 @@
                   link: https://instagram.com/anitha__raman
             - id: TS-02
               fullName: Manav Sethi
-              profilePicture: /2023/images/speakers/tinkeringSpace/manav.png
+              profilePicture: /2023/images/speakers/tinkeringSpace/manav-sethi.jpg
               about: Manav Sethi is a Backend and Machine Learning Engineer at Olvyhq, Beyond this he loves to tinker with electronics, build robots with a great interest in democratizing robots . As a result he has also co-founded A.T.O.M Robotics Lab which is an open robotics lab based out of Delhi which works on ROS and other open source robotics stacks building industrial robots for education.
               social:
                 - platform: linkedin
@@ -733,7 +733,7 @@
             - id: YLW-01
               fullName: Harsh Mittal
               title:
-              profilePicture: /2023/images/speakers/ylw/harsh_mittal.jpg
+              profilePicture: /2023/images/speakers/ylw/harsh-mittal.jpg
               about: Harsh Mittal is a Robotics Software Developer with over 3 years of experience and is currently working in Brane Enterprises on creating Autonomous Swarm Drones and Quadraped. He has completed is Bachelors from LNMIIT in Electronics and Communication. Harsh is passionate about Robotics, Software Development, IoT and AI. He likes to share his knowledge via Youtube Tutorials and Blogs. Harsh has also given talks in PyCon India, PyCon Sweden and also have published paper in IEEE Osaka Japan.
               social:
                 - platform: youtube

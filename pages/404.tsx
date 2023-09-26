@@ -54,7 +54,7 @@ const NotFoundPage = () => {
             anchorClassName="text-decoration-none"
             buttonLabel="Go to Home"
             openInNewTab={false}
-            buttonHyperLink="/2023/"
+            buttonHyperLink="/"
           />
         </div>
       </div>
