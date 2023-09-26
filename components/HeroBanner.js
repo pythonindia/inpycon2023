@@ -39,7 +39,7 @@ const HeroBanner = () => {
                     openInNewTab={false}
                     anchorClassName="text-decoration-none text-light"
                     buttonClassName="custom-button green-btn"
-                    buttonLabel="Check out the Schedule"
+                    buttonLabel="View Schedule"
                     icon={
                       <IconComponent
                         className="ms-2"
