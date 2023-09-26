@@ -24,7 +24,7 @@ const Partners = () => {
                 <img
                   src={partner.logo}
                   className={`img-fluid shadow-sm partners-logo ${partner.paddingClass}`}
-                  alt={partner.name}
+                  alt={partner.name} title={partner.name}
                 />
               </a>
               <p className="pt-2">

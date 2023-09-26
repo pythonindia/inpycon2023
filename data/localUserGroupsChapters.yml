@@ -22,3 +22,7 @@
   logo: images/local-user-groups-chapters/pyladies-bangalore.jpg
   website: https://pyladies.com/locations/blr/
   paddingClass: p-0
+- name: PyDelhi
+  logo: images/local-user-groups-chapters/pydelhi.jpg
+  website: https://pydelhi.org/
+  paddingClass: p-0
