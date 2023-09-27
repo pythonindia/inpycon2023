@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow: 
+Allow: /
+
+# Host
+Host: https://in.pycon.org/2023
+
+# Sitemaps
+Sitemap: https://in.pycon.org/2023/sitemap.xml

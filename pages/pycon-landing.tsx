@@ -1,21 +1,33 @@
-import Footer from "../components/footer";
-import Header from "../components/header";
-import HeroBanner from "../components/HeroBanner";
-import JourneyComponent from "../components/journey";
-import SponsorComponent from "../components/sponsor";
-import CommunityPartners from "../components/communityPartners";
-import SubscribeSection from "../components/subscribe";
-import RegistrationSection from "../components/registration";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+
+import Footer from "components/footer";
+import Header from "components/header";
+import HeroBanner from "components/HeroBanner";
+import JourneyComponent from "components/journey";
+import SponsorComponent from "components/sponsor";
+import CommunityPartners from "components/communityPartners";
+import SubscribeSection from "components/subscribe";
+import RegistrationSection from "components/registration";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
-import { fetchSpeakers } from "lib/data";
 import Speakers from "components/speakers";
-import VenueSection from "../components/venue";
-import Link from "next/link";
-import IconComponent from "@components/icons";
-import Button from "@components/button";
+import VenueSection from "components/venue";
+
+import { fetchSpeakers } from "lib/data";
+
 export default function PyConIndiaWeb() {
   const speakers = fetchSpeakers();
+  const router = useRouter();
+
+  useEffect(() => {
+    // Check if the hash is '#schedule'
+    if (window.location.hash.includes('#schedule')) {
+      // Redirect to the clean URL using router.replace
+      router.replace('/schedule');
+    }
+  }, []);
+
   return (
     <div>
       <Header />
