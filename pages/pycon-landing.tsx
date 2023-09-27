@@ -15,7 +15,9 @@ import Speakers from "components/speakers";
 import VenueSection from "components/venue";
 
 import { fetchSpeakers } from "lib/data";
-
+import Link from "next/link";
+import IconComponent from "@components/icons";
+import Button from "@components/button";
 export default function PyConIndiaWeb() {
   const speakers = fetchSpeakers();
   const router = useRouter();
