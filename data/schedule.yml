@@ -214,6 +214,11 @@
           title: Tea Break
           duration: 30
           track: 7
+    - time: "11:00 AM - 12:50 PM"
+      talks:
+        - title: Birds of a feather
+          track: 6
+
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab6.png"
@@ -301,10 +306,6 @@
           proposalLink: 
           duration: 30
           track: 5
-    - time: "11:00 AM - 12:50 PM"
-      talks:
-        - title: Birds of a feather
-          track: 6
         
     - time: "11:40 AM - 12:10 PM"
       talks:
@@ -476,7 +477,7 @@
               profilePicture: /2023/images/animation/layer6.png
             
         - image: "/2023/images/icons/tab8.png"
-          title: PyConnect With Local Chapters - Delhi, Pune, Chennai, Bangalore, Hyderabad ...
+          title: PyConnect With Local Chapters
           proposalLink: 
           duration: 30
           track: 5
@@ -739,7 +740,7 @@
         - image: "/2023/images/icons/tab1.png"
           title: Registrations
           duration: 50
-          track: 1
+          track: 8
     - time: "09:20 AM - 09:25 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
@@ -822,7 +823,11 @@
         - image: "/2023/images/icons/tab4.png"
           title: Tea Break
           duration: 30
-          track: 1
+          track: 7
+    - time: "11:00 AM - 12:50 PM"
+      talks:
+        - title: Birds of a feather
+          track: 6
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab5.png"
@@ -915,6 +920,10 @@
                   link: https://twitter.com/AngelinMaryJohn
                 - platform: website
                   link: https://angelinjohn.com/
+        - image: "/2023/images/icons/tab5.png"
+          title: Open Slot
+          duration: 30
+          track: 5
     - time: "11:40 AM - 12:10 PM"
       talks:
         - image: "/2023/images/icons/tab6.png"
@@ -999,6 +1008,14 @@
                   link: https://www.linkedin.com/in/kesiajoies/
                 - platform: instagram
                   link: https://www.instagram.com/kesia.jo/
+        - image: "/2023/images/icons/tab6.png"
+          title: Sponsored Talk by Certa 
+          duration: 15
+          track: 5
+        - image: "/2023/images/icons/tab6.png"
+          title: Sponsored Talk by SenecaGlobal
+          duration: 15
+          track: 5
     - time: "12:20 PM - 12:50 PM"
       talks:
         - image: "/2023/images/icons/tab7.png"
@@ -1085,13 +1102,16 @@
               social:
                 - platform: linkedin
                   link: https://www.linkedin.com/in/arora-megha/
-
+        - image: "/2023/images/icons/tab7.png"
+          title: Open Slot
+          duration: 30
+          track: 5
     - time: "12:50 PM - 02:00 PM"
       talks:
         - image: "/2023/images/icons/tab8.png"
           title: Lunch
           duration: 70
-          track: 1
+          track: 7
     - time: "02:00 PM - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
@@ -1104,12 +1124,26 @@
           title: Diversity Panel Discussion
           duration: 55
           track: 1
+    - time: "03:40 PM - 04:40 PM"
+      talks:
+        - image: "/2023/images/icons/tab9.png"
+          title: PyCafe by Naren
+          duration: 30
+          track: 6
     - time: "03:40 PM - 04:10 PM"
       talks:
-        - image: "/2023/images/icons/tab11.png"
-          title: Sponsored Talk
-          duration: 30
+        - image: "/2023/images/icons/tab8.png"
+          title: "Architecting Python Apps in real-time " 
+          duration: 15
+          proposalLink: 
           track: 1
+          speakers:
+            - id: FS-101
+              fullName: Jason Koo
+              profilePicture: /2023/images/animation/layer6.png
+            - id: FS-102 
+              fullName: Alison Cossette
+              profilePicture: /2023/images/animation/layer6.png
         - image: "/2023/images/icons/tab11.png"
           title: The programmers guide to timestamps and timezones
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
@@ -1173,6 +1207,14 @@
                   link: https://www.instagram.com/connect.bhawna/
                 - platform: website
                   link: https://bhawna-resume.vercel.app/
+        - image: "/2023/images/icons/tab11.png"
+          title: Open Slot
+          duration: 15
+          track: 5
+        - image: "/2023/images/icons/tab11.png"
+          title: Sponsored Talk by Bloomberg 
+          duration: 15
+          track: 5
     - time: "04:20 PM - 04:50 PM"
       talks:
         - image: "/2023/images/icons/tab12.png"
