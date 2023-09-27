@@ -29,7 +29,9 @@ const NameAvatar = (props) => {
     <div
       className={`name-initial-avatar ${props.className}`}
       style={{
-        fontSize: 50,
+        width: props?.width,
+        height: props?.height,
+        fontSize: props.fontSize || 50,
         color: textColor,
         backgroundColor: backgroundColor
       }}
