@@ -15,13 +15,21 @@ const getTrackRoom = (num) => {
     default:
       return "";
     case 1:
-      return "JN Auditorium";
+      return "JN Auditorium (Track 1)";
     case 2:
-      return "ECE Seminar Hall";
+      return "ECE Seminar Hall (Track 2)";
     case 3:
-      return "JHUB Hall 1";
+      return "JHUB Hall 1 (Track 3)";
     case 4:
-      return "JHUB Hall 2";
+      return "JHUB Hall 2 (Track 4)";
+    case 5: 
+      return "JN Auditorium (Open Space 1)"
+    case 6: 
+      return "JN Auditorium (Open Space 2)"
+    case 7: 
+      return "Cafeteria"
+    case 8: 
+      return "PyCon India 2023 Check-In Booth"
   }
 };
 
@@ -56,7 +64,7 @@ const ConferenceSchedule = () => {
               </div>
               <div className="col py-2">
                 <Button
-                  buttonHyperLink="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
+                  buttonHyperLink="https://drive.google.com/file/d/1Mi7lV-aqGKUvfadjBd8FoiyoSe6LMPHA/view"
                   openInNewTab={true}
                   anchorClassName="text-decoration-none text-light"
                   buttonClassName="custom-button green-btn"

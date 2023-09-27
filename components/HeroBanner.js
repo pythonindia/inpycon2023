@@ -74,7 +74,7 @@ const HeroBanner = () => {
                 </div>
                 <div className="col-md-6 col-8 pt-3">
                   <Button
-                    buttonHyperLink="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
+                    buttonHyperLink="https://drive.google.com/file/d/1Mi7lV-aqGKUvfadjBd8FoiyoSe6LMPHA/view"
                     openInNewTab={true}
                     anchorClassName="text-decoration-none text-light"
                     buttonClassName="custom-button green-btn"

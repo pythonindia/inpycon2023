@@ -4,9 +4,24 @@ import NameAvatar from "components/nameAvatar";
 import SpeakerDetail from "components/speakerDetail";
 import CustomModal from './customModal';
 
+function removeDuplicateSpeakers(speakers) {
+  const uniqueSpeakers = [];
+  const seenIds = new Set();
+
+  for (const speaker of speakers) {
+    if (!seenIds.has(speaker.id)) {
+      uniqueSpeakers.push(speaker);
+      seenIds.add(speaker.id);
+    }
+  }
+
+  return uniqueSpeakers;
+}
+
 const Speakers = (props) => {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
-  const sortedSpeakers = props.speakers.sort((a, b) => {
+  const uniqueSpeakers = removeDuplicateSpeakers(props.speakers)
+  const sortedSpeakers = uniqueSpeakers.sort((a, b) => {
     // Convert names to uppercase for case-insensitive sorting
     const nameA = a.fullName.toUpperCase();
     const nameB = b.fullName.toUpperCase();
@@ -20,6 +35,7 @@ const Speakers = (props) => {
     return 0;
   });
 
+  
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
   };
