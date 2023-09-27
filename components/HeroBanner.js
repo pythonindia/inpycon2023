@@ -14,9 +14,12 @@ const HeroBanner = () => {
   useEffect(() => {
     const eventDate = new Date("2023-09-29T09:00:00+05:30");
     const timer = setInterval(() => {
-      const today = new Date();
+      const today = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+      const octoberSecond = new Date(today.getFullYear(), 9, 2).toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
+      // Check if today's date is greater than October 2nd
+      const isGreaterThanOctoberSecond = today > octoberSecond;
       const diff = eventDate.getTime() - today.getTime();
-      if (diff <= 0) {
+      if (diff <= 0 && !isGreaterThanOctoberSecond) {
         setCountdown("Live!");
       } else {
         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
