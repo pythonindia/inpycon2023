@@ -1,21 +1,33 @@
-import Footer from "../components/footer";
-import Header from "../components/header";
-import HeroBanner from "../components/HeroBanner";
-import JourneyComponent from "../components/journey";
-import SponsorComponent from "../components/sponsor";
-import CommunityPartners from "../components/communityPartners";
-import SubscribeSection from "../components/subscribe";
-import RegistrationSection from "../components/registration";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
+
+import Footer from "components/footer";
+import Header from "components/header";
+import HeroBanner from "components/HeroBanner";
+import JourneyComponent from "components/journey";
+import SponsorComponent from "components/sponsor";
+import CommunityPartners from "components/communityPartners";
+import SubscribeSection from "components/subscribe";
+import RegistrationSection from "components/registration";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
-import { fetchSpeakers } from "lib/data";
 import Speakers from "components/speakers";
-import VenueSection from "../components/venue";
-import Link from "next/link";
-import IconComponent from "@components/icons";
-import Button from "@components/button";
+import VenueSection from "components/venue";
+
+import { fetchSpeakers } from "lib/data";
+
 export default function PyConIndiaWeb() {
   const speakers = fetchSpeakers();
+  const router = useRouter();
+
+  useEffect(() => {
+    // Check if the hash is '#schedule'
+    if (window.location.hash.includes('#schedule')) {
+      // Redirect to the clean URL using router.replace
+      router.replace('/schedule');
+    }
+  }, []);
+
   return (
     <div>
       <Header />
@@ -26,57 +38,6 @@ export default function PyConIndiaWeb() {
         showMicCreative={true}
         title="Keynote Speakers"
       />
-      {/* Schedule CTA starts */}
-      <div className="bg-conference home-section pt-4" id="schedule">
-        <div className="container">
-          <div className="row">
-            <div className="col-auto">
-              <h2
-                className="com-head aos-init aos-animate"
-                data-aos="fade-down"
-                data-aos-duration={1000}
-              >
-                Schedule
-                <img
-                  src="/2023/images/icons/sandwatch.png"
-                  alt="sandwatch"
-                  className="img-fluid"
-                />
-              </h2>
-            </div>
-          </div>
-
-          <div className="row pt-4 pb-5">
-            <div className="col-md-6 register-btn col-sm-12 pt-2">
-              <Button
-                buttonHyperLink="/schedule/"
-                openInNewTab={false}
-                anchorClassName="text-decoration-none text-light"
-                buttonClassName="custom-button green-btn"
-                buttonLabel="View Schedule"
-                icon={
-                  <IconComponent
-                    className="ms-2"
-                    name="arrowRight"
-                    padding={0}
-                    size={20}
-                  />
-                }
-              />
-            </div>
-            <div className="col-md-6 register-btn col-sm-12 pt-2">
-              <Button
-                buttonHyperLink="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view"
-                openInNewTab={true}
-                anchorClassName="text-decoration-none text-light"
-                buttonClassName="custom-button green-btn"
-                buttonLabel="Download Schedule"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Schedule CTA ends */}
       <RegistrationSection />
       <SponsorComponent />
       <CommunityPartners />
