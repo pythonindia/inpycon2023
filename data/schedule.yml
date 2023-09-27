@@ -805,6 +805,7 @@
       talks:
         - title: Young Learners Workshop
           track: Young Learners Workshop
+          proposalLink: "/ylw/"
           speakers:
             - id: YLW-01
               fullName: Harsh Mittal
