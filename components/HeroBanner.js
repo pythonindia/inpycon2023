@@ -14,19 +14,19 @@ const HeroBanner = () => {
   useEffect(() => {
     const eventDate = new Date("2023-09-29T09:00:00+05:30");
     const timer = setInterval(() => {
-      const today = new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
-      const octoberSecond = new Date(today.getFullYear(), 9, 2).toLocaleString("en-US", { timeZone: "Asia/Kolkata" });
-      // Check if today's date is greater than October 2nd
-      const isGreaterThanOctoberSecond = today > octoberSecond;
+      const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
+      const eventEndDateTime = new Date("2023-10-02T18:00:00+05:30");
       const diff = eventDate.getTime() - today.getTime();
-      if (diff <= 0 && !isGreaterThanOctoberSecond) {
-        setCountdown("Live!");
-      } else {
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+      if (today < eventEndDateTime) {
+        if (diff <= 0) {
+          setCountdown("Live!");
+        } else {
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+          setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        }
       }
     }, 1000);
     return () => clearInterval(timer);
