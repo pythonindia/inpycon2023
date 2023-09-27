@@ -311,7 +311,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                         </Badge>
                       </Stack>
                     )}
-                    <Card.Body className="pt-1">
+                    <Card.Body className="pt-1 ps-0">
                       {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
                       ) : (
