@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-
+import { useState, useEffect } from "react";
 import calendar from "../public/images/icons/calendar.png";
 import logo from "../public/images/logos/logo.png";
 import calendarData from "../data/calendar.yml";
@@ -9,6 +9,28 @@ import Tooltip from "./tooltip";
 import IconComponent from "./icons";
 
 const HeroBanner = () => {
+  const [countdown, setCountdown] = useState("");
+
+  useEffect(() => {
+    const eventDate = new Date("2023-09-29T09:00:00+05:30");
+    const timer = setInterval(() => {
+      const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
+      const eventEndDateTime = new Date("2023-10-02T18:00:00+05:30");
+      const diff = eventDate.getTime() - today.getTime();
+      if (today < eventEndDateTime) {
+        if (diff <= 0) {
+          setCountdown("Live!");
+        } else {
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+          setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        }
+      }
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
   return (
     <section id="hero" className="bg-banner home-section">
       <div className="bg-banner-overlay">
@@ -88,6 +110,7 @@ const HeroBanner = () => {
                   className="img-fluid"
                 />
               </h2>
+              <h3 className="  mb-4 date-text text-center">{countdown}</h3>
               <div className="row">
                 {calendarData.map((calendar, index) => (
                   <div key={index} className="col-md-4">
