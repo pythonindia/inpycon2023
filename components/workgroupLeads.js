@@ -55,7 +55,7 @@ const WorkgroupLeads = () => {
                 </div>
                 <Paragraph text={lead.about} isHtml={true} numberOfLines={3} />
                 <div className="py-2">
-                  {lead.social.map((item, index) =>
+                  {lead.social && lead.social.map((item, index) =>
                   (
                     <span className="me-2" key={index}>
                       <Link
