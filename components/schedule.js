@@ -69,7 +69,7 @@ const ConferenceSchedule = () => {
                   openInNewTab={true}
                   anchorClassName="text-decoration-none text-light"
                   buttonClassName="custom-button green-btn"
-                  buttonLabel="Download Schedule"
+                  buttonLabel="Download"
                 />
               </div>
             </div>
