@@ -295,18 +295,22 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                       {scheduleItem.time}
                     </Card.Subtitle>
                     <Card.Title className="mb-2">
-                      <Link
-                        className="text-decoration-none"
-                        href={talk.proposalLink || ""}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {talk.title}
-                      </Link>
+                      {talk.proposalLink ? (
+                        <Link
+                          className="text-decoration-none text-black"
+                          href={talk.proposalLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {talk.title}
+                        </Link>
+                      ) : (
+                        <>{talk.title}</>
+                      )}
                     </Card.Title>
                     {talk.track && (
                       <Stack>
-                        <Badge bg="success" tabIndex={0}>
+                        <Badge bg="success" tabIndex={0} style={{fontSize: "1rem"}}>
                           {getTrackRoom(talk.track)}
                         </Badge>
                       </Stack>
