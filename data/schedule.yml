@@ -383,7 +383,7 @@
                 - platform: website
                   link: https://shaikh-ubaid.github.io/
         - image: "/2023/images/icons/tab7.png"
-          title: Lessons from optimising inter-process communication: Path to zero-copy
+          title: Lessons from optimising inter-process communication - Path to zero-copy
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
           track: 4
