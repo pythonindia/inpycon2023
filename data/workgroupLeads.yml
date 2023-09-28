@@ -160,3 +160,55 @@
       link: https://instagram.com/mvsrevant
     - platform: facebook
       link: https://www.facebook.com/surendra.revanth
+- fullName: Mehaboob Subuhani
+  title: Design Co-WG Lead
+  profilePicture: /2023/images/workgroup-leads/mehaboob-subuhani.jpg
+  about:
+    Subuhani, employed at a prominent Big4 firm, holds the role of SAP Full Stack Technical Lead. His passion lies in orchestrating the integration of various enterprise platforms to enhance user experience.<br>
+    He is also dedicated to exploring innovative concepts and bringing them to life. Beyond work, Subuhani nurtures a deep affection for soccer.
+  roleAtPyCon: Subuhani mission is to create user-friendly, inclusive interfaces that enhance the community's interactions. I advocate for user needs, collaborate with stakeholders, and continuously refine designs based on feedback and data to ensure a positive user experience. My role is pivotal in fostering a thriving and engaged community.
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/mehaboobsubuhani
+    - platform: instagram
+      link: https://www.instagram.com/ms_creative_designer/
+- fullName: Koti Vellanki
+  title: Mentorship Co-WG Lead
+  profilePicture: /2023/images/workgroup-leads/koti-vellanki.jpg
+  about: I'm a passionate DevOps Engineer working for Adobe through UST. I love Python, Kubernetes and Open Source.
+  roleAtPyCon: I have reviewed multiple talks along with the CFP team. Closely worked with KonfHub for registration and promotions over social media and in person conferences etc.
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/vellankikoti
+    - platform: twitter
+      link: https://twitter.com/ikotivellanki
+    - platform: instagram
+      link: https://www.instagram.com/vellankikoti
+- fullName: Priyanshu Krishnan
+  title: Technology Co-WG Lead
+  profilePicture: /2023/images/workgroup-leads/priyanshu-krishnan.jpg
+  about:
+    As a software developer with experience at Dell, I have gained expertise in the management of large-scale storage systems and the automation of infrastructure provisioning. My journey led me to contribute to the Open Source Terraform Provider for Dell Storage and Servers, where I immersed myself in the world of software-defined storage and crafted innovative solutions for intricate infrastructure landscapes.<br>
+    I am passionate about actively participating in the open-source and technology communities.<br>
+    Beyond my professional pursuits, I'm passionate about exploring the world of musics and hiking in my free time, capturing the beauty of nature through my lens. These interests keep me motivated and inspired, both in and outside the coding realm.<br>
+    Let's connect and explore how our paths can intersect!
+  roleAtPyCon: Within the technology workgroup, my contributions encompassed project setup, the segmentation of website design into numerous React components, the incorporation of animations, and the resolution of various issues.
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/priyanshu-krishnan/
+- fullName: Rajat Rajdeep
+  title: Technology Co-WG Lead
+  profilePicture: /2023/images/workgroup-leads/rajat-rajdeep.jpg
+  about:
+    Rajat is a passionate software engineer with a keen interest in open-source technologies. He is proficient in building web applications, quality assurance, and automation.<br>
+    Outside of software engineering, Rajat loves playing and watching basketball, as well as exploring new travel experiences.
+  roleAtPyCon: I actively contributed to the development of new features and effectively managed the PyCon India website.
+  social:
+    - platform: linkedin
+      link: https://www.linkedin.com/in/rajatrajdeep/
+    - platform: twitter
+      link: https://twitter.com/rajatrajdeep
+    - platform: instagram
+      link: https://www.instagram.com/rajatrajdeep/
+    - platform: website
+      link: https://rajatrajdeep.in
