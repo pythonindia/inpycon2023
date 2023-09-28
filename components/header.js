@@ -290,10 +290,10 @@ export default function Header() {
 
 function DropDownMenu({ item, navBarClickHandler }) {
   return (
-    <Dropdown className="nav-item" as={"li"}>
+    <Dropdown className="nav-item row justify-content-end no-margin" as={"li"} style={{marginRight:"0px"}}>
       <Dropdown.Toggle
         className="nav-link"
-        style={{ background: "inherit", border: "none" }}
+        style={{ background: "inherit", border: "none"}}
       >
         {item.name}
       </Dropdown.Toggle>
