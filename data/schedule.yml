@@ -593,24 +593,6 @@
           duration: 30
           track: 4
           speakers:
-            - id: PS-01
-              fullName: Raghavendra Satish Peri
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/raghavendra-satish-peri.jpg
-              about: Raghavendra Satish Peri empowers enterprises with digital accessibility and marketing expertise. He's the author of the influential Accessibility Blog at DigitalA11Y.com, driving change in tech communities. He founded HelloA11Y.com, uniting accessibility professionals. Passionate about diverse experiences, he shares insights on his blog at raghava.in.
-
-            - id: PS-02
-              fullName: Joel Godi
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/joel-s-godi.jpg
-              about: Joel Godi is a Social Psychologist and L&D Professional. He is an AuDHDer (Autistic & ADHD). Since founding Neurogifted in 2015, he has worked globally promoting the neurodiversity movement. He focuses on promoting neuroinclusion as not only a matter of social justice but also of economic success.
-
-            - id: PS-03
-              fullName: Anuradha Thota
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/anuradha-thota.jpg
-              about: Anuradha Thota is the founder and CEO of Blackbuck Engineers Pvt lts. Established in 2013 Blackbucks is one of the leading edtech platforms in India. Anuradha is an ISB alumna from 2010 and has extensive experience in delivering global projects through Wipro and earlier Satyam. She is on the board of studies at 7 academic institutions. She is the president of WICCI for Telangana and AP for AI and ML.
-
             - id: PS-04
               fullName: Vidhi Chugh
               title:
@@ -634,12 +616,6 @@
               title:
               profilePicture: /2023/images/speakers/technical-panel/ayush-garg.jpg
               about: Ayush Garg is currently building Portkey, an AI Gateway & full-stack LLMOps platform for the GenAI. He has a rich history in spearheading early-stage startups as an engineering leader, crafting and scaling marketplaces, B2B & B2C SAAS, serving 20 Million+ DAUs. His last stint includes the creation of Peppertype and Pepper CMP - cutting-edge AI-driven martech platforms that are revolutionizing the industry.
-
-            - id: PS-08
-              fullName: Vandana Sharma
-              title:
-              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
-              about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
 
         
         - image: "/2023/images/icons/tab12.png"
@@ -1181,6 +1157,29 @@
           title: Diversity Panel Discussion
           duration: 55
           track: 1
+          speakers:
+            - id: PS-01
+              fullName: Raghavendra Satish Peri
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/raghavendra-satish-peri.jpg
+              about: Raghavendra Satish Peri empowers enterprises with digital accessibility and marketing expertise. He's the author of the influential Accessibility Blog at DigitalA11Y.com, driving change in tech communities. He founded HelloA11Y.com, uniting accessibility professionals. Passionate about diverse experiences, he shares insights on his blog at raghava.in.
+
+            - id: PS-02
+              fullName: Joel Godi
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/joel-s-godi.jpg
+              about: Joel Godi is a Social Psychologist and L&D Professional. He is an AuDHDer (Autistic & ADHD). Since founding Neurogifted in 2015, he has worked globally promoting the neurodiversity movement. He focuses on promoting neuroinclusion as not only a matter of social justice but also of economic success.
+
+            - id: PS-03
+              fullName: Anuradha Thota
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/anuradha-thota.jpg
+              about: Anuradha Thota is the founder and CEO of Blackbuck Engineers Pvt lts. Established in 2013 Blackbucks is one of the leading edtech platforms in India. Anuradha is an ISB alumna from 2010 and has extensive experience in delivering global projects through Wipro and earlier Satyam. She is on the board of studies at 7 academic institutions. She is the president of WICCI for Telangana and AP for AI and ML.
+            - id: PS-08
+              fullName: Vandana Sharma
+              title:
+              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
+              about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
     - time: "03:40 PM - 04:40 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
