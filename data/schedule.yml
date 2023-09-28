@@ -178,7 +178,7 @@
     - time: "09:00 AM - 09:15 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
-          title: Opening Address - Day 1
+          title: Opening Address
           duration: 15
           track: 1
     - time: "09:15 AM - 09:30 AM"
@@ -462,10 +462,10 @@
           speakers:
             - id: FS-101
               fullName: Jason Koo
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
             - id: FS-102 
               fullName: Alison Cossette
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
         - image: "/2023/images/icons/tab8.png"
           title: "Building a Healthcare Platform: Key learnings from a 10 year journey" 
           duration: 15
@@ -474,7 +474,7 @@
           speakers:
             - id: FS-103
               fullName: Aditi Mishra
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
             
         - image: "/2023/images/icons/tab8.png"
           title: PyConnect With Local Chapters
@@ -530,7 +530,7 @@
           speakers: 
             - id: FS-104
               fullName: Pradeek
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
         
         - image: "/2023/images/icons/tab12.png"
           title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
@@ -728,7 +728,7 @@
     - time: "06:00 PM - 06:15 PM"
       talks:
         - image: "/2023/images/icons/tab15.png"
-          title: Closing Address - Day 1
+          title: Closing Address
           duration: 15
           track: 1
 
@@ -744,7 +744,7 @@
     - time: "09:20 AM - 09:25 AM"
       talks:
         - image: "/2023/images/icons/tab2.png"
-          title: Opening Address - Day 2
+          title: Opening Address
           duration: 5
           track: 1
     - time: "09:30 AM - 10:30 AM"
@@ -776,6 +776,7 @@
       talks:
         - title: Tinkering Space
           track: Tinkering Space
+          proposalLink: "/tinkering-space/"
           speakers:
             - id: TS-01
               fullName: Anitha Raman
@@ -804,6 +805,7 @@
       talks:
         - title: Young Learners Workshop
           track: Young Learners Workshop
+          proposalLink: "/ylw/"
           speakers:
             - id: YLW-01
               fullName: Harsh Mittal
@@ -1090,6 +1092,7 @@
                   link: https://scholar.google.com/citations?user=5029f7QAAAAJ&hl=en
         - image: "/2023/images/icons/tab7.png"
           title: Building Production Ready LLM Applications using MongoDB Atlas
+          proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/building-a-production-ready-llm-application-using-mongodb-atlas~b2kxN/
           duration: 30
           track: 4
           speakers:
@@ -1140,10 +1143,10 @@
           speakers:
             - id: FS-101
               fullName: Jason Koo
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
             - id: FS-102 
               fullName: Alison Cossette
-              profilePicture: /2023/images/animation/layer6.png
+              # profilePicture: /2023/images/animation/layer6.png
         - image: "/2023/images/icons/tab11.png"
           title: The programmers guide to timestamps and timezones
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
@@ -1325,6 +1328,6 @@
     - time: "06:00 PM - 06:15 PM"
       talks:
         - image: "/2023/images/icons/tab14.png"
-          title: Closing Address - Day 2
+          title: Closing Address
           duration: 15
           track: 1

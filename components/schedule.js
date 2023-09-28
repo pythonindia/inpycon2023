@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { Accordion, Badge, Card, Stack } from "react-bootstrap";
-
+import NameAvatar from "components/nameAvatar";
 import SpeakerDetail from "components/speakerDetail";
 import CustomModal from "./customModal";
 import Button from "./button";
@@ -22,14 +23,14 @@ const getTrackRoom = (num) => {
       return "JHUB Hall 1 (Track 3)";
     case 4:
       return "JHUB Hall 2 (Track 4)";
-    case 5: 
-      return "JN Auditorium (Open Space 1)"
-    case 6: 
-      return "JN Auditorium (Open Space 2)"
-    case 7: 
-      return "Cafeteria"
-    case 8: 
-      return "PyCon India 2023 Check-In Booth"
+    case 5:
+      return "JN Auditorium (Open Space 1)";
+    case 6:
+      return "JN Auditorium (Open Space 2)";
+    case 7:
+      return "Cafeteria";
+    case 8:
+      return "PyCon India 2023 Check-In Booth";
   }
 };
 
@@ -80,8 +81,9 @@ const ConferenceSchedule = () => {
               {ScheduleData.map((item, index) => (
                 <li className="nav-item" role="presentation" key={index}>
                   <button
-                    className={`nav-link ${index === selectedTab ? "active" : "nav-link-inactive"
-                      }`}
+                    className={`nav-link ${
+                      index === selectedTab ? "active" : "nav-link-inactive"
+                    }`}
                     id={`pills-tab-${index}`}
                     data-bs-toggle="pill"
                     data-bs-target={`#pills-${index}`}
@@ -113,7 +115,9 @@ const ConferenceSchedule = () => {
                         {...scheduleItem}
                         date={currentSchedule.date}
                         scheduleIdx={idx}
-                        key={`${currentSchedule.date}-${idx}`} />);
+                        key={`${currentSchedule.date}-${idx}`}
+                      />
+                    );
                   })}
                 </div>
               </div>
@@ -177,8 +181,9 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   return (
     <>
       <div
-        className={`row talk-card align-items-center p-2 pb-2 ${size > 1 || "border-bottom"
-          }`}
+        className={`row talk-card align-items-center p-2 pb-2 ${
+          size > 1 || "border-bottom"
+        }`}
         style={{ marginBottom: "0.8rem" }}
       >
         <div className="col-4">
@@ -187,27 +192,38 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
               {speakers &&
                 speakers.map((speaker) => {
                   return (
-                    <div
-                      key={speaker.id}>
+                    <div key={speaker.id}>
                       <div
                         className="speaker-card p-1"
                         tabIndex={0}
-                        onClick={() => handleOpenSpeakerModal(speaker.id)}
+                        onClick={() =>
+                          speaker.about && handleOpenSpeakerModal(speaker.id)
+                        }
                         onKeyDownCapture={(e) =>
-                          e.key == "Enter" && handleOpenSpeakerModal(speaker.id)
+                          speaker.about &&
+                          e.key == "Enter" &&
+                          handleOpenSpeakerModal(speaker.id)
                         }
                       >
-                        <Image
-                          src={speaker.profilePicture}
-                          className="rounded-pill me-2"
-                          width={64}
-                          height={64}
-                          alt={`Circular avatar containing an image of ${speaker.fullName}`}
-                          loading="lazy"
-                        />
-                        <span
-                          className="ft-weight talk-speaker talk-speaker-title"
-                        >
+                        {speaker.profilePicture ? (
+                          <Image
+                            src={speaker.profilePicture}
+                            className="rounded-pill me-2"
+                            width={64}
+                            height={64}
+                            alt={`Circular avatar containing an image of ${speaker.fullName}`}
+                            loading="lazy"
+                          />
+                        ) : (
+                          <NameAvatar
+                            width={64}
+                            height={64}
+                            fontSize={18}
+                            className="speaker-image me-2 d-inline-flex"
+                            name={speaker.fullName}
+                          />
+                        )}
+                        <span className="ft-weight talk-speaker talk-speaker-title">
                           {speaker.fullName}
                         </span>
                       </div>
@@ -224,16 +240,19 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
           </div>
         </div>
         <div className="col-8">
-          <a
-            className="talk-title"
-            href={proposalLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p className="mb-0 date-content">
-              {title}
-            </p>
-          </a>
+          {proposalLink ? (
+            <Link
+              className="talk-title"
+              href={proposalLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="mb-0 date-content">{title}</p>
+            </Link>
+          ) : (
+            <p className="mb-0 date-content">{title}</p>
+          )}
+
           {track && (
             <Stack>
               <Badge bg="success" tabIndex={0}>
@@ -276,14 +295,14 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                       {scheduleItem.time}
                     </Card.Subtitle>
                     <Card.Title className="mb-2">
-                      <a
+                      <Link
                         className="text-decoration-none"
-                        href={talk.proposalLink}
+                        href={talk.proposalLink || ""}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {talk.title}
-                      </a>
+                      </Link>
                     </Card.Title>
                     {talk.track && (
                       <Stack>
@@ -292,7 +311,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                         </Badge>
                       </Stack>
                     )}
-                    <Card.Body className="pt-1">
+                    <Card.Body className="pt-1 ps-0">
                       {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
                       ) : (
@@ -300,34 +319,48 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                       )} */}
                       {talk.speakers &&
                         talk.speakers.map((speaker) => (
-                          <div
-                            key={`${speaker.id}`}
-                          >
+                          <div key={`${speaker.id}`}>
                             <div
                               className="col pt-2 mt-2"
-                              onClick={() => handleOpenSpeakerModal(speaker.id)}
+                              onClick={() =>
+                                speaker.about &&
+                                handleOpenSpeakerModal(speaker.id)
+                              }
                               tabIndex={0}
                             >
-                              <Image
-                                className="rounded-pill me-2"
-                                src={speaker.profilePicture}
-                                alt={`Circular avatar containing an image of ${speaker.fullName}`}
-                                width={48}
-                                height={48}
-                              />
+                              {speaker.profilePicture ? (
+                                <Image
+                                  className="rounded-pill me-2"
+                                  src={speaker.profilePicture}
+                                  alt={`Circular avatar containing an image of ${speaker.fullName}`}
+                                  width={48}
+                                  height={48}
+                                  loading="lazy"
+                                />
+                              ) : (
+                                <NameAvatar
+                                  width={48}
+                                  height={48}
+                                  fontSize={18}
+                                  className="speaker-image me-2 d-inline-flex"
+                                  name={speaker.fullName}
+                                />
+                              )}
                               <span key={speaker.id} className="ft-weight">
                                 {speaker.fullName}
                               </span>
                             </div>
-                            <CustomModal
-                              showModal={selectedSpeakerId == speaker.id}
-                              handleClose={handleCloseSpeakerModal}
-                            >
-                              <SpeakerDetail
-                                speaker={speaker}
-                                showHyperLink={true}
-                              />
-                            </CustomModal>
+                            {speaker.about && (
+                              <CustomModal
+                                showModal={selectedSpeakerId == speaker.id}
+                                handleClose={handleCloseSpeakerModal}
+                              >
+                                <SpeakerDetail
+                                  speaker={speaker}
+                                  showHyperLink={true}
+                                />
+                              </CustomModal>
+                            )}
                           </div>
                         ))}
                     </Card.Body>
