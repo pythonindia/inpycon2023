@@ -72,6 +72,11 @@
           title: Graph-Powered NLP with Neo4j, Python, and LLM (Sponsored Workshop by Neo4j)
           duration: 180
           track: 4
+          speakers:
+            - id: WS-08
+              fullName: Bhavesh Bhatt
+              profilePicture: /2023/images/speakers/workshopInstructors/bhavesh-bhatt.jpg
+              
 
     - time: "01:00 PM - 02:00 PM"
       talks:
@@ -462,10 +467,10 @@
           speakers:
             - id: FS-101
               fullName: Jason Koo
-              # profilePicture: /2023/images/animation/layer6.png
+              profilePicture: /2023/images/speakers/featured/jason.jpg
             - id: FS-102 
               fullName: Alison Cossette
-              # profilePicture: /2023/images/animation/layer6.png
+              profilePicture: /2023/images/speakers/featured/alison_cossette.jpg
         - image: "/2023/images/icons/tab8.png"
           title: "Building a Healthcare Platform: Key learnings from a 10 year journey" 
           duration: 15
@@ -530,7 +535,7 @@
           speakers: 
             - id: FS-104
               fullName: Pradeek
-              # profilePicture: /2023/images/animation/layer6.png
+              profilePicture: /2023/images/speakers/featured/pradeek.jpg
         
         - image: "/2023/images/icons/tab12.png"
           title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
@@ -587,6 +592,55 @@
           title: Technical Panel - LLMs in Production
           duration: 30
           track: 4
+          speakers:
+            - id: PS-01
+              fullName: Raghavendra Satish Peri
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/raghavendra-satish-peri.jpg
+              about: Raghavendra Satish Peri empowers enterprises with digital accessibility and marketing expertise. He's the author of the influential Accessibility Blog at DigitalA11Y.com, driving change in tech communities. He founded HelloA11Y.com, uniting accessibility professionals. Passionate about diverse experiences, he shares insights on his blog at raghava.in.
+
+            - id: PS-02
+              fullName: Joel Godi
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/joel-s-godi.jpg
+              about: Joel Godi is a Social Psychologist and L&D Professional. He is an AuDHDer (Autistic & ADHD). Since founding Neurogifted in 2015, he has worked globally promoting the neurodiversity movement. He focuses on promoting neuroinclusion as not only a matter of social justice but also of economic success.
+
+            - id: PS-03
+              fullName: Anuradha Thota
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/anuradha-thota.jpg
+              about: Anuradha Thota is the founder and CEO of Blackbuck Engineers Pvt lts. Established in 2013 Blackbucks is one of the leading edtech platforms in India. Anuradha is an ISB alumna from 2010 and has extensive experience in delivering global projects through Wipro and earlier Satyam. She is on the board of studies at 7 academic institutions. She is the president of WICCI for Telangana and AP for AI and ML.
+
+            - id: PS-04
+              fullName: Vidhi Chugh
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/vidhi-chugh.jpg
+              about: Vidhi Chugh is a digital transformation leader working at the intersection of product, sciences, and engineering to build scalable machine learning systems. She is among the “World’s Top 200 Business and Technology Innovators” and recognized as an "AI Changemaker." She founded “All About Scale” to promote responsible AI development and help organizations develop the lens of AI governance.
+
+            - id: PS-05
+              fullName: V Krish Nimmagadda
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/krish-nimmagadda.jpg
+              about: V Krish Nimmagadda, Executive Director of Engineering at Phenom. Phenom’s, Intelligent Talent Experience (SaaS), an AI-driven hyper-personalization platform. Krish builds business-driven technology platforms. He believes in frugal innovation and leads by example. He held key roles at product organizations like Microsoft, Pramati, etc. He seeks deep spirituality to work, lead, and orchestrate.
+
+            - id: PS-06
+              fullName: Shahul Es
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/shahul-es.jpg
+              about: Shahul Es is a Code owner at Open Assistant AI and a Data Science professional with more than half a decade of experience in AI. He is a Top Ranked Kaggle GrandMaster and ML Contributor at Open Assistant AI. Currently, he is a Co-founder at Exploding Gradients.
+
+            - id: PS-07
+              fullName: Ayush Garg
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/ayush-garg.jpg
+              about: Ayush Garg is currently building Portkey, an AI Gateway & full-stack LLMOps platform for the GenAI. He has a rich history in spearheading early-stage startups as an engineering leader, crafting and scaling marketplaces, B2B & B2C SAAS, serving 20 Million+ DAUs. His last stint includes the creation of Peppertype and Pepper CMP - cutting-edge AI-driven martech platforms that are revolutionizing the industry.
+
+            - id: PS-08
+              fullName: Vandana Sharma
+              title:
+              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
+              about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
+
         
         - image: "/2023/images/icons/tab12.png"
           title: Open Slot
@@ -1143,10 +1197,10 @@
           speakers:
             - id: FS-101
               fullName: Jason Koo
-              # profilePicture: /2023/images/animation/layer6.png
+              profilePicture: /2023/images/speakers/featured/jason.jpg
             - id: FS-102 
               fullName: Alison Cossette
-              # profilePicture: /2023/images/animation/layer6.png
+              profilePicture: /2023/images/speakers/featured/alison_cossette.jpg
         - image: "/2023/images/icons/tab11.png"
           title: The programmers guide to timestamps and timezones
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
