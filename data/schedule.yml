@@ -383,7 +383,7 @@
                 - platform: website
                   link: https://shaikh-ubaid.github.io/
         - image: "/2023/images/icons/tab7.png"
-          title: Mistakes made and lessons learned doing IPC in Python
+          title: Lessons from optimising inter-process communication: Path to zero-copy
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
           track: 4
@@ -495,7 +495,7 @@
         - image: "/2023/images/icons/tab9.png"
           title: PyLadies Luncheon
           duration: 70
-          track: 6
+          track: 5
         
     - time: "02:00 PM - 02:30 PM"
       talks:
@@ -722,7 +722,7 @@
           duration: 30
           track: 5
 
-    - time: "15:40 PM - 16:50 PM"
+    - time: "03:40 PM - 04:50 PM"
       talks:
         - image: "/2023/images/icons/tab13.png"
           title: Software Exhibits
