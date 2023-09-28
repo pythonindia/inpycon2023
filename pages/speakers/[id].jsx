@@ -21,6 +21,7 @@ const SpeakerPage = () => {
       ...categorizedSpeakers["workshopInstructors"],
       ...categorizedSpeakers["tinkeringSpace"],
       ...categorizedSpeakers["youngLearnersWorkshop"],
+      ...categorizedSpeakers["technicalPanelSpeakers"],
     ];
 
     const findSpeaker = () => {

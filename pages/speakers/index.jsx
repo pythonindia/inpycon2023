@@ -13,7 +13,8 @@ const SpeakersPage = () => {
     featuredSpeakers: [],
     workshopInstructors: [],
     tinkeringSpace: [],
-    youngLearnersWorkshop:[]
+    youngLearnersWorkshop:[],
+    technicalPanelSpeakers: []
   });
 
   useEffect(() => {
@@ -40,6 +41,7 @@ const SpeakersPage = () => {
         <Speakers speakers={speakers["workshopInstructors"]} title="Workshop Instructors" />
         <Speakers speakers={speakers["tinkeringSpace"]} title="Tinkering Space" />
         <Speakers speakers={speakers["youngLearnersWorkshop"]} title="Young Learners Workshop" />
+        <Speakers speakers={speakers["technicalPanelSpeakers"]} title="Technical Panel Speakers" />
       </div>
       <Footer />
     </>
