@@ -7,6 +7,7 @@ import SpeakerDetail from "components/speakerDetail";
 import CustomModal from "./customModal";
 import Button from "./button";
 import ScheduleData from "data/schedule.yml";
+import { isTimeBetween } from "../lib/util";
 
 // group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
 const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
@@ -110,8 +111,10 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
+                    const isLive = isEventLive(scheduleItem.time);
                     return (
                       <ScheduleCard
+                        isLive={isLive}
                         {...scheduleItem}
                         date={currentSchedule.date}
                         scheduleIdx={idx}
@@ -123,17 +126,20 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-            {ScheduleData.map((item, idx) => {
-              return (
-                <ScheduleAccordion
-                  key={idx}
-                  id={idx}
-                  currentSchedule={currentSchedule}
-                  handleTabClick={() => handleTabClick(idx)}
-                  {...item}
-                />
-              );
-            })}
+
+            <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
+              {ScheduleData.map((item, idx) => {
+                return (
+                  <ScheduleAccordion
+                    key={idx}
+                    id={idx}
+                    currentSchedule={currentSchedule}
+                    handleTabClick={() => handleTabClick(idx)}
+                    {...item}
+                  />
+                );
+              })}
+            </Accordion>
             {/* Mobile Accordion ends */}
           </div>
         </div>
@@ -142,7 +148,7 @@ const ConferenceSchedule = () => {
   );
 };
 
-function ScheduleCard({ time, date, talks, scheduleIdx }) {
+function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
@@ -157,6 +163,7 @@ function ScheduleCard({ time, date, talks, scheduleIdx }) {
             const talkLength = talks.length;
             return (
               <ScheduleTalk
+                isLive={isLive}
                 {...talk}
                 size={Math.floor(12 / talkLength)}
                 key={`${date}-${scheduleIdx}-${id}`}
@@ -169,7 +176,7 @@ function ScheduleCard({ time, date, talks, scheduleIdx }) {
   );
 }
 
-function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
+function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -255,9 +262,17 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
 
           {track && (
             <Stack>
-              <Badge bg="success" tabIndex={0}>
+              <Badge bg="success" tabIndex={0} className="me-1 p-2">
                 {getTrackRoom(track)}
               </Badge>
+              {isLive && (
+                <Badge bg="danger" className="p-2">
+                  <span style={{ color: "#fff" }}>
+                    Live
+                    <span className="live-icon"></span>
+                  </span>
+                </Badge>
+              )}
             </Stack>
           )}
         </div>
@@ -266,7 +281,13 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   );
 }
 
-function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
+function ScheduleAccordion({
+  date,
+  currentSchedule,
+  id,
+  handleTabClick,
+  isLive,
+}) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -276,11 +297,11 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
     setSelectedSpeakerId(null);
   };
   return (
-    <Accordion key={id} className="d-block d-lg-none">
-      <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
+      <Accordion.Item eventKey={`${id}`} onClick={() => handleTabClick(id)}>
         <Accordion.Header>{date}</Accordion.Header>
         <Accordion.Body style={{ padding: "1rem 0rem" }}>
           {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
+            const isLive = isEventLive(scheduleItem.time);
             return scheduleItem.talks.map((talk, idx) => {
               return (
                 <Card
@@ -293,6 +314,14 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                   <Card.Body>
                     <Card.Subtitle className="mb-4">
                       {scheduleItem.time}
+                      {isLive && (
+                        <Badge bg="danger" className="float-end p-2">
+                          <span style={{ color: "#fff" }}>
+                            Live
+                            <span className="live-icon"></span>
+                          </span>
+                        </Badge>
+                      )}
                     </Card.Subtitle>
                     <Card.Title className="mb-2">
                       {talk.proposalLink ? (
@@ -310,73 +339,81 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                     </Card.Title>
                     {talk.track && (
                       <Stack>
-                        <Badge bg="success" tabIndex={0} style={{fontSize: "1rem"}}>
+                        <Badge
+                          bg="success"
+                          tabIndex={0}
+                          style={{ fontSize: "1rem" }}
+                        >
                           {getTrackRoom(talk.track)}
                         </Badge>
                       </Stack>
                     )}
-                    <Card.Body className="pt-1 ps-0">
-                      {/* {talk.speakersPlaceHolder ? (
+                  <Card.Body className="pt-1 ps-0">
+                    {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
                       ) : (
                         talk.speakers && <span>{"By "}</span>
                       )} */}
-                      {talk.speakers &&
-                        talk.speakers.map((speaker) => (
-                          <div key={`${speaker.id}`}>
-                            <div
-                              className="col pt-2 mt-2"
-                              onClick={() =>
-                                speaker.about &&
-                                handleOpenSpeakerModal(speaker.id)
-                              }
-                              tabIndex={0}
-                            >
-                              {speaker.profilePicture ? (
-                                <Image
-                                  className="rounded-pill me-2"
-                                  src={speaker.profilePicture}
-                                  alt={`Circular avatar containing an image of ${speaker.fullName}`}
-                                  width={48}
-                                  height={48}
-                                  loading="lazy"
-                                />
-                              ) : (
-                                <NameAvatar
-                                  width={48}
-                                  height={48}
-                                  fontSize={18}
-                                  className="speaker-image me-2 d-inline-flex"
-                                  name={speaker.fullName}
-                                />
-                              )}
-                              <span key={speaker.id} className="ft-weight">
-                                {speaker.fullName}
-                              </span>
-                            </div>
-                            {speaker.about && (
-                              <CustomModal
-                                showModal={selectedSpeakerId == speaker.id}
-                                handleClose={handleCloseSpeakerModal}
-                              >
-                                <SpeakerDetail
-                                  speaker={speaker}
-                                  showHyperLink={true}
-                                />
-                              </CustomModal>
+                    {talk.speakers &&
+                      talk.speakers.map((speaker) => (
+                        <div key={`${speaker.id}`}>
+                          <div
+                            className="col pt-2 mt-2"
+                            onClick={() =>
+                              speaker.about &&
+                              handleOpenSpeakerModal(speaker.id)
+                            }
+                            tabIndex={0}
+                          >
+                            {speaker.profilePicture ? (
+                              <Image
+                                className="rounded-pill me-2"
+                                src={speaker.profilePicture}
+                                alt={`Circular avatar containing an image of ${speaker.fullName}`}
+                                width={48}
+                                height={48}
+                                loading="lazy"
+                              />
+                            ) : (
+                              <NameAvatar
+                                width={48}
+                                height={48}
+                                fontSize={18}
+                                className="speaker-image me-2 d-inline-flex"
+                                name={speaker.fullName}
+                              />
                             )}
+                            <span key={speaker.id} className="ft-weight">
+                              {speaker.fullName}
+                            </span>
                           </div>
-                        ))}
-                    </Card.Body>
+                          {speaker.about && (
+                            <CustomModal
+                              showModal={selectedSpeakerId == speaker.id}
+                              handleClose={handleCloseSpeakerModal}
+                            >
+                              <SpeakerDetail
+                                speaker={speaker}
+                                showHyperLink={true}
+                              />
+                            </CustomModal>
+                          )}
+                        </div>
+                      ))}
                   </Card.Body>
-                </Card>
-              );
-            });
-          })}
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+                </Card.Body>
+              </Card>
+            );
+          });
+        })}
+      </Accordion.Body>
+    </Accordion.Item>
   );
+}
+
+function isEventLive(time) {
+  const [startTime, endTime] = time.split("-");
+  return isTimeBetween(startTime, endTime);
 }
 
 export default ConferenceSchedule;
