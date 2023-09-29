@@ -95,8 +95,8 @@ const HeroBanner = () => {
                   <Button
                     buttonClassName="custom-button submit-btn register-btn-extra-padding"
                     anchorClassName="text-decoration-none"
-                    buttonLabel="BoFs and Posters"
-                    buttonHyperLink="https://in.pycon.org/cfp/bofs-and-posters-2023/proposals/"
+                    buttonLabel="Submit .extend() Tracks"
+                    buttonHyperLink="https://forms.gle/xwtfwXF6y1Us9FBK9"
                   />
                 </div>
               </div>
