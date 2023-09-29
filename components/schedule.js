@@ -149,6 +149,12 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
+        {isLive && (
+          <Badge bg="danger">
+            <span style={{color: "#fff"}}>Live
+            </span>
+          </Badge>
+        )}
         <p className="mb-0 date-announced">{time}</p>
       </div>
       {/* <div className="col-md-1 text-center">
