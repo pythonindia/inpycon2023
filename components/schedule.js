@@ -7,6 +7,7 @@ import SpeakerDetail from "components/speakerDetail";
 import CustomModal from "./customModal";
 import Button from "./button";
 import ScheduleData from "data/schedule.yml";
+import { isTimeBetween } from "../lib/util";
 
 // group by array using a condition, param 1 -> array, param 2 -> function for filtering and grouping
 const groupBy = (a, f) => a.reduce((x, c) => (x[f(c)] ??= []).push(c) && x, {});
@@ -110,8 +111,10 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
+                    const isLive = isEventLive(scheduleItem.time);
                     return (
                       <ScheduleCard
+                        isLive={isLive}
                         {...scheduleItem}
                         date={currentSchedule.date}
                         scheduleIdx={idx}
@@ -142,10 +145,16 @@ const ConferenceSchedule = () => {
   );
 };
 
-function ScheduleCard({ time, date, talks, scheduleIdx }) {
+function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
+        {isLive && (
+          <Badge bg="danger">
+            <span style={{color: "#fff"}}>Live
+            </span>
+          </Badge>
+        )}
         <p className="mb-0 date-announced">{time}</p>
       </div>
       {/* <div className="col-md-1 text-center">
@@ -266,7 +275,7 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   );
 }
 
-function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
+function ScheduleAccordion({ date, currentSchedule, id, handleTabClick, isLive }) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -281,6 +290,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
         <Accordion.Header>{date}</Accordion.Header>
         <Accordion.Body style={{ padding: "1rem 0rem" }}>
           {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
+            const isLive = isEventLive(scheduleItem.time);
             return scheduleItem.talks.map((talk, idx) => {
               return (
                 <Card
@@ -293,6 +303,12 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                   <Card.Body>
                     <Card.Subtitle className="mb-4">
                       {scheduleItem.time}
+                      {isLive && (
+                        <Badge bg="danger" className="float-end">
+                          <span style={{color: "#fff"}}>Live
+                          </span>
+                        </Badge>
+                      )}
                     </Card.Subtitle>
                     <Card.Title className="mb-2">
                       {talk.proposalLink ? (
@@ -310,7 +326,11 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
                     </Card.Title>
                     {talk.track && (
                       <Stack>
-                        <Badge bg="success" tabIndex={0} style={{fontSize: "1rem"}}>
+                        <Badge
+                          bg="success"
+                          tabIndex={0}
+                          style={{ fontSize: "1rem" }}
+                        >
                           {getTrackRoom(talk.track)}
                         </Badge>
                       </Stack>
@@ -377,6 +397,11 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
       </Accordion.Item>
     </Accordion>
   );
+}
+
+function isEventLive(time){
+  const [startTime, endTime] = time.split("-");
+  return isTimeBetween(startTime, endTime);
 }
 
 export default ConferenceSchedule;

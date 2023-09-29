@@ -28,6 +28,7 @@
     "js-yaml": "^4.1.0",
     "js-yaml-loader": "^1.2.2",
     "lottie-web": "^5.12.2",
+    "moment-timezone": "^0.5.43",
     "next": "13.2.4",
     "next-seo": "^6.1.0",
     "next-sitemap": "^4.2.3",
