@@ -65,7 +65,7 @@ const ConferenceSchedule = () => {
               </div>
               <div className="col py-2">
                 <Button
-                  buttonHyperLink="https://drive.google.com/file/d/1Mi7lV-aqGKUvfadjBd8FoiyoSe6LMPHA/view"
+                  buttonHyperLink="https://drive.google.com/file/d/1Fb0UO-kDEzstHdNrPgmsl76TWwEhkDOC/view?usp=sharing"
                   openInNewTab={true}
                   anchorClassName="text-decoration-none text-light"
                   buttonClassName="custom-button green-btn"
