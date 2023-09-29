@@ -7,9 +7,6 @@
           title: Registrations 
           duration: 75
           track: 8
-        - title: Tea
-          duration: 75
-          track: 7
     - time: "10:00 AM - 01:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
