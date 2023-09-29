@@ -126,17 +126,20 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-            {ScheduleData.map((item, idx) => {
-              return (
-                <ScheduleAccordion
-                  key={idx}
-                  id={idx}
-                  currentSchedule={currentSchedule}
-                  handleTabClick={() => handleTabClick(idx)}
-                  {...item}
-                />
-              );
-            })}
+
+            <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
+              {ScheduleData.map((item, idx) => {
+                return (
+                  <ScheduleAccordion
+                    key={idx}
+                    id={idx}
+                    currentSchedule={currentSchedule}
+                    handleTabClick={() => handleTabClick(idx)}
+                    {...item}
+                  />
+                );
+              })}
+            </Accordion>
             {/* Mobile Accordion ends */}
           </div>
         </div>
@@ -149,12 +152,6 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
-        {isLive && (
-          <Badge bg="danger">
-            <span style={{color: "#fff"}}>Live
-            </span>
-          </Badge>
-        )}
         <p className="mb-0 date-announced">{time}</p>
       </div>
       {/* <div className="col-md-1 text-center">
@@ -300,8 +297,7 @@ function ScheduleAccordion({
     setSelectedSpeakerId(null);
   };
   return (
-    <Accordion key={id} className="d-block d-lg-none">
-      <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
+      <Accordion.Item eventKey={`${id}`} onClick={() => handleTabClick(id)}>
         <Accordion.Header>{date}</Accordion.Header>
         <Accordion.Body style={{ padding: "1rem 0rem" }}>
           {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
@@ -352,67 +348,66 @@ function ScheduleAccordion({
                         </Badge>
                       </Stack>
                     )}
-                    <Card.Body className="pt-1 ps-0">
-                      {/* {talk.speakersPlaceHolder ? (
+                  <Card.Body className="pt-1 ps-0">
+                    {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
                       ) : (
                         talk.speakers && <span>{"By "}</span>
                       )} */}
-                      {talk.speakers &&
-                        talk.speakers.map((speaker) => (
-                          <div key={`${speaker.id}`}>
-                            <div
-                              className="col pt-2 mt-2"
-                              onClick={() =>
-                                speaker.about &&
-                                handleOpenSpeakerModal(speaker.id)
-                              }
-                              tabIndex={0}
-                            >
-                              {speaker.profilePicture ? (
-                                <Image
-                                  className="rounded-pill me-2"
-                                  src={speaker.profilePicture}
-                                  alt={`Circular avatar containing an image of ${speaker.fullName}`}
-                                  width={48}
-                                  height={48}
-                                  loading="lazy"
-                                />
-                              ) : (
-                                <NameAvatar
-                                  width={48}
-                                  height={48}
-                                  fontSize={18}
-                                  className="speaker-image me-2 d-inline-flex"
-                                  name={speaker.fullName}
-                                />
-                              )}
-                              <span key={speaker.id} className="ft-weight">
-                                {speaker.fullName}
-                              </span>
-                            </div>
-                            {speaker.about && (
-                              <CustomModal
-                                showModal={selectedSpeakerId == speaker.id}
-                                handleClose={handleCloseSpeakerModal}
-                              >
-                                <SpeakerDetail
-                                  speaker={speaker}
-                                  showHyperLink={true}
-                                />
-                              </CustomModal>
+                    {talk.speakers &&
+                      talk.speakers.map((speaker) => (
+                        <div key={`${speaker.id}`}>
+                          <div
+                            className="col pt-2 mt-2"
+                            onClick={() =>
+                              speaker.about &&
+                              handleOpenSpeakerModal(speaker.id)
+                            }
+                            tabIndex={0}
+                          >
+                            {speaker.profilePicture ? (
+                              <Image
+                                className="rounded-pill me-2"
+                                src={speaker.profilePicture}
+                                alt={`Circular avatar containing an image of ${speaker.fullName}`}
+                                width={48}
+                                height={48}
+                                loading="lazy"
+                              />
+                            ) : (
+                              <NameAvatar
+                                width={48}
+                                height={48}
+                                fontSize={18}
+                                className="speaker-image me-2 d-inline-flex"
+                                name={speaker.fullName}
+                              />
                             )}
+                            <span key={speaker.id} className="ft-weight">
+                              {speaker.fullName}
+                            </span>
                           </div>
-                        ))}
-                    </Card.Body>
+                          {speaker.about && (
+                            <CustomModal
+                              showModal={selectedSpeakerId == speaker.id}
+                              handleClose={handleCloseSpeakerModal}
+                            >
+                              <SpeakerDetail
+                                speaker={speaker}
+                                showHyperLink={true}
+                              />
+                            </CustomModal>
+                          )}
+                        </div>
+                      ))}
                   </Card.Body>
-                </Card>
-              );
-            });
-          })}
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+                </Card.Body>
+              </Card>
+            );
+          });
+        })}
+      </Accordion.Body>
+    </Accordion.Item>
   );
 }
 
