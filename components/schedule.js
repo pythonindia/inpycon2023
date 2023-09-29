@@ -35,7 +35,7 @@ const getTrackRoom = (num) => {
 };
 
 const ConferenceSchedule = () => {
-  const [selectedTab, setSelectedTab] = useState(0);
+  const [selectedTab, setSelectedTab] = useState(2);
 
   const handleTabClick = (index) => {
     setSelectedTab(index);
