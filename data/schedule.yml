@@ -7,9 +7,6 @@
           title: Registrations
           duration: 75
           track: 8
-        - title: Tea
-          duration: 75
-          track: 7
     - time: "10:00 AM - 01:00 PM"
       talks:
         - image: "/2023/images/icons/tab2.png"
@@ -407,7 +404,7 @@
                 - platform: website
                   link: https://shaikh-ubaid.github.io/
         - image: "/2023/images/icons/tab7.png"
-          title: Mistakes made and lessons learned doing IPC in Python
+          title: Lessons from optimising inter-process communication - Path to zero-copy
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/mistakes-made-and-lessons-learned-doing-ipc-in-python~b8283/
           duration: 30
           track: 4
@@ -519,8 +516,7 @@
         - image: "/2023/images/icons/tab9.png"
           title: PyLadies Luncheon
           duration: 70
-          track: 6
-
+          track: 5
     - time: "02:00 PM - 02:30 PM"
       talks:
         - image: "/2023/images/icons/tab10.png"
@@ -617,53 +613,49 @@
           duration: 30
           track: 4
           speakers:
-            - id: PS-01
-              fullName: Raghavendra Satish Peri
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/raghavendra-satish-peri.jpg
-              about: Raghavendra Satish Peri empowers enterprises with digital accessibility and marketing expertise. He's the author of the influential Accessibility Blog at DigitalA11Y.com, driving change in tech communities. He founded HelloA11Y.com, uniting accessibility professionals. Passionate about diverse experiences, he shares insights on his blog at raghava.in.
-
-            - id: PS-02
-              fullName: Joel Godi
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/joel-s-godi.jpg
-              about: Joel Godi is a Social Psychologist and L&D Professional. He is an AuDHDer (Autistic & ADHD). Since founding Neurogifted in 2015, he has worked globally promoting the neurodiversity movement. He focuses on promoting neuroinclusion as not only a matter of social justice but also of economic success.
-
-            - id: PS-03
-              fullName: Anuradha Thota
-              title:
-              profilePicture: /2023/images/speakers/technical-panel/anuradha-thota.jpg
-              about: Anuradha Thota is the founder and CEO of Blackbuck Engineers Pvt lts. Established in 2013 Blackbucks is one of the leading edtech platforms in India. Anuradha is an ISB alumna from 2010 and has extensive experience in delivering global projects through Wipro and earlier Satyam. She is on the board of studies at 7 academic institutions. She is the president of WICCI for Telangana and AP for AI and ML.
-
             - id: PS-04
               fullName: Vidhi Chugh
               title:
               profilePicture: /2023/images/speakers/technical-panel/vidhi-chugh.jpg
               about: Vidhi Chugh is a digital transformation leader working at the intersection of product, sciences, and engineering to build scalable machine learning systems. She is among the “World’s Top 200 Business and Technology Innovators” and recognized as an "AI Changemaker." She founded “All About Scale” to promote responsible AI development and help organizations develop the lens of AI governance.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/vidhi-chugh-088648a1/
 
             - id: PS-05
               fullName: V Krish Nimmagadda
               title:
               profilePicture: /2023/images/speakers/technical-panel/krish-nimmagadda.jpg
               about: V Krish Nimmagadda, Executive Director of Engineering at Phenom. Phenom’s, Intelligent Talent Experience (SaaS), an AI-driven hyper-personalization platform. Krish builds business-driven technology platforms. He believes in frugal innovation and leads by example. He held key roles at product organizations like Microsoft, Pramati, etc. He seeks deep spirituality to work, lead, and orchestrate.
-
+              social:
+                - platform: twitter
+                  link: https://twitter.com/krishnvs
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/ramakrishnanimmagadda/
+                - platform: instagram
+                  link: https://www.instagram.com/ramakrishnanvs/
+            
             - id: PS-06
-              fullName: Shahul Es
+              fullName: Shahul ES
               title:
               profilePicture: /2023/images/speakers/technical-panel/shahul-es.jpg
-              about: Shahul Es is a Code owner at Open Assistant AI and a Data Science professional with more than half a decade of experience in AI. He is a Top Ranked Kaggle GrandMaster and ML Contributor at Open Assistant AI. Currently, he is a Co-founder at Exploding Gradients.
+              about: Shahul ES is a Code owner at Open Assistant AI and a Data Science professional with more than half a decade of experience in AI. He is a Top Ranked Kaggle GrandMaster and ML Contributor at Open Assistant AI. Currently, he is a Co-founder at Exploding Gradients.
+              social:
+                - platform: twitter
+                  link: https://twitter.com/Shahules786
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/shahules/
 
             - id: PS-07
               fullName: Ayush Garg
               title:
               profilePicture: /2023/images/speakers/technical-panel/ayush-garg.jpg
               about: Ayush Garg is currently building Portkey, an AI Gateway & full-stack LLMOps platform for the GenAI. He has a rich history in spearheading early-stage startups as an engineering leader, crafting and scaling marketplaces, B2B & B2C SAAS, serving 20 Million+ DAUs. His last stint includes the creation of Peppertype and Pepper CMP - cutting-edge AI-driven martech platforms that are revolutionizing the industry.
-
-            - id: PS-08
-              fullName: Vandana Sharma
-              title:
-              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
-              about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
+              social:
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/ayush92garg/
+                - platform: twitter
+                  link: https://twitter.com/ayushgarg_xyz
 
 
         - image: "/2023/images/icons/tab12.png"
@@ -770,7 +762,7 @@
           duration: 30
           track: 5
 
-    - time: "15:40 PM - 16:50 PM"
+    - time: "03:40 PM - 04:50 PM"
       talks:
         - image: "/2023/images/icons/tab13.png"
           title: Software Exhibits
@@ -1205,6 +1197,42 @@
           title: Diversity Panel Discussion
           duration: 55
           track: 1
+          speakers:
+            - id: PS-01
+              fullName: Raghavendra Satish Peri
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/raghavendra-satish-peri.jpg
+              about: Raghavendra Satish Peri empowers enterprises with digital accessibility and marketing expertise. He's the author of the influential Accessibility Blog at DigitalA11Y.com, driving change in tech communities. He founded HelloA11Y.com, uniting accessibility professionals. Passionate about diverse experiences, he shares insights on his blog at raghava.in.
+              social:
+                - platform: twitter
+                  link: https://twitter.com/artofvision
+                - platform: instagram
+                  link: https://www.instagram.com/artofraghava/
+                - platform: linkedin
+                  link: https://www.linkedin.com/in/raghavasatish/              
+            - id: PS-02
+              fullName: Joel Godi
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/joel-s-godi.jpg
+              about: Joel Godi is a Social Psychologist and L&D Professional. He is an AuDHDer (Autistic & ADHD). Since founding Neurogifted in 2015, he has worked globally promoting the neurodiversity movement. He focuses on promoting neuroinclusion as not only a matter of social justice but also of economic success.
+              social:
+                 - platform: linkedin
+                   link: https://www.linkedin.com/in/joelsgodi
+
+            - id: PS-03
+              fullName: Anuradha Thota
+              title:
+              profilePicture: /2023/images/speakers/technical-panel/anuradha-thota.jpg
+              about: Anuradha Thota is the founder and CEO of Blackbuck Engineers Pvt lts. Established in 2013 Blackbucks is one of the leading edtech platforms in India. Anuradha is an ISB alumna from 2010 and has extensive experience in delivering global projects through Wipro and earlier Satyam. She is on the board of studies at 7 academic institutions. She is the president of WICCI for Telangana and AP for AI and ML.
+              social:
+                - platform: linkedin
+                  link: https://linkedin.com/in/anuradha-thota
+
+            - id: PS-08
+              fullName: Vandana Sharma
+              title:
+              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
+              about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
     - time: "03:40 PM - 04:40 PM"
       talks:
         - image: "/2023/images/icons/tab9.png"
