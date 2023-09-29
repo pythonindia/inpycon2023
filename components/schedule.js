@@ -123,17 +123,20 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-            {ScheduleData.map((item, idx) => {
-              return (
-                <ScheduleAccordion
-                  key={idx}
-                  id={idx}
-                  currentSchedule={currentSchedule}
-                  handleTabClick={() => handleTabClick(idx)}
-                  {...item}
-                />
-              );
-            })}
+
+            <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
+              {ScheduleData.map((item, idx) => {
+                return (
+                  <ScheduleAccordion
+                    key={idx}
+                    id={idx}
+                    currentSchedule={currentSchedule}
+                    handleTabClick={() => handleTabClick(idx)}
+                    {...item}
+                  />
+                );
+              })}
+            </Accordion>
             {/* Mobile Accordion ends */}
           </div>
         </div>
@@ -276,106 +279,108 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick }) {
     setSelectedSpeakerId(null);
   };
   return (
-    <Accordion key={id} className="d-block d-lg-none">
-      <Accordion.Item eventKey={id} onClick={() => handleTabClick(id)}>
-        <Accordion.Header>{date}</Accordion.Header>
-        <Accordion.Body style={{ padding: "1rem 0rem" }}>
-          {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
-            return scheduleItem.talks.map((talk, idx) => {
-              return (
-                <Card
-                  style={{ margin: "0.8rem 0" }}
-                  key={`${date}-${scheduleIdx}-${idx}`}
-                >
-                  {talk.title.indexOf("Keynote") > -1 && (
-                    <Card.Header className="bg-warning">Keynote</Card.Header>
-                  )}
-                  <Card.Body>
-                    <Card.Subtitle className="mb-4">
-                      {scheduleItem.time}
-                    </Card.Subtitle>
-                    <Card.Title className="mb-2">
-                      {talk.proposalLink ? (
-                        <Link
-                          className="text-decoration-none text-black"
-                          href={talk.proposalLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {talk.title}
-                        </Link>
-                      ) : (
-                        <>{talk.title}</>
-                      )}
-                    </Card.Title>
-                    {talk.track && (
-                      <Stack>
-                        <Badge bg="success" tabIndex={0} style={{fontSize: "1rem"}}>
-                          {getTrackRoom(talk.track)}
-                        </Badge>
-                      </Stack>
+    <Accordion.Item eventKey={`${id}`} onClick={() => handleTabClick(id)}>
+      <Accordion.Header>{date}</Accordion.Header>
+      <Accordion.Body style={{ padding: "1rem 0rem" }}>
+        {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
+          return scheduleItem.talks.map((talk, idx) => {
+            return (
+              <Card
+                style={{ margin: "0.8rem 0" }}
+                key={`${date}-${scheduleIdx}-${idx}`}
+              >
+                {talk.title.indexOf("Keynote") > -1 && (
+                  <Card.Header className="bg-warning">Keynote</Card.Header>
+                )}
+                <Card.Body>
+                  <Card.Subtitle className="mb-4">
+                    {scheduleItem.time}
+                  </Card.Subtitle>
+                  <Card.Title className="mb-2">
+                    {talk.proposalLink ? (
+                      <Link
+                        className="text-decoration-none text-black"
+                        href={talk.proposalLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {talk.title}
+                      </Link>
+                    ) : (
+                      <>{talk.title}</>
                     )}
-                    <Card.Body className="pt-1 ps-0">
-                      {/* {talk.speakersPlaceHolder ? (
+                  </Card.Title>
+                  {talk.track && (
+                    <Stack>
+                      <Badge
+                        bg="success"
+                        tabIndex={0}
+                        style={{ fontSize: "1rem" }}
+                      >
+                        {getTrackRoom(talk.track)}
+                      </Badge>
+                    </Stack>
+                  )}
+                  <Card.Body className="pt-1 ps-0">
+                    {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
                       ) : (
                         talk.speakers && <span>{"By "}</span>
                       )} */}
-                      {talk.speakers &&
-                        talk.speakers.map((speaker) => (
-                          <div key={`${speaker.id}`}>
-                            <div
-                              className="col pt-2 mt-2"
-                              onClick={() =>
-                                speaker.about &&
-                                handleOpenSpeakerModal(speaker.id)
-                              }
-                              tabIndex={0}
-                            >
-                              {speaker.profilePicture ? (
-                                <Image
-                                  className="rounded-pill me-2"
-                                  src={speaker.profilePicture}
-                                  alt={`Circular avatar containing an image of ${speaker.fullName}`}
-                                  width={48}
-                                  height={48}
-                                  loading="lazy"
-                                />
-                              ) : (
-                                <NameAvatar
-                                  width={48}
-                                  height={48}
-                                  fontSize={18}
-                                  className="speaker-image me-2 d-inline-flex"
-                                  name={speaker.fullName}
-                                />
-                              )}
-                              <span key={speaker.id} className="ft-weight">
-                                {speaker.fullName}
-                              </span>
-                            </div>
-                            {speaker.about && (
-                              <CustomModal
-                                showModal={selectedSpeakerId == speaker.id}
-                                handleClose={handleCloseSpeakerModal}
-                              >
-                                <SpeakerDetail
-                                  speaker={speaker}
-                                  showHyperLink={true}
-                                />
-                              </CustomModal>
+                    {talk.speakers &&
+                      talk.speakers.map((speaker) => (
+                        <div key={`${speaker.id}`}>
+                          <div
+                            className="col pt-2 mt-2"
+                            onClick={() =>
+                              speaker.about &&
+                              handleOpenSpeakerModal(speaker.id)
+                            }
+                            tabIndex={0}
+                          >
+                            {speaker.profilePicture ? (
+                              <Image
+                                className="rounded-pill me-2"
+                                src={speaker.profilePicture}
+                                alt={`Circular avatar containing an image of ${speaker.fullName}`}
+                                width={48}
+                                height={48}
+                                loading="lazy"
+                              />
+                            ) : (
+                              <NameAvatar
+                                width={48}
+                                height={48}
+                                fontSize={18}
+                                className="speaker-image me-2 d-inline-flex"
+                                name={speaker.fullName}
+                              />
                             )}
+                            <span key={speaker.id} className="ft-weight">
+                              {speaker.fullName}
+                            </span>
                           </div>
-                        ))}
-                    </Card.Body>
+                          {speaker.about && (
+                            <CustomModal
+                              showModal={selectedSpeakerId == speaker.id}
+                              handleClose={handleCloseSpeakerModal}
+                            >
+                              <SpeakerDetail
+                                speaker={speaker}
+                                showHyperLink={true}
+                              />
+                            </CustomModal>
+                          )}
+                        </div>
+                      ))}
                   </Card.Body>
-                </Card>
-              );
-            });
-          })}
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+                </Card.Body>
+              </Card>
+            );
+          });
+        })}
+      </Accordion.Body>
+    </Accordion.Item>
   );
 }
 
