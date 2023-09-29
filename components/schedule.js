@@ -149,12 +149,6 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
-        {isLive && (
-          <Badge bg="danger">
-            <span style={{color: "#fff"}}>Live
-            </span>
-          </Badge>
-        )}
         <p className="mb-0 date-announced">{time}</p>
       </div>
       {/* <div className="col-md-1 text-center">
@@ -166,6 +160,7 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
             const talkLength = talks.length;
             return (
               <ScheduleTalk
+                isLive={isLive}
                 {...talk}
                 size={Math.floor(12 / talkLength)}
                 key={`${date}-${scheduleIdx}-${id}`}
@@ -178,7 +173,7 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   );
 }
 
-function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
+function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -264,9 +259,17 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
 
           {track && (
             <Stack>
-              <Badge bg="success" tabIndex={0}>
+              <Badge bg="success" tabIndex={0} className="me-1 p-2">
                 {getTrackRoom(track)}
               </Badge>
+              {isLive && (
+                <Badge bg="danger" className="p-2">
+                  <span style={{ color: "#fff" }}>
+                    Live
+                    <span className="live-icon"></span>
+                  </span>
+                </Badge>
+              )}
             </Stack>
           )}
         </div>
@@ -275,7 +278,13 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   );
 }
 
-function ScheduleAccordion({ date, currentSchedule, id, handleTabClick, isLive }) {
+function ScheduleAccordion({
+  date,
+  currentSchedule,
+  id,
+  handleTabClick,
+  isLive,
+}) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -304,8 +313,10 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick, isLive }
                     <Card.Subtitle className="mb-4">
                       {scheduleItem.time}
                       {isLive && (
-                        <Badge bg="danger" className="float-end">
-                          <span style={{color: "#fff"}}>Live
+                        <Badge bg="danger" className="float-end p-2">
+                          <span style={{ color: "#fff" }}>
+                            Live
+                            <span className="live-icon"></span>
                           </span>
                         </Badge>
                       )}
@@ -399,7 +410,7 @@ function ScheduleAccordion({ date, currentSchedule, id, handleTabClick, isLive }
   );
 }
 
-function isEventLive(time){
+function isEventLive(time) {
   const [startTime, endTime] = time.split("-");
   return isTimeBetween(startTime, endTime);
 }
