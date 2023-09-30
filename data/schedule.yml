@@ -548,15 +548,18 @@
                   link: https://twitter.com/marcelotryle
     - time: "03:40 PM - 04:10 PM"
       talks:
-        - image: "/2023/images/icons/tab12.png"
-          title: "Beyond Code: Enterprise Grade Software Engineering"
-          duration: 30
+        - image: "/2023/images/icons/tab8.png"
+          title: "Architecting Python Apps in real-time "
+          duration: 15
+          proposalLink:
           track: 1
           speakers:
-            - id: FS-104
-              fullName: Pradeek
-              profilePicture: /2023/images/speakers/featured/pradeek.jpg
-
+            - id: FS-101
+              fullName: Jason Koo
+              profilePicture: /2023/images/speakers/featured/jason.jpg
+            - id: FS-102
+              fullName: Alison Cossette
+              profilePicture: /2023/images/speakers/featured/alison_cossette.jpg
         - image: "/2023/images/icons/tab12.png"
           title: Data Encoding Formats - A Comparison of Text-Based and Binary Encoding
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/data-encoding-formats-a-comparison-of-text-based-and-binary-encoding~bopXd/
@@ -1241,18 +1244,14 @@
           track: 6
     - time: "03:40 PM - 04:10 PM"
       talks:
-        - image: "/2023/images/icons/tab8.png"
-          title: "Architecting Python Apps in real-time "
-          duration: 15
-          proposalLink:
+        - image: "/2023/images/icons/tab12.png"
+          title: "Beyond Code: Enterprise Grade Software Engineering"
+          duration: 30
           track: 1
           speakers:
-            - id: FS-101
-              fullName: Jason Koo
-              profilePicture: /2023/images/speakers/featured/jason.jpg
-            - id: FS-102
-              fullName: Alison Cossette
-              profilePicture: /2023/images/speakers/featured/alison_cossette.jpg
+            - id: FS-104
+              fullName: Pradeek
+              profilePicture: /2023/images/speakers/featured/pradeek.jpg
         - image: "/2023/images/icons/tab11.png"
           title: The programmers guide to timestamps and timezones
           proposalLink: https://in.pycon.org/cfp/pycon-india-2023/proposals/the-programmers-guide-to-timestamps-and-timezones~bmZZG/
