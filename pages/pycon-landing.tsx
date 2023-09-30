@@ -80,7 +80,7 @@ export default function PyConIndiaWeb() {
             </div>
             <div className="col-md-6 register-btn col-sm-12 pt-2">
               <Button
-                buttonHyperLink="https://drive.google.com/file/d/1Fb0UO-kDEzstHdNrPgmsl76TWwEhkDOC/view?usp=sharing"
+                buttonHyperLink="https://drive.google.com/file/d/1v2D2epgFrvH4E_Kr7qbFxNdSctAnjATQ/view?usp=sharing"
                 openInNewTab={true}
                 anchorClassName="text-decoration-none text-light"
                 buttonClassName="custom-button green-btn"
