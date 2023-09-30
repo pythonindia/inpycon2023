@@ -425,7 +425,7 @@
                 - platform: twitter
                   link: https://twitter.com/kartheek0000
         - image: "/2023/images/icons/tab7.png"
-          title: Sponsored Talk by Google
+          title: Sponsored Talk by HappyFox
           proposalLink:
           duration: 30
           track: 5
@@ -995,8 +995,9 @@
                   link: https://twitter.com/AngelinMaryJohn
                 - platform: website
                   link: https://angelinjohn.com/
-        - image: "/2023/images/icons/tab5.png"
-          title: Open Slot
+        - image: "/2023/images/icons/tab7.png"
+          title: Sponsored Talk by Google
+          proposalLink:
           duration: 30
           track: 5
     - time: "11:40 AM - 12:10 PM"
