@@ -57,19 +57,19 @@ const HeroBanner = () => {
               <div className="row register-btn justify-content-center">
                 <div className="col-md-6 col-8 pt-3">
                   <Button
-                    buttonHyperLink="/schedule/"
+                    buttonHyperLink="https://drive.google.com/file/d/1tJhU8aUzafwE1t21ZlZj8gWuqJtR9Bke/view?usp=share_link"
                     openInNewTab={false}
                     anchorClassName="text-decoration-none text-light"
                     buttonClassName="custom-button green-btn"
-                    buttonLabel="View Schedule"
-                    icon={
-                      <IconComponent
-                        className="ms-2"
-                        name="arrowRight"
-                        padding={0}
-                        size={20}
-                      />
-                    }
+                    buttonLabel="Download Program Guide"
+                    // icon={
+                    //   <IconComponent
+                    //     className="ms-2"
+                    //     name="arrowRight"
+                    //     padding={0}
+                    //     size={20}
+                    //   />
+                    // }
                   />
                 </div>
                 <div className="col-md-6 col-8 pt-3">
