@@ -36,7 +36,8 @@ const getTrackRoom = (num) => {
 };
 
 const ConferenceSchedule = () => {
-  const [selectedTab, setSelectedTab] = useState(1);
+  const defaultScheduleIndex = 1
+  const [selectedTab, setSelectedTab] = useState(defaultScheduleIndex);
 
   const handleTabClick = (index) => {
     setSelectedTab(index);
@@ -82,9 +83,8 @@ const ConferenceSchedule = () => {
               {ScheduleData.map((item, index) => (
                 <li className="nav-item" role="presentation" key={index}>
                   <button
-                    className={`nav-link ${
-                      index === selectedTab ? "active" : "nav-link-inactive"
-                    }`}
+                    className={`nav-link ${index === selectedTab ? "active" : "nav-link-inactive"
+                      }`}
                     id={`pills-tab-${index}`}
                     data-bs-toggle="pill"
                     data-bs-target={`#pills-${index}`}
@@ -111,7 +111,7 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
-                    const isLive = isEventLive(scheduleItem.time);
+                    const isLive = (selectedTab == defaultScheduleIndex && isEventLive(scheduleItem.time));
                     return (
                       <ScheduleCard
                         isLive={isLive}
@@ -126,13 +126,13 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-
             <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
               {ScheduleData.map((item, idx) => {
                 return (
                   <ScheduleAccordion
                     key={idx}
                     id={idx}
+                    defaultScheduleIndex={defaultScheduleIndex}
                     currentSchedule={currentSchedule}
                     handleTabClick={() => handleTabClick(idx)}
                     {...item}
@@ -188,9 +188,8 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
   return (
     <>
       <div
-        className={`row talk-card align-items-center p-2 pb-2 ${
-          size > 1 || "border-bottom"
-        }`}
+        className={`row talk-card align-items-center p-2 pb-2 ${size > 1 || "border-bottom"
+          }`}
         style={{ marginBottom: "0.8rem" }}
       >
         <div className="col-4">
@@ -284,6 +283,7 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
 function ScheduleAccordion({
   date,
   currentSchedule,
+  defaultScheduleIndex,
   id,
   handleTabClick,
   isLive,
@@ -296,58 +296,59 @@ function ScheduleAccordion({
   const handleCloseSpeakerModal = () => {
     setSelectedSpeakerId(null);
   };
+
   return (
-      <Accordion.Item eventKey={`${id}`} onClick={() => handleTabClick(id)}>
-        <Accordion.Header>{date}</Accordion.Header>
-        <Accordion.Body style={{ padding: "1rem 0rem" }}>
-          {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
-            const isLive = isEventLive(scheduleItem.time);
-            return scheduleItem.talks.map((talk, idx) => {
-              return (
-                <Card
-                  style={{ margin: "0.8rem 0" }}
-                  key={`${date}-${scheduleIdx}-${idx}`}
-                >
-                  {talk.title.indexOf("Keynote") > -1 && (
-                    <Card.Header className="bg-warning">Keynote</Card.Header>
-                  )}
-                  <Card.Body>
-                    <Card.Subtitle className="mb-4">
-                      {scheduleItem.time}
-                      {isLive && (
-                        <Badge bg="danger" className="float-end p-2">
-                          <span style={{ color: "#fff" }}>
-                            Live
-                            <span className="live-icon"></span>
-                          </span>
-                        </Badge>
-                      )}
-                    </Card.Subtitle>
-                    <Card.Title className="mb-2">
-                      {talk.proposalLink ? (
-                        <Link
-                          className="text-decoration-none text-black"
-                          href={talk.proposalLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {talk.title}
-                        </Link>
-                      ) : (
-                        <>{talk.title}</>
-                      )}
-                    </Card.Title>
-                    {talk.track && (
-                      <Stack>
-                        <Badge
-                          bg="success"
-                          tabIndex={0}
-                          style={{ fontSize: "1rem" }}
-                        >
-                          {getTrackRoom(talk.track)}
-                        </Badge>
-                      </Stack>
+    <Accordion.Item eventKey={`${id}`} onClick={() => handleTabClick(id)}>
+      <Accordion.Header>{date}</Accordion.Header>
+      <Accordion.Body style={{ padding: "1rem 0rem" }}>
+        {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
+          const isLive = (defaultScheduleIndex == id && isEventLive(scheduleItem.time));
+          return scheduleItem.talks.map((talk, idx) => {
+            return (
+              <Card
+                style={{ margin: "0.8rem 0" }}
+                key={`${date}-${scheduleIdx}-${idx}`}
+              >
+                {talk.title.indexOf("Keynote") > -1 && (
+                  <Card.Header className="bg-warning">Keynote</Card.Header>
+                )}
+                <Card.Body>
+                  <Card.Subtitle className="mb-4">
+                    {scheduleItem.time}
+                    {isLive && (
+                      <Badge bg="danger" className="float-end p-2">
+                        <span style={{ color: "#fff" }}>
+                          Live
+                          <span className="live-icon"></span>
+                        </span>
+                      </Badge>
                     )}
+                  </Card.Subtitle>
+                  <Card.Title className="mb-2">
+                    {talk.proposalLink ? (
+                      <Link
+                        className="text-decoration-none text-black"
+                        href={talk.proposalLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {talk.title}
+                      </Link>
+                    ) : (
+                      <>{talk.title}</>
+                    )}
+                  </Card.Title>
+                  {talk.track && (
+                    <Stack>
+                      <Badge
+                        bg="success"
+                        tabIndex={0}
+                        style={{ fontSize: "1rem" }}
+                      >
+                        {getTrackRoom(talk.track)}
+                      </Badge>
+                    </Stack>
+                  )}
                   <Card.Body className="pt-1 ps-0">
                     {/* {talk.speakersPlaceHolder ? (
                         <span>By {talk.speakersPlaceHolder}</span>
