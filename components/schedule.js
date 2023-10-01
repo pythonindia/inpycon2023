@@ -36,7 +36,7 @@ const getTrackRoom = (num) => {
 };
 
 const ConferenceSchedule = () => {
-  const defaultScheduleIndex = 1
+  const defaultScheduleIndex = 2;
   const [selectedTab, setSelectedTab] = useState(defaultScheduleIndex);
 
   const handleTabClick = (index) => {
@@ -126,7 +126,7 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-            <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
+            <Accordion defaultActiveKey={[`${defaultScheduleIndex}`]} className="d-block d-lg-none">
               {ScheduleData.map((item, idx) => {
                 return (
                   <ScheduleAccordion
