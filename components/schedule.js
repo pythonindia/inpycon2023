@@ -36,7 +36,7 @@ const getTrackRoom = (num) => {
 };
 
 const ConferenceSchedule = () => {
-  const defaultScheduleIndex = 1
+  const defaultScheduleIndex = 2;
   const [selectedTab, setSelectedTab] = useState(defaultScheduleIndex);
 
   const handleTabClick = (index) => {
@@ -73,6 +73,23 @@ const ConferenceSchedule = () => {
                   buttonClassName="custom-button green-btn"
                   buttonLabel="Download"
                 />
+              </div>
+              <div className="d-inline">
+                <Link
+                  href="images/maps/venue.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Venue Map
+                </Link>
+                <Link
+                  className="ms-3"
+                  href="images/maps/audi.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Audi Map
+                </Link>
               </div>
             </div>
             <ul
@@ -126,7 +143,7 @@ const ConferenceSchedule = () => {
               </div>
             </div>
             {/* Mobile Accordion  */}
-            <Accordion defaultActiveKey={["1"]} className="d-block d-lg-none">
+            <Accordion defaultActiveKey={[`${defaultScheduleIndex}`]} className="d-block d-lg-none">
               {ScheduleData.map((item, idx) => {
                 return (
                   <ScheduleAccordion
