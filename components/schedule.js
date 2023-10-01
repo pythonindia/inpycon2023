@@ -74,6 +74,23 @@ const ConferenceSchedule = () => {
                   buttonLabel="Download"
                 />
               </div>
+              <div className="d-inline">
+                <Link
+                  href="images/maps/venue.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Venue Map
+                </Link>
+                <Link
+                  className="ms-3"
+                  href="images/maps/audi.jpg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Audi Map
+                </Link>
+              </div>
             </div>
             <ul
               className="nav nav-pills mb-3 pt-5"
