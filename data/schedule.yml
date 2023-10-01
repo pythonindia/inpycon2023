@@ -901,8 +901,11 @@
           track: 7
     - time: "11:00 AM - 12:50 PM"
       talks:
-        - title: Birds of a feather
+        - title: Python for Finance
           track: 6
+          speakers:
+            - id: FS-215
+              fullName: Ram
     - time: "11:00 AM - 11:30 AM"
       talks:
         - image: "/2023/images/icons/tab5.png"
@@ -1180,7 +1183,11 @@
                 - platform: linkedin
                   link: https://www.linkedin.com/in/arora-megha/
         - image: "/2023/images/icons/tab7.png"
-          title: Open Slot
+          title: Automating data workflows with Prefect
+          speakers:
+            - id: FS-202
+              fullName: Abhishek
+              title:
           duration: 30
           track: 5
     - time: "12:50 PM - 02:00 PM"
@@ -1317,7 +1324,7 @@
                 - platform: website
                   link: https://bhawna-resume.vercel.app/
         - image: "/2023/images/icons/tab11.png"
-          title: Open Slot
+          title: Sponsored Talk by RedHat
           duration: 15
           track: 5
         - image: "/2023/images/icons/tab11.png"
