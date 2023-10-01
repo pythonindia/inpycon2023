@@ -72,7 +72,7 @@ const SpeakerDetail = ({ speaker, showHyperLink }) => {
                       className="my-1"
                       name={item.platform}
                       color="#fff"
-                      backgroundColor="1f928d"
+                      backgroundColor="#1f928d"
                     />
                   </Link>
                 </span>
@@ -93,7 +93,7 @@ const SpeakerDetail = ({ speaker, showHyperLink }) => {
                     className="my-1"
                     name="newTab"
                     color="#fff"
-                    backgroundColor="1f928d"
+                    backgroundColor="#1f928d"
                   />
                 </Link>
               </span>
