@@ -1242,7 +1242,7 @@
             - id: PS-08
               fullName: Vandana Sharma
               title:
-              # profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
+              profilePicture: /2023/images/speakers/technical-panel/vandana-sharma.jpg
               about: Vandana Sharma is a Major (Retd), Adjunct Professor at IIM Kashipur.
     - time: "03:40 PM - 04:40 PM"
       talks:
