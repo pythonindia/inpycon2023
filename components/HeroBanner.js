@@ -9,25 +9,11 @@ import Tooltip from "./tooltip";
 import IconComponent from "./icons";
 
 const HeroBanner = () => {
-  const [countdown, setCountdown] = useState("");
 
   useEffect(() => {
     const eventDate = new Date("2023-09-29T09:00:00+05:30");
     const timer = setInterval(() => {
       const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
-      const eventEndDateTime = new Date("2023-10-02T18:00:00+05:30");
-      const diff = eventDate.getTime() - today.getTime();
-      if (today < eventEndDateTime) {
-        if (diff <= 0) {
-          setCountdown("Live!");
-        } else {
-          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-          setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
-        }
-      }
     }, 1000);
     return () => clearInterval(timer);
   }, []);
@@ -62,14 +48,14 @@ const HeroBanner = () => {
                     anchorClassName="text-decoration-none text-light"
                     buttonClassName="custom-button green-btn"
                     buttonLabel="Download Program Guide"
-                    // icon={
-                    //   <IconComponent
-                    //     className="ms-2"
-                    //     name="arrowRight"
-                    //     padding={0}
-                    //     size={20}
-                    //   />
-                    // }
+                  // icon={
+                  //   <IconComponent
+                  //     className="ms-2"
+                  //     name="arrowRight"
+                  //     padding={0}
+                  //     size={20}
+                  //   />
+                  // }
                   />
                 </div>
                 <div className="col-md-6 col-8 pt-3">
@@ -84,20 +70,26 @@ const HeroBanner = () => {
               </div>
               <div className="row register-btn justify-content-center">
                 <div className="col-md-6 col-8 pt-3">
-                  <Button
-                    buttonClassName="custom-button submit-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none text-light"
-                    buttonLabel="Call For DevSprints"
-                    buttonHyperLink="https://in.pycon.org/cfp/devsprint-2023/proposals/"
-                  />
+                  <Tooltip text="Call For DevSprints is closed.">
+                    <Button
+                      buttonClassName="custom-button grey-btn register-btn-extra-padding"
+                      anchorClassName="text-decoration-none text-light"
+                      buttonLabel="Call For DevSprints"
+                      buttonHyperLink="https://in.pycon.org/cfp/devsprint-2023/proposals/"
+                      disabled={true}
+                    />
+                  </Tooltip>
                 </div>
                 <div className="col-md-6 col-8 pt-3">
-                  <Button
-                    buttonClassName="custom-button submit-btn register-btn-extra-padding"
-                    anchorClassName="text-decoration-none"
-                    buttonLabel="Submit .extend() Tracks"
-                    buttonHyperLink="https://forms.gle/xwtfwXF6y1Us9FBK9"
-                  />
+                  <Tooltip text="Registration .extend() Tracks is closed.">
+                    <Button
+                      buttonClassName="custom-button  grey-btn register-btn-extra-padding"
+                      anchorClassName="text-decoration-none"
+                      buttonLabel="Submit .extend() Tracks"
+                      buttonHyperLink="https://forms.gle/xwtfwXF6y1Us9FBK9"
+                      disabled={true}
+                    />
+                  </Tooltip>
                 </div>
               </div>
               <h2 className="pt-5 mb-4 date-text text-center">
@@ -110,7 +102,6 @@ const HeroBanner = () => {
                   className="img-fluid"
                 />
               </h2>
-              <h3 className="  mb-4 date-text text-center">{countdown}</h3>
               <div className="row">
                 {calendarData.map((calendar, index) => (
                   <div key={index} className="col-md-4">
