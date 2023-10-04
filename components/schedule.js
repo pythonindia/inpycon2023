@@ -128,10 +128,8 @@ const ConferenceSchedule = () => {
               >
                 <div className="row">
                   {currentSchedule.schedule.map((scheduleItem, idx) => {
-                    const isLive = (selectedTab == defaultScheduleIndex && isEventLive(scheduleItem.time));
                     return (
                       <ScheduleCard
-                        isLive={isLive}
                         {...scheduleItem}
                         date={currentSchedule.date}
                         scheduleIdx={idx}
@@ -165,7 +163,7 @@ const ConferenceSchedule = () => {
   );
 };
 
-function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
+function ScheduleCard({ time, date, talks, scheduleIdx }) {
   return (
     <div className="row bg-white align-items-center pt-4 pb-4 m-2 shadow-sm">
       <div className="col-md-2">
@@ -180,7 +178,6 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
             const talkLength = talks.length;
             return (
               <ScheduleTalk
-                isLive={isLive}
                 {...talk}
                 size={Math.floor(12 / talkLength)}
                 key={`${date}-${scheduleIdx}-${id}`}
@@ -193,7 +190,7 @@ function ScheduleCard({ time, date, talks, scheduleIdx, isLive }) {
   );
 }
 
-function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
+function ScheduleTalk({ title, speakers, track, size, proposalLink }) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
     setSelectedSpeakerId(id);
@@ -281,14 +278,14 @@ function ScheduleTalk({ title, speakers, track, size, proposalLink, isLive }) {
               <Badge bg="success" tabIndex={0} className="me-1 p-2">
                 {getTrackRoom(track)}
               </Badge>
-              {isLive && (
+              {/* {isLive && (
                 <Badge bg="danger" className="p-2">
                   <span style={{ color: "#fff" }}>
                     Live
                     <span className="live-icon"></span>
                   </span>
                 </Badge>
-              )}
+              )} */}
             </Stack>
           )}
         </div>
@@ -303,7 +300,6 @@ function ScheduleAccordion({
   defaultScheduleIndex,
   id,
   handleTabClick,
-  isLive,
 }) {
   const [selectedSpeakerId, setSelectedSpeakerId] = useState(null);
   const handleOpenSpeakerModal = (id) => {
@@ -319,7 +315,7 @@ function ScheduleAccordion({
       <Accordion.Header>{date}</Accordion.Header>
       <Accordion.Body style={{ padding: "1rem 0rem" }}>
         {currentSchedule.schedule.map((scheduleItem, scheduleIdx) => {
-          const isLive = (defaultScheduleIndex == id && isEventLive(scheduleItem.time));
+          // const isLive = (defaultScheduleIndex == id && isEventLive(scheduleItem.time));
           return scheduleItem.talks.map((talk, idx) => {
             return (
               <Card
@@ -332,14 +328,14 @@ function ScheduleAccordion({
                 <Card.Body>
                   <Card.Subtitle className="mb-4">
                     {scheduleItem.time}
-                    {isLive && (
+                    {/* {isLive && (
                       <Badge bg="danger" className="float-end p-2">
                         <span style={{ color: "#fff" }}>
                           Live
                           <span className="live-icon"></span>
                         </span>
                       </Badge>
-                    )}
+                    )} */}
                   </Card.Subtitle>
                   <Card.Title className="mb-2">
                     {talk.proposalLink ? (
