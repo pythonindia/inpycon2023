@@ -61,7 +61,7 @@ const JobsBoard = ({ jobs }) => {
                         style={{ textDecoration: "none" }}
                       >
                         <span className="me-2">
-                          <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
+                          <IconComponent name="building" color="#fff" backgroundColor="#1f928d" size={30} />
                         </span>
                         {job.companyName}
                       </Link>
@@ -69,7 +69,7 @@ const JobsBoard = ({ jobs }) => {
                     :
                     <div>
                       <span className="me-2">
-                        <IconComponent name="building" color="#fff" backgroundColor="1f928d" size={30} />
+                        <IconComponent name="building" color="#fff" backgroundColor="#1f928d" size={30} />
                       </span>
                       {job.companyName}
                     </div>
@@ -77,7 +77,7 @@ const JobsBoard = ({ jobs }) => {
                   {job.jobLocation &&
                     <div className="mb-1">
                       <span className="me-2">
-                        <IconComponent name="location" color="#fff" backgroundColor="1f928d" size={30} />
+                        <IconComponent name="location" color="#fff" backgroundColor="#1f928d" size={30} />
                       </span>
                       {job.jobLocation}
                     </div>
@@ -85,7 +85,7 @@ const JobsBoard = ({ jobs }) => {
                   {job.jobType &&
                     <div className="mb-1">
                       <span className="me-2">
-                        <IconComponent name="briefCase" color="#fff" backgroundColor="1f928d" size={30} />
+                        <IconComponent name="briefCase" color="#fff" backgroundColor="#1f928d" size={30} />
                       </span>
                       {job.jobType}
                     </div>
