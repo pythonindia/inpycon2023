@@ -15,7 +15,7 @@ const sliderSettings = {
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 0,
-  speed: 8000,
+  speed: 6000,
   pauseOnHover: true,
   cssEase: "linear",
   infinite: true,
@@ -64,8 +64,6 @@ const TweetCarousel = () => {
 
   // }, []);
 
-  console.log(tweets);
-
   return (
     <section className="bg-tweetCarousel home-section">
       <div className="container">
@@ -76,7 +74,7 @@ const TweetCarousel = () => {
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              Twitter Wall
+              Twitter Wall of 💛
             </h2>
             <Slider {...sliderSettings} className="align-items-center">
               {tweets.map((tweet, index) => (
