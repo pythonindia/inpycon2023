@@ -8,6 +8,7 @@ import JourneyComponent from "components/journey";
 import SponsorComponent from "components/sponsor";
 import CommunityPartners from "components/communityPartners";
 import SubscribeSection from "components/subscribe";
+import TweetCarousel from "components/tweetCarousel";
 import RegistrationSection from "components/registration";
 import Partners from "components/partners";
 import LocalUserGroupsChapters from "components/localUserGroups";
@@ -34,6 +35,7 @@ export default function PyConIndiaWeb() {
     <div>
       <Header />
       <HeroBanner />
+      <TweetCarousel />
       <JourneyComponent />
       <Speakers
         speakers={speakers["keynoteSpeakers"]}

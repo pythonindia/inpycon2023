@@ -13,7 +13,7 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '',
-  basePath: '/2023',
+  assetPrefix: "",
+  basePath: "/2023",
   trailingSlash: true,
 };
