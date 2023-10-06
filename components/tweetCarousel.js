@@ -22,7 +22,6 @@ const sliderSettings = {
   responsive: true,
   accessibility: true,
   draggable: true,
-  lazyLoad: true,
   responsive: [
     {
       breakpoint: 1324,
@@ -36,8 +35,8 @@ const sliderSettings = {
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         initialSlide: 2,
       },
     },
@@ -74,7 +73,7 @@ const TweetCarousel = () => {
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              Twitter Wall of 💛
+              Twitter wall of 💛
             </h2>
             <Slider {...sliderSettings} className="align-items-center">
               {tweets.map((tweet, index) => (
