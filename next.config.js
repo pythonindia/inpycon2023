@@ -16,4 +16,5 @@ module.exports = {
   assetPrefix: "",
   basePath: "/2023",
   trailingSlash: true,
+  transpilePackages: ['react-tweet']
 };

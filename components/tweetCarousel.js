@@ -1,5 +1,6 @@
 import React from "react";
-import TweetEmbed from "react-tweet-embed";
+// import TweetEmbed from "react-tweet-embed";
+import { Tweet } from "react-tweet";
 
 import tweets from "../data/tweets.yml";
 
@@ -10,21 +11,24 @@ import "slick-carousel/slick/slick-theme.css";
 // import fetchSheetData from "utils/googleSheets";
 
 const sliderSettings = {
-  infinite: true,
-  speed: 800,
-  slidesToShow: 3,
+  slidesToShow: 4,
+  slidesToScroll: 1,
   autoplay: true,
+  autoplaySpeed: 0,
+  speed: 8000,
+  pauseOnHover: true,
+  cssEase: "linear",
+  infinite: true,
   responsive: true,
   accessibility: true,
   draggable: true,
   lazyLoad: true,
-  centerMode: true,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1324,
       settings: {
-        slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
       },
@@ -76,15 +80,16 @@ const TweetCarousel = () => {
             </h2>
             <Slider {...sliderSettings} className="align-items-center">
               {tweets.map((tweet, index) => (
-                <div className="m-2" key={index}>
-                  <TweetEmbed
-                    tweetId={tweet.tweetID}
-                    options={{
-                      cards: "hidden",
-                      dnt: true,
-                      conversation: "none",
-                      width: 300,
-                    }}
+                <div className="light m-2 p-2" key={index}>
+                  <Tweet
+                    id={tweet.tweetID}
+                    // tweetId={tweet.tweetID}
+                    // options={{
+                    //   cards: "hidden",
+                    //   dnt: true,
+                    //   conversation: "none",
+                    //   width: 300,
+                    // }}
                   />
                 </div>
               ))}

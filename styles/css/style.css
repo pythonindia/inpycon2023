@@ -7,6 +7,8 @@
 /* @import "./owl.carousel.css"; */
 /* @import "./owl.theme.default.min.css"; */
 
+@import "./react-tweet-override.css";
+
 @import "./misc.css";
 
 :root {

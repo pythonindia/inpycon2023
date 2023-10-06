@@ -1,0 +1,18 @@
+.react-tweet-theme{
+  font-size: 1rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.react-tweet-theme p{
+  font-size: 1rem !important;
+}
+.react-tweet-theme [class*='tweet-media']{
+  display: none;
+}
+
+.react-tweet-theme [class*='quoted']{
+  display: none;
+}
+.react-tweet-theme [class*='tweet-header_brand']{
+  display: none;
+}
