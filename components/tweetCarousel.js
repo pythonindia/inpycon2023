@@ -76,9 +76,8 @@ const TweetCarousel = () => {
             </h2>
             <Slider {...sliderSettings} className="align-items-center">
               {tweets.map((tweet, index) => (
-                <div className="m-2">
+                <div className="m-2" key={index}>
                   <TweetEmbed
-                    key={index}
                     tweetId={tweet.tweetID}
                     options={{
                       cards: "hidden",
