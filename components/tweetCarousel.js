@@ -108,7 +108,7 @@ function SliderCSS() {
     <div class="slider">
       <div class="slide-track">
         {tweets.map((tweet) => (
-          <div class="slide">
+          <div class="slide" key={tweet.tweetID}>
             <div className="light m-2 p-2" key={tweet.tweetID}>
               <Tweet id={tweet.tweetID} />
             </div>
