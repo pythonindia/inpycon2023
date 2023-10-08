@@ -16,30 +16,12 @@ const sliderSettings = {
   autoplay: true,
   autoplaySpeed: 0,
   speed: 6000,
-  pauseOnHover: true,
   cssEase: "linear",
-  infinite: true,
-  responsive: true,
   accessibility: true,
   draggable: true,
+  centerMode: true,
+  lazyLoad: true,
   responsive: [
-    {
-      breakpoint: 1324,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 2,
-      },
-    },
     {
       breakpoint: 480,
       settings: {
@@ -75,9 +57,9 @@ const TweetCarousel = () => {
             >
               Twitter wall of 💛
             </h2>
-            <Slider {...sliderSettings} className="align-items-center">
-              {tweets.map((tweet, index) => (
-                <div className="light m-2 p-2" key={index}>
+            {/* <Slider {...sliderSettings}>
+              {tweets.map((tweet) => (
+                <div className="light m-2 p-2" key={tweet.tweetID}>
                   <Tweet
                     id={tweet.tweetID}
                     // tweetId={tweet.tweetID}
@@ -90,7 +72,8 @@ const TweetCarousel = () => {
                   />
                 </div>
               ))}
-            </Slider>
+            </Slider> */}
+            <SliderCSS />
           </div>
         </div>
       </div>
@@ -119,5 +102,21 @@ const TweetCarousel = () => {
 //     ];
 //   }
 // };
+
+function SliderCSS() {
+  return (
+    <div class="slider">
+      <div class="slide-track">
+        {tweets.map((tweet) => (
+          <div class="slide">
+            <div className="light m-2 p-2" key={tweet.tweetID}>
+              <Tweet id={tweet.tweetID} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export default TweetCarousel;
