@@ -1,0 +1,80 @@
+.react-tweet-theme {
+  font-size: 1rem !important;
+  margin-right: 0.5rem !important;
+}
+
+.react-tweet-theme p {
+  font-size: 1rem !important;
+}
+.react-tweet-theme [class*="tweet-media"] {
+  display: none;
+}
+
+.react-tweet-theme [class*="quoted"] {
+  display: none;
+}
+.react-tweet-theme [class*="tweet-header_brand"] {
+  display: none;
+}
+
+/* slider css */
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(calc(-350px * 40));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(calc(-350px * 40));
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 5px 10px -8px rgba(0, 0, 0, 0.125);
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: auto;
+  position: absolute;
+  width: 50px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  /* -webkit-animation: scroll 100s linear infinite; */
+  animation: scroll 100s linear infinite;
+  display: flex;
+  width: calc(340px * 40);
+  display: flex;
+  flex-direction: row;
+}
+
+.slider .slide-track:hover{
+  animation-play-state: paused;
+}
+
+.slider .slide {
+  display: flex;
+  width: 500px;
+}
