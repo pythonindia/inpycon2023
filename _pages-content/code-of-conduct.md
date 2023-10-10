@@ -3,13 +3,16 @@ slug: code-of-conduct
 title: Code Of Conduct
 ---
 
+### Transparency Report
+
+Check out our Code of Conduct (CoC) Transparency Report [here](https://drive.google.com/file/d/1oKzasX6DPaxmUXKE5LbtRK3Kcs4epyqH/view?usp=drive_link) for insights into how we uphold community standards at PyCon India. Transparency and accountability are central to maintaining a positive environment. Your feedback is invaluable in our continuous improvement efforts.
+
 ### The Short Form
 
 We invite you to come to PyCon India 2023 in a spirit of curiosity,
 friendliness, open-mindedness, and respect. We will not tolerate
 harassment in any form.
 
-Check out our Code of Conduct (CoC) Transparency Report [here](https://drive.google.com/file/d/1oKzasX6DPaxmUXKE5LbtRK3Kcs4epyqH/view?usp=drive_link) for insights into how we uphold community standards at PyCon India. Transparency and accountability are central to maintaining a positive environment. Your feedback is invaluable in our continuous improvement efforts.
 
 At the PyCon India venue and related online forums, you agree to:
 
