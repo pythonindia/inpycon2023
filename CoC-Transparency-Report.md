@@ -16,7 +16,7 @@ As of 7th October 2023, there were a total of 4 incidents reported during PyCon 
 
 1. Harassment (2 incidents): Two reports of harassment, including inappropriate comments and unwelcome advances, were received during the conference. All reports involved individuals interacting in person.
 
-2. Social Media Misconduct (1 incident): There was one reported incident of offensive social media posts made by an attendee, which was in violation of the CoC.
+2. Social Media Misconduct (1 incident): There was one reported incident of offensive social media posts made by an attendee, which violated the CoC.
 
 3. Religious Symbol Display (1 incident): A report was received regarding the display of a religious symbol on stage by the AV vendor during the lamp lighting ceremony.
 
@@ -28,14 +28,14 @@ Upon receiving these reports, the CoC committee promptly took the following acti
    - A formal warning was issued to the accused individuals, reminding them of the CoC and the consequences of further violations.
    - All parties involved were provided with information on how to contact the CoC committee in case of any further issues.
 
-2. Social Media Misconduct Incident: The individual responsible for the offensive social media posts was contacted and informed that their posts were in violation of the CoC. They were asked to remove the offending content, which they promptly did. The individual was reminded of the scope of the conference CoC and that social media was well within the ambits of the CoC.
+2. Social Media Misconduct Incident: The individual responsible for the offensive social media posts was contacted and informed that their posts violated the CoC. They were asked to remove the offending content, which they promptly did. The individual was reminded of the scope of the conference CoC and that social media was well within the ambits of the CoC.
 
 3. Religious Symbol Display Incident: The CoC committee investigated the incident regarding the display of a religious symbol on stage by the AV vendor during the lamp lighting ceremony. It was determined that this action violated the CoC, and PyCon India always aims to be neutral. Hence, the following actions were taken:
    - The AV vendor was immediately questioned, and they agreed that they put up the religious image during the Diya Lighting Ceremony, as they assumed it was a general protocol in colleges.
    - After instructions, the AV vendor assured organizers that they would not be putting any such image on the main screen without notifying organizers.
-   - PyCon India Chair provided clarification on the issue of the oversight the next day during the Opening Address.
-   - The CoC committee provided guidance to all vendors regarding appropriate behavior and adherence to the CoC.
-   - A clarification post was made in public on social media from the official handle of PyCon India regarding the same. [Here is the link to the tweet](link_to_tweet)
+   - The PyCon India Chair provided clarification on the issue of the oversight the next day during the Opening Address.
+   - The CoC committee guided to all vendors regarding appropriate behaviour and adherence to the CoC.
+   - A clarification post was made in public on social media from the official handle of PyCon India regarding the same. [Here is the link to the tweet](https://x.com/pyconindia/status/1708350063381254209?s=20)
 
 The PyCon India team is committed to maintaining a safe and inclusive environment for all attendees. We take Code of Conduct violations seriously and are grateful to those who came forward to report incidents. We believe in resolving such incidents fairly and promptly, with the aim of fostering a positive and respectful community.
 
